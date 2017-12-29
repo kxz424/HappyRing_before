@@ -52,10 +52,6 @@
 	padding: 0 20px;
 }
 
-.search-panel span, .search-panel a {
-	font-size: 12px;
-}
-
 /* 테이블 설정 */
 .table-list {
 	margin-top: 30px;
@@ -65,16 +61,12 @@ th, td {
 	font-size: 14px;
 }
 
-th {
-	text-align: right;
+.t1, .t4, .t6, .t7 {
+	width: 8%;
 }
 
-.t1, .t5, .t7, .t8 {
-	width: 9%;
-}
-
-.t2, .t3, .t6 {
-	width: 15%;
+.t2, .t5 {
+	width: 13%;
 }
 
 #pageNum a, #write {
@@ -154,7 +146,7 @@ th {
 
 					<div class="row">
 						<div class="col-md-3">
-							<h3>고민게시판</h3>
+							<h3>자유게시판</h3>
 						</div>
 						<div class="col-md-3"></div>
 						<div class="col-md-6 search-bar">
@@ -199,98 +191,57 @@ th {
 					<div class="row table-list">
 						<div class="col-md-12">
 
-							<!-- 카테고리별 게시판 검색 -->
-							<!-- Horizontal button tabs-->
-							<div class="tabs-custom tabs-horizontal tabs-buttons" id="tabs-4">
-								<!-- Nav tabs-->
-								<ul class="nav nav-tabs">
-									<li class="active"><a class="button-nina" href="#tabs-4-1"
-										data-toggle="tab">전체</a></li>
-									<li><a class="button-nina" href="#tabs-4-2"
-										data-toggle="tab">사랑/이별</a></li>
-									<li><a class="button-nina" href="#tabs-4-3"
-										data-toggle="tab">자존감</a></li>
-									<li><a class="button-nina" href="#tabs-4-4"
-										data-toggle="tab">심리적 고민</a></li>
-								</ul>
-								<!-- Tab panes-->
-								<div class="tab-content">
-									<div class="tab-pane fade in active" id="tabs-4-1">
-										<table class="table table-hover">
-											<thead>
-												<tr>
-													<th class="t1">번호</th>
-													<th class="t2">게시판</th>
-													<th class="t3">카테고리</th>
-													<th class="t4">제목</th>
-													<th class="t5">작성자</th>
-													<th class="t6">작성일</th>
-													<th class="t7">엔젤링</th>
-													<th class="t8">조회수</th>
-												</tr>
-											</thead>
-											<tbody>
-												<c:forEach var="i" begin="1" end="10">
-													<tr>
-														<td class="t1">${i}</td>
-														<td class="t2">[고민게시판]</td>
-														<td class="t3">[사랑/이별]</td>
-														<td class="t4">테스트${i}</td>
-														<td class="t5">kjs${i}</td>
-														<td class="t6">2017-12-28</td>
-														<td class="t7">${i}</td>
-														<td class="t8">10</td>
-													</tr>
-												</c:forEach>
-											</tbody>
-										</table>
 
-										<div class="row">
+							<table class="table table-hover">
+								<thead>
+									<tr>
+										<th class="t1">번호</th>
+										<th class="t2">게시판</th>
+										<th class="t3">제목</th>
+										<th class="t4">작성자</th>
+										<th class="t5">작성일</th>
+										<th class="t6">엔젤링</th>
+										<th class="t7">조회수</th>
+									</tr>
+								</thead>
+								<tbody>
+									<c:forEach var="i" begin="1" end="10">
+										<tr>
+											<td class="t1">${i}</td>
+											<td class="t2">[자유게시판]</td>
+											<td class="t3">테스트${i}</td>
+											<td class="t4">kjs${i}</td>
+											<td class="t5">2017-12-28</td>
+											<td class="t6">${i}</td>
+											<td class="t7">10</td>
+										</tr>
+									</c:forEach>
+								</tbody>
+							</table>
 
-											<div class="col-md-3">
-												<input class="btn btn-primary" type="button" id="write"
-													value="글쓰기" />
-											</div>
-											<div class="col-md-9">
+							<div class="row">
 
-												<!-- 페이징 -->
-												<ul class="pagination-custom" id="pageNum">
-													<li><a href="">◀◀</a></li>
-													<li><a href="">◀</a></li>
-													<c:forEach var="i" begin="1" end="4">
-														<li><a href="">${i}</a></li>
-													</c:forEach>
-													<li><a href="">▶</a></li>
-													<li><a href="">▶▶</a></li>
-												</ul>
-											</div>
-											<div class="col-md-1"></div>
-										</div>
-									</div>
-									<div class="tab-pane fade" id="tabs-4-2">
-										<p>The layout is aesthetically appealing, contains concise
-											texts in order not to take your precious time. Text styling
-											allows scanning the pages quickly. Site navigation is
-											extremely intuitive and user-friendly. You will always know
-											where you are now.</p>
-									</div>
-									<div class="tab-pane fade" id="tabs-4-3">
-										<p>We use only trusted, verified content, so you can
-											believe every word we are saying. We are always happy to
-											greet the new visitors on our site. Our blog and social media
-											accounts are available to encourage communication and
-											connection between clients and personnel.</p>
-									</div>
-									<div class="tab-pane fade" id="tabs-4-4">
-										<p>We sincerely hope that each and every user entering our
-											website will find exactly what he/she is looking for. With
-											advanced features of activating account and new login
-											widgets, you will definitely have a great experience of using
-											our web page.</p>
-									</div>
+								<div class="col-md-3">
+									<input class="btn btn-primary" type="button" id="write"
+										value="글쓰기" />
 								</div>
+								<div class="col-md-9">
 
+									<!-- 페이징 -->
+									<ul class="pagination-custom" id="pageNum">
+										<li><a href="">◀◀</a></li>
+										<li><a href="">◀</a></li>
+										<c:forEach var="i" begin="1" end="4">
+											<li><a href="">${i}</a></li>
+										</c:forEach>
+										<li><a href="">▶</a></li>
+										<li><a href="">▶▶</a></li>
+									</ul>
+								</div>
+								<div class="col-md-1"></div>
 							</div>
+
+
 						</div>
 					</div>
 
@@ -319,28 +270,39 @@ th {
 						<div class="login-area" style="border: solid; border-color: blue;">
 							B-1
 
+							<div class="row" style="padding-left: 14px; padding-right: 14px;">
+								<button type="button" class="btn btn-success col-md-6"
+									style="border-radius: 15px 0px 0px 0px; height: 120px;">
+									심리<br>자가측정<br>테스트
+								</button>
 
+								<button type="button" class="btn btn-info col-md-6"
+									style="border-radius: 0px 15px 0px 0px; height: 120px;">
+									매일 목표 <br> 처방받기
+								</button>
 
-							<!-- 							Button trigger modal -->
-							<button class="btn btn-primary btn-lg" href="#signup"
-								data-toggle="modal" data-target=".bs-modal-md"
-								style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
+								<button type="button" class="btn btn-warning col-md-6"
+									style="border-radius: 00px 0px 0px 15px; height: 120px;">
+									happyRing<br>APP
+								</button>
 
+								<button type="button" class="btn btn-danger col-md-6"
+									style="border-radius: 0px 0px 15px 0px; height: 120px;">
+									근처<br>상담소<br>찾기
+								</button>
 
-
-
+							</div>
 						</div>
 						<!-- 로그인영역 끝 -->
 
 
-						<!-- 공지사항 영역  -->
-						<div style="border: solid; border-color: purple;">
-							B-2
 
 
-							<!--                 <div class="row" style=" margin-left: 0px; margin-right: 0px;  padding-left: 14px;  padding-right: 14px;"> -->
-							<div class="row notice"
-								style="padding-left: 14px; padding-right: 14px;">
+
+						<!-- 공지사항 영역 시작 -->
+						<div
+							style="border: solid; border-color: purple; margin-top: 25px;">
+							<div class="notice">
 								<h5>공지사항</h5>
 								<ul class="list-unstyled">
 									<li><span class="glyphicon glyphicon-paperclip">
@@ -357,10 +319,14 @@ th {
 
 							</div>
 
+
+
 						</div>
+						<!-- 공지사항 영역 끝 -->
 
 						<!-- 댓글 영역 -->
-						<div class="reply" style="border: solid; border-color: babyblue;">
+						<div class="reply"
+							style="border: solid; border-color: babyblue; margin-top: 25px;">
 							B-3<br />
 
 							<table class="table table-hover">
