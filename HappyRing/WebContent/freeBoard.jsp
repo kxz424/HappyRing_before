@@ -31,7 +31,15 @@
 }
 /* 검색창 설정 */
 .search-box {
-	min-height: 41px;
+	min-height: 35px;
+}
+
+.search-panel span, .search-panel a {
+	font-size: 12px;
+}
+
+.search-bar {
+	padding-top: 2.5px;
 }
 
 /* 오른쪽 영역 설정 */
@@ -39,9 +47,30 @@
 	margin-top: 33px;
 }
 
-/* 로그인 영역 설 */
-.login-area {
-	
+/* 카테고리텝 설정 */
+.search-btn {
+	padding: 0 20px;
+}
+
+/* 테이블 설정 */
+.table-list {
+	margin-top: 30px;
+}
+
+th, td {
+	font-size: 14px;
+}
+
+.t1, .t6, .t7 {
+	width: 8%;
+}
+
+.t2, .t3, .t5 {
+	width: 13%;
+}
+
+#pageNum a, #write {
+	font-size: 12px;
 }
 </style>
 
@@ -72,7 +101,7 @@
 					<div class="row">
 						<div class="col-md-12">
 
-
+							<!-- 슬라이더 -->
 							<section class="section section-lg bg-white text-center">
 								<div class="shell">
 									<!-- Swiper-->
@@ -120,12 +149,13 @@
 							<h3>자유게시판</h3>
 						</div>
 						<div class="col-md-3"></div>
-						<div class="col-md-6">
+						<div class="col-md-6 search-bar">
 
-
+							<!-- 검색 입력 -->
 							<div class="input-group">
 								<div class="input-group-btn search-panel">
-									<button type="button" class="btn btn-default dropdown-toggle"
+									<button type="button"
+										class="btn btn-default dropdown-toggle search-btn"
 										data-toggle="dropdown">
 										<span id="search_concept">Filter by</span> <span class="caret"></span>
 									</button>
@@ -143,7 +173,7 @@
 									class="form-control search-box" name="x"
 									placeholder="Search term..."> <span
 									class="input-group-btn">
-									<button class="btn btn-default" type="button">
+									<button class="btn btn-default search-btn" type="button">
 										<span class="glyphicon glyphicon-search"></span>
 									</button>
 								</span>
@@ -156,31 +186,34 @@
 
 
 
-					<!-- Tab panes-->
-					<div class="tab-content">
-						<div class="tab-pane fade in active" id="tabs-4-1">
+
+
+					<div class="row table-list">
+						<div class="col-md-12">
+
+
 							<table class="table table-hover">
 								<thead>
 									<tr>
-										<th>번호</th>
-										<th>게시판</th>
-										<th>제목</th>
-										<th>작성자</th>
-										<th>작성일</th>
-										<th>엔젤링</th>
-										<th>조회수</th>
+										<th class="t1">번호</th>
+										<th class="t2">게시판</th>
+										<th class="t3">제목</th>
+										<th class="t4">작성자</th>
+										<th class="t5">작성일</th>
+										<th class="t6">엔젤링</th>
+										<th class="t7">조회수</th>
 									</tr>
 								</thead>
 								<tbody>
 									<c:forEach var="i" begin="1" end="10">
 										<tr>
-											<td>${i}</td>
-											<td>[자유게시판]</td>
-											<td>테스트${i}</td>
-											<td>kjs${i}</td>
-											<td>2017-12-28</td>
-											<td>${i}</td>
-											<td>10</td>
+											<td class="t1">${i}</td>
+											<td class="t2">[자유게시판]</td>
+											<td class="t3">테스트${i}</td>
+											<td class="t4">kjs${i}</td>
+											<td class="t5">2017-12-28</td>
+											<td class="t6">${i}</td>
+											<td class="t7">10</td>
 										</tr>
 									</c:forEach>
 								</tbody>
@@ -193,6 +226,8 @@
 										value="글쓰기" />
 								</div>
 								<div class="col-md-9">
+
+									<!-- 페이징 -->
 									<ul class="pagination-custom" id="pageNum">
 										<li><a href="">◀◀</a></li>
 										<li><a href="">◀</a></li>
@@ -201,138 +236,138 @@
 										</c:forEach>
 										<li><a href="">▶</a></li>
 										<li><a href="">▶▶</a></li>
-
 									</ul>
 								</div>
 								<div class="col-md-1"></div>
 							</div>
 
 
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+
+				</div>
+
+
+
+
+				<div class="col-md-3 side-area" style="padding-left: 0px;">
+					<div
+						style="border: solid; border-color: red; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;">
+						B
+
+
+						<!-- 세부영역B -->
+
+						<!-- 로그인영역 시작-->
+						<div class="login-area" style="border: solid; border-color: blue;">
+							B-1
+
+
+
+							<!-- 							Button trigger modal -->
+							<button class="btn btn-primary btn-lg" href="#signup"
+								data-toggle="modal" data-target=".bs-modal-md"
+								style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
+
+
+
 
 						</div>
+						<!-- 로그인영역 끝 -->
 
 
+						<!-- 공지사항 영역  -->
+						<div style="border: solid; border-color: purple;">
+							B-2
 
 
-						<div class="col-md-3 side-area" style="padding-left: 0px;">
-							<div
-								style="border: solid; border-color: red; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;">
-								B
-
-
-								<!-- 세부영역B -->
-
-								<!-- 로그인영역 시작-->
-								<div class="login-area"
-									style="border: solid; border-color: blue;">
-									B-1
-
-
-
-									<!-- 							Button trigger modal -->
-									<button class="btn btn-primary btn-lg" href="#signup"
-										data-toggle="modal" data-target=".bs-modal-md"
-										style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
-
-
-
-
-								</div>
-								<!-- 로그인영역 끝 -->
-
-
-								<!-- 심리테스트 영역 시작  -->
-								<div style="border: solid; border-color: purple;">
-									B-2
-
-
-									<!--                 <div class="row" style=" margin-left: 0px; margin-right: 0px;  padding-left: 14px;  padding-right: 14px;"> -->
-									<div class="row notice"
-										style="padding-left: 14px; padding-right: 14px;">
-										<h5>공지사항</h5>
-										<ul class="list-unstyled">
-											<li><span class="glyphicon glyphicon-paperclip">
-													공지사항1 </span></li>
-											<li><span class="glyphicon glyphicon-paperclip">
-													공지사항1</span></li>
-											<li><span class="glyphicon glyphicon-paperclip">
-													공지사항1</span></li>
-											<li><span class="glyphicon glyphicon-paperclip">
-													공지사항1</span></li>
-											<li><span class="glyphicon glyphicon-paperclip">
-													공지사항1</span></li>
-										</ul>
-
-									</div>
-
-								</div>
-
-								<!-- 심리테스트 영역 끝 -->
-
-								<!-- 날씨 영역  시작-->
-								<div class="reply"
-									style="border: solid; border-color: babyblue;">
-									B-3<br />
-
-									<table class="table table-hover">
-										<tbody>
-											<tr>
-												<td>안녕하세요</td>
-											</tr>
-											<tr>
-												<td>반갑습니다</td>
-											</tr>
-											<tr>
-												<td>좋은글이네요</td>
-											</tr>
-											<tr>
-												<td>잘보고갑니다^^</td>
-											</tr>
-											<tr>
-												<td>오늘도 즐거운 하루되세요!!!</td>
-											</tr>
-											<tr>
-												<td>너무 뻔한글 같아요 ㅠㅠ</td>
-											</tr>
-											<tr>
-												<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
-											</tr>
-										</tbody>
-									</table>
-
-
-								</div>
-								<!-- 날씨 영역 끝 -->
+							<!--                 <div class="row" style=" margin-left: 0px; margin-right: 0px;  padding-left: 14px;  padding-right: 14px;"> -->
+							<div class="row notice"
+								style="padding-left: 14px; padding-right: 14px;">
+								<h5>공지사항</h5>
+								<ul class="list-unstyled">
+									<li><span class="glyphicon glyphicon-paperclip">
+											공지사항1 </span></li>
+									<li><span class="glyphicon glyphicon-paperclip">
+											공지사항1</span></li>
+									<li><span class="glyphicon glyphicon-paperclip">
+											공지사항1</span></li>
+									<li><span class="glyphicon glyphicon-paperclip">
+											공지사항1</span></li>
+									<li><span class="glyphicon glyphicon-paperclip">
+											공지사항1</span></li>
+								</ul>
 
 							</div>
+
 						</div>
+
+						<!-- 댓글 영역 -->
+						<div class="reply" style="border: solid; border-color: babyblue;">
+							B-3<br />
+
+							<table class="table table-hover">
+								<tbody>
+									<tr>
+										<td>안녕하세요</td>
+									</tr>
+									<tr>
+										<td>반갑습니다</td>
+									</tr>
+									<tr>
+										<td>좋은글이네요</td>
+									</tr>
+									<tr>
+										<td>잘보고갑니다^^</td>
+									</tr>
+									<tr>
+										<td>오늘도 즐거운 하루되세요!!!</td>
+									</tr>
+									<tr>
+										<td>너무 뻔한글 같아요 ㅠㅠ</td>
+									</tr>
+									<tr>
+										<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
+									</tr>
+								</tbody>
+							</table>
+
+
+						</div>
+						<!-- 날씨 영역 끝 -->
+
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
 
 
 
 
-			<script type="text/javascript">
-				$(document).ready(
-						function(e) {
-							$('.search-panel .dropdown-menu').find('a').click(
-									function(e) {
-										e.preventDefault();
-										var param = $(this).attr("href")
-												.replace("#", "");
-										var concept = $(this).text();
-										$('.search-panel span#search_concept')
-												.text(concept);
-										$('.input-group #search_param').val(
-												param);
-									});
-						});
-			</script>
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+			$('.search-panel .dropdown-menu').find('a').click(function(e) {
+				e.preventDefault();
+				var param = $(this).attr("href").replace("#", "");
+				var concept = $(this).text();
+				$('.search-panel span#search_concept').text(concept);
+				$('.input-group #search_param').val(param);
+			});
+		});
+	</script>
 
 
 
 
-			<jsp:include page="WEB-INF/views/include/footer.jsp"></jsp:include>
+	<jsp:include page="WEB-INF/views/include/footer.jsp"></jsp:include>
 </body>
 </html>

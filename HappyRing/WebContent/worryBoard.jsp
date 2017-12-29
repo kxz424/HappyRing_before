@@ -34,26 +34,51 @@
 	min-height: 35px;
 }
 
+.search-panel span, .search-panel a {
+	font-size: 12px;
+}
+
+.search-bar {
+	padding-top: 2.5px;
+}
+
 /* 오른쪽 영역 설정 */
 .side-area {
 	margin-top: 33px;
 }
 
-
+/* 카테고리텝 설정 */
 .search-btn {
 	padding: 0 20px;
 }
 
+.search-panel span, .search-panel a {
+	font-size: 12px;
+}
 
 /* 테이블 설정 */
-th,td {
+.table-list {
+	margin-top: 30px;
+}
+
+th, td {
 	font-size: 14px;
 }
-.t1,.t5,.t7,.t8 {
-	width: 8%;
+
+th {
+	text-align: right;
 }
-.t2,.t3,.t6 {
-	width: 12%;
+
+.t1, .t5, .t7, .t8 {
+	width: 9%;
+}
+
+.t2, .t3, .t6 {
+	width: 15%;
+}
+
+#pageNum a, #write {
+	font-size: 12px;
 }
 </style>
 
@@ -64,7 +89,7 @@ th,td {
 
 	<div class="page">
 
-<%-- 		<jsp:include page="WEB-INF/views/include/header.jsp"></jsp:include> --%>
+		<jsp:include page="WEB-INF/views/include/header.jsp"></jsp:include>
 
 
 
@@ -132,12 +157,13 @@ th,td {
 							<h3>고민게시판</h3>
 						</div>
 						<div class="col-md-3"></div>
-						<div class="col-md-6">
+						<div class="col-md-6 search-bar">
 
 							<!-- 검색 입력 -->
 							<div class="input-group">
 								<div class="input-group-btn search-panel">
-									<button type="button" class="btn btn-default dropdown-toggle search-btn"
+									<button type="button"
+										class="btn btn-default dropdown-toggle search-btn"
 										data-toggle="dropdown">
 										<span id="search_concept">Filter by</span> <span class="caret"></span>
 									</button>
@@ -170,9 +196,9 @@ th,td {
 
 
 
-					<div class="row">
+					<div class="row table-list">
 						<div class="col-md-12">
-						
+
 							<!-- 카테고리별 게시판 검색 -->
 							<!-- Horizontal button tabs-->
 							<div class="tabs-custom tabs-horizontal tabs-buttons" id="tabs-4">
@@ -226,7 +252,7 @@ th,td {
 													value="글쓰기" />
 											</div>
 											<div class="col-md-9">
-											
+
 												<!-- 페이징 -->
 												<ul class="pagination-custom" id="pageNum">
 													<li><a href="">◀◀</a></li>
