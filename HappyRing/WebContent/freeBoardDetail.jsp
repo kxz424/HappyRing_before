@@ -35,6 +35,26 @@
 	margin-top: 33px;
 }
 
+/* 게시물 상세보기 설정 */
+.board-detail h3 {
+	border-bottom: 2px solid #5d5d5d;
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+}
+
+.tit {
+	font-size: 20px;
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid #ececec;
+}
+
+.info {
+	margin: 10px 0 10px 0;
+}
+
+.info .col-md-1 {
+	border-left: 1px solid #ececec;
+}
 </style>
 
 
@@ -107,281 +127,34 @@
 
 
 
-					<div class="row">
-						<div class="col-md-3">
+					<div class="row board-detail">
+						<div class="col-md-12">
 							<h3>고민게시판</h3>
 						</div>
-						<div class="col-md-3"></div>
-						<div class="col-md-6 search-bar">
 
-							<!-- 검색 입력 -->
-							<div class="input-group">
-								<div class="input-group-btn search-panel">
-									<button type="button"
-										class="btn btn-default dropdown-toggle search-btn"
-										data-toggle="dropdown">
-										<span id="search_concept">Filter by</span> <span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="#contains">Contains</a></li>
-										<li><a href="#its_equal">It's equal</a></li>
-										<li><a href="#greather_than">Greather than ></a></li>
-										<li><a href="#less_than">Less than < </a></li>
-										<li class="divider"></li>
-										<li><a href="#all">Anything</a></li>
-									</ul>
-								</div>
-								<input type="hidden" name="search_param" value="all"
-									id="search_param"> <input type="text"
-									class="form-control search-box" name="x"
-									placeholder="Search term..."> <span
-									class="input-group-btn">
-									<button class="btn btn-default search-btn" type="button">
-										<span class="glyphicon glyphicon-search"></span>
-									</button>
-								</span>
-							</div>
-
-
-
-						</div>
-					</div>
-
-
-
-
-
-					<div class="row table-list">
 						<div class="col-md-12">
-
-							<!-- 카테고리별 게시판 검색 -->
-							<!-- Horizontal button tabs-->
-							<div class="tabs-custom tabs-horizontal tabs-buttons" id="tabs-4">
-								<!-- Nav tabs-->
-								<ul class="nav nav-tabs">
-									<li class="active"><a class="button-nina" href="#tabs-4-1"
-										data-toggle="tab">전체</a></li>
-									<li><a class="button-nina" href="#tabs-4-2"
-										data-toggle="tab">사랑/이별</a></li>
-									<li><a class="button-nina" href="#tabs-4-3"
-										data-toggle="tab">자존감</a></li>
-									<li><a class="button-nina" href="#tabs-4-4"
-										data-toggle="tab">심리적 고민</a></li>
-								</ul>
-								<!-- Tab panes-->
-								<div class="tab-content">
-									<div class="tab-pane fade in active" id="tabs-4-1">
-										<table class="table table-hover">
-											<thead>
-												<tr>
-													<th class="t1">번호</th>
-													<th class="t2">게시판</th>
-													<th class="t3">카테고리</th>
-													<th class="t4">제목</th>
-													<th class="t5">작성자</th>
-													<th class="t6">작성일</th>
-													<th class="t7">엔젤링</th>
-													<th class="t8">조회수</th>
-												</tr>
-											</thead>
-											<tbody>
-												<c:forEach var="i" begin="1" end="10">
-													<tr>
-														<td class="t1">${i}</td>
-														<td class="t2">[고민게시판]</td>
-														<td class="t3">[사랑/이별]</td>
-														<td class="t4">테스트${i}</td>
-														<td class="t5">kjs${i}</td>
-														<td class="t6">2017-12-28</td>
-														<td class="t7">${i}</td>
-														<td class="t8">10</td>
-													</tr>
-												</c:forEach>
-											</tbody>
-										</table>
-
-										<div class="row">
-
-											<div class="col-md-3">
-												<input class="btn btn-primary" type="button" id="write"
-													value="글쓰기" />
-											</div>
-											<div class="col-md-9">
-
-												<!-- 페이징 -->
-												<ul class="pagination-custom" id="pageNum">
-													<li><a href="">◀◀</a></li>
-													<li><a href="">◀</a></li>
-													<c:forEach var="i" begin="1" end="4">
-														<li><a href="">${i}</a></li>
-													</c:forEach>
-													<li><a href="">▶</a></li>
-													<li><a href="">▶▶</a></li>
-												</ul>
-											</div>
-											<div class="col-md-1"></div>
-										</div>
-									</div>
-									<div class="tab-pane fade" id="tabs-4-2">
-										<table class="table table-hover">
-											<thead>
-												<tr>
-													<th class="t1">번호</th>
-													<th class="t2">게시판</th>
-													<th class="t3">카테고리</th>
-													<th class="t4">제목</th>
-													<th class="t5">작성자</th>
-													<th class="t6">작성일</th>
-													<th class="t7">엔젤링</th>
-													<th class="t8">조회수</th>
-												</tr>
-											</thead>
-											<tbody>
-												<c:forEach var="i" begin="1" end="10">
-													<tr>
-														<td class="t1">${i}</td>
-														<td class="t2">[고민게시판]</td>
-														<td class="t3">[사랑/이별]</td>
-														<td class="t4">테스트${i}</td>
-														<td class="t5">kjs${i}</td>
-														<td class="t6">2017-12-28</td>
-														<td class="t7">${i}</td>
-														<td class="t8">10</td>
-													</tr>
-												</c:forEach>
-											</tbody>
-										</table>
-
-										<div class="row">
-
-											<div class="col-md-3">
-												<input class="btn btn-primary" type="button" id="write"
-													value="글쓰기" />
-											</div>
-											<div class="col-md-9">
-
-												<!-- 페이징 -->
-												<ul class="pagination-custom" id="pageNum">
-													<li><a href="">◀◀</a></li>
-													<li><a href="">◀</a></li>
-													<c:forEach var="i" begin="1" end="4">
-														<li><a href="">${i}</a></li>
-													</c:forEach>
-													<li><a href="">▶</a></li>
-													<li><a href="">▶▶</a></li>
-												</ul>
-											</div>
-											<div class="col-md-1"></div>
-										</div>
-									</div>
-									<div class="tab-pane fade" id="tabs-4-3">
-										<table class="table table-hover">
-											<thead>
-												<tr>
-													<th class="t1">번호</th>
-													<th class="t2">게시판</th>
-													<th class="t3">카테고리</th>
-													<th class="t4">제목</th>
-													<th class="t5">작성자</th>
-													<th class="t6">작성일</th>
-													<th class="t7">엔젤링</th>
-													<th class="t8">조회수</th>
-												</tr>
-											</thead>
-											<tbody>
-												<c:forEach var="i" begin="1" end="10">
-													<tr>
-														<td class="t1">${i}</td>
-														<td class="t2">[고민게시판]</td>
-														<td class="t3">[자존감]</td>
-														<td class="t4">테스트${i}</td>
-														<td class="t5">kjs${i}</td>
-														<td class="t6">2017-12-28</td>
-														<td class="t7">${i}</td>
-														<td class="t8">10</td>
-													</tr>
-												</c:forEach>
-											</tbody>
-										</table>
-
-										<div class="row">
-
-											<div class="col-md-3">
-												<input class="btn btn-primary" type="button" id="write"
-													value="글쓰기" />
-											</div>
-											<div class="col-md-9">
-
-												<!-- 페이징 -->
-												<ul class="pagination-custom" id="pageNum">
-													<li><a href="">◀◀</a></li>
-													<li><a href="">◀</a></li>
-													<c:forEach var="i" begin="1" end="4">
-														<li><a href="">${i}</a></li>
-													</c:forEach>
-													<li><a href="">▶</a></li>
-													<li><a href="">▶▶</a></li>
-												</ul>
-											</div>
-											<div class="col-md-1"></div>
-										</div>
-									</div>
-									<div class="tab-pane fade" id="tabs-4-4">
-										<table class="table table-hover">
-											<thead>
-												<tr>
-													<th class="t1">번호</th>
-													<th class="t2">게시판</th>
-													<th class="t3">카테고리</th>
-													<th class="t4">제목</th>
-													<th class="t5">작성자</th>
-													<th class="t6">작성일</th>
-													<th class="t7">엔젤링</th>
-													<th class="t8">조회수</th>
-												</tr>
-											</thead>
-											<tbody>
-												<c:forEach var="i" begin="1" end="10">
-													<tr>
-														<td class="t1">${i}</td>
-														<td class="t2">[고민게시판]</td>
-														<td class="t3">[심리적 고민]</td>
-														<td class="t4">테스트${i}</td>
-														<td class="t5">kjs${i}</td>
-														<td class="t6">2017-12-28</td>
-														<td class="t7">${i}</td>
-														<td class="t8">10</td>
-													</tr>
-												</c:forEach>
-											</tbody>
-										</table>
-
-										<div class="row">
-
-											<div class="col-md-3">
-												<input class="btn btn-primary" type="button" id="write"
-													value="글쓰기" />
-											</div>
-											<div class="col-md-9">
-
-												<!-- 페이징 -->
-												<ul class="pagination-custom" id="pageNum">
-													<li><a href="">◀◀</a></li>
-													<li><a href="">◀</a></li>
-													<c:forEach var="i" begin="1" end="4">
-														<li><a href="">${i}</a></li>
-													</c:forEach>
-													<li><a href="">▶</a></li>
-													<li><a href="">▶▶</a></li>
-												</ul>
-											</div>
-											<div class="col-md-1"></div>
-										</div>
-									</div>
-								</div>
-
+							<div class="tit col-md-12">
+								<p>운동이 하기 싫어요</p>
 							</div>
 						</div>
+						<div class="col-md-12">
+							<div class="row info">
+								<div class="col-md-7">
+									<span class="glyphicon glyphicon-user">kjs1</span>
+								</div>
+								<div class="col-md-3">
+									<span class="glyphicon glyphicon-calendar">2017-12-29
+										19:02</span>
+								</div>
+								<div class="col-md-1">
+									<span class="glyphicon glyphicon-eye-open">1</span>
+								</div>
+								<div class="col-md-1">
+									<span class="glyphicon glyphicon-comment">1</span>
+								</div>
+							</div>
+						</div>
+
 					</div>
 
 
@@ -439,8 +212,9 @@
 
 
 						<!-- 공지사항 영역 시작 -->
-                <div style="border: solid; border-color: purple; margin-top: 25px;">
-              <div class="notice">
+						<div
+							style="border: solid; border-color: purple; margin-top: 25px;">
+							<div class="notice">
 								<h5>공지사항</h5>
 								<ul class="list-unstyled">
 									<li><span class="glyphicon glyphicon-paperclip">
@@ -456,14 +230,15 @@
 								</ul>
 
 							</div>
-                   
-               
-               
-               </div>
-               <!-- 공지사항 영역 끝 -->
+
+
+
+						</div>
+						<!-- 공지사항 영역 끝 -->
 
 						<!-- 댓글 영역 -->
-						<div class="reply" style="border: solid; border-color: babyblue; margin-top: 25px;">
+						<div class="reply"
+							style="border: solid; border-color: babyblue; margin-top: 25px;">
 							B-3<br />
 
 							<table class="table table-hover">
