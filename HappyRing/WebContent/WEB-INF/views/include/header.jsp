@@ -24,8 +24,9 @@
 
 .backColor{
 
-  background-color: rgb(94, 94, 94);
-
+ background-color: white;
+    border-bottom: solid;
+    border-bottom-color: rgb(87, 203, 204);
 
 }
 
@@ -40,7 +41,7 @@
 
 .headerBackColor{
 
-background-color:rgb(67, 70, 86);
+background-color:rgb(87, 203, 204);
 
 }
   
@@ -230,7 +231,7 @@ background-color:rgb(67, 70, 86);
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="mainImages/logoHappy.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="mainImages/logo2.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
               </div>
               <div class="rd-navbar-aside-center">
                 <!-- RD Navbar Search-->
@@ -254,7 +255,7 @@ background-color:rgb(67, 70, 86);
                 <div class="rd-navbar-shop rd-navbar-login">
 <!--                 <a class="rd-navbar-shop-icon mdi mdi-login" href="login-page.html"><span class="veil reveal-lg-inline">Login </span></a> -->
 <!--                 <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;"> -->
-                 <a class="rd-navbar-shop-icon mdi mdi-login" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="color: white;"><span class="veil reveal-lg-inline">로그인/회원가입</span></a>
+                 <a class="rd-navbar-shop-icon mdi mdi-login" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="color: rgb(87, 203, 204);"><span class="veil reveal-lg-inline">로그인/회원가입</span></a>
                 
                 </div>
               </div>

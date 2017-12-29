@@ -25,7 +25,7 @@
 #custom_carousel .item
 {
     color: #fff;
-    background-color: #232323;
+    background-color: #f2f3f9;
     padding: 0 0 20px 0;
 }
 
@@ -38,7 +38,8 @@
     white-space: nowrap;
     text-align: center;
     position: relative;
-    background: #ddd
+    background: #ddd;
+    border-bottom: 
 }
 
 #custom_carousel .controls li
@@ -50,8 +51,12 @@
 
 #custom_carousel .controls li.active
 {
-    background-color: #232323;
-    border-top: 3px solid orange;
+    background-color: #fff;
+    border-top: 6px solid #ffec17;
+    border-left: solid pink;    
+    border-right: solid pink;
+    
+    
 }
 
 #custom_carousel .controls a small
@@ -179,6 +184,26 @@
   background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
 }
 
+
+
+
+
+
+/* 탭 contents 영역*/
+
+.item {
+
+    padding-bottom: 120px;
+    background-color: #f2f3f9;
+    border-bottom: solid;
+    border-bottom-color: pink;
+    border-left: solid;
+    border-left-color: pink;
+    border-right: solid;
+    border-right-color: pink;
+    border-radius: 0 0 26px 26px;
+}
+
 </style>
 
 
@@ -229,7 +254,7 @@ $(document).ready(function (ev) {
       
       <!-- Main Contents Section & Div START -->
       
-    <section class="section" style="padding-top: 20px; padding-bottom: 40px;">
+    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
        
       <div class="row">
       
@@ -242,7 +267,13 @@ $(document).ready(function (ev) {
           <div style="padding-left: 20px; padding-right: 20px;
                padding-top: 20px; padding-bottom: 20px;">
    
-    <div style="border: solid; border-color: pink; height: 46px; padding-top: 1%;">공지) 해피링 심리서비스가 오픈하였습니다</div>
+    <div style="border: solid; border-color: pink; height: 46px; padding-top: 1%;border-radius: 19px;">
+    
+<!--     공지) 해피링 심리서비스가 오픈하였습니다 -->
+<!--         <h5 class="typed-text-wrap">어서오세요 &nbsp;<span class="typed-text"></span>&nbsp;theme</h5> -->
+        <h5 class="typed-text-wrap">&nbsp;어서오세요 &nbsp;<span class="typed-text"></span>&nbsp;♡</h5>
+
+    </div>
    
    <!-- C-1영역 --> 
     <div style="height: auto;padding-top: 25px;" >
@@ -264,7 +295,7 @@ $(document).ready(function (ev) {
           
           <!-- Wrapper for slides -->
           <div class="carousel-inner" style="height: auto;">
-            <div class="item active" style="padding-bottom: 120px;">
+            <div class="item active">
               <div class="container-fluid">
                 <h4 style="color:white;">
                  탭1
@@ -272,7 +303,7 @@ $(document).ready(function (ev) {
                 <p>
                 <% for(int i=0; i<3; i++) { %>
                 <div class="col-md-4">
-                    <article class="post-blog"><a class="post-blog-image" href="single-post.html"><img src="images/grid-blog-1-420x305.jpg" alt="" width="420" height="305"/></a>
+                    <article class="post-blog"><a class="post-blog-image" href="single-post.html"><img src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
                     <div class="post-blog-caption">
                       <div class="post-blog-caption-header">
                         <ul class="post-blog-tags">

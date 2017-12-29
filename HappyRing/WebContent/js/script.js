@@ -2294,7 +2294,7 @@ $document.ready(function () {
    */
   if (plugins.typedjs.length && !isNoviBuilder) {
     // var e = ["tech", "cooking", "gardening", "personal", "design", "travel", "adventure", "crafts", "family", "team"];
-    var e = ["auction", "taxi", "private airlines", "it", "maritime", "theatre", "movie", "trucking", "environmental", "SEO"];
+    var e = ["이 사이트는 마음이 아픈 사람들의 대나무 숲 입니다", "마음놓고 이용해주세요:-)", "이 사이트는 김종상 김하은이 제작 하였습니다", "여러분의 착한 대나무숲이 되기를 바랍니다", "Happy New Year 2018", "행복합시다 우리:-)", "written by 김하은, 김종상"];
     $('.typed-text').typed({
       strings: e,
       typeSpeed: 150,
