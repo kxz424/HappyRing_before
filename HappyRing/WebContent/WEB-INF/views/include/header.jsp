@@ -24,7 +24,7 @@
 
 .backColor{
 
-     background-color: #5c8d8d;
+  background-color: rgb(94, 94, 94);
 
 
 }
@@ -40,9 +40,8 @@
 
 .headerBackColor{
 
-background-color: white;
-    border-bottom: solid;
-    border-bottom-color: #5c8d8d;
+background-color:rgb(67, 70, 86);
+
 }
   
 
@@ -60,42 +59,7 @@ background-color: white;
           <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-md-stick-up-offset="100px" data-lg-stick-up-offset="150px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
            
            
-           <div class="rd-navbar-inner backColor" style="padding-right: 40px; padding-left: 35px;">
-              <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="mainImages/logoHappy.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
-              </div>
-              <div class="rd-navbar-aside-center">
-                <!-- RD Navbar Search-->
-                <div class="rd-navbar-search"><a class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search" href="#"><span></span></a>
-                  <form class="rd-search" action="search-results.html" data-search-live="rd-search-results-live" method="GET">
-                    <div class="rd-mailform-inline rd-mailform-sm rd-mailform-inline-modern">
-                      <div class="rd-mailform-inline-inner">
-                        <div class="form-wrap form-wrap-icon mdi-magnify">
-                          <label class="form-label form-label" for="rd-navbar-search-form-input">Search...</label>
-                          <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off">
-                          <div class="rd-search-results-live"></div>
-                        </div>
-                        <button class="rd-search-form-submit rd-search-form-submit-icon mdi mdi-magnify btnColor"></button>
-                        <button class="rd-search-form-submit button form-button button-sm button-secondary button-nina btnColor">search</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <div class="rd-navbar-aside-right">
-                <div class="rd-navbar-shop rd-navbar-login">
-<!--                 <a class="rd-navbar-shop-icon mdi mdi-login" href="login-page.html"><span class="veil reveal-lg-inline">Login </span></a> -->
-<!--                 <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;"> -->
-                 <a class="rd-navbar-shop-icon mdi mdi-login" href="#signup" data-toggle="modal" data-target=".bs-modal-md"><span class="veil reveal-lg-inline">로그인/회원가입</span></a>
-                
-                </div>
-              </div>
-            </div>
-           
+          
            
            
            
@@ -254,6 +218,51 @@ background-color: white;
                 </ul>
               </div>
             </div>
+            
+            
+            
+            
+            
+            
+             <div class="rd-navbar-inner backColor" style="padding-right: 40px; padding-left: 35px;">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="mainImages/logoHappy.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
+              </div>
+              <div class="rd-navbar-aside-center">
+                <!-- RD Navbar Search-->
+                <div class="rd-navbar-search"><a class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search" href="#"><span></span></a>
+                  <form class="rd-search" action="search-results.html" data-search-live="rd-search-results-live" method="GET">
+                    <div class="rd-mailform-inline rd-mailform-sm rd-mailform-inline-modern">
+                      <div class="rd-mailform-inline-inner">
+                        <div class="form-wrap form-wrap-icon mdi-magnify">
+                          <label class="form-label form-label" for="rd-navbar-search-form-input">Search...</label>
+                          <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off">
+                          <div class="rd-search-results-live"></div>
+                        </div>
+                        <button class="rd-search-form-submit rd-search-form-submit-icon mdi mdi-magnify btnColor"></button>
+                        <button class="rd-search-form-submit button form-button button-sm button-secondary button-nina btnColor">search</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="rd-navbar-aside-right">
+                <div class="rd-navbar-shop rd-navbar-login">
+<!--                 <a class="rd-navbar-shop-icon mdi mdi-login" href="login-page.html"><span class="veil reveal-lg-inline">Login </span></a> -->
+<!--                 <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;"> -->
+                 <a class="rd-navbar-shop-icon mdi mdi-login" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="color: white;"><span class="veil reveal-lg-inline">로그인/회원가입</span></a>
+                
+                </div>
+              </div>
+            </div>
+           
+            
+            
+            
             
           </nav>
         </div>
