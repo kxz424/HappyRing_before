@@ -24,7 +24,7 @@
 
 .backColor{
 
-  background-color: rgb(243, 156, 18);
+     background-color: #5c8d8d;
 
 
 }
@@ -40,8 +40,9 @@
 
 .headerBackColor{
 
-background-color: rgb(94, 94, 94);
-
+background-color: white;
+    border-bottom: solid;
+    border-bottom-color: #5c8d8d;
 }
   
 
@@ -65,7 +66,7 @@ background-color: rgb(94, 94, 94);
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="mainImages/logoHappyRing.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="mainImages/logoHappy.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
               </div>
               <div class="rd-navbar-aside-center">
                 <!-- RD Navbar Search-->

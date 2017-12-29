@@ -698,6 +698,33 @@ $(document).ready(function (ev) {
                
                <!-- 심리테스트 영역 끝 --> 
                
+               
+               
+               <!-- 공지사항 영역 시작 -->
+                <div style="border: solid; border-color: babyblue; margin-top: 25px;">
+              <div class="notice">
+								<h5>공지사항</h5>
+								<ul class="list-unstyled">
+									<li><span class="glyphicon glyphicon-paperclip">
+											공지사항1 </span></li>
+									<li><span class="glyphicon glyphicon-paperclip">
+											공지사항1</span></li>
+									<li><span class="glyphicon glyphicon-paperclip">
+											공지사항1</span></li>
+									<li><span class="glyphicon glyphicon-paperclip">
+											공지사항1</span></li>
+									<li><span class="glyphicon glyphicon-paperclip">
+											공지사항1</span></li>
+								</ul>
+
+							</div>
+                   
+               
+               
+               </div>
+               <!-- 공지사항 영역 끝 -->
+               
+               
                <!-- 날씨 영역  시작-->
                <div style="border: solid; border-color: babyblue; margin-top: 25px;">
                <br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다
