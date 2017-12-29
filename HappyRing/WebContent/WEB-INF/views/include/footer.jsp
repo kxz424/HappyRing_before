@@ -21,7 +21,7 @@
 
 .footerBackColor {
 
-background-color: rgb(67, 70, 86);
+background-color: #29293a;
 
 }
 
