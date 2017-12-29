@@ -59,7 +59,7 @@ background-color: rgb(94, 94, 94);
           <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-md-stick-up-offset="100px" data-lg-stick-up-offset="150px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
            
            
-           <div class="rd-navbar-inner backColor">
+           <div class="rd-navbar-inner backColor" style="padding-right: 40px; padding-left: 35px;">
               <!-- RD Navbar Panel-->
               <div class="rd-navbar-panel">
                 <!-- RD Navbar Toggle-->
@@ -86,7 +86,12 @@ background-color: rgb(94, 94, 94);
                 </div>
               </div>
               <div class="rd-navbar-aside-right">
-                <div class="rd-navbar-shop rd-navbar-login"><a class="rd-navbar-shop-icon mdi mdi-login" href="login-page.html"><span class="veil reveal-lg-inline">Login </span></a></div>
+                <div class="rd-navbar-shop rd-navbar-login">
+<!--                 <a class="rd-navbar-shop-icon mdi mdi-login" href="login-page.html"><span class="veil reveal-lg-inline">Login </span></a> -->
+<!--                 <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;"> -->
+                 <a class="rd-navbar-shop-icon mdi mdi-login" href="#signup" data-toggle="modal" data-target=".bs-modal-md"><span class="veil reveal-lg-inline">로그인/회원가입</span></a>
+                
+                </div>
               </div>
             </div>
            
@@ -101,6 +106,7 @@ background-color: rgb(94, 94, 94);
                 <ul class="rd-navbar-nav">
                  
                  <li ><a href="index.html">편지함</a></li>
+                 
                  <li ><a href="index.html">일기장</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
@@ -114,42 +120,65 @@ background-color: rgb(94, 94, 94);
                   
                   <li class="active"><a href="index.html">심리이론</a>
                     <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">전체</a>
-                      </li>
-                      <li><a href="landing-auction.html">Landing Auction</a>
-                      </li>
-                      <li><a href="landing-environmental.html">Landing Environmental</a>
-                      </li>
-                      <li><a href="landing-it-company.html">Landing IT Company</a>
-                      </li>
-                      <li><a href="landing-maritime.html">Landing Maritime</a>
-                      </li>
-                      <li><a href="landing-museum.html">Landing Museum</a>
-                      </li>
-                      <li><a href="landing-private-airlines.html">Landing Private Airlines</a>
-                      </li>
-                      <li><a href="landing-taxi.html">Landing Taxi</a>
-                      </li>
-                      <li><a href="landing-trucking.html">Landing Trucking</a>
-                      </li>
-                      <li><a href="landing-theatre.html">Landing Theatre</a>
-                      </li>
-                      <li><a href="landing-movie.html">Landing Movie</a>
-                      </li>
-                      <li><a href="landing-seo.html">Landing SEO</a>
-                      </li>
-                    </ul>
-                  </li>
+                    <ul class="rd-navbar-megamenu">
+                     <li>
+                          <ul class="rd-megamenu-list">
+		                      </li>
+		                      <li><a href="landing-auction.html">심리학 가이드</a>
+		                      </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <ul class="rd-megamenu-list">
+                           	      <li>
+			                      <a href="#">--주요심리학♥--</a>
+			                      </li>
+			                      <li><a href="landing-it-company.html">기초 심리학</a>
+			                      </li>
+			                      <li><a href="landing-maritime.html">3대 심리학</a>
+			                      </li>
+			                      <li><a href="landing-museum.html">성격 심리학</a>
+			                      </li>
+			                      <li><a href="landing-taxi.html">상담 심리학</a>
+			                      </li>
+			                      <li><a href="landing-trucking.html">행동 심리학</a>
+			                      </li>
+			                      <li><a href="landing-theatre.html">인지 심리학</a>
+			                      </li>
+			                      <li><a href="landing-movie.html">사회 심리학</a>
+			                      </li>
+			                      <li><a href="landing-seo.html">연애 심리학</a>
+			                      </li>
+                          </ul>
+                        </li>  
+                        <li>
+                          <ul class="rd-megamenu-list">
+                          		 <li>
+			                      <a href="#">--지식나눔방♥--</a>
+			                      </li>
+			                      <li><a href="landing-seo.html">심리학 지식</a>
+			                      </li>
+			                       <li><a href="landing-seo.html">묻고 답하기</a>
+			                      </li>
+                          
+                          </ul>
+                        </li>  
+                        
+                     </ul>   
+                        
+                        
+                    
                  
                   <li><a href="#">도전그룹방</a>
                     <!-- RD Navbar Megamenu-->
                       <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
-                      <li><a href="landing-auction.html">내 일기장</a>
+                      <li><a href="landing-auction.html">일주일 도전</a>
                       </li>
-                      <li><a href="landing-environmental.html">공유 된 일기장</a>
+                      <li><a href="landing-environmental.html">30일 도전</a>
+                      </li>
+                      <li><a href="landing-environmental.html">그룹방</a>
                       </li>
                     </ul>
                   </li>
@@ -158,9 +187,9 @@ background-color: rgb(94, 94, 94);
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
-                      <li><a href="landing-auction.html">내 일기장</a>
+                      <li><a href="landing-auction.html">이달의 best</a>
                       </li>
-                      <li><a href="landing-environmental.html">공유 된 일기장</a>
+                      <li><a href="landing-environmental.html">명예의 전당</a>
                       </li>
                     </ul>
                   </li>
@@ -168,19 +197,34 @@ background-color: rgb(94, 94, 94);
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
-                      <li><a href="landing-auction.html">내 일기장</a>
+                      <li><a href="landing-auction.html">자유게시판</a>
                       </li>
-                      <li><a href="landing-environmental.html">공유 된 일기장</a>
+                      <li><a href="landing-environmental.html">고민 게시판</a>
                       </li>
+                       <li><a href="landing-environmental.html">응원 게시판</a>
+                      </li>
+                       <li><a href="landing-environmental.html">팁 & 노하우</a>
+                      </li>
+                       <li><a href="landing-environmental.html">상담 후기</a>
+                      </li>
+                      <li><a href="landing-environmental.html">상담 후기</a>
+                      </li>
+                      <li><a href="landing-environmental.html">관리자에게</a>
+                      </li>
+                      <li><a href="landing-environmental.html">공지사항</a>
+                      </li>
+                      
+                      
+                      
                     </ul>
                   </li>
                   <li><a href="#">해피링칼럼</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
-                      <li><a href="landing-auction.html">내 일기장</a>
+                      <li><a href="landing-auction.html">Dr.Happy</a>
                       </li>
-                      <li><a href="landing-environmental.html">공유 된 일기장</a>
+                      <li><a href="landing-environmental.html">퍼온 글</a>
                       </li>
                     </ul>
                   </li>
@@ -188,13 +232,24 @@ background-color: rgb(94, 94, 94);
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
-                      <li><a href="landing-auction.html">내 일기장</a>
+                      <li><a href="landing-auction.html">이달의 추천</a>
                       </li>
-                      <li><a href="landing-environmental.html">공유 된 일기장</a>
+                      <li><a href="landing-environmental.html">독서 자유게시판</a>
+                      </li>
+                      <li><a href="landing-environmental.html">독서그룹</a>
                       </li>
                     </ul>
                   </li>
-                   <li><a href="#">영상</a></li>
+                  <li><a href="#">영상</a>
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="landing-default.html">전체</a>
+                      </li>
+                      <li><a href="landing-auction.html">이달의 추천</a>
+                      </li>
+                      <li><a href="landing-environmental.html">영상 자유게시판</a>
+                      </li>
+                    </ul>
+                   </li>
                 </ul>
               </div>
             </div>
