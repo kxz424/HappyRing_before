@@ -229,7 +229,7 @@ $(document).ready(function (ev) {
       
       <!-- Main Contents Section & Div START -->
       
-    <section class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
+    <section class="section" style="padding-top: 20px; padding-bottom: 40px;">
        
       <div class="row">
       
@@ -1049,7 +1049,7 @@ $(document).ready(function (ev) {
     
     <!-- 광고-->
         <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px;">
+        style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
           <div class="shell">
             <h2 class="text-light">책광고</h2>
           </div>
