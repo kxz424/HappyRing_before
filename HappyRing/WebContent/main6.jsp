@@ -109,7 +109,7 @@
 
 #custom_carousel2 .controls li.active
 {
-    background-color: white;
+    background-color: #232323;
     border-top: 3px solid orange;
 }
 
@@ -238,7 +238,7 @@ $(document).ready(function (ev) {
       
       
       
-      <div class="col-md-8" style="padding-right: 12px;"> 
+      <div class="col-md-8" style="padding-right: 0px;"> 
           <div style="padding-left: 20px; padding-right: 20px;
                padding-top: 20px; padding-bottom: 20px;">
    
@@ -528,7 +528,7 @@ $(document).ready(function (ev) {
        
        
        
-       <div class="col-md-2" style="padding-left: 13px;">
+       <div class="col-md-2" style="padding-left: 0px;">
           <div style="padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;">
                   
                   
@@ -699,7 +699,7 @@ $(document).ready(function (ev) {
                <!-- 심리테스트 영역 끝 --> 
                
                <!-- 날씨 영역  시작-->
-               <div style="border: solid; border-color: babyblue; margin-top: 25px;">
+               <div style="border: solid; border-color: babyblue; margin-top: 25px; height: 355px">
                <br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다
                         <img alt="" src="mainImages/날씨와기분.png" >               
                
@@ -731,7 +731,7 @@ $(document).ready(function (ev) {
        
        
        
-       <div class="col-md-8" style="padding-right: 12px;"> 
+       <div class="col-md-8" style="padding-right: 0px;"> 
 <!--           <div  style="border: solid;  -->
              <div  style=" 
                 padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px;">
@@ -780,7 +780,7 @@ $(document).ready(function (ev) {
                 <% } %>
                
                 
-               <% for(int i=0; i<8; i++) { %>
+               <% for(int i=0; i<3; i++) { %>
                   <div class="col-xs-4 col-sm-3 col-md-3 col-xl-2 isotope-item" data-filter="type 2">
                     <!-- Thumbnail simple-->
                     <div class="thumbnail-simple"><a class="thumbnail-simple-image-wrap" href="#"><img class="thumbnail-simple-image" src="mainImages/sample.png" alt="" width="270" height="200"/></a>
@@ -790,7 +790,7 @@ $(document).ready(function (ev) {
                   </div>
                 <% } %>  
                 
-               <% for(int i=0; i<7; i++) { %>
+               <% for(int i=0; i<4; i++) { %>
                   <div class="col-xs-4 col-sm-3 col-md-3 col-xl-2 isotope-item" data-filter="type 1">
                     <!-- Thumbnail simple-->
                     <div class="thumbnail-simple"><a class="thumbnail-simple-image-wrap" href="#"><img class="thumbnail-simple-image" src="mainImages/sample.png" alt="" width="270" height="200"/></a>
@@ -844,7 +844,7 @@ $(document).ready(function (ev) {
        
       
       
-        <div class="col-md-2" style="padding-left: 13px;">
+        <div class="col-md-2" style="padding-left: 0px;">
               <div style="padding-left: 0px; padding-right: 0px;
                    padding-top: 20px; padding-bottom: 20px;">
                    
@@ -863,44 +863,24 @@ $(document).ready(function (ev) {
                          
                          
                          
-                         <div id="custom_carousel2" class="carousel slide" data-ride="carousel" data-interval="9500">
+                         <div id="custom_carousel2" class="carousel slide" data-ride="carousel" data-interval="2500">
           
           
           
           <div class="controls">
             <ul class="nav">
-              <li data-target="#custom_carousel2" data-slide-to="0" class="active"> <a href="#" style="padding-top: 10px; padding-left: 5px; padding-right: 5px;" >상담소 정보</a> </li>
-              <li data-target="#custom_carousel2" data-slide-to="1"> <a href="#" style="padding-top: 10px; padding-left: 5px; padding-right: 5px;">상담소 랭킹</a> </li>
+              <li data-target="#custom_carousel2" data-slide-to="0" class="active"> <a href="#" style="padding-top: 0px; padding-left: 5px; padding-right: 5px;" ><br>비포 & 애프터</a> </li>
+              <li data-target="#custom_carousel2" data-slide-to="1"> <a href="#" style="padding-top: 0px; padding-left: 5px; padding-right: 5px;"><br>명예의 전당</a> </li>
             </ul>
           </div>
           
           <!-- Wrapper for slides -->
           <div class="carousel-inner" style="height: auto;">
-            <div class="item active">
-              <div class="container-fluid" style="padding-left: 5px; padding-right: 5px;">
-                 
-                 
-                 <!-- 광고란 -->
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">1</div>
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">2</div>
-                   
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">3</div>
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">4</div>
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">5</div>
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">6</div>
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">7</div>
-                 
-                 <!-- 광고란 끝 -->
-                 
-                 
-                 
-                 
+            <div class="item active" style="padding-bottom: 120px;">
+              <div class="container-fluid">
+                <h4 style="color:white;">
+                 탭1
+                </h4>
                 <!-- 탭내용 -->
                 
               </div>
@@ -908,28 +888,13 @@ $(document).ready(function (ev) {
             
             
             
-           <div class="item">
+           <div class="item" style="padding-bottom: 120px;">
                <div class="container-fluid">
-               
-                  <!-- 광고란 -->
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">1</div>
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">2</div>
-                   
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">3</div>
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">4</div>
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">5</div>
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">6</div>
-                 
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">7</div>
-                 
-                 <!-- 광고란 끝 -->
-                 
-                 
+                <h4 style="color:white;">
+                 탭2
+                </h4>
+                
+                
                 
            <!-- 탭내용 -->
                  
@@ -994,9 +959,46 @@ $(document).ready(function (ev) {
              
                 <!-- Nav tabs-->
                
-               
+               <ul class="nav nav-tabs">
+                  <li class="active"><a href="#tabs-2-1" data-toggle="tab" style="padding-left: 14px; padding-right: 14px;">상담소 정보</a></li>
+                  <li><a href="#tabs-2-2" data-toggle="tab" style="padding-left: 14px; padding-right: 14px;">상담소 랭킹</a></li>
+                </ul>
                 <!-- Tab panes-->
-                
+                <div class="tab-content" data-interval="2500">
+                  <div class="tab-pane fade in active" id="tabs-2-1">
+                    <ul class="list-xs list-darker">
+                      <li class="box-inline"><span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span>
+                        <div><a href="#">2130 Fulton Street, San Diego, CA 94117-1080 USA</a></div>
+                      </li>
+                      <li class="box-inline"><span class="icon icon-md-smaller icon-secondary mdi mdi-phone"></span>
+                        <ul class="list-comma">
+                          <li><a href="callto:#">1-800-1234-567</a></li>
+                          <li><a href="callto:#">1-800-6780-345</a></li>
+                        </ul>
+                      </li>
+                      <li class="box-inline"><span class="icon icon-md-smaller icon-secondary mdi mdi-email-open"></span>
+                        <div><a href="mailto:#">mail@demolink.org</a></div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-2-2">
+                    <ul class="list-xs list-darker">
+                      <li class="box-inline"><span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span>
+                        <div><a href="#">2130 Fulton Street, New York, NY 94117-1080 USA</a></div>
+                      </li>
+                      <li class="box-inline"><span class="icon icon-md-smaller icon-secondary mdi mdi-phone"></span>
+                        <ul class="list-comma">
+                          <li><a href="callto:#">1-800-0987-654</a></li>
+                          <li><a href="callto:#">1-800-0987-654</a></li>
+                        </ul>
+                      </li>
+                      <li class="box-inline"><span class="icon icon-md-smaller icon-secondary mdi mdi-email-open"></span>
+                        <div><a href="mailto:#">newyork@demolink.org</a></div>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                </div>
                    <!-- 상담광고 tab 끝 -->     
                    
                    
@@ -1019,14 +1021,7 @@ $(document).ready(function (ev) {
     <!-- section3 START -->
     
     <!-- section3 END -->
-    
-    <!-- 광고-->
-        <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px;">
-          <div class="shell">
-            <h2 class="text-light">책광고</h2>
-          </div>
-        </div>
+
       <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
