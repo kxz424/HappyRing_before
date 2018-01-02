@@ -1,4 +1,105 @@
 
+/* 영역 A */
+.divA {
+	padding-right: 12px;
+}
+
+.aFrameDiv{
+	padding-left: 20px; padding-right: 20px; padding-top: 20px; 
+	padding-bottom: 20px; border: solid; border-color: red;
+	
+}
+
+.a-1{
+	border: solid; border-color: pink; height: auto; padding-top: 1%;
+	
+}
+
+.a-2{
+	height: auto;padding-top: 25px; border: solid; border-color: skyblue;
+	
+}
+
+
+/* 영역 B */
+.divB{
+	padding-left: 13px;
+	
+}
+
+.bFrameDiv {
+padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;  
+border: solid; border-color: blue;
+}
+
+
+.b-1{
+	border: solid; border-color: black;
+}
+
+.b-2{
+	border: solid; border-color: purple; margin-top: 25px;
+}
+
+
+.b-2-row{
+	padding-left: 14px;  padding-right: 14px;
+	
+}
+
+.b-3{
+	border: solid; border-color: babyblue; margin-top: 25px;
+}
+
+
+.b-4{
+	border: solid; border-color: babyblue; margin-top: 25px;
+}
+
+
+
+/* 영역 C */
+
+.divC{
+	padding-right: 12px;
+}
+.cFrameDiv{
+	padding-left: 20px; padding-right: 20px; padding-top: 20px; 
+	padding-bottom: 20px; border: solid; border-color: red;
+}
+
+.c-1{
+	border: solid; 
+	border-color: pink; height: 46px; padding-top: 1%;
+}
+
+.c-2{
+	height: auto;
+	padding-top: 25px; border: solid; border-color: skyblue;
+}
+/* 영역 D */
+
+.divD{
+	padding-left: 13px;
+}
+
+.dFrameDiv{
+	padding-top: 20px; padding-bottom: 20px; 
+	margin-bottom: 100px;  border: solid; border-color: blue;
+}
+
+.d-1{
+	border: solid; border-color: black;
+}
+
+.d-2{
+	border: solid; border-color: purple; margin-top: 25px;
+}
+
+
+
+
+/* main 첫번째 탭  */
 #custom_carousel .item
 {
     color: #fff;
@@ -61,9 +162,25 @@
 
 #custom_carousel h4 { padding: 20px; }
 
-/*카로셀 2*/
 
-#custom_carousel2 .item
+/*  main 첫번째 탭 contents 영역*/
+
+.item {
+
+    padding-bottom: 120px;
+    background-color: #f2f3f9;
+    border-bottom: solid;
+    border-bottom-color: pink;
+    border-left: solid;
+    border-left-color: pink;
+    border-right: solid;
+    border-right-color: pink;
+    border-radius: 0 0 26px 26px;
+}
+
+/* 메인 두번째 탭 */
+
+#custom_carousel2 .item2
 {
     color: #fff;
     background-color: #232323;
@@ -118,10 +235,15 @@
     box-sizing: border-box;
 }
 
-#custom_carousel2 h4 { padding: 20px; }
+#custom_carousel2 h4 { padding: 20px; }	
 
 
+/*  main 두번째 탭 contents 영역*/
+.item2 {
 
+    padding-bottom: 120px;
+    background-color: #f2f3f9;
+}
 
 
 

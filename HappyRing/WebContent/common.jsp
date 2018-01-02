@@ -34,13 +34,13 @@
       <div class="col-md-1"></div>
       
        <!-- ### 영역 A_Frame_Div START-->
-      <div class="col-md-8" style="padding-right: 12px;"> 
-          <div style="padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; border: solid; border-color: red;">
+      <div class="col-md-8 divA"> 
+          <div class="aFrameDiv">
           		영역 A_Frame_Div
           
 	           <!-- ### A 세부영역 div -->
-	    	  	<div style="border: solid; border-color: pink; height: 46px; padding-top: 1%;">A-1</div>
-	    	 	<div style="height: auto;padding-top: 25px; border: solid; border-color: skyblue;">A-2</div> 
+	    	  	<div class="a-1">A-1</div>
+	    	 	<div class="a-2" >A-2</div> 
 	           <!-- A 세부영역 div END --> 
 	                    
           </div>
@@ -50,25 +50,20 @@
       
       
        <!-- ### 영역 B_Frame_Div START-->    
-       <div class="col-md-2" style="padding-left: 13px;">
-          <div style="padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;  border: solid; border-color: blue;">
+       <div class="col-md-2 divB">
+          <div class="bFrameDiv">
            	영역 B_Frame_Div
-          
-                  
-     
 	         <!-- ### B 세부영역 div -->             
-              
 	              <!-- 세부영역 B-1 : 로그인 START-->   
-		               <div style="border: solid; border-color: black;">
+		               <div class="b-1">
 		                    <jsp:include page="/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                
-               
 	              <!-- 세부영역 B-2 : 심리테스트 영역 START-->   
-		               <div style="border: solid; border-color: purple; margin-top: 25px;">
+		               <div class="b-2">
 		               
-			                <div class="row" style="padding-left: 14px;  padding-right: 14px;">
+			                <div class="row b-2-row" >
 			                      <button type="button" class="btn btn-success col-md-6" style="border-radius:15px 0px 0px 0px; height: 120px;">심리<br>자가측정<br>테스트</button>
 			                      <button type="button" class="btn btn-info col-md-6" style="border-radius: 0px 15px 0px 0px; height: 120px;"> 매일 목표 <br> 처방받기</button>
 			                      <button type="button" class="btn btn-warning col-md-6" style="border-radius: 00px 0px 0px 15px; height: 120px;">happyRing<br>APP</button>
@@ -79,7 +74,7 @@
 		               
                
 	              <!-- 세부영역 B-3 : 공지사항 START-->   
-                		<div style="border: solid; border-color: babyblue; margin-top: 25px;">
+                		<div class="b-3">
 	             			 <div class="notice">
 									<h5>공지사항</h5>
 									<ul class="list-unstyled">
@@ -101,7 +96,7 @@
 		               
 		               
  	              <!-- 세부영역 B-4 : 날짜 영역 START-->   
-		               <div style="border: solid; border-color: babyblue; margin-top: 25px;">
+		               <div class="b-4">
 				               <br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다
 				               <img alt="" src="mainImages/날씨와기분.png" >               
 		               </div>
@@ -128,13 +123,12 @@
       <div class="col-md-1"></div>
       
        <!-- ### 영역 C_Frame_Div START-->
-      <div class="col-md-8" style="padding-right: 12px;"> 
-          <div style="padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; border: solid; border-color: red;">
+      <div class="col-md-8 divC"> 
+          <div class="cFrameDiv">
           		영역 C_Frame_Div
-          
 	           <!-- ### C 세부영역 div -->
-	    	  	<div style="border: solid; border-color: pink; height: 46px; padding-top: 1%;">C-1</div>
-	    	 	<div style="height: auto;padding-top: 25px; border: solid; border-color: skyblue;">C-2</div> 
+	    	  	<div class="c-1">C-1</div>
+	    	 	<div class="c-2">C-2</div> 
 	           <!-- C 세부영역 div END --> 
 	                    
           </div>
@@ -144,29 +138,23 @@
       
       
        <!-- ### 영역 D_Frame_Div START-->    
-       <div class="col-md-2" style="padding-left: 13px;">
-          <div style="padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;  border: solid; border-color: blue;">
+       <div class="col-md-2 divD">
+          <div class="dFrameDiv">
            	영역 D_Frame_Div
-          
-                  
-     
 	         <!-- ### D 세부영역 div -->             
-              
 	              <!-- 세부영역 D-1 : 상담광고 tab START-->   
-		               <div style="border: solid; border-color: black;">
+		               <div class="d-1">
 		                  <!-- 상담 광고 tab START -->
 				           <jsp:include page="/ad_tab.jsp"/>
 		               </div>
 	              <!-- 세부영역 D-1 : 상담광고 tab END-->   
                
-               
 	              <!-- 세부영역 D-2 : 심리테스트 영역 START-->   
-		               <div style="border: solid; border-color: purple; margin-top: 25px;">
+		               <div class="d-2">
 							D-2
 		               </div> 
 	              <!-- 세부영역 D-2 : 심리테스트 영역 END-->   
 		               
-               
 	              <!-- 세부영역 D-3 :  START-->   
                 		<div style="border: solid; border-color: babyblue; margin-top: 25px;">
 	             			 D-3
