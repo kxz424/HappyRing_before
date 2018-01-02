@@ -116,7 +116,7 @@
 										<li><a href="#contains">Contains</a></li>
 										<li><a href="#its_equal">It's equal</a></li>
 										<li><a href="#greather_than">Greather than ></a></li>
-										<li><a href="#less_than">Less than < </a></li>
+										<li><a href="#less_than">Less than  </a></li>
 										<li class="divider"></li>
 										<li><a href="#all">Anything</a></li>
 									</ul>
@@ -265,7 +265,40 @@
 		               
  	              <!-- 세부영역 B-4 : 날짜 영역 START-->   
 		               <div class="b-4">
-				               <jsp:include page="/ad_tab.jsp"/>       
+				              
+
+
+
+
+							<table class="table table-hover">
+								<tbody>
+									<tr>
+										<td>안녕하세요</td>
+									</tr>
+									<tr>
+										<td>반갑습니다</td>
+									</tr>
+									<tr>
+										<td>좋은글이네요</td>
+									</tr>
+									<tr>
+										<td>잘보고갑니다^^</td>
+									</tr>
+									<tr>
+										<td>오늘도 즐거운 하루되세요!!!</td>
+									</tr>
+									<tr>
+										<td>너무 뻔한글 같아요 ㅠㅠ</td>
+									</tr>
+									<tr>
+										<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
+									</tr>
+								</tbody>
+							</table>
+
+
+
+
 		               </div>
 	              <!-- 세부영역 B-4 : 날씨 영역 END-->   
                   
