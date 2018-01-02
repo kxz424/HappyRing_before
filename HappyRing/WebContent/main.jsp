@@ -10,225 +10,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
-    <!-- Stylesheets -->
+    <!-- 공통 Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
     <link rel="stylesheet" href="/HappyRing/css/common/bootstrap.css">
     <link rel="stylesheet" href="/HappyRing/css/common/style.css">
     <link rel="stylesheet" href="/HappyRing/css/common/mdi.css">
     <link rel="stylesheet" href="/HappyRing/css/common/fl-bigmug-line.css">
     
+     <!-- 공통 Stylesheets -->
+      <link rel="stylesheet" href="/HappyRing/css/main/main.css">
+     
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style type="text/css">
 
-#custom_carousel .item
-{
-    color: #fff;
-    background-color: #f2f3f9;
-    padding: 0 0 20px 0;
-}
-
-#custom_carousel .controls
-{
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 0;
-    margin: 0;
-    white-space: nowrap;
-    text-align: center;
-    position: relative;
-    background: #ddd;
-    border-bottom: 
-}
-
-#custom_carousel .controls li
-{
-    display: table-cell;
-    width: 1%;
-    max-width: 90px
-}
-
-#custom_carousel .controls li.active
-{
-    background-color: #fff;
-    border-top: 6px solid #ffec17;
-    border-left: solid pink;    
-    border-right: solid pink;
-    
-    
-}
-
-#custom_carousel .controls a small
-{
-    overflow: hidden;
-    display: block;
-    font-size: 10px;
-    margin-top: 5px;
-    font-weight: bold
-}
-
-.featurette img { width: 35px; }
-
-#custom_carousel .col-lg-2
-{
-    box-sizing: border-box;
-    padding: 10px;
-}
-
-#custom_carousel .col-lg-2 .logos
-{
-    height: 75px;
-    box-sizing: border-box;
-}
-
-#custom_carousel h4 { padding: 20px; }
-
-/*카로셀 2*/
-
-#custom_carousel2 .item
-{
-    color: #fff;
-    background-color: #232323;
-    padding: 0 0 20px 0;
-}
-
-#custom_carousel2 .controls
-{
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 0;
-    margin: 0;
-    white-space: nowrap;
-    text-align: center;
-    position: relative;
-    background: #ddd
-}
-
-#custom_carousel2 .controls li
-{
-    display: table-cell;
-    width: 1%;
-    max-width: 90px
-}
-
-#custom_carousel2 .controls li.active
-{
-    background-color: white;
-    border-top: 3px solid orange;
-}
-
-#custom_carousel2 .controls a small
-{
-    overflow: hidden;
-    display: block;
-    font-size: 10px;
-    margin-top: 5px;
-    font-weight: bold
-}
-
-.featurette img { width: 35px; }
-
-#custom_carousel2 .col-lg-2
-{
-    box-sizing: border-box;
-    padding: 10px;
-}
-
-#custom_carousel2 .col-lg-2 .logos
-{
-    height: 75px;
-    box-sizing: border-box;
-}
-
-#custom_carousel2 h4 { padding: 20px; }
-
-
-
-
-
-
-
-
-
-
-
-
-/* 탭 버튼 css*/
-#btnTab{
-
-  border-radius: 5px;
-
-}
-
-#btnTabLi{
-  margin-left: 0px;
-}
-
-
-
-
-
-
-
-/* 로그인영역*/
-
-.prettyline {
-  height: 5px;
-  border-top: 0;
-  background: #c4e17f;
-  border-radius: 5px;
-  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-}
-
-
-
-
-
-
-/* 탭 contents 영역*/
-
-.item {
-
-    padding-bottom: 120px;
-    background-color: #f2f3f9;
-    border-bottom: solid;
-    border-bottom-color: pink;
-    border-left: solid;
-    border-left-color: pink;
-    border-right: solid;
-    border-right-color: pink;
-    border-radius: 0 0 26px 26px;
-}
 
 </style>
 
 
 <script type="text/javascript">
 /* 탭 js */
-
-
-$(document).ready(function (ev) {
-    $('#custom_carousel').on('slide.bs.carousel', function (evt) {
-        $('#custom_carousel .controls li.active').removeClass('active');
-        $('#custom_carousel .controls li:eq(' + $(evt.relatedTarget).index() + ')').addClass('active');
-    })
-    
-    
-    
-    
-      $('#custom_carousel2').on('slide.bs.carousel', function (evt) {
-        $('#custom_carousel2 .controls li.active').removeClass('active');
-        $('#custom_carousel2 .controls li:eq(' + $(evt.relatedTarget).index() + ')').addClass('active');
-    })
-    
-    
-});
-
-
 
 
 
@@ -1001,48 +803,7 @@ $(document).ready(function (ev) {
        
         </div>
                          
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
-                         
+     
                          
                          
                          
@@ -1091,8 +852,10 @@ $(document).ready(function (ev) {
     </div>
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
-    <!-- Javascript-->
+    <!-- 공통 Javascript-->
     <script src="/HappyRing/js/core.min.js"></script>
     <script src="/HappyRing/js/script.js"></script>
+    <!-- 메인 Javascript-->
+     <script src="/HappyRing/js/main/main.js"></script>
   </body>
 </html>
