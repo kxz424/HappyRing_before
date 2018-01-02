@@ -128,6 +128,129 @@
 
 
 
+
+			<!-- Section 1 START -->      
+    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
+       
+       
+      <!-- ########Section1_CONTENTS_ROW_START --> 
+      <div class="row">
+      
+      <div class="col-md-1"></div>
+      
+       <!-- ### 영역 A_Frame_Div START-->
+      <div class="col-md-8" style="padding-right: 12px;"> 
+          <div style="padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; border: solid; border-color: red;">
+          		영역 A_Frame_Div
+          
+	           <!-- ### A 세부영역 div -->
+	    	  	<div style="border: solid; border-color: pink; height: 46px; padding-top: 1%;">A-1</div>
+	    	 	<div style="height: auto;padding-top: 25px; border: solid; border-color: skyblue;">A-2</div> 
+	           <!-- A 세부영역 div END --> 
+	                    
+          </div>
+      </div>
+       <!-- 영역 A_Frame_Div END-->     
+      
+      
+      
+       <!-- ### 영역 B_Frame_Div START-->    
+       <div class="col-md-2" style="padding-left: 13px;">
+          <div style="padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;  border: solid; border-color: blue;">
+           	영역 B_Frame_Div
+          
+                  
+     
+	         <!-- ### B 세부영역 div -->             
+              
+	              <!-- 세부영역 B-1 : 로그인 START-->   
+		               <div style="border: solid; border-color: black;">
+		                    <jsp:include page="/login.jsp"/>
+		               </div>
+	              <!-- 세부영역 B-1 : 로그인  END-->   
+               
+               
+	              <!-- 세부영역 B-2 : 심리테스트 영역 START-->   
+		               <div style="border: solid; border-color: purple; margin-top: 25px;">
+		               
+			                <div class="row" style="padding-left: 14px;  padding-right: 14px;">
+			                      <button type="button" class="btn btn-success col-md-6" style="border-radius:15px 0px 0px 0px; height: 120px;">심리<br>자가측정<br>테스트</button>
+			                      <button type="button" class="btn btn-info col-md-6" style="border-radius: 0px 15px 0px 0px; height: 120px;"> 매일 목표 <br> 처방받기</button>
+			                      <button type="button" class="btn btn-warning col-md-6" style="border-radius: 00px 0px 0px 15px; height: 120px;">happyRing<br>APP</button>
+			                      <button type="button" class="btn btn-danger col-md-6" style="border-radius: 0px 0px 15px 0px; height: 120px;">근처<br>상담소<br>찾기</button>
+			                 </div>
+		               </div> 
+	              <!-- 세부영역 B-2 : 심리테스트 영역 END-->   
+		               
+               
+	              <!-- 세부영역 B-3 : 공지사항 START-->   
+                		<div style="border: solid; border-color: babyblue; margin-top: 25px;">
+	             			 <div class="notice">
+									<h5>공지사항</h5>
+									<ul class="list-unstyled">
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항1 </span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항2</span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항3</span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항4</span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항5</span></li>
+									</ul>
+	
+								</div>
+          			     </div>
+	              <!-- 세부영역 B-3 : 공지사항 END-->
+
+
+							<!-- 세부영역 B-4 : 댓글 영역 START-->
+							<div class="reply"
+								style="border: solid; border-color: babyblue; margin-top: 25px;">
+								B-3<br />
+
+								<table class="table table-hover">
+									<tbody>
+										<tr>
+											<td>안녕하세요</td>
+										</tr>
+										<tr>
+											<td>반갑습니다</td>
+										</tr>
+										<tr>
+											<td>좋은글이네요</td>
+										</tr>
+										<tr>
+											<td>잘보고갑니다^^</td>
+										</tr>
+										<tr>
+											<td>오늘도 즐거운 하루되세요!!!</td>
+										</tr>
+										<tr>
+											<td>너무 뻔한글 같아요 ㅠㅠ</td>
+										</tr>
+										<tr>
+											<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
+										</tr>
+									</tbody>
+								</table>
+
+
+							</div>
+							<!-- 세부영역 B-4 : 댓글 영역 END-->
+
+						</div>
+       </div>
+        <!-- 영역 B_Frame_Div END-->  
+      </div>
+      <!-- Section1_CONTENTS_ROW_END -->      
+    </section>
+    <!-- Section 1 END -->
+
+
+
+
 			<div class="row">
 
 				<div class="col-md-9">
@@ -285,12 +408,12 @@
 									
 								</form>
 							</div>
-						
-						
-						
-							<div class="panel-body">
-								<ul class="list-group">
-									<li class="list-group-item">
+							
+							
+							
+							<table class="table table-hover">
+								<tr>
+									<td>
 										<div class="row">
 											<div class="col-xs-2 col-md-1">
 												<img src="http://placehold.it/80"
@@ -305,19 +428,35 @@
 												</div>
 												<div class="comment-text">We would like to
 													congratulate John on his achievement...</div>
-
-
-
-
-
 											</div>
 										</div>
-									</li>
-
-
-								</ul>
-
-							</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="row">
+											<div class="col-xs-2 col-md-1">
+												<img src="http://placehold.it/80"
+													class="img-circle img-responsive" alt="" />
+											</div>
+											<div class="col-xs-10 col-md-11">
+												<div>
+													<a href="#"> Congratulations</a>
+													<div class="mic-info">
+														By: <a href="#">Check My Athletics</a> on 12 Jun 2014
+													</div>
+												</div>
+												<div class="comment-text">We would like to
+													congratulate John on his achievement...</div>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</table>
+						
+						
+						
+							
 							
 							
 							

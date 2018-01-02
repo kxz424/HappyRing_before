@@ -22,6 +22,7 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
    <!-- 자유게시판 CSS link -->
+   	<link rel="stylesheet" href="/HappyRing/css/main/main.css">
 	<link rel="stylesheet" href="/HappyRing/css/free/commonFree.css">
 	<link rel="stylesheet" href="/HappyRing/css/free/freeList.css">
 	
@@ -265,7 +266,31 @@
 		               
  	              <!-- 세부영역 B-4 : 날짜 영역 START-->   
 		               <div class="b-4">
-				               <jsp:include page="/ad_tab.jsp"/>       
+				               <table class="table table-hover">
+								<tbody>
+									<tr>
+										<td>안녕하세요</td>
+									</tr>
+									<tr>
+										<td>반갑습니다</td>
+									</tr>
+									<tr>
+										<td>좋은글이네요</td>
+									</tr>
+									<tr>
+										<td>잘보고갑니다^^</td>
+									</tr>
+									<tr>
+										<td>오늘도 즐거운 하루되세요!!!</td>
+									</tr>
+									<tr>
+										<td>너무 뻔한글 같아요 ㅠㅠ</td>
+									</tr>
+									<tr>
+										<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
+									</tr>
+								</tbody>
+							</table>     
 		               </div>
 	              <!-- 세부영역 B-4 : 날씨 영역 END-->   
                   
