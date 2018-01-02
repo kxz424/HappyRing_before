@@ -84,7 +84,7 @@ background-color:rgb(87, 203, 204);
                     </ul>  
                  </li>
                   
-                  <li class="active"><a href="index.html">심리이론</a>
+                  <li class="active"><a href="main.jsp">심리이론</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-megamenu">
                      <li>
@@ -97,23 +97,23 @@ background-color:rgb(87, 203, 204);
                         <li>
                           <ul class="rd-megamenu-list">
                            	      <li>
-			                      <a href="#">--주요심리학♥--</a>
+			                      <a href="freeBoardList.jsp">--주요심리학♥--</a>
 			                      </li>
-			                      <li><a href="landing-it-company.html">기초 심리학</a>
+			                      <li><a href="freeBoardList.jsp">기초 심리학</a>
 			                      </li>
-			                      <li><a href="landing-maritime.html">3대 심리학</a>
+			                      <li><a href="freeBoardList.jsp">3대 심리학</a>
 			                      </li>
-			                      <li><a href="landing-museum.html">성격 심리학</a>
+			                      <li><a href="freeBoardList.jsp">성격 심리학</a>
 			                      </li>
-			                      <li><a href="landing-taxi.html">상담 심리학</a>
+			                      <li><a href="freeBoardList.jsp">상담 심리학</a>
 			                      </li>
-			                      <li><a href="landing-trucking.html">행동 심리학</a>
+			                      <li><a href="freeBoardList.jsp">행동 심리학</a>
 			                      </li>
-			                      <li><a href="landing-theatre.html">인지 심리학</a>
+			                      <li><a href="freeBoardList.jsp">인지 심리학</a>
 			                      </li>
-			                      <li><a href="landing-movie.html">사회 심리학</a>
+			                      <li><a href="freeBoardList.jsp">사회 심리학</a>
 			                      </li>
-			                      <li><a href="landing-seo.html">연애 심리학</a>
+			                      <li><a href="freeBoardList.jsp">연애 심리학</a>
 			                      </li>
                           </ul>
                         </li>  
@@ -159,7 +159,7 @@ background-color:rgb(87, 203, 204);
                       </li>
                     </ul>
                   </li>
-                  <li><a href="#">커뮤니티</a>
+                  <li><a href="freeBoardList.jsp">커뮤니티</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
