@@ -209,17 +209,17 @@
 						</div>
 						<div class="col-md-12 div3">
 							<div class="row info"> 
-								<div class="col-md-7">
+								<div class="col-xs-5 col-sm-7 col-md-7">
 									<span class="glyphicon glyphicon-user">kjs1</span>
 								</div>
-								<div class="col-md-3">
+								<div class="col-xs-3 col-sm-3 col-md-3">
 									<span class="glyphicon glyphicon-calendar">2017-12-29
 										19:02</span>
 								</div>
-								<div class="col-md-1">
+								<div class="col-xs-2 col-sm-1 col-md-1">
 									<span class="glyphicon glyphicon-eye-open">1</span>
 								</div>
-								<div class="col-md-1">
+								<div class="col-xs-2 col-sm-1 col-md-1">
 									<span class="glyphicon glyphicon-comment">1</span>
 								</div>
 							</div>
@@ -236,19 +236,19 @@
 						
 						<div class="col-md-12 option-btn div5">
 							<div class="row">
-								<div class="col-md-1"></div>
+								<div class="col-xs-0 col-sm-1 col-md-1"></div>
 								
-								<div class="col-md-3">
+								<div class="col-xs-3 col-sm-3 col-md-3">
 									<a class="button button-icon-alternate button-icon-left button-sm button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>Twitter</a>
 								</div>
-								<div class="col-md-3">
+								<div class="col-xs-3 col-sm-3 col-md-3">
 									<a class="button button-icon-alternate button-icon-left button-sm button-twitter" href="#"><span class="icon glyphicon glyphicon-heart-empty"></span>Twitter</a>
 								</div>
-								<div class="col-md-3">
+								<div class="col-xs-3 col-sm-3 col-md-3">
 									<a class="button button-icon-alternate button-icon-left button-sm button-twitter" href="#"><span class="icon glyphicon glyphicon-bullhorn"></span>Twitter</a>
 								</div>
 								
-								<div class="col-md-2"></div>
+								<div class="col-xs-0 col-sm-2 col-md-2"></div>
 							</div>
 						</div>
 						
@@ -389,10 +389,10 @@
 		               <div class="b-2">
 		               
 			                <div class="row b-2-row" >
-			                      <button type="button" class="btn btn-success col-md-6" style="border-radius:15px 0px 0px 0px; height: 120px;">심리<br>자가측정<br>테스트</button>
-			                      <button type="button" class="btn btn-info col-md-6" style="border-radius: 0px 15px 0px 0px; height: 120px;"> 매일 목표 <br> 처방받기</button>
-			                      <button type="button" class="btn btn-warning col-md-6" style="border-radius: 00px 0px 0px 15px; height: 120px;">happyRing<br>APP</button>
-			                      <button type="button" class="btn btn-danger col-md-6" style="border-radius: 0px 0px 15px 0px; height: 120px;">근처<br>상담소<br>찾기</button>
+			                      <button type="button" class="btn btn-success col-sm-6 col-md-6" style="border-radius:15px 0px 0px 0px; height: 120px;">심리<br/>자가측정<br/>테스트</button>
+			                      <button type="button" class="btn btn-info col-sm-6 col-md-6" style="border-radius: 0px 15px 0px 0px; height: 120px;"> 매일 목표 <br/> 처방받기</button>
+			                      <button type="button" class="btn btn-warning col-sm-6 col-md-6" style="border-radius: 00px 0px 0px 15px; height: 120px;">happyRing<br/>APP</button>
+			                      <button type="button" class="btn btn-danger col-sm-6 col-md-6" style="border-radius: 0px 0px 15px 0px; height: 120px;">근처<br/>상담소<br/>찾기</button>
 			                 </div>
 		               </div> 
 	              <!-- 세부영역 B-2 : 심리테스트 영역 END-->   
