@@ -265,7 +265,10 @@
            	영역 B_Frame_Div
 	         <!-- ### B 세부영역 div -->             
 	              <!-- 세부영역 B-1 : 로그인 START-->   
-		               <div class="b-1 hidden-xs">
+		               <div class="b-1">
+		               
+		                 <button class="btn btn-primary btn-lg hidden-xs" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
+                            
 		                     <jsp:include page="view/member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   

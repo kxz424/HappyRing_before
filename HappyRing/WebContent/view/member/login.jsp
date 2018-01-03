@@ -8,11 +8,11 @@
 </head>
 <body>
  <!-- Button trigger modal -->
-                                  <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
+<!--                                   <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button> -->
                             
                             <!-- Modal -->
-                            <div class="modal fade bs-modal-md" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                              <div class="modal-dialog modal-md" style="margin-top: 131px;">
+                            <div class="modal fade bs-modal-md " id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-md" style="margin-top: 114px">
                                 <div class="modal-content">
                                     <br>
                                     <div class="bs-example bs-example-tabs">
