@@ -10,14 +10,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
-
-<!-- 공통 Stylesheets -->
-<link rel="stylesheet" href="/HappyRing/css/main/main.css">
-<link rel="stylesheet" href="/HappyRing/css/main/mainStyle.css">
-
-
-
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 	
+ 	<!-- 공통 Stylesheets -->
+      <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+   
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -82,12 +79,12 @@
 			                </h4>
 			                <p>
 			                <% for(int i=0; i<4; i++) { %>
-			                <div class="col-xs-6 col-sm-5 col-md-3">
-			                    <article class="post-blog"><a class="post-blog-image" href="single-post.html"><img class="img" src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
+			                <div class="col-xs-6 col-sm-4 col-md-3">
+			                    <article class="post-blog" style="margin-bottom: 30px;"><a class="post-blog-image myImg" href="single-post.html"><img src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
 				                    <div class="post-blog-caption">
 				                    
 				                    	<!-- header 부분 -->
-				                      <div class="post-blog-caption-header">
+				                      <div class="post-blog-caption-header" style="padding-left: 10px; padding-right: 10px;">
 					                         <!-- 태그분류 -->
 					                        <ul class="post-blog-tags">
 					                          <li><a class="button-tags" href="single-post.html">business</a></li>
@@ -98,7 +95,7 @@
 					                        </ul>
 				                      </div>
 				                      	<!-- body부분 -->
-				                      <div class="post-blog-caption-body">
+				                      <div class="post-blog-caption-body" style="padding-left: 10px; padding-right: 10px;">
 				                             <!-- 제목 -->
 				                        	<p><a class="post-blog-title" href="single-post.html">How to Turn Small Talk Into Smart Conversation</a></p>
 				                      </div>
@@ -119,11 +116,11 @@
 				            	     탭2
 				                </h4>
 <!-- 						           <div class="range range-50 range-xs-center"> -->
-										<div class="row">
+						           <div class="row">
 						              <% for(int i=0; i<9; i++ ) { %>
-<!-- 						                  <div class="cell-xs-1 cell-sm-6 cell-lg-4"> -->
-											<div class="col-xs-6 col-sm-4 col-lg-3">
-						                    <article class="box-minimal box-minimal-border">
+<!-- 						                  <div class="cell-xs-10 cell-sm-6 cell-lg-4"> -->
+						                  <div class="col-xs-6 col-sm-4 col-md-3">
+						                    <article class="box-minimal box-minimal-border" style="padding: 10px 10px 15px; margin-bottom: 30px;">
 						                       <!-- 동영상 넣는 공간 -->	
 						                       <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 5%;"> 
 						 							<div class="embed-responsive-item">
@@ -142,7 +139,7 @@
 							                        
 							                        <br>
 						                     		<!-- 제목 -->	
-			                        				<h5><a class="post-blog-title" href="single-post.html">How to Turn Small Talk Into Smart Conversation</a></h5>
+			                        				<p><a class="post-blog-title" href="single-post.html">How to Turn Small Talk Into Smart Conversation</a></p>
 			                        
 			                        				<br>
 			                        				<!-- 작성자 -->
@@ -165,10 +162,12 @@
 			                <h4 style="color:white;">
 			                 	탭3
 			                </h4>
-			                	<div class="range range-50 range-xs-center">
+<!-- 			                	<div class="range range-50 range-xs-center"> -->
+			                	<div class="row">
 			                		<% for(int i=0; i<9; i++ ) { %>
-					                  <div class="cell-xs-10 cell-sm-6 cell-lg-4">
-						                    <article class="box-minimal box-minimal-border">
+<!-- 					                  <div class="cell-xs-10 cell-sm-6 cell-lg-4"> -->
+					                  <div class="col-xs-6 col-sm-4 col-md-3">
+						                    <article class="box-minimal box-minimal-border" style="padding: 10px 10px 15px; margin-bottom: 30px;">
 						                    	 <!-- 동영상 넣는 공간 -->	
 						                       <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 5%;"> 
 						 							<div class="embed-responsive-item">
@@ -195,10 +194,12 @@
 						      <h4 style="color:white;">
 						       	   탭4
 						      </h4>
-						         <div class="range range-50 range-xs-center">
+<!-- 						         <div class="range range-50 range-xs-center"> -->
+						         <div class="row">
 						           <% for(int i=0; i<9; i++ ) { %>
-						               <div class="cell-xs-10 cell-sm-6 cell-lg-4">
-						                   <article class="box-minimal box-minimal-border">
+<!-- 						               <div class="cell-xs-10 cell-sm-6 cell-lg-4"> -->
+						               <div class="col-xs-6 col-sm-4 col-md-3">
+						                   <article class="box-minimal box-minimal-border" style="padding: 10px 10px 15px; margin-bottom: 30px;">
 							                   <div class="box-minimal-icon mdi mdi-thumb-up-outline"></div>
 							                   	  <!-- 제목 --> 
 							                      <p class="big box-minimal-title">Individual Approach</p>
@@ -222,11 +223,11 @@
 					       <h4 style="color:white;">
 					                 탭5
 					       </h4>
-							<div class="cell-sm-12 cell-lg-10 cell-xl-3">
-							    <div class="range range-30">
+							    <div class="row">
 							        <% for(int i=0; i<4; i++ ) { %>
-				                      <div class="cell-sm-6 cell-xl-12">
-				                        <a class="post-blog-quote" href="single-post.html">
+<!-- 				                      <div class="cell-sm-6 cell-xl-12"> -->
+				                      <div class="col-xs-6 col-sm-6 col-md-4">
+				                        <a class="post-blog-quote" href="single-post.html" style="padding: 10px; margin-bottom: 30px;">
 				                          <div class="quote-primary quote-novi">
 				                            <svg class="quote-primary-mark" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35px" height="25px" viewbox="0 0 35 25">
 				                              <path d="M27.461,10.206h7.5v15h-15v-15L25,0.127h7.5L27.461,10.206z M7.539,10.206h7.5v15h-15v-15L4.961,0.127h7.5 L7.539,10.206z"></path>
@@ -242,7 +243,6 @@
 				                 </div>
 				             </div>
 			             </div>
-			        </div>
 			            
 			 </div>
 			 <!-- 탭 본문 끝 -->
@@ -265,8 +265,8 @@
            	영역 B_Frame_Div
 	         <!-- ### B 세부영역 div -->             
 	              <!-- 세부영역 B-1 : 로그인 START-->   
-		               <div class="b-1">
-		                    <jsp:include page="view/member/login.jsp"/>
+		               <div class="b-1 hidden-xs">
+		                     <jsp:include page="view/member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                
@@ -274,10 +274,10 @@
 		               <div class="b-2">
 		               
 			                <div class="row b-2-row" >
-			                      <button type="button" class="btn btn-success col-md-6" style="border-radius:15px 0px 0px 0px; height: 120px;">심리<br>자가측정<br>테스트</button>
-			                      <button type="button" class="btn btn-info col-md-6" style="border-radius: 0px 15px 0px 0px; height: 120px;"> 매일 목표 <br> 처방받기</button>
-			                      <button type="button" class="btn btn-warning col-md-6" style="border-radius: 00px 0px 0px 15px; height: 120px;">happyRing<br>APP</button>
-			                      <button type="button" class="btn btn-danger col-md-6" style="border-radius: 0px 0px 15px 0px; height: 120px;">근처<br>상담소<br>찾기</button>
+			                      <button type="button" class="btn btn-success col-xs-3 col-sm-6 col-md-6" style="border-radius:15px 0px 0px 0px; height: 120px;">심리<br>자가측정<br>테스트</button>
+			                      <button type="button" class="btn btn-info col-xs-3 col-sm-6 col-md-6" style="border-radius: 0px 15px 0px 0px; height: 120px;"> 매일 목표 <br> 처방받기</button>
+			                      <button type="button" class="btn btn-warning col-xs-3 col-sm-6 col-md-6" style="border-radius: 00px 0px 0px 15px; height: 120px;">happyRing<br>APP</button>
+			                      <button type="button" class="btn btn-danger col-xs-3 col-sm-6 col-md-6" style="border-radius: 0px 0px 15px 0px; height: 120px;">근처<br>상담소<br>찾기</button>
 			                 </div>
 		               </div> 
 	              <!-- 세부영역 B-2 : 심리테스트 영역 END-->   
@@ -342,7 +342,7 @@
 	    	  	
 	    	  		<!-- 심리이론 BEST 템플리 가져온 부분 START -->          
              <!-- Isotope Filters-->
-            <div class="cell-lg-12">
+            <div class="cell-xs-12 cell-sm-12 cell-md-12 cell-lg-12">
               <ul class="isotope-filters isotope-filters-horizontal">
                 <li class="block-top-level">
 <!--                   <p class="big">Choose your category:</p> -->
@@ -356,18 +356,17 @@
                 </li>
               </ul>
             </div>
-              <div class="cell-lg-12">
+              <div class="cell-xs-12 cell-sm-12 cell-md-12 cell-lg-12">
             <div class="divider divider-default" style="max-width: 514px;"></div>
             </div>
             <!-- Isotope Content-->
-            <div class="cell-lg-12">
+            <div class="cell-xs-12 cell-sm-12 cell-md-12 cell-lg-12">
               <div class="isotope isotope-md row" data-isotope-layout="fitRows" data-isotope-group="movies" data-lightgallery="group">
-                <div class="row">
                   
                   
 
  				<% for(int i=0; i<6; i++) { %>
-                  <div class="col-xs-4 col-sm-3 col-md-3 col-xl-2 isotope-item" data-filter="type 3">
+                  <div class="col-xs-6 col-sm-4 col-md-3 col-xl-2 isotope-item" data-filter="type 3">
                     <!-- Thumbnail simple-->
                     <div class="thumbnail-simple"><a class="thumbnail-simple-image-wrap" href="#"><img class="thumbnail-simple-image" src="mainImages/sample.png" alt="" width="270" height="200"/></a>
                       <p class="thumbnail-simple-title"><a href="#">Home 자존감</a></p>
@@ -378,7 +377,7 @@
                
                 
                <% for(int i=0; i<8; i++) { %>
-                  <div class="col-xs-4 col-sm-3 col-md-3 col-xl-2 isotope-item" data-filter="type 2">
+                  <div class="col-xs-6 col-sm-4 col-md-3 col-xl-2 isotope-item" data-filter="type 2">
                     <!-- Thumbnail simple-->
                     <div class="thumbnail-simple"><a class="thumbnail-simple-image-wrap" href="#"><img class="thumbnail-simple-image" src="mainImages/sample.png" alt="" width="270" height="200"/></a>
                       <p class="thumbnail-simple-title"><a href="#">Safe 인기글</a></p>
@@ -388,7 +387,7 @@
                 <% } %>  
                 
                <% for(int i=0; i<7; i++) { %>
-                  <div class="col-xs-4 col-sm-3 col-md-3 col-xl-2 isotope-item" data-filter="type 1">
+                  <div class="col-xs-6 col-sm-4 col-md-3 col-xl-2 isotope-item" data-filter="type 1">
                     <!-- Thumbnail simple-->
                     <div class="thumbnail-simple"><a class="thumbnail-simple-image-wrap" href="#"><img class="thumbnail-simple-image" src="mainImages/sample.png" alt="" width="270" height="200"/></a>
                       <p class="thumbnail-simple-title"><a href="#">Olympus 기초심리학</a></p>
@@ -397,7 +396,6 @@
                   </div>
 				<% }  %>
 
-            </div>
           </div>
 <!--           <a class="button button-secondary button-nina" href="#">view more movies</a> -->
         </div>
