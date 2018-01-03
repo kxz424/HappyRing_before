@@ -15,8 +15,14 @@
 	
 }
 
+
+.a-1-title{
+  border: solid; border-color: pink; height: 46px; padding-top: 1%;border-radius: 19px;
+}	
+
 .a-2{
 	height: auto;padding-top: 25px; border: solid; border-color: skyblue;
+	
 	
 }
 

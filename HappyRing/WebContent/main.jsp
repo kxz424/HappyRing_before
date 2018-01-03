@@ -69,7 +69,7 @@
           <div style="padding-left: 20px; padding-right: 20px;
                padding-top: 20px; padding-bottom: 20px;">
    
-    <div style="border: solid; border-color: pink; height: 46px; padding-top: 1%;border-radius: 19px;">
+    <div style="border: solid; border-color: pink; height: 46px; padding-top: 1%; border-radius: 19px;">
     
 <!--     공지) 해피링 심리서비스가 오픈하였습니다 -->
 <!--         <h5 class="typed-text-wrap">어서오세요 &nbsp;<span class="typed-text"></span>&nbsp;theme</h5> -->
