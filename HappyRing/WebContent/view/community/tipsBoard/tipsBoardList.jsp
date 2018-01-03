@@ -64,19 +64,19 @@
 										data-simulate-touch="false">
 										<div class="swiper-wrapper">
 											<div class="swiper-slide"
-												data-slide-bg="images/slider-1-slide-1-1920x910.jpg">
+												data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
 												<div class="swiper-slide-caption">
 													<div class="section-md"></div>
 												</div>
 											</div>
 											<div class="swiper-slide"
-												data-slide-bg="images/slider-1-slide-2-1920x910.jpg">
+												data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
 												<div class="swiper-slide-caption">
 													<div class="section-md"></div>
 												</div>
 											</div>
 											<div class="swiper-slide"
-												data-slide-bg="images/slider-1-slide-3-1920x910.jpg">
+												data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
 												<div class="swiper-slide-caption">
 													<div class="section-md"></div>
 												</div>
@@ -100,7 +100,7 @@
 	    	 	<div class="divFreeTitle">
 	    	 	<div class="row">
 						<div class="col-md-3">
-							<h5>자유게시판</h5>
+							<h5>팁&노하우</h5>
 						</div>
 						<div class="col-md-3"></div>
 						<div class="col-md-6 search-bar">
@@ -225,7 +225,7 @@
 	         <!-- ### B 세부영역 div -->             
 	              <!-- 세부영역 B-1 : 로그인 START-->   
 		               <div class="b-1">
-		                   <jsp:include page="../../member/login.jsp"/>
+		                  <jsp:include page="../../member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                
