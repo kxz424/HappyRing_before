@@ -26,7 +26,7 @@
 <link rel="stylesheet" href="/HappyRing/css/main/main.css">
 <link rel="stylesheet" href="/HappyRing/css/free/commonFree.css">
 <link rel="stylesheet" href="/HappyRing/css/free/freeList.css">
-<link rel="stylesheet" href="/HappyRing/css/free/freeDetail.css">
+<link rel="stylesheet" href="/HappyRing/css/free/freeBoardDetail.css">
 
 
 
@@ -41,13 +41,11 @@
 
 	<div class="page">
 
-		<jsp:include page="WEB-INF/views/include/header.jsp"></jsp:include>
-
-
-
-
-
-
+      
+      <!-- ### header START -->     
+				<jsp:include page="/WEB-INF/views/include/header.jsp"/>
+      <!-- header END -->
+      
 			<!-- Section 1 START -->      
     <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
        
@@ -503,7 +501,8 @@
 
 
 
-
-	<jsp:include page="WEB-INF/views/include/footer.jsp"></jsp:include>
+  <!-- footer START -->
+             <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
+      <!-- footer END -->
 </body>
 </html>
