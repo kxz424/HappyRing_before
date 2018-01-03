@@ -359,7 +359,7 @@
     
     
     <!-- Section 2 START -->      
-    <section  class="section" style="padding-top: 20px; padding-bottom: 40px;">
+    <section  class="breadcrumbs-custom" style="padding-top: 20px; padding-bottom: 40px;">
        
        
       <!-- ########Section1_CONTENTS_ROW_START --> 
@@ -372,7 +372,80 @@
           <div class="cFrameDiv">
           		영역 C_Frame_Div
 	           <!-- ### C 세부영역 div -->
-	    	  	<div class="c-1">C-1</div>
+	    	  	
+	    	  	<div class="c-1">
+	    	  	
+	    	  		<!-- 심리이론 BEST 템플리 가져온 부분 START -->          
+             <!-- Isotope Filters-->
+            <div class="cell-lg-12">
+              <ul class="isotope-filters isotope-filters-horizontal">
+                <li class="block-top-level">
+<!--                   <p class="big">Choose your category:</p> -->
+                  <!-- Isotope Filters-->
+                  <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-1" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
+                  <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-1">
+                    <li id="btnTabLi"><a id="btnTab" class="button-nina active" data-isotope-filter="type 1" data-isotope-group="movies" href="#">기초심리학</a></li>
+                    <li id="btnTabLi"><a id="btnTab" class="button-nina" data-isotope-filter="type 2" data-isotope-group="movies" href="#">12월 인기글</a></li>
+                    <li id="btnTabLi"><a id="btnTab"class="button-nina" data-isotope-filter="type 3" data-isotope-group="movies" href="#">자아/자존감</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+              <div class="cell-lg-12">
+            <div class="divider divider-default" style="max-width: 514px;"></div>
+            </div>
+            <!-- Isotope Content-->
+            <div class="cell-lg-12">
+              <div class="isotope isotope-md row" data-isotope-layout="fitRows" data-isotope-group="movies" data-lightgallery="group">
+                <div class="row">
+                  
+                  
+
+ 				<% for(int i=0; i<6; i++) { %>
+                  <div class="col-xs-4 col-sm-3 col-md-3 col-xl-2 isotope-item" data-filter="type 3">
+                    <!-- Thumbnail simple-->
+                    <div class="thumbnail-simple"><a class="thumbnail-simple-image-wrap" href="#"><img class="thumbnail-simple-image" src="mainImages/sample.png" alt="" width="270" height="200"/></a>
+                      <p class="thumbnail-simple-title"><a href="#">Home 자존감</a></p>
+                      <p class="thumbnail-simple-subtitle">2013</p>
+                    </div>
+                  </div>
+                <% } %>
+               
+                
+               <% for(int i=0; i<8; i++) { %>
+                  <div class="col-xs-4 col-sm-3 col-md-3 col-xl-2 isotope-item" data-filter="type 2">
+                    <!-- Thumbnail simple-->
+                    <div class="thumbnail-simple"><a class="thumbnail-simple-image-wrap" href="#"><img class="thumbnail-simple-image" src="mainImages/sample.png" alt="" width="270" height="200"/></a>
+                      <p class="thumbnail-simple-title"><a href="#">Safe 인기글</a></p>
+                      <p class="thumbnail-simple-subtitle">2013</p>
+                    </div>
+                  </div>
+                <% } %>  
+                
+               <% for(int i=0; i<7; i++) { %>
+                  <div class="col-xs-4 col-sm-3 col-md-3 col-xl-2 isotope-item" data-filter="type 1">
+                    <!-- Thumbnail simple-->
+                    <div class="thumbnail-simple"><a class="thumbnail-simple-image-wrap" href="#"><img class="thumbnail-simple-image" src="mainImages/sample.png" alt="" width="270" height="200"/></a>
+                      <p class="thumbnail-simple-title"><a href="#">Olympus 기초심리학</a></p>
+                      <p class="thumbnail-simple-subtitle">2013</p>
+                    </div>
+                  </div>
+				<% }  %>
+
+
+
+
+
+
+            </div>
+          </div>
+<!--           <a class="button button-secondary button-nina" href="#">view more movies</a> -->
+        </div>
+        
+        <!-- 심리이론 BEST 템플릿 가져온 부분 끝 -->
+	    	  	
+	    	  	</div>
+	    	 	
 	    	 	<div class="c-2">C-2</div> 
 	           <!-- C 세부영역 div END --> 
 	                    
