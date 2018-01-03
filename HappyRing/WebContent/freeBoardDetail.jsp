@@ -20,6 +20,12 @@
 <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	
+
+<!-- 자유게시판 CSS link -->
+<link rel="stylesheet" href="/HappyRing/css/main/main.css">
+<link rel="stylesheet" href="/HappyRing/css/free/commonFree.css">
+<link rel="stylesheet" href="/HappyRing/css/free/freeList.css">
 
 
 
@@ -121,12 +127,6 @@
 
 
 
-		<div class="container">
-
-
-
-
-
 
 
 			<!-- Section 1 START -->      
@@ -139,124 +139,13 @@
       <div class="col-md-1"></div>
       
        <!-- ### 영역 A_Frame_Div START-->
-      <div class="col-md-8" style="padding-right: 12px;"> 
-          <div style="padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; border: solid; border-color: red;">
+      <div class="col-md-8 divA"> 
+          <div class="aFrameDiv">
           		영역 A_Frame_Div
           
 	           <!-- ### A 세부영역 div -->
-	    	  	<div style="border: solid; border-color: pink; height: 46px; padding-top: 1%;">A-1</div>
-	    	 	<div style="height: auto;padding-top: 25px; border: solid; border-color: skyblue;">A-2</div> 
-	           <!-- A 세부영역 div END --> 
-	                    
-          </div>
-      </div>
-       <!-- 영역 A_Frame_Div END-->     
-      
-      
-      
-       <!-- ### 영역 B_Frame_Div START-->    
-       <div class="col-md-2" style="padding-left: 13px;">
-          <div style="padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;  border: solid; border-color: blue;">
-           	영역 B_Frame_Div
-          
-                  
-     
-	         <!-- ### B 세부영역 div -->             
-              
-	              <!-- 세부영역 B-1 : 로그인 START-->   
-		               <div style="border: solid; border-color: black;">
-		                    <jsp:include page="/login.jsp"/>
-		               </div>
-	              <!-- 세부영역 B-1 : 로그인  END-->   
-               
-               
-	              <!-- 세부영역 B-2 : 심리테스트 영역 START-->   
-		               <div style="border: solid; border-color: purple; margin-top: 25px;">
-		               
-			                <div class="row" style="padding-left: 14px;  padding-right: 14px;">
-			                      <button type="button" class="btn btn-success col-md-6" style="border-radius:15px 0px 0px 0px; height: 120px;">심리<br>자가측정<br>테스트</button>
-			                      <button type="button" class="btn btn-info col-md-6" style="border-radius: 0px 15px 0px 0px; height: 120px;"> 매일 목표 <br> 처방받기</button>
-			                      <button type="button" class="btn btn-warning col-md-6" style="border-radius: 00px 0px 0px 15px; height: 120px;">happyRing<br>APP</button>
-			                      <button type="button" class="btn btn-danger col-md-6" style="border-radius: 0px 0px 15px 0px; height: 120px;">근처<br>상담소<br>찾기</button>
-			                 </div>
-		               </div> 
-	              <!-- 세부영역 B-2 : 심리테스트 영역 END-->   
-		               
-               
-	              <!-- 세부영역 B-3 : 공지사항 START-->   
-                		<div style="border: solid; border-color: babyblue; margin-top: 25px;">
-	             			 <div class="notice">
-									<h5>공지사항</h5>
-									<ul class="list-unstyled">
-										<li><span class="glyphicon glyphicon-paperclip">
-												공지사항1 </span></li>
-										<li><span class="glyphicon glyphicon-paperclip">
-												공지사항2</span></li>
-										<li><span class="glyphicon glyphicon-paperclip">
-												공지사항3</span></li>
-										<li><span class="glyphicon glyphicon-paperclip">
-												공지사항4</span></li>
-										<li><span class="glyphicon glyphicon-paperclip">
-												공지사항5</span></li>
-									</ul>
-	
-								</div>
-          			     </div>
-	              <!-- 세부영역 B-3 : 공지사항 END-->
-
-
-							<!-- 세부영역 B-4 : 댓글 영역 START-->
-							<div class="reply"
-								style="border: solid; border-color: babyblue; margin-top: 25px;">
-								B-3<br />
-
-								<table class="table table-hover">
-									<tbody>
-										<tr>
-											<td>안녕하세요</td>
-										</tr>
-										<tr>
-											<td>반갑습니다</td>
-										</tr>
-										<tr>
-											<td>좋은글이네요</td>
-										</tr>
-										<tr>
-											<td>잘보고갑니다^^</td>
-										</tr>
-										<tr>
-											<td>오늘도 즐거운 하루되세요!!!</td>
-										</tr>
-										<tr>
-											<td>너무 뻔한글 같아요 ㅠㅠ</td>
-										</tr>
-										<tr>
-											<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
-										</tr>
-									</tbody>
-								</table>
-
-
-							</div>
-							<!-- 세부영역 B-4 : 댓글 영역 END-->
-
-						</div>
-       </div>
-        <!-- 영역 B_Frame_Div END-->  
-      </div>
-      <!-- Section1_CONTENTS_ROW_END -->      
-    </section>
-    <!-- Section 1 END -->
-
-
-
-
-			<div class="row">
-
-				<div class="col-md-9">
-
-
-					<div class="row">
+	    	  	<div class="a-1">A-1
+	    	  		<div class="row">
 						<div class="col-md-12">
 
 							<!-- 슬라이더 -->
@@ -299,10 +188,14 @@
 
 						</div>
 					</div>
-
-
-
-					<div class="row board-detail div1">
+	    	  	</div>
+	    	 	<div class="a-2" >A-2
+	    	 		
+	    	 		
+	    	 		
+	    	 		
+	    	 		
+	    	 		<div class="row board-detail div1">
 						<div class="col-md-12">
 							<h3>고민게시판</h3>
 						</div>
@@ -315,7 +208,7 @@
 							</div>
 						</div>
 						<div class="col-md-12 div3">
-							<div class="row info">
+							<div class="row info"> 
 								<div class="col-md-7">
 									<span class="glyphicon glyphicon-user">kjs1</span>
 								</div>
@@ -467,6 +360,94 @@
 						</div>
 
 					</div>
+	    	 		
+	    	 		
+	    	 		
+	    	 		
+	    	 		
+	    	 	</div> 
+	           <!-- A 세부영역 div END --> 
+	                    
+          </div>
+      </div>
+       <!-- 영역 A_Frame_Div END-->     
+      
+      
+      
+       <!-- ### 영역 B_Frame_Div START-->    
+       <div class="col-md-2 divB">
+          <div class="bFrameDiv">
+           	영역 B_Frame_Div
+	         <!-- ### B 세부영역 div -->             
+	              <!-- 세부영역 B-1 : 로그인 START-->   
+		               <div class="b-1">
+		                    <jsp:include page="/login.jsp"/>
+		               </div>
+	              <!-- 세부영역 B-1 : 로그인  END-->   
+               
+	              <!-- 세부영역 B-2 : 심리테스트 영역 START-->   
+		               <div class="b-2">
+		               
+			                <div class="row b-2-row" >
+			                      <button type="button" class="btn btn-success col-md-6" style="border-radius:15px 0px 0px 0px; height: 120px;">심리<br>자가측정<br>테스트</button>
+			                      <button type="button" class="btn btn-info col-md-6" style="border-radius: 0px 15px 0px 0px; height: 120px;"> 매일 목표 <br> 처방받기</button>
+			                      <button type="button" class="btn btn-warning col-md-6" style="border-radius: 00px 0px 0px 15px; height: 120px;">happyRing<br>APP</button>
+			                      <button type="button" class="btn btn-danger col-md-6" style="border-radius: 0px 0px 15px 0px; height: 120px;">근처<br>상담소<br>찾기</button>
+			                 </div>
+		               </div> 
+	              <!-- 세부영역 B-2 : 심리테스트 영역 END-->   
+		               
+               
+	              <!-- 세부영역 B-3 : 공지사항 START-->   
+                		<div class="b-3">
+	             			 <div class="notice">
+									<h5>공지사항</h5>
+									<ul class="list-unstyled">
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항1 </span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항2</span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항3</span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항4</span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항5</span></li>
+									</ul>
+	
+								</div>
+          			     </div>
+	              <!-- 세부영역 B-3 : 공지사항 END-->   
+		               
+		               
+ 	              <!-- 세부영역 B-4 : 날짜 영역 START-->   
+		               <div class="b-4">
+				               <br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다
+				               <img alt="" src="mainImages/날씨와기분.png" >               
+		               </div>
+	              <!-- 세부영역 B-4 : 날씨 영역 END-->   
+                  
+          </div>
+       </div>
+        <!-- 영역 B_Frame_Div END-->    
+      </div>
+      <!-- Section1_CONTENTS_ROW_END -->      
+    </section>
+    <!-- Section 1 END -->
+
+
+
+
+			<div class="row">
+
+				<div class="col-md-9">
+
+
+					
+
+
+
+					
 
 
 
@@ -586,8 +567,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
-
 
 
 
