@@ -23,8 +23,8 @@
 
    <!-- 자유게시판 CSS link -->
       <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-   <link rel="stylesheet" href="/HappyRing/css/free/commonFree.css">
-   <link rel="stylesheet" href="/HappyRing/css/free/freeList.css">
+   <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css">
+   <link rel="stylesheet" href="/HappyRing/css/community/freeList.css">
    
    
 </head>
