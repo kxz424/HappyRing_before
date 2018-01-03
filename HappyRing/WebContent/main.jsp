@@ -10,11 +10,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
- 	
- 	<!-- 공통 Stylesheets -->
-      <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-   
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- 공통 Stylesheets -->
+<link rel="stylesheet" href="/HappyRing/css/main/main.css">
+<link rel="stylesheet" href="/HappyRing/css/main/mainStyle.css">
+
+
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -78,9 +81,9 @@
 			                		 탭1
 			                </h4>
 			                <p>
-			                <% for(int i=0; i<3; i++) { %>
-			                <div class="col-md-4">
-			                    <article class="post-blog"><a class="post-blog-image myImg" href="single-post.html"><img src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
+			                <% for(int i=0; i<4; i++) { %>
+			                <div class="col-xs-6 col-sm-5 col-md-3">
+			                    <article class="post-blog"><a class="post-blog-image" href="single-post.html"><img class="img" src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
 				                    <div class="post-blog-caption">
 				                    
 				                    	<!-- header 부분 -->
@@ -97,15 +100,10 @@
 				                      	<!-- body부분 -->
 				                      <div class="post-blog-caption-body">
 				                             <!-- 제목 -->
-				                        	<h5><a class="post-blog-title" href="single-post.html">How to Turn Small Talk Into Smart Conversation</a></h5>
+				                        	<p><a class="post-blog-title" href="single-post.html">How to Turn Small Talk Into Smart Conversation</a></p>
 				                      </div>
 				                      	<!-- footer 부분 -->
-				                      <div class="post-blog-caption-footer">
-				                      		<!-- 등록일 -->
-					                        <time datetime="2017">Feb 27, 2017 at 6:53 pm</time><a class="post-comment" href="single-post.html">
-					                        <!-- 댓글 갯수 -->
-					                        <span class="icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>3</span></a>
-				                      </div>
+				                      
 				                    </div>
 			                  </article>
 			                </div>
@@ -120,9 +118,11 @@
 				                <h4 style="color:white;">
 				            	     탭2
 				                </h4>
-						           <div class="range range-50 range-xs-center">
+<!-- 						           <div class="range range-50 range-xs-center"> -->
+										<div class="row">
 						              <% for(int i=0; i<9; i++ ) { %>
-						                  <div class="cell-xs-10 cell-sm-6 cell-lg-4">
+<!-- 						                  <div class="cell-xs-1 cell-sm-6 cell-lg-4"> -->
+											<div class="col-xs-6 col-sm-4 col-lg-3">
 						                    <article class="box-minimal box-minimal-border">
 						                       <!-- 동영상 넣는 공간 -->	
 						                       <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 5%;"> 
