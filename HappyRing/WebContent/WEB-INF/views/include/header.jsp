@@ -255,9 +255,6 @@ background-color:rgb(87, 203, 204);
                 </div>
               </div>
             </div>
-           
-            
-            
             
             
           </nav>
