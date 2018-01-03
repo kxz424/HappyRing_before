@@ -5,19 +5,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-   <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
- 	
- 	<!-- 공통 Stylesheets -->
-      <link rel="stylesheet" href="/HappyRing/css/main/main.css">
-   
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	
+
+<!-- 자유게시판 CSS link -->
+<link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+<link rel="stylesheet" href="/HappyRing/css/free/commonFree.css">
+<link rel="stylesheet" href="/HappyRing/css/free/freeList.css">
+<link rel="stylesheet" href="/HappyRing/css/free/freeDetail.css">
+
 
 </head>
   <body>
@@ -33,6 +42,7 @@
     <!-- Section 1 START -->      
     <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
        
+       
       <!-- ########Section1_CONTENTS_ROW_START --> 
       <div class="row">
       
@@ -41,252 +51,229 @@
        <!-- ### 영역 A_Frame_Div START-->
       <div class="col-md-8 divA"> 
           <div class="aFrameDiv">
-          		 
+          		영역 A_Frame_Div
+          
 	           <!-- ### A 세부영역 div -->
-	    	  	<div class="a-1-title">
-	    	  		 <h5 class="typed-text-wrap">&nbsp;어서오세요 &nbsp;<span class="typed-text"></span>&nbsp;♡</h5>
+
+
+	    	  	<!-- ## 세부영역 a-1: 슬라이더 -->
+	    	  	<div class="a-1">
+	    	  	 <div class="row">
+						<div class="col-md-12">
+							<!-- 슬라이더 -->
+									<!-- Swiper-->
+									<div class="swiper-container swiper-slider swiper-slider_height-1"
+										data-loop="true" data-autoplay="false"
+										data-simulate-touch="false">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide"
+												data-slide-bg="images/slider-1-slide-1-1920x910.jpg">
+												<div class="swiper-slide-caption">
+													<div class="section-md"></div>
+												</div>
+											</div>
+											<div class="swiper-slide"
+												data-slide-bg="images/slider-1-slide-2-1920x910.jpg">
+												<div class="swiper-slide-caption">
+													<div class="section-md"></div>
+												</div>
+											</div>
+											<div class="swiper-slide"
+												data-slide-bg="images/slider-1-slide-3-1920x910.jpg">
+												<div class="swiper-slide-caption">
+													<div class="section-md"></div>
+												</div>
+											</div>
+										</div>
+										<!-- Swiper controls-->
+										<div class="swiper-pagination-wrap">
+											<div class="swiper-pagination"></div>
+										</div>
+									</div>
+							</div>
+					</div>
 	    	  	</div>
+	    	  	
+	    	  	
+	    	  	<!-- ## 세부영역 a-2: 게시판 카테고리 Title-->	    	  	
 	    	 	<div class="a-2" >
-	    	 		<div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="">
-			          <div class="controls">
-			            <ul class="nav">
-			              <li data-target="#custom_carousel" data-slide-to="0" class="active"> <a href="#" style="padding-top: 57px; padding-bottom: 50px;"><img src="mainImages/success.png"><br>비포 & 애프터</a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="1"> <a href="#" style="padding-top: 57px; padding-bottom: 50px;"><img src="mainImages/success.png"><br>명예의 전당</a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="2"> <a href="#" style="padding-top: 57px; padding-bottom: 50px;"><img src="mainImages/success.png"><br>셀프트레이닝 </a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="3"> <a href="#" style="padding-top: 57px; padding-bottom: 50px;"><img src="mainImages/success.png"><br>꿀팁</a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="4"> <a href="#" style="padding-top: 57px; padding-bottom: 50px;"><img src="mainImages/success.png"><br>멋진응원</a> </li>
-			            </ul>
-			          </div>
-			          
-			          <!-- Wrapper for slides -->
-			          <div class="carousel-inner" style="height: auto;">
-			            <div class="item active">
-			              <div class="container-fluid">
-			                <h4 style="color:white;">
-			                 탭1
-			                </h4>
-			                <p>
-			                <% for(int i=0; i<3; i++) { %>
-			                <div class="col-md-4">
-			                    <article class="post-blog"><a class="post-blog-image" href="single-post.html"><img src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
-			                    <div class="post-blog-caption">
-			                      <div class="post-blog-caption-header">
-			                        <ul class="post-blog-tags">
-			                          <li><a class="button-tags" href="single-post.html">business</a></li>
-			                        </ul>
-			                        <ul class="post-blog-meta">
-			                          <li><span>by</span>&nbsp;<a href="about-me.html">Ronald Chen</a></li>
-			                        </ul>
-			                      </div>
-			                      <div class="post-blog-caption-body">
-			                        <h5><a class="post-blog-title" href="single-post.html">How to Turn Small Talk Into Smart Conversation</a></h5>
-			                      </div>
-			                      <div class="post-blog-caption-footer">
-			                        <time datetime="2017">Feb 27, 2017 at 6:53 pm</time><a class="post-comment" href="single-post.html"><span class="icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>3</span></a>
-			                      </div>
-			                    </div>
-			                  </article>
-			                </div>
-			                
-			                <% } %>
-			                
-			              </div>
-			            </div>
-			            
-			            
-			            
-			           <div class="item" style="padding-bottom: 120px;">
-			               <div class="container-fluid">
-			                <h4 style="color:white;">
-			                 탭2
-			                </h4>
-			                
-			                
-			                
-			                
-			                
-			           <div class="range range-50 range-xs-center">
-			                <% for(int i=0; i<9; i++ ) { %>
-			                
-			               
-			                  <div class="cell-xs-10 cell-sm-6 cell-lg-4">
-			                    <article class="box-minimal box-minimal-border">
-			                      
-			                      
-			                       <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 5%;"> 
-			 							<div class="embed-responsive-item">
-			                              <iframe src="//www.youtube.com/embed/iYsTvn1bHfU"></iframe>
-			                            </div>
-			                       </div>     
-			
-			
-			
-			
-			
-			                      <hr>
-			                      <div class="box-minimal-text">
-			                      
-			                        <ul class="post-blog-tags">
-			                          <li><a class="button-tags" href="single-post.html">business</a></li>
-			                        </ul>
-			                         <br>
-			                     
-			                        <h5><a class="post-blog-title" href="single-post.html">How to Turn Small Talk Into Smart Conversation</a></h5>
-			                        
-			                        <br>
-			                       <span>by</span>&nbsp;<a href="about-me.html">Ronald Chen</a>
-			                        <a class="post-comment" href="single-post.html"><span class="icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>3</span></a>
-			                        
-			                    
-			                      
-			                      </div>
-			                    </article>
-			                  </div>
-			                
-			                
-			                <% }  %>
-			                
-			                    </div>
-			                 
-			              </div>
-			            </div>
-			            
-			            
-			            
-			            
-			                
-			                
-			
-			            
-			            
-			            
-			            
-			            <div class="item" style="padding-bottom: 120px;">
-			               <div class="container-fluid" >
-			                <h4 style="color:white;">
-			                 탭3
-			                </h4>
-			                	
-			                	
-			                	
-			                	
-			                	 <div class="range range-50 range-xs-center">
-			                <% for(int i=0; i<9; i++ ) { %>
-			                
-			               
-			                  <div class="cell-xs-10 cell-sm-6 cell-lg-4">
-			                    <article class="box-minimal box-minimal-border">
-			                      
-			                      
-			                       <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 5%;"> 
-			 							<div class="embed-responsive-item">
-			                              <iframe src="//www.youtube.com/embed/iYsTvn1bHfU"></iframe>
-			                            </div>
-			                       </div>     
-			
-			
-			
-			
-			
-			                      <hr>
-			                      <div class="box-minimal-text">We use an individual approach to each client and we never offer you a set of standard decisions for your business.</div>
-			                    </article>
-			                  </div>
-			                
-			                
-			                <% }  %>
-			                
-			                </div>
-			                 
-			              </div>
-			            </div>
-			            
-			            
-			            
-			            
-			
-			
-			 <div class="item" style="padding-bottom: 120px;">
-			               <div class="container-fluid">
-			                <h4 style="color:white;">
-			                 탭4
-			                </h4>
-			                
-			                 <div class="range range-50 range-xs-center">
-			                <% for(int i=0; i<9; i++ ) { %>
-			                
-			               
-			                  <div class="cell-xs-10 cell-sm-6 cell-lg-4">
-			                    <article class="box-minimal box-minimal-border">
-			                      <div class="box-minimal-icon mdi mdi-thumb-up-outline"></div>
-			                      <p class="big box-minimal-title">Individual Approach</p>
-			                      <hr>
-			                      <div class="box-minimal-text">We use an individual approach to each client and we never offer you a set of standard decisions for your business.</div>
-			                    </article>
-			                  </div>
-			                
-			                
-			                <% }  %>
-			                
-			                </div>
-			              </div>
-			            </div>
-			
-			
-			
-			
-			            
-			
-			
-			
-			 <div class="item">
-			               <div class="container-fluid" >
-			                <h4 style="color:white;">
-			                 탭5
-			                </h4>
-			                
-			
-			
-			
-			
-			
-			<div class="cell-sm-12 cell-lg-10 cell-xl-3">
-			                    <div class="range range-30">
-			               <% for(int i=0; i<4; i++ ) { %>
-			                    
-			                      <div class="cell-sm-6 cell-xl-12"><a class="post-blog-quote" href="single-post.html">
-			                          <div class="quote-primary quote-novi">
-			                            <svg class="quote-primary-mark" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35px" height="25px" viewbox="0 0 35 25">
-			                              <path d="M27.461,10.206h7.5v15h-15v-15L25,0.127h7.5L27.461,10.206z M7.539,10.206h7.5v15h-15v-15L4.961,0.127h7.5                                    L7.539,10.206z"></path>
-			                            </svg>
-			                            <div class="quote-primary-text">
-			                              <p>Success is the result of preparation, hard work, and learning from failure.</p>
-			                            </div>
-			                            <p class="quote-primary-meta"><span>by</span><span class="cite">Ronald Chen</span></p>
-			                          </div></a>
-			                          </div>
-			                
-			                <% }  %>
-			                	</div>
-			                 </div>
-			
-			
-			              </div>
-			            </div>
-			
-			
-			
-			
-			            
-			            
-			            <!-- End Item -->
-			          </div>
-			          <!-- End Carousel Inner -->
-			       
-			        </div> <!-- 탭끝 -->
-	    	 		
+	    	 	  <div class="row">
+	    	 		<div class="col-md-12">
+						 <h3>고민게시판</h3>
+					</div>	
+				  </div>
 	    	 	</div> 
+	    	 	
+	    	  	<!-- ## 세부영역 a-3: 게시글 header_title -->	    	  	
+	    	 	<div class="a-3" >
+	    	 	  <div class="row">
+	    	 		<div class=" tit col-md-12">
+						 <p>운동이 하기 싫어요</p>
+					</div>	
+				  </div>
+	    	 	</div> 
+	    	 	
+	    	  	<!-- ## 세부영역 a-4: 게시글 header_닉네임, 날짜, 조회수, 댓글수 -->	    	  	
+	    	 	<div class="a-4" >
+	    	 	  <div class="row info">
+	    	 		<div class="col-xs-5 col-sm-7 col-md-7">
+						<span class="glyphicon glyphicon-user">kjs1</span>
+					</div>
+					<div class="col-xs-3 col-sm-3 col-md-3">
+						<span class="glyphicon glyphicon-calendar">2017-12-29
+						19:02</span>
+					</div>
+					<div class="col-xs-2 col-sm-1 col-md-1">
+						<span class="glyphicon glyphicon-eye-open">1</span>
+					</div>
+					<div class="col-xs-2 col-sm-1 col-md-1">
+						<span class="glyphicon glyphicon-comment">1</span>
+					</div>	
+				  </div>
+	    	 	</div> 
+	    	 	
+	    	  	<!-- ## 세부영역 a-5: 게시글 Title -->	    	  	
+	    	 	<div class="a-5" >
+	    	 	  <div class="row">
+	    	 		<div class=" txt col-md-12">
+						<p>요즘 살이 많이 쪄서 다이어트를 시작하게 되었는데 막상 시작하니 운동을 하기가 너무 싫어요 ㅠㅠ <br/>
+							저 어쩌면 좋죠??? 운동하고싶은 마음이 생길 수 있게 도와주세요 </p>
+					</div>	
+				  </div>
+	    	 	</div> 
+
+	    	  	<!-- ## 세부영역 a-6: 게시글 하단 Button -->	    	  	
+	    	 	<div class="a-1" >
+	    	 	  <div class="row">
+	    	 		<div class="col-xs-0 col-sm-1 col-md-1"></div>
+						<div class="col-xs-3 col-sm-3 col-md-3">
+							<a class="button button-icon-alternate button-icon-left button-sm button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>Twitter</a>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3">
+							<a class="button button-icon-alternate button-icon-left button-sm button-twitter" href="#"><span class="icon glyphicon glyphicon-heart-empty"></span>Twitter</a>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3">
+							<a class="button button-icon-alternate button-icon-left button-sm button-twitter" href="#"><span class="icon glyphicon glyphicon-bullhorn"></span>Twitter</a>
+						</div>
+								
+						<div class="col-xs-0 col-sm-2 col-md-2"></div>			
+								
+				  </div>
+	    	 	</div> 
+	    	 	
+	    	  	<!-- ## 세부영역 a-7: 게시글 관련글 list-->	    	  	
+	    	 	<div class="a-7" >
+	    	 	  <div class="row">
+	    	 	  	<div class="col-md-12">
+	    	 		<div class="panel panel-danger">
+						<div class="panel-body">읽으면 도움되는 글</div>
+						<div class="panel-footer"><a>움직이기 싫은 겨울철, 홈트레이닝 즐겁게 하는 법!</a></div>
+						<div class="panel-footer"><a>무작정 따라하는 동작이 몸을 망친다?</a></div>
+						<div class="panel-footer"><a>다이어트할 때, 고구마를 먹어라?</a></div>
+						<div class="panel-footer"><a>술마신 다음날 체중이 왜 빠져있을까?</a></div>
+						<div class="panel-footer"><a>식사조절과 운동, 살뺄 때 뭐가 더 중요할까?</a></div>
+					</div>	
+					</div>
+				  </div>
+	    	 	</div> 	 
+	    	 	
+	    	  	<!-- ## 세부영역 a-8: 게시글 하단_글쓰기, 목록 버튼 -->	    	  	
+	    	 	<div class="a-8" >
+	    	 	  <div class="row">
+						<div class="col-md-6"></div>
+						<div class="col-md-3">
+							<div class="button button-icon button-icon-left button-xs button-secondary button-nina button-ellipse-md button-shadow"><span class="icon glyphicon glyphicon-pencil"></span>글쓰기</div>
+						</div>
+						<div class="col-md-3">
+							<div class="button button-icon button-icon-left button-xs button-secondary button-nina button-ellipse-md button-shadow"><span class="icon glyphicon glyphicon-list"></span>목록</div>
+						</div>
+				  </div>
+	    	 	</div> 	    	 	
+	    	 	
+	    	 	
+	    	  	<!-- ## 세부영역 a-9: 댓글 작성-->	    	  	
+	    	 	<div class="a-9" >
+	    	 	<h5>댓글쓰기</h5>
+	    	 	  <div class="row">
+	    	 		<div class=" txt col-md-12">
+					<div class="common-write">	
+						<form method="post">
+							<input type="checkbox" id="secret" />
+							<label>비밀댓글</label>
+								<div class="row">
+									<div class="col-md-12 ta">
+										<div class="row">
+											<div class="col-md-10">
+												<textarea rows="" cols="77%"></textarea>
+											</div>
+											<div class="col-md-2">
+													<input type="button" class="btn btn-primary" value="등록"/>
+											</div>
+										</div>
+									</div>
+								</div>
+						 </form>
+					</div> 
+					</div>	
+				  </div>
+	    	 	</div> 	 
+	    	 	
+
+	    	  	<!-- ## 세부영역 a-10: 댓글 list-->	    	  	
+	    	 	<div class="a-10" >
+	    	 	  <div class="row">
+					 <div class="col-md-12">
+						<table class="table table-hover">
+								<tr>
+									<td>
+										<div class="row">
+											<div class="col-xs-2 col-md-1">
+												<img src="http://placehold.it/80"
+													class="img-circle img-responsive" alt="" />
+											</div>
+											<div class="col-xs-10 col-md-11">
+												<div>
+													<a href="#"> Congratulations</a>
+													<div class="mic-info">
+														By: <a href="#">Check My Athletics</a> on 12 Jun 2014
+													</div>
+												</div>
+												<div class="comment-text">We would like to
+													congratulate John on his achievement...</div>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="row">
+											<div class="col-xs-2 col-md-1">
+												<img src="http://placehold.it/80"
+													class="img-circle img-responsive" alt="" />
+											</div>
+											<div class="col-xs-10 col-md-11">
+												<div>
+													<a href="#"> Congratulations</a>
+													<div class="mic-info">
+														By: <a href="#">Check My Athletics</a> on 12 Jun 2014
+													</div>
+												</div>
+												<div class="comment-text">We would like to
+													congratulate John on his achievement...</div>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</table>
+					 </div>
+				  </div>
+	    	 	</div> 		    	 	   	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	   	 		    	 		    	 		    	 		    	 	
 	           <!-- A 세부영역 div END --> 
+	            
 	                    
           </div>
       </div>
@@ -342,10 +329,40 @@
 		               
  	              <!-- 세부영역 B-4 : 날짜 영역 START-->   
 		               <div class="b-4">
-				               <br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다
-				               <img alt="" src="mainImages/날씨와기분.png" >               
+				            <table class="table table-hover">
+								<tbody>
+									<tr>
+										<td>안녕하세요</td>
+									</tr>
+									<tr>
+										<td>반갑습니다</td>
+									</tr>
+									<tr>
+										<td>좋은글이네요</td>
+									</tr>
+									<tr>
+										<td>잘보고갑니다^^</td>
+									</tr>
+									<tr>
+										<td>오늘도 즐거운 하루되세요!!!</td>
+									</tr>
+									<tr>
+										<td>너무 뻔한글 같아요 ㅠㅠ</td>
+									</tr>
+									<tr>
+										<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
+									</tr>
+								</tbody>
+							</table>                    
 		               </div>
 	              <!-- 세부영역 B-4 : 날씨 영역 END-->   
+                  
+                  
+ 	              <!-- 세부영역 B-5 : 슬라이더 광고 영역 START-->   
+		               <div class="b-5">
+		                <jsp:include page="/ad_tab_freeDetail.jsp"/>
+		               </div>                  
+	              <!-- 세부영역 B-5 : 슬라이더 광고 영역  END-->                    
                   
           </div>
        </div>
@@ -356,149 +373,12 @@
     <!-- Section 1 END -->
     
     
-    
-    
-    <!-- Section 2 START -->      
-    <section  class="breadcrumbs-custom" style="padding-top: 20px; padding-bottom: 40px;">
-       
-       
-      <!-- ########Section1_CONTENTS_ROW_START --> 
-      <div class="row">
-      
-      <div class="col-md-1"></div>
-      
-       <!-- ### 영역 C_Frame_Div START-->
-      <div class="col-md-8 divC"> 
-          <div class="cFrameDiv">
-          		영역 C_Frame_Div
-	           <!-- ### C 세부영역 div -->
-	    	  	
-	    	  	<div class="c-1">
-	    	  	
-	    	  		<!-- 심리이론 BEST 템플리 가져온 부분 START -->          
-             <!-- Isotope Filters-->
-            <div class="cell-lg-12">
-              <ul class="isotope-filters isotope-filters-horizontal">
-                <li class="block-top-level">
-<!--                   <p class="big">Choose your category:</p> -->
-                  <!-- Isotope Filters-->
-                  <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-1" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
-                  <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-1">
-                    <li id="btnTabLi"><a id="btnTab" class="button-nina active" data-isotope-filter="type 1" data-isotope-group="movies" href="#">기초심리학</a></li>
-                    <li id="btnTabLi"><a id="btnTab" class="button-nina" data-isotope-filter="type 2" data-isotope-group="movies" href="#">12월 인기글</a></li>
-                    <li id="btnTabLi"><a id="btnTab"class="button-nina" data-isotope-filter="type 3" data-isotope-group="movies" href="#">자아/자존감</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-              <div class="cell-lg-12">
-            <div class="divider divider-default" style="max-width: 514px;"></div>
-            </div>
-            <!-- Isotope Content-->
-            <div class="cell-lg-12">
-              <div class="isotope isotope-md row" data-isotope-layout="fitRows" data-isotope-group="movies" data-lightgallery="group">
-                <div class="row">
-                  
-                  
-
- 				<% for(int i=0; i<6; i++) { %>
-                  <div class="col-xs-4 col-sm-3 col-md-3 col-xl-2 isotope-item" data-filter="type 3">
-                    <!-- Thumbnail simple-->
-                    <div class="thumbnail-simple"><a class="thumbnail-simple-image-wrap" href="#"><img class="thumbnail-simple-image" src="mainImages/sample.png" alt="" width="270" height="200"/></a>
-                      <p class="thumbnail-simple-title"><a href="#">Home 자존감</a></p>
-                      <p class="thumbnail-simple-subtitle">2013</p>
-                    </div>
-                  </div>
-                <% } %>
-               
-                
-               <% for(int i=0; i<8; i++) { %>
-                  <div class="col-xs-4 col-sm-3 col-md-3 col-xl-2 isotope-item" data-filter="type 2">
-                    <!-- Thumbnail simple-->
-                    <div class="thumbnail-simple"><a class="thumbnail-simple-image-wrap" href="#"><img class="thumbnail-simple-image" src="mainImages/sample.png" alt="" width="270" height="200"/></a>
-                      <p class="thumbnail-simple-title"><a href="#">Safe 인기글</a></p>
-                      <p class="thumbnail-simple-subtitle">2013</p>
-                    </div>
-                  </div>
-                <% } %>  
-                
-               <% for(int i=0; i<7; i++) { %>
-                  <div class="col-xs-4 col-sm-3 col-md-3 col-xl-2 isotope-item" data-filter="type 1">
-                    <!-- Thumbnail simple-->
-                    <div class="thumbnail-simple"><a class="thumbnail-simple-image-wrap" href="#"><img class="thumbnail-simple-image" src="mainImages/sample.png" alt="" width="270" height="200"/></a>
-                      <p class="thumbnail-simple-title"><a href="#">Olympus 기초심리학</a></p>
-                      <p class="thumbnail-simple-subtitle">2013</p>
-                    </div>
-                  </div>
-				<% }  %>
-
-
-
-
-
-
-            </div>
-          </div>
-<!--           <a class="button button-secondary button-nina" href="#">view more movies</a> -->
-        </div>
-        
-        <!-- 심리이론 BEST 템플릿 가져온 부분 끝 -->
-	    	  	
-	    	  	</div>
-	    	 	
-	    	 	<div class="c-2">C-2</div> 
-	           <!-- C 세부영역 div END --> 
-	                    
-          </div>
-      </div>
-       <!-- 영역 C_Frame_Div END-->     
-      
-      
-      
-       <!-- ### 영역 D_Frame_Div START-->    
-       <div class="col-md-2 divD">
-          <div class="dFrameDiv">
-           	영역 D_Frame_Div
-	         <!-- ### D 세부영역 div -->             
-	              <!-- 세부영역 D-1 : 상담광고 tab START-->   
-		               <div class="d-1">
-		                  <!-- 상담 광고 tab START -->
-				           <jsp:include page="/ad_tab.jsp"/>
-		               </div>
-	              <!-- 세부영역 D-1 : 상담광고 tab END-->   
-               
-	              <!-- 세부영역 D-2 : 심리테스트 영역 START-->   
-		               <div class="d-2">
-							D-2
-		               </div> 
-	              <!-- 세부영역 D-2 : 심리테스트 영역 END-->   
-		               
-	              <!-- 세부영역 D-3 :  START-->   
-                		<div style="border: solid; border-color: babyblue; margin-top: 25px;">
-	             			 D-3
-          			     </div>
-	              <!-- 세부영역 D-3 :  END-->   
-		               
-		               
- 	              <!-- 세부영역 D-4 :  START-->   
-		               <div style="border: solid; border-color: babyblue; margin-top: 25px;">
-				              D-4
-		               </div>
-	              <!-- 세부영역 D-4 :  END-->   
-                  
-          </div>
-       </div>
-        <!-- 영역 D_Frame_Div END-->  
-      </div>
-      <!-- Section2_CONTENTS_ROW_END -->      
-    </section>
-    <!-- section2 END -->     
-    
+   
     
     
     <!-- 하단 광고 DIV-->
         <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
+        style="padding-top: 45px; margin-top: 0px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
           <div class="shell">
             <h2 class="text-light">책광고</h2>
           </div>

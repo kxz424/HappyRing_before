@@ -26,93 +26,12 @@
 <link rel="stylesheet" href="/HappyRing/css/main/main.css">
 <link rel="stylesheet" href="/HappyRing/css/free/commonFree.css">
 <link rel="stylesheet" href="/HappyRing/css/free/freeList.css">
+<link rel="stylesheet" href="/HappyRing/css/free/freeBoardDetail.css">
 
 
 
 <style type="text/css">
 
-/* 댓글 영역 */
-.reply td, .notice {
-	font-size: 13px;
-}
-
-/* 오른쪽 영역 설정 */
-.side-area {
-	margin-top: 33px;
-}
-
-/* 게시물 상세보기 설정 */
-.board-detail h3 {
-	border-bottom: 2px solid #5d5d5d;
-	padding-bottom: 8px;
-	margin-bottom: 20px;
-}
-.tit {
-	font-size: 20px;
-	padding: 20px 0 20px 0;
-	border-bottom: 1px solid #ececec;
-}
-.info {
-	margin: 10px 0 10px 0;
-}
-.info .col-md-1 {
-	border-left: 1px solid #ececec;
-}
-
-/* 게시물 즐겨찾기 및 엔젤링, 신고하기 버튼 */
-.option-btn {
-	padding: 45px 0;
-}
-
-/* 읽으면 도움되는 글 */
-.panel-footer {
-	font-size: 13px;
-}
-
-/* 댓글작성영역 */
-.common-write {
-	border: 1px solid #cecece;
-	background: #ececec;
-	border-radius: 3px;
-	margin: 15px;
-}
-.ta {
-	margin: 10px;
-}
-.common-write [type="checkbox"] {
-	margin: 10px 10px;
-}
-
-
-
-/* 각 영역별 구분선 */
-.div1 {
-	border: 2px solid red;
-}
-.div2 {
-	border: 2px solid blue;
-}
-.div3 {
-	border: 2px solid orange;
-}
-.div4 {
-	border: 2px solid yellow;
-}
-.div5 {
-	border: 2px solid fuchsia;
-}
-.div6 {
-	border: 2px solid green;
-}
-.div7 {
-	border: 2px solid gray;
-}
-.div8 {
-	border: 2px solid olive;
-}
-.div9 {
-	border: 2px solid lime;
-}
 </style>
 
 
@@ -122,13 +41,11 @@
 
 	<div class="page">
 
-		<jsp:include page="WEB-INF/views/include/header.jsp"></jsp:include>
-
-
-
-
-
-
+      
+      <!-- ### header START -->     
+				<jsp:include page="/WEB-INF/views/include/header.jsp"/>
+      <!-- header END -->
+      
 			<!-- Section 1 START -->      
     <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
        
@@ -584,7 +501,8 @@
 
 
 
-
-	<jsp:include page="WEB-INF/views/include/footer.jsp"></jsp:include>
+  <!-- footer START -->
+             <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
+      <!-- footer END -->
 </body>
 </html>

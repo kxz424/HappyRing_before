@@ -12,9 +12,7 @@
 
 .a-1{
 	border: solid; border-color: pink; height: auto; padding-top: 1%;
-	
 }
-
 
 .a-1-title{
   border: solid; border-color: pink; height: 46px; padding-top: 1%;border-radius: 19px;
@@ -22,8 +20,38 @@
 
 .a-2{
 	height: auto;padding-top: 25px; border: solid; border-color: skyblue;
-	
-	
+}
+
+.a-3{
+	height: auto;padding-top: 25px; border: solid; border-color: purple;
+}
+
+.a-4{
+	height: auto;padding-top: 25px; border: solid; border-color: pink;
+}
+
+.a-5{
+	height: auto;padding-top: 25px; border: solid; border-color: yellow;
+}
+
+.a-6{
+	height: auto;padding-top: 25px; border: solid; border-color: grey;
+}
+
+.a-7{
+	height: auto;padding-top: 25px; border: solid; border-color: green;
+}
+
+.a-8{
+	height: auto;padding-top: 25px; border: solid; border-color: blue;
+}
+
+.a-9{
+	height: auto;padding-top: 25px; border: solid; border-color: red;
+}
+
+.a-10{
+	height: auto;padding-top: 25px; border: solid; border-color: skyblue;
 }
 
 
@@ -59,10 +87,14 @@ border: solid; border-color: blue;
 
 
 .b-4{
-	border: solid; border-color: babyblue; margin-top: 25px;
+	border: solid; border-color: pink; margin-top: 25px;
 	height: auto;
 }
 
+.b-5{
+	border: solid; border-color: green; margin-top: 25px;
+	height: auto;
+}
 
 
 /* ���� C */
