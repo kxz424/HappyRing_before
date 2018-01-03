@@ -10,8 +10,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
-  	<link rel="stylesheet" href="/HappyRing/css/main/main.css">
+ 	
+ 	<!-- 공통 Stylesheets -->
+      <link rel="stylesheet" href="/HappyRing/css/main/main.css">
    
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 </head>
   <body>
@@ -27,7 +33,6 @@
     <!-- Section 1 START -->      
     <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
        
-       
       <!-- ########Section1_CONTENTS_ROW_START --> 
       <div class="row">
       
@@ -36,10 +41,11 @@
        <!-- ### 영역 A_Frame_Div START-->
       <div class="col-md-8 divA"> 
           <div class="aFrameDiv">
-          		영역 A_Frame_Div
-          
+          		 
 	           <!-- ### A 세부영역 div -->
-	    	  	<div class="a-1">A-1</div>
+	    	  	<div class="a-1-title">
+	    	  		 <h5 class="typed-text-wrap">&nbsp;어서오세요 &nbsp;<span class="typed-text"></span>&nbsp;♡</h5>
+	    	  	</div>
 	    	 	<div class="a-2" >A-2</div> 
 	           <!-- A 세부영역 div END --> 
 	                    
