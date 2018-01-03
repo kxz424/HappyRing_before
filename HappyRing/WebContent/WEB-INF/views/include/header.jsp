@@ -158,7 +158,7 @@ background-color:rgb(87, 203, 204);
                       </li>
                     </ul>
                   </li>
-                  <li><a href="#">커뮤니티</a>
+                  <li><a href="community/freeBoard/freeBoardList.jsp">커뮤니티</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
