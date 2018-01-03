@@ -313,19 +313,19 @@
             <h2 class="text-light">책광고</h2>
           </div>
         </div>
-      <!— footer START —>
+      <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
-      <!— footer END —>
+      <!-- footer END -->
     </div>
-    <!— Global Mailform Output—>
+    <!-- Global Mailform Output -->
     <div class="snackbars" id="form-output-global"></div>
-    <!— 공통 Javascript—>
+    <!-- 공통 Javascript -->
     <script src="/HappyRing/js/core.min.js"></script>
     <script src="/HappyRing/js/script.js"></script>
-    <!— 메인 Javascript—>
+    <!-- 메인 Javascript -->
      <script src="/HappyRing/js/main/main.js"></script>
      
-    <!— freeBoard Javascript —>
+    <!--  freeBoard Javascript -->
     <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
   </body>
 </html>
