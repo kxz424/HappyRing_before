@@ -12,7 +12,7 @@
                             
                             <!-- Modal -->
                             <div class="modal fade bs-modal-md" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                              <div class="modal-dialog modal-md">
+                              <div class="modal-dialog modal-md" style="margin-top: 131px;">
                                 <div class="modal-content">
                                     <br>
                                     <div class="bs-example bs-example-tabs">
