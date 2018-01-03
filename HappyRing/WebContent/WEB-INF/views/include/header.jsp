@@ -158,25 +158,25 @@ background-color:rgb(87, 203, 204);
                       </li>
                     </ul>
                   </li>
-                  <li><a href="community/freeBoard/freeBoardList.jsp">커뮤니티</a>
+                  <li><a href="view/community/freeBoard/freeBoardList.jsp">커뮤니티</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
-                      <li><a href="community/freeBoard/freeBoardList.jsp">자유게시판</a>
+                      <li><a href="view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
                       </li>
-                      <li><a href="community/worryBoard/worryBoardList.jsp">고민 게시판</a>
+                      <li><a href="view/community/worryBoard/worryBoardList.jsp">고민 게시판</a>
                       </li>
-                       <li><a href="community/supportBoard/supportBoardList.jsp">응원 게시판</a>
+                       <li><a href="view/community/supportBoard/supportBoardList.jsp">응원 게시판</a>
                       </li>
-                       <li><a href="community/tipsBoard/tipsBoardList.jsp">팁 & 노하우</a>
+                       <li><a href="view/community/tipsBoard/tipsBoardList.jsp">팁 & 노하우</a>
                       </li>
-                       <li><a href="community/worryBoard/worryBoardList.jsp">상담 후기</a>
+                       <li><a href="view/community/worryBoard/worryBoardList.jsp">상담 후기</a>
                       </li>
-                      <li><a href="community/consultReview/consultReBoardList.jsp">상담 후기</a>
+                      <li><a href="view/community/consultReview/consultReBoardList.jsp">상담 후기</a>
                       </li>
-                      <li><a href="community/toAdminBoard/toAdminBoardList.jsp">관리자에게</a>
+                      <li><a href="view/community/toAdminBoard/toAdminBoardList.jsp">관리자에게</a>
                       </li>
-                      <li><a href="community/noticeBoard/noticeBoardList.jsp">공지사항</a>
+                      <li><a href="view/community/noticeBoard/noticeBoardList.jsp">공지사항</a>
                       </li>
                       
                       

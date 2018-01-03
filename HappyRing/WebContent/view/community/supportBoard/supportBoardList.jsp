@@ -225,7 +225,7 @@
 	         <!-- ### B 세부영역 div -->             
 	              <!-- 세부영역 B-1 : 로그인 START-->   
 		               <div class="b-1">
-		                    <jsp:include page="/login.jsp"/>
+		                    <jsp:include page="../../member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                

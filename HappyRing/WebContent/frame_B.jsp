@@ -16,7 +16,7 @@
               
 	              <!-- 세부영역 B-1 : 로그인 START-->   
 		               <div style="border: solid; border-color: black;">
-		                    <jsp:include page="/login.jsp"/>
+		                    <jsp:include page="view/member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                
