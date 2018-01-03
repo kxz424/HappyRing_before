@@ -64,19 +64,19 @@
 										data-simulate-touch="false">
 										<div class="swiper-wrapper">
 											<div class="swiper-slide"
-												data-slide-bg="images/slider-1-slide-1-1920x910.jpg">
+												data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
 												<div class="swiper-slide-caption">
 													<div class="section-md"></div>
 												</div>
 											</div>
 											<div class="swiper-slide"
-												data-slide-bg="images/slider-1-slide-2-1920x910.jpg">
+												data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
 												<div class="swiper-slide-caption">
 													<div class="section-md"></div>
 												</div>
 											</div>
 											<div class="swiper-slide"
-												data-slide-bg="images/slider-1-slide-3-1920x910.jpg">
+												data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
 												<div class="swiper-slide-caption">
 													<div class="section-md"></div>
 												</div>
