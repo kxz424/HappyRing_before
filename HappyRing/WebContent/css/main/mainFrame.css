@@ -22,9 +22,21 @@
 
 .a-2{
 	height: auto;padding-top: 25px; border: solid; border-color: skyblue;
-	
-	
 }
+
+.a-3{
+	height: auto;padding-top: 25px; border: solid; border-color: purple;
+}
+
+
+.a-4{
+	height: auto;padding-top: 25px; border: solid; border-color: pink;
+}
+
+.a-5{
+	height: auto;padding-top: 25px; border: solid; border-color: yellow;
+}
+
 
 
 /* ���� B */

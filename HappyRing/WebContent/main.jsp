@@ -12,7 +12,7 @@
     <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
  	
  	<!-- 공통 Stylesheets -->
-      <link rel="stylesheet" href="/HappyRing/css/main/main.css">
+      <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
    
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -80,7 +80,7 @@
 			                <p>
 			                <% for(int i=0; i<3; i++) { %>
 			                <div class="col-md-4">
-			                    <article class="post-blog"><a class="post-blog-image" href="single-post.html"><img src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
+			                    <article class="post-blog"><a class="post-blog-image myImg" href="single-post.html"><img src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
 				                    <div class="post-blog-caption">
 				                    
 				                    	<!-- header 부분 -->
