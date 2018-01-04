@@ -117,23 +117,16 @@
 												standard decisions for your business.</div>
 											<hr>
 											
-											<div class="row hash-button">
-												<div class="col-xs-12 col-sm-12 col-md-12" >
-													<a
-														class="button button-twitter"
+											<!-- 해시태그 -->	
+											<div>
+												<a class="button button-twitter hash-button"
 														href="#">#도전방은 어떻게 사용하나요?</a>
-												</div>
-												<div class="col-xs-12 col-sm-12 col-md-12" >
-													<a
-														class="button button-twitter"
+												<a class="button button-twitter hash-button"
 														href="#">#현재 진행형 도전방</a>
-												</div>
-												<div class="col-xs-12 col-sm-12 col-md-12" >
-													<a
-														class="button button-twitter"
+												<a class="button button-twitter hash-button"
 														href="#">#가장 많이 참여한 도전방</a>
-												</div>
 											</div>
+													
 										</article>
 									</div>
 									<!-- 도전 전체보기 - END -->
@@ -153,6 +146,19 @@
 											<div class="box-minimal-text">We use an individual
 												approach to each client and we never offer you a set of
 												standard decisions for your business.</div>
+
+											<hr>
+											
+											<!-- 해시태그 -->	
+											<div>
+												<a class="button button-twitter" href="#">#자아/자존감</a> <a
+													class="button button-twitter" href="#">#가족</a> <a
+													class="button button-twitter" href="#">#연인</a> <a
+													class="button button-twitter" href="#">#학업</a> <a
+													class="button button-twitter" href="#">#대인관계</a> <a
+													class="button button-twitter" href="#">#미래</a>
+											</div>
+
 										</article>
 									</div>
 									<!-- 일주일 도전 - END -->
@@ -172,6 +178,17 @@
 											<div class="box-minimal-text">We use an individual
 												approach to each client and we never offer you a set of
 												standard decisions for your business.</div>
+												
+											<hr/>	
+											<!-- 해시태그 -->	
+											<div>
+												<a class="button button-twitter" href="#">#자아/자존감</a> <a
+													class="button button-twitter" href="#">#가족</a> <a
+													class="button button-twitter" href="#">#연인</a> <a
+													class="button button-twitter" href="#">#학업</a> <a
+													class="button button-twitter" href="#">#대인관계</a> <a
+													class="button button-twitter" href="#">#미래</a>
+											</div>
 										</article>
 									</div>
 									<!-- 30일 도전 - END -->
@@ -191,6 +208,17 @@
 											<div class="box-minimal-text">We use an individual
 												approach to each client and we never offer you a set of
 												standard decisions for your business.</div>
+											
+											<hr/>
+											<!-- 해시태그 -->		
+											<div>
+												<a class="button button-twitter" href="#">#자아/자존감</a> <a
+													class="button button-twitter" href="#">#가족</a> <a
+													class="button button-twitter" href="#">#연인</a> <a
+													class="button button-twitter" href="#">#학업</a> <a
+													class="button button-twitter" href="#">#대인관계</a> <a
+													class="button button-twitter" href="#">#미래</a>
+											</div>
 										</article>
 									</div>
 									<!-- 그룹방 - END -->
@@ -225,20 +253,16 @@
 						<div class="b-2">
 
 							<div class="row b-2-row">
-								<button type="button" class="btn btn-success col-md-6"
-									style="border-radius: 15px 0px 0px 0px; height: 120px;">
+								<button type="button" class="btn btn-success col-xs-3 col-sm-6 col-md-6">
 									심리<br>자가측정<br>테스트
 								</button>
-								<button type="button" class="btn btn-info col-md-6"
-									style="border-radius: 0px 15px 0px 0px; height: 120px;">
+								<button type="button" class="btn btn-info col-xs-3 col-sm-6 col-md-6">
 									매일 목표 <br> 처방받기
 								</button>
-								<button type="button" class="btn btn-warning col-md-6"
-									style="border-radius: 00px 0px 0px 15px; height: 120px;">
+								<button type="button" class="btn btn-warning col-xs-3 col-sm-6 col-md-6">
 									happyRing<br>APP
 								</button>
-								<button type="button" class="btn btn-danger col-md-6"
-									style="border-radius: 0px 0px 15px 0px; height: 120px;">
+								<button type="button" class="btn btn-danger col-xs-3 col-sm-6 col-md-6">
 									근처<br>상담소<br>찾기
 								</button>
 							</div>

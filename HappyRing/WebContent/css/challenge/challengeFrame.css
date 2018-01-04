@@ -10,6 +10,18 @@
 	padding: 10px 10px 15px; margin-bottom: 30px;
 }
 /* 도전 전체보기 버튼 */
-.hash-button div {
-	margin-bottom: 5px; margin-top: 10px;
+.challenge article a { 
+	margin-top: 0px;
+	font-size: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding: 5px;
+	height: 30%;
+	min-width: 12%;
+	margin-left: 3px;
+	line-height: 0px;
+}
+/* 해시태그 버튼 */
+.challenge .box-minimal-text{
+	height: 100px;
 }
