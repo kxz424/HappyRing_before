@@ -1,0 +1,53 @@
+
+
+/* 댓글 영역 */
+.reply td, .notice {
+	font-size: 13px;
+}
+/* 검색창 설정 */
+.search-box {
+	min-height: 35px;
+}
+
+.search-panel span, .search-panel a {
+	font-size: 12px;
+}
+
+.search-bar {
+	padding-top: 2.5px;
+}
+
+/* 오른쪽 영역 설정 */
+.side-area {
+	margin-top: 33px;
+}
+
+/* 카테고리텝 설정 */
+.search-btn {
+	padding: 0 20px;
+}
+
+.search-panel span, .search-panel a {
+	font-size: 12px;
+}
+
+/* 테이블 설정 */
+.table-list {
+	margin-top: 30px;
+}
+
+th, td {
+	font-size: 14px;
+}
+
+.t1, .t5, .t7, .t8 {
+	width: 9%;
+}
+
+.t2, .t3, .t6 {
+	width: 15%;
+}
+
+#pageNum a, #write {
+	font-size: 12px;
+}
