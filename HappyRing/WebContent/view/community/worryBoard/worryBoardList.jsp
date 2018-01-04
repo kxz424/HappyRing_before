@@ -195,17 +195,7 @@ th, td {
               
               
               <!-- 고민게시판 list START -->
-              <div class="divFreeList">
-              <div class="row table-list">
-                  <div class="col-md-12">
-
-
-                     
-                     
-                     
-                     
-                     
-                     
+                     <div class="a-3">
                      <div class="row table-list">
 						<div class="col-md-12">
 
@@ -224,7 +214,7 @@ th, td {
 										data-toggle="tab">심리적 고민</a></li>
 								</ul>
 								<!-- Tab panes-->
-								<div class="tab-content">
+								<div class="tab-content" style="padding-right: 0px;">
 									<div class="tab-pane fade in active" id="tabs-4-1">
 										<table class="table table-hover">
 											<thead>
@@ -254,29 +244,9 @@ th, td {
 												</c:forEach>
 											</tbody>
 										</table>
-
-										<div class="row">
-
-											<div class="col-md-3">
-												<input class="btn btn-primary" type="button" id="write"
-													value="글쓰기" />
-											</div>
-											<div class="col-md-9">
-
-												<!-- 페이징 -->
-												<ul class="pagination-custom" id="pageNum">
-													<li><a href="">◀◀</a></li>
-													<li><a href="">◀</a></li>
-													<c:forEach var="i" begin="1" end="4">
-														<li><a href="">${i}</a></li>
-													</c:forEach>
-													<li><a href="">▶</a></li>
-													<li><a href="">▶▶</a></li>
-												</ul>
-											</div>
-											<div class="col-md-1"></div>
-										</div>
 									</div>
+									
+									
 									<div class="tab-pane fade" id="tabs-4-2">
 										<table class="table table-hover">
 											<thead>
@@ -307,27 +277,6 @@ th, td {
 											</tbody>
 										</table>
 
-										<div class="row">
-
-											<div class="col-md-3">
-												<input class="btn btn-primary" type="button" id="write"
-													value="글쓰기" />
-											</div>
-											<div class="col-md-9">
-
-												<!-- 페이징 -->
-												<ul class="pagination-custom" id="pageNum">
-													<li><a href="">◀◀</a></li>
-													<li><a href="">◀</a></li>
-													<c:forEach var="i" begin="1" end="4">
-														<li><a href="">${i}</a></li>
-													</c:forEach>
-													<li><a href="">▶</a></li>
-													<li><a href="">▶▶</a></li>
-												</ul>
-											</div>
-											<div class="col-md-1"></div>
-										</div>
 									</div>
 									<div class="tab-pane fade" id="tabs-4-3">
 										<table class="table table-hover">
@@ -359,27 +308,7 @@ th, td {
 											</tbody>
 										</table>
 
-										<div class="row">
-
-											<div class="col-md-3">
-												<input class="btn btn-primary" type="button" id="write"
-													value="글쓰기" />
-											</div>
-											<div class="col-md-9">
-
-												<!-- 페이징 -->
-												<ul class="pagination-custom" id="pageNum">
-													<li><a href="">◀◀</a></li>
-													<li><a href="">◀</a></li>
-													<c:forEach var="i" begin="1" end="4">
-														<li><a href="">${i}</a></li>
-													</c:forEach>
-													<li><a href="">▶</a></li>
-													<li><a href="">▶▶</a></li>
-												</ul>
-											</div>
-											<div class="col-md-1"></div>
-										</div>
+										
 									</div>
 									<div class="tab-pane fade" id="tabs-4-4">
 										<table class="table table-hover">
@@ -417,12 +346,32 @@ th, td {
 							</div>
 						</div>
 					</div>
+				</div>
                      
-                  </div>
-               </div>
-              </div>
               <!-- 고민게시판 list END -->
-              
+           <div class="a-4">
+					<div class="row">
+							<div class="col-xs-0  col-md-4"></div>
+<!-- 					                       페이징 -->
+					          <div class="col-xs-12 col-md-5" style=" padding-right: 0px; padding-left: 0px;">
+					                  <ul class="pagination-custom" id="pageNum">
+					                       <li><a href="">◀◀</a></li>
+					                       <li><a href="">◀</a></li>
+					                          <c:forEach var="i" begin="1" end="4">
+					                       <li><a href="">${i}</a></li>
+					                           </c:forEach>
+					                       <li><a href="">▶</a></li>
+					                       <li><a href="">▶▶</a></li>
+					                    </ul>
+					          </div>
+					          <div class="col-xs-7 col-md-1"></div>
+<!-- 					                        글쓰기 버튼 -->
+					          <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
+					               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
+					          </div>
+					           <div class="col-xs-3 col-md-0"></div>
+					</div>
+			</div>
               
               
               

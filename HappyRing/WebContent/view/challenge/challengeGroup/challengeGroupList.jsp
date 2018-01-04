@@ -148,7 +148,7 @@
      							 <!-- ## 타이틀 및 search창 START-->
 						       	   <div class="row">
 					                  <div class="col-md-3">
-					                     <h5>자유게시판</h5>
+					                     <h5>그룹방</h5>
 					                  </div>
 					                  <div class="col-md-3"></div>
 					                  <div class="col-md-6 search-bar">
@@ -266,7 +266,7 @@
                         
                         <div class="col-md-3"></div>
                         <!-- 글쓰기 버튼 -->
-                         <div class="col-md-1">
+                         <div class="col-md-1" style="padding-left: 0px;">
                            <input class="btn btn-primary" type="button" id="write"
                               value="글쓰기" />
                         </div>
