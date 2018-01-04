@@ -26,12 +26,93 @@
 <link rel="stylesheet" href="/HappyRing/css/main/main.css">
 <link rel="stylesheet" href="/HappyRing/css/free/commonFree.css">
 <link rel="stylesheet" href="/HappyRing/css/free/freeList.css">
-<link rel="stylesheet" href="/HappyRing/css/free/freeBoardDetail.css">
 
 
 
 <style type="text/css">
 
+/* 댓글 영역 */
+.reply td, .notice {
+	font-size: 13px;
+}
+
+/* 오른쪽 영역 설정 */
+.side-area {
+	margin-top: 33px;
+}
+
+/* 게시물 상세보기 설정 */
+.board-detail h3 {
+	border-bottom: 2px solid #5d5d5d;
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+}
+.tit {
+	font-size: 20px;
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid #ececec;
+}
+.info {
+	margin: 10px 0 10px 0;
+}
+.info .col-md-1 {
+	border-left: 1px solid #ececec;
+}
+
+/* 게시물 즐겨찾기 및 엔젤링, 신고하기 버튼 */
+.option-btn {
+	padding: 45px 0;
+}
+
+/* 읽으면 도움되는 글 */
+.panel-footer {
+	font-size: 13px;
+}
+
+/* 댓글작성영역 */
+.common-write {
+	border: 1px solid #cecece;
+	background: #ececec;
+	border-radius: 3px;
+	margin: 15px;
+}
+.ta {
+	margin: 10px;
+}
+.common-write [type="checkbox"] {
+	margin: 10px 10px;
+}
+
+
+
+/* 각 영역별 구분선 */
+.div1 {
+	border: 2px solid red;
+}
+.div2 {
+	border: 2px solid blue;
+}
+.div3 {
+	border: 2px solid orange;
+}
+.div4 {
+	border: 2px solid yellow;
+}
+.div5 {
+	border: 2px solid fuchsia;
+}
+.div6 {
+	border: 2px solid green;
+}
+.div7 {
+	border: 2px solid gray;
+}
+.div8 {
+	border: 2px solid olive;
+}
+.div9 {
+	border: 2px solid lime;
+}
 </style>
 
 
@@ -41,11 +122,12 @@
 
 	<div class="page">
 
-      
-      <!-- ### header START -->     
-				<jsp:include page="/WEB-INF/views/include/header.jsp"/>
-      <!-- header END -->
-      
+
+
+
+
+
+
 			<!-- Section 1 START -->      
     <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
        
@@ -126,17 +208,17 @@
 						</div>
 						<div class="col-md-12 div3">
 							<div class="row info"> 
-								<div class="col-xs-5 col-sm-7 col-md-7">
+								<div class="col-md-7">
 									<span class="glyphicon glyphicon-user">kjs1</span>
 								</div>
-								<div class="col-xs-3 col-sm-3 col-md-3">
+								<div class="col-md-3">
 									<span class="glyphicon glyphicon-calendar">2017-12-29
 										19:02</span>
 								</div>
-								<div class="col-xs-2 col-sm-1 col-md-1">
+								<div class="col-md-1">
 									<span class="glyphicon glyphicon-eye-open">1</span>
 								</div>
-								<div class="col-xs-2 col-sm-1 col-md-1">
+								<div class="col-md-1">
 									<span class="glyphicon glyphicon-comment">1</span>
 								</div>
 							</div>
@@ -153,19 +235,19 @@
 						
 						<div class="col-md-12 option-btn div5">
 							<div class="row">
-								<div class="col-xs-0 col-sm-1 col-md-1"></div>
+								<div class="col-md-1"></div>
 								
-								<div class="col-xs-3 col-sm-3 col-md-3">
+								<div class="col-md-3">
 									<a class="button button-icon-alternate button-icon-left button-sm button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>Twitter</a>
 								</div>
-								<div class="col-xs-3 col-sm-3 col-md-3">
+								<div class="col-md-3">
 									<a class="button button-icon-alternate button-icon-left button-sm button-twitter" href="#"><span class="icon glyphicon glyphicon-heart-empty"></span>Twitter</a>
 								</div>
-								<div class="col-xs-3 col-sm-3 col-md-3">
+								<div class="col-md-3">
 									<a class="button button-icon-alternate button-icon-left button-sm button-twitter" href="#"><span class="icon glyphicon glyphicon-bullhorn"></span>Twitter</a>
 								</div>
 								
-								<div class="col-xs-0 col-sm-2 col-md-2"></div>
+								<div class="col-md-2"></div>
 							</div>
 						</div>
 						
@@ -298,7 +380,6 @@
 	         <!-- ### B 세부영역 div -->             
 	              <!-- 세부영역 B-1 : 로그인 START-->   
 		               <div class="b-1">
-		                   <jsp:include page="../../member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                
@@ -306,10 +387,10 @@
 		               <div class="b-2">
 		               
 			                <div class="row b-2-row" >
-			                      <button type="button" class="btn btn-success col-xs-6 col-sm-6 col-md-6" style="border-radius:15px 0px 0px 0px; height: 120px;">심리<br/>자가측정<br/>테스트</button>
-			                      <button type="button" class="btn btn-info col-xs-6 col-sm-6 col-md-6" style="border-radius: 0px 15px 0px 0px; height: 120px;"> 매일 목표 <br/> 처방받기</button>
-			                      <button type="button" class="btn btn-warning col-xs-6 col-sm-6 col-md-6" style="border-radius: 00px 0px 0px 15px; height: 120px;">happyRing<br/>APP</button>
-			                      <button type="button" class="btn btn-danger col-xs-6 col-sm-6 col-md-6" style="border-radius: 0px 0px 15px 0px; height: 120px;">근처<br/>상담소<br/>찾기</button>
+			                      <button type="button" class="btn btn-success col-md-6" style="border-radius:15px 0px 0px 0px; height: 120px;">심리<br>자가측정<br>테스트</button>
+			                      <button type="button" class="btn btn-info col-md-6" style="border-radius: 0px 15px 0px 0px; height: 120px;"> 매일 목표 <br> 처방받기</button>
+			                      <button type="button" class="btn btn-warning col-md-6" style="border-radius: 00px 0px 0px 15px; height: 120px;">happyRing<br>APP</button>
+			                      <button type="button" class="btn btn-danger col-md-6" style="border-radius: 0px 0px 15px 0px; height: 120px;">근처<br>상담소<br>찾기</button>
 			                 </div>
 		               </div> 
 	              <!-- 세부영역 B-2 : 심리테스트 영역 END-->   
@@ -501,8 +582,6 @@
 
 
 
-  <!-- footer START -->
-             <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
-      <!-- footer END -->
+
 </body>
 </html>

@@ -188,7 +188,7 @@
       
       
       					<div class="challenge_divC_1" style="border: solid; border-color: green;">
- 						<div class="container-fluid">
+ 						<div class="container-fluid" style="padding-top: 26px;">
 <!-- 						         <div class="range range-50 range-xs-center"> -->
 						         <div class="row">
 						           <% for(int i=0; i<12; i++ ) { %>
@@ -247,16 +247,12 @@
 					</div>	 
 					
 			  <!-- 그룹방 글등록btn 및 paging START -->
-              <div class="divFreePaging">
+              <div class="divFreePaging" style="border: solid; border-color: pink;">
               <div class="row">
 
-                        <div class="col-md-3">
-                           <input class="btn btn-primary" type="button" id="write"
-                              value="글쓰기" />
-                        </div>
-                        <div class="col-md-9">
-
-                           <!-- 페이징 -->
+						<div class="col-md-4"></div>
+                       <!-- 페이징 -->
+                        <div class="col-md-4">
                            <ul class="pagination-custom" id="pageNum">
                               <li><a href="">◀◀</a></li>
                               <li><a href="">◀</a></li>
@@ -267,7 +263,15 @@
                               <li><a href="">▶▶</a></li>
                            </ul>
                         </div>
-                        <div class="col-md-1"></div>
+                        
+                        <div class="col-md-3"></div>
+                        <!-- 글쓰기 버튼 -->
+                         <div class="col-md-1">
+                           <input class="btn btn-primary" type="button" id="write"
+                              value="글쓰기" />
+                        </div>
+                        
+                        
                      </div>
               </div>
               <!-- 자유게시판 글등록btn 및 paging END -->	
