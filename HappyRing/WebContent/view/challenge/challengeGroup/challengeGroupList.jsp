@@ -266,7 +266,7 @@
                         
                         <div class="col-md-3"></div>
                         <!-- 글쓰기 버튼 -->
-                         <div class="col-md-1">
+                         <div class="col-md-1" style="padding-left: 0px;">
                            <input class="btn btn-primary" type="button" id="write"
                               value="글쓰기" />
                         </div>
