@@ -122,6 +122,7 @@
 
 	<div class="page">
 
+		<jsp:include page="WEB-INF/views/include/header.jsp"></jsp:include>
 
 
 
@@ -380,6 +381,7 @@
 	         <!-- ### B 세부영역 div -->             
 	              <!-- 세부영역 B-1 : 로그인 START-->   
 		               <div class="b-1">
+		                    <jsp:include page="/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                
@@ -583,5 +585,6 @@
 
 
 
+	<jsp:include page="WEB-INF/views/include/footer.jsp"></jsp:include>
 </body>
 </html>
