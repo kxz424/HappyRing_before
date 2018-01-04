@@ -16,6 +16,9 @@
                                 <div class="modal-content">
                                     <br>
                                     <div class="bs-example bs-example-tabs">
+                                    <p class="big">happyRing 로그인 창</p>
+                                    
+                                    
                                         <ul id="myTab" class="nav nav-tabs">
                                           <li class="active"><a href="#signin" data-toggle="tab">로그인</a></li>
                                           <li class=""><a href="#signup" data-toggle="tab">회원가입</a></li>
@@ -60,12 +63,9 @@
                                         </div>
                             
                                         <!-- Button -->
-                                        <div class="control-group">
-                                          <label class="control-label" for="signin"></label>
-                                          <div class="controls">
-                                            <button id="signin" name="signin" class="btn btn-success">로그인</button>
-                                          </div>
-                                        </div>
+                                        <div class="form-button">
+                          <button class="button button-block button-secondary button-nina" type="submit">로그인</button>
+                        </div>
                                         </fieldset>
                                         </form>
                                     </div>
