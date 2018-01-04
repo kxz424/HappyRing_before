@@ -78,7 +78,22 @@ border: solid; border-color: blue;
 
 .b-2-row {
 	padding-left: 14px;  padding-right: 14px;
-	
+}
+
+.b-2-row .btn-success{
+	border-radius: 0; height: 120px;
+}
+
+.b-2-row .btn-info{
+	border-radius: 0; height: 120px;
+}
+
+.b-2-row .btn-warning{
+	border-radius: 0; height: 120px;
+}
+
+.b-2-row .btn-danger{
+	border-radius: 0; height: 120px;
 }
 
 .b-3{
