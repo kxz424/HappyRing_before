@@ -223,11 +223,12 @@
           <div class="bFrameDiv">
            	영역 B_Frame_Div
 	         <!-- ### B 세부영역 div -->             
-	              <!-- 세부영역 B-1 : 로그인 START-->   
-		               <div class="b-1">
-		                  <jsp:include page="../../member/login.jsp"/>
-		               </div>
-	              <!-- 세부영역 B-1 : 로그인  END-->   
+                 <!-- 세부영역 B-1 : 로그인 START-->   
+                     <div class="b-1">
+                        <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
+                        <jsp:include page="../../member/login.jsp"/>
+                     </div>
+                 <!-- 세부영역 B-1 : 로그인  END--> 
                
 	              <!-- 세부영역 B-2 : 심리테스트 영역 START-->   
 		               <div class="b-2">
