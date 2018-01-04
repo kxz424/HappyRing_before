@@ -131,15 +131,154 @@
                   
           </div>
        </div>
-       <div class="col-md-1"></div>
+       
         <!-- 영역 B_Frame_Div END-->  
+      
+      
+      
+		<!-- 영역 challenge_divC START-->        
+      <div class="col-md-12 challenge_divC" style="border: solid;">
+      
+	      <div class="row">
+		      <div class="col-md-1"></div>
+		      <div class="col-md-10" style="border: solid; border-color: red;">
+		      
+		      
+		      				<div class="challenge_divC_1" style="border: solid; border-color: blue">
+     							 <!-- ## 타이틀 및 search창 START-->
+						       	   <div class="row">
+					                  <div class="col-md-3">
+					                     <h5>자유게시판</h5>
+					                  </div>
+					                  <div class="col-md-3"></div>
+					                  <div class="col-md-6 search-bar">
+					
+					                     <!-- 검색 입력 -->
+					                     <div class="input-group">
+					                        <div class="input-group-btn search-panel">
+					                           <button type="button"
+					                              class="btn btn-default dropdown-toggle search-btn"
+					                              data-toggle="dropdown">
+					                              <span id="search_concept">Filter by</span> <span class="caret"></span>
+					                           </button>
+					                           <ul class="dropdown-menu" role="menu">
+					                              <li><a href="#contains">Contains</a></li>
+					                              <li><a href="#its_equal">It's equal</a></li>
+					                              <li><a href="#greather_than">Greather than ></a></li>
+					                              <li><a href="#less_than">Less than < </a></li>
+					                              <li class="divider"></li>
+					                              <li><a href="#all">Anything</a></li>
+					                           </ul>
+					                        </div>
+					                        <input type="hidden" name="search_param" value="all"
+					                           id="search_param"> <input type="text"
+					                           class="form-control search-box" name="x"
+					                           placeholder="Search term..."> <span
+					                           class="input-group-btn">
+					                           <button class="btn btn-default search-btn" type="button">
+					                              <span class="glyphicon glyphicon-search"></span>
+					                           </button>
+					                        </span>
+					                     </div>
+					                  </div>
+					               </div>
+					               </div>
+						       	   <!-- 타이틀 및 search창 END-->
+      
+      
+      
+      					<div class="challenge_divC_1" style="border: solid; border-color: green;">
+ 						<div class="container-fluid">
+<!-- 						         <div class="range range-50 range-xs-center"> -->
+						         <div class="row">
+						           <% for(int i=0; i<12; i++ ) { %>
+<!-- 						               <div class="cell-xs-10 cell-sm-6 cell-lg-4"> -->
+						               <div class="col-xs-12 col-sm-4 col-md-3">
+						                   <article class="box-minimal box-minimal-border" style="padding: 12px 35px 13px; margin-bottom: 30px;">
+						                   	   
+						                   	   <div class="row">
+						                   	   	<div class="col-md-8" style=" border-color:  green;"></div>
+						                   	   	<div class="col-md-4" style=" border-color: pink;">no.12344</div>
+						                   	   </div>
+						                   	   
+						                   	   <div>
+							                   	  <div class="box-minimal-icon mdi mdi-thumb-up-outline"></div>
+							                   	      <!-- 제목 --> 
+<!-- 							                          <p class="big box-minimal-title">제목</p> -->
+							                          <!-- 내용 -->
+								                      <div class="box-minimal-text">
+								                      	방 소개 들어가는 부분 <br> client and we never offer you a set of standard decisions for your business.
+								                      </div>
+							                     </div> 
+							                     <br>
+							                     
+							                   <div class="row">
+							                    
+								                    <hr style="margin-top: 20px; margin-bottom: 20px;">
+													
+													<div class="col-md-12">
+													<span style="font-size: 10px;">by</span>&nbsp;<a href="about-me.html" style="font-size: 14px;">Ronald Chen</a>	
+													</div>
+													
+													<!-- 등록일 -->
+													<div class="col-md-12">
+							                        <time datetime="2018" style="font-size: 13px;">Feb 27, 2018 at 6:53 pm</time>						                    
+								                    </div>
+								                    
+								                    <div class="col-md-12">
+								                    	<div class="row">
+								                    		<div class="col-md-5">
+									                    		<span style="font-size: 10px;">엔젤링</span>
+									                    	</div>
+									                    	<div class="col-md-4"></div>
+									                    	<div class="col-md-3">	
+									                    		<span class="glyphicon glyphicon-eye-open">23</span>
+									                    	</div>
+									                    </div>
+								                    </div>
+							                   </div> 
+							                     
+							                      
+						                    </article>
+						                </div>
+						            <% }  %>
+						          </div>
+						  </div>
+					</div>	 
+					
+			  <!-- 그룹방 글등록btn 및 paging START -->
+              <div class="divFreePaging">
+              <div class="row">
+
+                        <div class="col-md-3">
+                           <input class="btn btn-primary" type="button" id="write"
+                              value="글쓰기" />
+                        </div>
+                        <div class="col-md-9">
+
+                           <!-- 페이징 -->
+                           <ul class="pagination-custom" id="pageNum">
+                              <li><a href="">◀◀</a></li>
+                              <li><a href="">◀</a></li>
+                              <c:forEach var="i" begin="1" end="4">
+                                 <li><a href="">${i}</a></li>
+                              </c:forEach>
+                              <li><a href="">▶</a></li>
+                              <li><a href="">▶▶</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-md-1"></div>
+                     </div>
+              </div>
+              <!-- 자유게시판 글등록btn 및 paging END -->	
+					      						
+      
+      </div>  
+      <div class="col-md-1"></div>   
+      </div>
+      </div> 
       </div>
       <!-- Section1_CONTENTS_ROW_END -->
-      <div class="col-md-1"></div>
-      <div style="border: solid; border-color: red;">
-      
-      
-      </div>      
     </section>
     <!-- Section 1 END -->
     
