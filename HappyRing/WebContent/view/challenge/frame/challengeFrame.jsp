@@ -24,7 +24,7 @@
 <!-- 자유게시판 CSS link -->
 <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
 <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css">
-<link rel="stylesheet" href="/HappyRing/css/community/freeList.css">
+<link rel="stylesheet" href="/HappyRing/css/challenge/challengeFrame.css">
 
 
 </head>
@@ -97,27 +97,105 @@
 						<div class="a-2">
 
 							<!-- 도전그룹방 메인버튼 4개 div START -->
-							<div class="a-2-ch1"
-								style="padding: 30px; border: 2px solid red;">
+							<div class="a-2-ch1">
 								<div class="row">
-									<c:forEach var="i" begin="1" end="4">
-										<div class="col-md-6">
-											<article class="box-minimal box-minimal-border"
-												style="padding: 10px 10px 15px; margin-bottom: 30px;">
-												<div class="row">
-													<div class="box-minimal-icon glyphicon glyphicon-list-alt col-md-2"></div>
-													<!-- 제목 -->
-													<p class="big box-minimal-title col-md-6">도전 전체보기</p>
+								
+									<!-- 도전 전체보기 - START -->
+									<div class="col-md-6 challenge">
+										<article class="box-minimal box-minimal-border">
+											<div class="row">
+												<!-- 이미지 -->
+												<div class="box-minimal-icon glyphicon glyphicon-list-alt col-md-2"></div>
+												<!-- 제목 -->
+												<p class="big box-minimal-title col-md-6">도전 전체보기</p>
+											</div>
+
+											<hr>
+											<!-- 내용 -->
+											<div class="box-minimal-text">We use an individual
+												approach to each client and we never offer you a set of
+												standard decisions for your business.</div>
+											<hr>
+											
+											<div class="row hash-button">
+												<div class="col-xs-12 col-sm-12 col-md-12" >
+													<a
+														class="button button-twitter"
+														href="#">#도전방은 어떻게 사용하나요?</a>
 												</div>
-												
-												<hr>
-												<!-- 내용 -->
-												<div class="box-minimal-text">We use an individual
-													approach to each client and we never offer you a set of
-													standard decisions for your business.</div>
-											</article>
-										</div>
-									</c:forEach>
+												<div class="col-xs-12 col-sm-12 col-md-12" >
+													<a
+														class="button button-twitter"
+														href="#">#현재 진행형 도전방</a>
+												</div>
+												<div class="col-xs-12 col-sm-12 col-md-12" >
+													<a
+														class="button button-twitter"
+														href="#">#가장 많이 참여한 도전방</a>
+												</div>
+											</div>
+										</article>
+									</div>
+									<!-- 도전 전체보기 - END -->
+									
+									<!-- 일주일 도전 - START -->
+									<div class="col-md-6 challenge">
+										<article class="box-minimal box-minimal-border">
+											<div class="row">
+												<!-- 이미지 -->
+												<div class="box-minimal-icon glyphicon glyphicon-time col-md-2"></div>
+												<!-- 제목 -->
+												<p class="big box-minimal-title col-md-6">일주일 도전</p>
+											</div>
+
+											<hr>
+											<!-- 내용 -->
+											<div class="box-minimal-text">We use an individual
+												approach to each client and we never offer you a set of
+												standard decisions for your business.</div>
+										</article>
+									</div>
+									<!-- 일주일 도전 - END -->
+									
+									<!-- 30일 도전 - START -->
+									<div class="col-md-6 challenge">
+										<article class="box-minimal box-minimal-border">
+											<div class="row">
+												<!-- 이미지 -->
+												<div class="box-minimal-icon glyphicon glyphicon-calendar col-md-2"></div>
+												<!-- 제목 -->
+												<p class="big box-minimal-title col-md-6">30일 도전</p>
+											</div>
+
+											<hr>
+											<!-- 내용 -->
+											<div class="box-minimal-text">We use an individual
+												approach to each client and we never offer you a set of
+												standard decisions for your business.</div>
+										</article>
+									</div>
+									<!-- 30일 도전 - END -->
+									
+									<!-- 그룹방 - START -->
+									<div class="col-md-6 challenge">
+										<article class="box-minimal box-minimal-border">
+											<div class="row">
+												<!-- 이미지 -->
+												<div class="box-minimal-icon glyphicon glyphicon-question-sign col-md-2"></div>
+												<!-- 제목 -->
+												<p class="big box-minimal-title col-md-6">그룹방</p>
+											</div>
+
+											<hr>
+											<!-- 내용 -->
+											<div class="box-minimal-text">We use an individual
+												approach to each client and we never offer you a set of
+												standard decisions for your business.</div>
+										</article>
+									</div>
+									<!-- 그룹방 - END -->
+									
+									
 								</div>
 							</div>
 							<!-- 도전그룹방 메인버튼 4개 div END -->

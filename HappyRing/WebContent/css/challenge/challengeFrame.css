@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+
+/* 도전그룹방 메인버튼 영역 div */
+.a-2-ch1 {
+	padding: 30px; border: 2px solid red;
+}
+/* 도전그룹방 메인버튼 4개 */
+.challenge article {
+	padding: 10px 10px 15px; margin-bottom: 30px;
+}
+/* 도전 전체보기 버튼 */
+.hash-button div {
+	margin-bottom: 5px; margin-top: 10px;
+}
