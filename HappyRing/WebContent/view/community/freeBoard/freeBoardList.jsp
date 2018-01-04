@@ -25,6 +25,7 @@
       <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
    <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css">
    <link rel="stylesheet" href="/HappyRing/css/community/freeList.css">
+   <link rel="stylesheet" href="/HappyRing/css/common/paging.css">
    
    
 </head>
@@ -192,13 +193,13 @@
 
                            <!-- 페이징 -->
                            <ul class="pagination-custom" id="pageNum">
-                              <li><a href="">◀◀</a></li>
-                              <li><a href="">◀</a></li>
+                              <li><a href=""><span class="glyphicon glyphicon-backward"></span></a></li>
+                              <li><a href=""><span class="glyphicon glyphicon-triangle-left"></span></a></li>
                               <c:forEach var="i" begin="1" end="4">
                                  <li><a href="">${i}</a></li>
                               </c:forEach>
-                              <li><a href="">▶</a></li>
-                              <li><a href="">▶▶</a></li>
+                              <li><a href="" class="paging-btn"><span class="glyphicon glyphicon-triangle-right"></span></a></li>
+                              <li><a href="" class="paging-btn"><span class="glyphicon glyphicon-forward"></span></a></li>
                            </ul>
                         </div>
                         <div class="col-md-1"></div>

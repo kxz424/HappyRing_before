@@ -25,6 +25,7 @@
    	<link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
 	<link rel="stylesheet" href="/HappyRing/css/free/commonFree.css">
 	<link rel="stylesheet" href="/HappyRing/css/free/freeList.css">
+	<link rel="stylesheet" href="/HappyRing/css/common/paging.css">
 	
    
 </head>
