@@ -168,10 +168,21 @@
    
    
 <style type="text/css">
+
+
+
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
 	width: 100%;
 }
-</style>
+
+
+/* */
+
+
+li.section-title{
+padding-bottom: 10%;
+    border-bottom: solid;
+}</style>
 
 
    
@@ -328,7 +339,7 @@
 										  </div>
 									        <ul class="sub-level-1 submenu">
 									          <li class="section-title">
-									            <label>나에게 맞는 도전 찾아보기<span class="glyphicon glyphicon-question-sign"></span></label>
+									            <label style="border-bottom-width: 0px;">나에게 맞는 도전 찾아보기<span class="glyphicon glyphicon-question-sign"></span>
 
 
 
@@ -341,7 +352,7 @@
 
 
 															<!-- 도전 상세검색 select box 3개 START -->
-															<div class="row">
+															<div class="row" style="margin-left: 0px;margin-right: 0px; padding-top: 8%;">
 																<div class="col-md-4">
 																	<span>고민 유형</span>
 																	<select class="selectpicker" data-style="btn-primary"
@@ -381,37 +392,61 @@
 															</div>
 															<!-- 도전 상세검색 select box 3개 END -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</label>
 
 														</li>
 														
 														
 														
-														
-														
 									          <li>
-									            <div class="d-flex">
+									            <div class="d-flex" style="#DEDEDE">
 									            <a href="#!" class="col-10 clickable">추가질문</a>
 									            <a href="#!" class="col-2 expand-icon"><i class="fa fa-plus"></i></a>
 									              </div>
-									            <ul class="sub-level-2 submenu">
-										          <li class="section-title">
-										            <label>By Make</label>
+									            <ul class="sub-level-2 submenu" style="background-color: #EFEFEF;">
+										          <li class="section-title" >
+										            <label style="border-bottom-width: 0px;">추가질문은 왜 있나요?<span class="glyphicon glyphicon-question-sign"></span>
+										            
+										            <!-- 도전 상세검색 _추가질문_ select box 3개 START -->
+															<div class="row" style="margin-left: 0px;margin-right: 0px; padding-top: 8%;">
+																<div class="col-md-4">
+																 <p>금전적 여유</p>
+																</div>
+																<div class="col-md-4">
+																	<select class="selectpicker" data-style="btn-primary"
+																		multiple data-max-options="1" data-title="중분류">
+																		<option>대인관계</option>
+																		<option>가족</option>
+																		<option>학업</option>
+																		<option>미래고민</option>
+																		<option>이성문제</option>
+																		<option>자존감</option>
+																	</select>
+																</div>
+																<div class="col-md-4">
+																	<select class="selectpicker" data-style="btn-primary"
+																		multiple data-max-options="1" data-title="소분류">
+																		<option>대인관계</option>
+																		<option>가족</option>
+																		<option>학업</option>
+																		<option>미래고민</option>
+																		<option>이성문제</option>
+																		<option>자존감</option>
+																	</select>
+																</div>
+															</div>
+															<!-- 도전 상세검색 select box 3개 END -->
+										            
+										            
+										            
+										            
+										            
+										            
+										            
+										            
+										            
+										            
+										            </label>
 										          </li>
 										        </ul>
 									          </li>
