@@ -58,7 +58,26 @@
 
 
 
+<style type="text/css">
 
+.btn.active {                
+	display: none;		
+}
+
+.btn span:nth-of-type(1)  {            	
+	display: none;
+}
+.btn span:last-child  {            	
+/* 	display: block;		 */
+}
+
+.btn.active  span:nth-of-type(1)  {            	
+	display: block;		
+}
+.btn.active span:last-child  {            	
+	display: none;			
+}
+</style>
 
 
 
@@ -182,7 +201,21 @@
 li.section-title{
 padding-bottom: 10%;
     border-bottom: solid;
-}</style>
+}
+</style>
+
+
+
+<style type="text/css">
+.kind-button {
+	float: left; width: auto;
+	margin: 3px;
+}
+.sub-level-1 .section-title label {
+	padding: 5px 5px 5px 10px;
+	font-size: 12px;
+}
+</style>
 
 
    
@@ -473,11 +506,61 @@ padding-bottom: 10%;
 									            <label>By Product
 									            
 									            
-									            
-									            
-									            
-									            
+									            <!--# 해시태그 버튼 group START -->
+									            <div>
+       
+       
+        <div class="kind-button" data-toggle="buttons">
+            <label class="btn btn-lg btn-success active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                <i class="fa fa-check-square"></i> 명상 30분
+            </label>
+            <label class="btn btn-lg btn-danger">
+                <input type="radio" name="options" id="option2" autocomplete="off">
+                <i class="fa fa-tag"></i>&nbsp;명상 30분
+            </label>          
+        </div>
+        <div class="kind-button" data-toggle="buttons">
+            <label class="btn btn-lg btn-success active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                <i class="fa fa-check-square"></i> 명상 30분
+            </label>
+            <label class="btn btn-lg btn-danger">
+                <input type="radio" name="options" id="option2" autocomplete="off">
+                <i class="fa fa-tag"></i>&nbsp;명상 30분
+            </label>          
+        </div>
+        <div class="kind-button" data-toggle="buttons">
+            <label class="btn btn-lg btn-success active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                <i class="fa fa-check-square"></i> 명상 30분
+            </label>
+            <label class="btn btn-lg btn-danger">
+                <input type="radio" name="options" id="option2" autocomplete="off">
+                <i class="fa fa-tag"></i>&nbsp;명상 30분
+            </label>          
+        </div>
+        <div class="kind-button" data-toggle="buttons">
+            <label class="btn btn-lg btn-success active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                <i class="fa fa-check-square"></i> 명상 30분
+            </label>
+            <label class="btn btn-lg btn-danger">
+                <input type="radio" name="options" id="option2" autocomplete="off">
+                <i class="fa fa-tag"></i>&nbsp;명상 30분
+            </label>          
+        </div>
+       
+       
+       
+       
+        
+        
+        
+									            </div>
 									            </label>
+									            <!-- 해시태그 버튼 group END -->
+									            
 									          </li>
 									        </ul>
 									      </li>
