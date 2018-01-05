@@ -1,42 +1,9 @@
-
-/* 댓글 영역 */
-.reply td, .notice {
-	font-size: 13px;
-}
-
-/* 오른쪽 영역 설정 */
-.side-area {
-	margin-top: 33px;
-}
-
 /* 게시물 상세보기 설정 */
 .board-detail h3 {
 	border-bottom: 2px solid #5d5d5d;
 	padding-bottom: 8px;
 	margin-bottom: 20px;
 }
-.tit {
-	font-size: 20px;
-	padding: 20px 0 20px 0;
-	border-bottom: 1px solid #ececec;
-}
-.info {
-	margin: 10px 0 10px 0;
-}
-.info .col-md-1 {
-	border-left: 1px solid #ececec;
-}
-
-/* 게시물 즐겨찾기 및 엔젤링, 신고하기 버튼 */
-.option-btn {
-	padding: 45px 0;
-}
-
-/* 읽으면 도움되는 글 */
-.panel-footer {
-	font-size: 13px;
-}
-
 /* 댓글작성영역 */
 .common-write {
 	border: 1px solid #cecece;
@@ -44,40 +11,43 @@
 	border-radius: 3px;
 	margin: 15px;
 }
-.ta {
-	margin: 10px;
-}
+
 .common-write [type="checkbox"] {
 	margin: 10px 10px;
 }
 
+.ta {
+	margin: 10px;
+}
 
+textarea {
+	width: 100%;
+}
 
-/* 각 영역별 구분선 */
-.div1 {
-	border: 2px solid red;
+.a-6 .button-twitter {
+	min-width: 40%;
+	width: 100%;
+	padding: 0 0 0 0;
 }
-.div2 {
-	border: 2px solid blue;
+
+.a-6 .row .row {
+	padding-left: 20%;
+	padding-right: 20%;
 }
-.div3 {
-	border: 2px solid orange;
+@media ( min-width :768px) {
+	.a-6 .row .row {
+		padding-left: 25%;
+		padding-right: 25%;
+	}
 }
-.div4 {
-	border: 2px solid yellow;
+@media ( max-width :768px) {
+	.a-6 .row .row {
+		padding-left: 8%;
+		padding-right: 8%;
+	}
 }
-.div5 {
-	border: 2px solid fuchsia;
-}
-.div6 {
-	border: 2px solid green;
-}
-.div7 {
-	border: 2px solid gray;
-}
-.div8 {
-	border: 2px solid olive;
-}
-.div9 {
-	border: 2px solid lime;
+
+.reply-create {
+	height: 55px;
+	border-radius: 5%;
 }
