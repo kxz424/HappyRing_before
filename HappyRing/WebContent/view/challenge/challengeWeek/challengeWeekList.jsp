@@ -163,6 +163,18 @@
 }
    </style>
    
+   
+   
+   
+   
+<style type="text/css">
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+	width: 100%;
+}
+</style>
+
+
+   
 </head>
   <body>
     
@@ -316,43 +328,82 @@
 										  </div>
 									        <ul class="sub-level-1 submenu">
 									          <li class="section-title">
-									            <label>By Product</label>
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									            
+									            <label>나에게 맞는 도전 찾아보기<span class="glyphicon glyphicon-question-sign"></span></label>
 
-<select class="selectpicker" data-style="btn-primary" multiple data-max-options="1">
-    <option>대인관계</option>
-    <option>가족</option>
-    <option>학업</option>
-    <option>미래고민</option>
-    <option>이성문제</option>
-    <option>자존감</option>
-  </select>
- 
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									            
-									          </li>
+
+
+
+
+
+
+
+
+
+
+															<!-- 도전 상세검색 select box 3개 START -->
+															<div class="row">
+																<div class="col-md-4">
+																	<span>고민 유형</span>
+																	<select class="selectpicker" data-style="btn-primary"
+																		multiple data-max-options="1" data-title="대분류">
+																		<option>대인관계</option>
+																		<option>가족</option>
+																		<option>학업</option>
+																		<option>미래고민</option>
+																		<option>이성문제</option>
+																		<option>자존감</option>
+																	</select>
+																</div>
+																<div class="col-md-4">
+																	<span>고민 분류</span>
+																	<select class="selectpicker" data-style="btn-primary"
+																		multiple data-max-options="1" data-title="중분류">
+																		<option>대인관계</option>
+																		<option>가족</option>
+																		<option>학업</option>
+																		<option>미래고민</option>
+																		<option>이성문제</option>
+																		<option>자존감</option>
+																	</select>
+																</div>
+																<div class="col-md-4">
+																	<span>도전 난이도</span>
+																	<select class="selectpicker" data-style="btn-primary"
+																		multiple data-max-options="1" data-title="소분류">
+																		<option>대인관계</option>
+																		<option>가족</option>
+																		<option>학업</option>
+																		<option>미래고민</option>
+																		<option>이성문제</option>
+																		<option>자존감</option>
+																	</select>
+																</div>
+															</div>
+															<!-- 도전 상세검색 select box 3개 END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														</li>
+														
+														
+														
+														
+														
 									          <li>
 									            <div class="d-flex">
 									            <a href="#!" class="col-10 clickable">추가질문</a>
@@ -534,9 +585,17 @@ $(document).ready(function(){
 	  var expand = $('.expand-icon');
 	  
 	  $(expand).on('click', function() {
+		  
+		//아래화살표 아이콘 중복 제거
+		$('.bs-caret').find('span').attr('class', '');
+		  
+		  
 	    $(this).children('i').toggleClass('fa-plus fa-minus');
 	  $(this).closest("li").find(".submenu").eq(0).slideToggle('10000', function() {
 	    $(this).toggleClass('active');
+	    
+	    
+	    
 	});
 	    
 	});
