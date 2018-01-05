@@ -39,6 +39,31 @@
 
 
 
+
+
+
+
+
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <style type="text/css">
 /* 검색챙 아코디언 CSS */   
 .challenge-menu {
@@ -293,6 +318,41 @@
 									        <ul class="sub-level-1 submenu">
 									          <li class="section-title">
 									            <label>By Product</label>
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+
+<select class="selectpicker" data-style="btn-primary" multiple data-max-options="1">
+    <option>대인관계</option>
+    <option>가족</option>
+    <option>학업</option>
+    <option>미래고민</option>
+    <option>이성문제</option>
+    <option>자존감</option>
+  </select>
+ 
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+									            
+									            
 									          </li>
 									          <li>
 									            <div class="d-flex">
