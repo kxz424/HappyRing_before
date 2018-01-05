@@ -55,10 +55,31 @@
 
 
 
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 
 
 
+<style type="text/css">
+
+.btn.active {                
+	display: none;		
+}
+
+.btn span:nth-of-type(1)  {            	
+	display: none;
+}
+.btn span:last-child  {            	
+	display: block;		
+}
+
+.btn.active  span:nth-of-type(1)  {            	
+	display: block;		
+}
+.btn.active span:last-child  {            	
+	display: none;			
+}
+</style>
 
 
 
@@ -385,6 +406,34 @@
 									        <ul class="sub-level-1 submenu">
 									          <li class="section-title">
 									            <label>By Product</label>
+									            
+									            
+									            <!--# 해시태그 버튼 group START -->
+									            <div>
+       
+       
+        <div class="" data-toggle="buttons">
+            <label class="btn btn-lg btn-success active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                <i class="fa fa-check-square"></i> 명상 30분
+            </label>
+            <label class="btn btn-lg btn-danger">
+                <input type="radio" name="options" id="option2" autocomplete="off">
+                <i class="fa fa-tag"></i>&nbsp;명상 30분
+            </label>          
+        </div>
+       
+       
+       
+       
+        
+        
+        
+									            </div>
+									            <!-- 해시태그 버튼 group END -->
+									            
+									            
+									            
 									          </li>
 									        </ul>
 									      </li>
