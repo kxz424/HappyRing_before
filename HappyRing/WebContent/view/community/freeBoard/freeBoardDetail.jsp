@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,58 +23,10 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+<link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
 
 
-<style type="text/css">
-/* 게시물 상세보기 설정 */
-.board-detail h3 {
-	border-bottom: 2px solid #5d5d5d;
-	padding-bottom: 8px;
-	margin-bottom: 20px;
-}
-/* 댓글작성영역 */
-.common-write {
-	border: 1px solid #cecece;
-	background: #ececec;
-	border-radius: 3px;
-	margin: 15px;
-}
 
-.common-write [type="checkbox"] {
-	margin: 10px 10px;
-}
-
-.ta {
-	margin: 10px;
-}
-
-textarea {
-	width: 100%;
-}
-
-.a-6 .button-twitter {
-	min-width: 40%;
-	width: 100%;
-	padding: 0 0 0 0;
-}
-
-.a-6 .row .row {
-	padding-left: 20%;
-	padding-right: 20%;
-}
-@media ( min-width :768px) {
-	.a-6 .row .row {
-		padding-left: 25%;
-		padding-right: 25%;
-	}
-}
-@media ( max-width :768px) {
-	.a-6 .row .row {
-		padding-left: 8%;
-		padding-right: 8%;
-	}
-}
-</style>
 
 </head>
   <body>
@@ -207,13 +160,13 @@ textarea {
 	    	 			<div class="col-md-12 option-btn">
 							<div class="row">
 								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-									<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>Twitter</a>
+									<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>북마크</a>
 								</div>
 								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-									<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-heart-empty"></span>Twitter</a>
+									<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-heart-empty"></span>엔젤링</a>
 								</div>
 								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-									<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-bullhorn"></span>Twitter</a>
+									<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-bullhorn"></span>신고</a>
 								</div>
 								
 							</div>
@@ -275,7 +228,7 @@ textarea {
 												<textarea></textarea>
 											</div>
 											<div class="col-md-2">
-												<input type="button" class="btn btn-primary" value="등록"/>
+												<input type="button" class="reply-create btn btn-primary" value="등록" style="border-radius: 7%;"/>
 											</div>
 										</div>
 											
@@ -356,11 +309,10 @@ textarea {
        <!-- ### 영역 B_Frame_Div START-->    
        <div class="col-md-2 divB">
           <div class="bFrameDiv">
-           	영역 B_Frame_Div
 	         <!-- ### B 세부영역 div -->             
 	              <!-- 세부영역 B-1 : 로그인 START-->   
 		               <div class="b-1">
-                        <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
+                        <button class="btn btn-primary btn-lg hidden-xs" href="#signup" data-toggle="modal" data-target=".bs-modal-md" >로그인/회원가입</button>
                         <jsp:include page="../../member/login.jsp"/>
                      </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
@@ -369,18 +321,10 @@ textarea {
 		               <div class="b-2">
 		               
 			                <div class="row b-2-row">
-								<button type="button" class="btn btn-success col-xs-3 col-sm-3 col-md-6">
-									심리<br>자가측정<br>테스트
-								</button>
-								<button type="button" class="btn btn-info col-xs-3 col-sm-3 col-md-6">
-									매일 목표 <br> 처방받기
-								</button>
-								<button type="button" class="btn btn-warning col-xs-3 col-sm-3 col-md-6">
-									happyRing<br>APP
-								</button>
-								<button type="button" class="btn btn-danger col-xs-3 col-sm-3 col-md-6">
-									근처<br>상담소<br>찾기
-								</button>
+								<button type="button" class="btn btn-success col-xs-3 col-sm-3 col-md-6"> 심리 자가<br/>측정 테스트</button>
+								<button type="button" class="btn btn-info col-xs-3 col-sm-3 col-md-6">매일 목표<br/>처방받기</button>
+								<button type="button" class="btn btn-warning col-xs-3 col-sm-3 col-md-6">happy Ring<br/>APP</button>
+								<button type="button" class="btn btn-danger col-xs-3 col-sm-3 col-md-6">근처 상담소<br/>찾기</button>
 							</div>
 		               </div> 
 	              <!-- 세부영역 B-2 : 심리테스트 영역 END-->   
