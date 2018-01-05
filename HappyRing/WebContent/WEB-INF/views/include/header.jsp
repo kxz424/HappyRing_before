@@ -71,15 +71,15 @@ background-color:rgb(87, 203, 204);
                 <!-- RD Navbar Nav-->
                 <ul class="rd-navbar-nav">
                  
-                 <li ><a href="index.html">편지함</a></li>
+<!--                  <li ><a href="index.html">편지함</a></li> -->
                  
-                 <li ><a href="index.html">일기장</a>
+                 <li ><a href="index.html">매일 100자 </a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
                       <li><a href="landing-auction.html">내 일기장</a>
                       </li>
-                      <li><a href="landing-environmental.html">공유 된 일기장</a>
+                      <li><a href="landing-environmental.html">편지함</a>
                       </li>
                     </ul>  
                  </li>
@@ -147,17 +147,17 @@ background-color:rgb(87, 203, 204);
                       </li>
                     </ul>
                   </li>
-                  <li><a href="#">비포&애프터</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">전체</a>
-                      </li>
-                      <li><a href="landing-auction.html">이달의 best</a>
-                      </li>
-                      <li><a href="landing-environmental.html">명예의 전당</a>
-                      </li>
-                    </ul>
-                  </li>
+<!--                   <li><a href="#">비포&애프터</a> -->
+<!--                     RD Navbar Dropdown -->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="landing-default.html">전체</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="landing-auction.html">이달의 best</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="landing-environmental.html">명예의 전당</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+<!--                   </li> -->
                   <li><a href="view/community/freeBoard/freeBoardList.jsp">커뮤니티</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
@@ -167,6 +167,8 @@ background-color:rgb(87, 203, 204);
                       <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민 게시판</a>
                       </li>
                        <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">응원 게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">비포& 애프터</a>
                       </li>
                        <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁 & 노하우</a>
                       </li>
