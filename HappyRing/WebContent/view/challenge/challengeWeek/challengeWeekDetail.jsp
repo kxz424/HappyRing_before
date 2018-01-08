@@ -31,6 +31,17 @@
 
 
 
+
+<style type="text/css">
+.cha_divCallendar>.row>div {
+/* 	float: none; */
+/*  	margin: 0 auto; */
+	
+}
+</style>
+
+
+
    
 </head>
   <body>
@@ -205,9 +216,11 @@
 						       	  <div class="cha_divBody">
 						       	  	
 						       	  	<!-- ## 4-1 : 달력 넣는 곳 START -->
-						       	      <div class="cha_divCallendar">
+						       	      <div class="cha_divCallendar containter-fluid">
 						       	      		    <div class="row">
-											        <div class="col-md-2 col-sm-6">
+						       	      		    <div class="col-md-11">
+						       	      		    	<div class="row">
+						       	      		    		<div class="col-md-1 col-sm-6 col-md-offset-3">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <a href="#" ><span class="price-value">
@@ -223,7 +236,7 @@
 											            </div>
 											        </div>
 											 
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-1 col-sm-6 ">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -240,7 +253,7 @@
 											        </div>
 											        
 											        
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-1 col-sm-6 ">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -256,7 +269,7 @@
 											            </div>
 											        </div>
 											        
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-1 col-sm-6 ">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -272,7 +285,7 @@
 											            </div>
 											        </div>
 											        
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-1 col-sm-6 ">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -288,7 +301,7 @@
 											            </div>
 											        </div>
 											        
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-1 col-sm-6 ">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -303,6 +316,24 @@
 											                </div>
 											            </div>
 											        </div>
+											         <div class="col-md-1 col-sm-6 ">
+											            <div class="pricingTable">
+											                <div class="pricingTable-header">
+											                    <span class="price-value">
+											                        <span class="currency">$</span> 20
+											                        <span class="month">/mo</span>
+											                    </span>
+											                </div>
+											                <div class="pricing-content">
+											                    <ul>
+											                        <li>20 Domains</li>
+											                    </ul>
+											                </div>
+											            </div>
+											        </div>
+						       	      		    	</div>
+						       	      		    </div>
+											        
 											        
 											        
 											    </div>
