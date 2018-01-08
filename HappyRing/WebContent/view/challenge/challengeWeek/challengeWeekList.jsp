@@ -16,6 +16,9 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+
 <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
@@ -220,6 +223,49 @@ padding-bottom: 10%;
 
 
 </style>
+
+
+
+
+
+
+
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+<!-- challenge Jabvascript -->
+    <script src="/HappyRing/js/challenge/challengeList.js"></script> 
+<!-- 카테고리분류 아코디언창 js -->
+	
+<script type="text/javascript">
+$(document).ready(function(){
+	  var expand = $('.expand-icon');
+	  
+	  $(expand).on('click', function() {
+		  
+		//아래화살표 아이콘 중복 제거
+		$('.bs-caret').find('span').attr('class', '');
+		  
+		  
+	    $(this).children('i').toggleClass('fa-plus fa-minus');
+	  $(this).closest("li").find(".submenu").eq(0).slideToggle('10000', function() {
+	    $(this).toggleClass('active');
+	    
+	    
+	    
+	});
+	    
+	});
+	});
+</script>
+
+
+
+
+
+
+
 
 
    
@@ -748,33 +794,6 @@ padding-bottom: 10%;
     
     
     
-    
-    
-<!-- challenge Jabvascript -->
-    <script src="/HappyRing/js/challenge/challenge.js"></script> 
-<!-- 카테고리분류 아코디언창 js -->
-	
-<script type="text/javascript">
-$(document).ready(function(){
-	  var expand = $('.expand-icon');
-	  
-	  $(expand).on('click', function() {
-		  
-		//아래화살표 아이콘 중복 제거
-		$('.bs-caret').find('span').attr('class', '');
-		  
-		  
-	    $(this).children('i').toggleClass('fa-plus fa-minus');
-	  $(this).closest("li").find(".submenu").eq(0).slideToggle('10000', function() {
-	    $(this).toggleClass('active');
-	    
-	    
-	    
-	});
-	    
-	});
-	});
-</script>
 
   </body>
 </html>
