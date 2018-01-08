@@ -202,10 +202,96 @@
 
 
 
+
+
+
+
 /*원고지형식 글 넣는 곳*/
 .cha_divWirte{
 	border: solid; 
 	border-color:  grey; 
 	padding-top: 25px;	
+}
+
+
+/*그날의 기분/ 내일의 다짐  넣는 곳 */
+.cha_divEmotion{
+	border: solid; 
+	border-color:  red; 
+	padding-top: 25px;		
+}
+
+/*그날의 기분 CSS*/
+.cha_divEmotion_today{
+	border: solid; 
+	border-color:  blue; 
+	padding-top: 15px;
+	padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;		
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+.cha_social{
+    text-align:center;
+    width:10px;
+    height:10px;
+    float:left;
+    background:#00acee;
+    border:1px solid rgb(204,204,204);
+    box-shadow:0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius:100px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding:19px;
+}
+.cha_twitter:hover{background:rgb(255,255,255);color:#FFF;}
+
+/**/
+
+.cha_divEmotion_tomorrow{
+	border: solid; 
+	border-color:  green; 
+	padding-top: 25px;
+	padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+
+/북마크, 엔젤링, 신고 버튼**/
+.cha_divButtons{
+    border: solid; 
+	border-color: red; 
+	padding-top: 25px;
+}
+
+
+/*detail 댓글 div */
+.challenge_divC_2{
+	border: solid; 
+	border-color:  hotpink; 
+	padding-top: 25px;
+}
+
+
+/* 댓글 작성 div */
+.cha_comment{
+    border: solid; 
+	border-color:  purple; 
+	padding-top: 25px;
+}
+
+/*등록, 취소, 임시저장 버튼 */
+.cha_divPaging{
+	border: solid; 
+	border-color: pink;
+	padding-top: 25px;
+}
+
+/**/
+.cha_tdStyle{
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 

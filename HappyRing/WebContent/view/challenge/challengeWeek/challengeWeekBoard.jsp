@@ -23,18 +23,10 @@
 <!-- 자유게시판 CSS link -->
 <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
 <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css">
-<link rel="stylesheet" href="/HappyRing/css/challenge/challengeMainFrame.css">
 
-<!-- 그룹List CSS link -->
-<link rel="stylesheet" href="/HappyRing/css/challenge/challengeList.css">
+<!-- 그룹Detail CSS link -->
+<link rel="stylesheet" href="/HappyRing/css/challenge/challengeDetail.css">
 	
-<!-- 카테고리 분류 아코디언 CSS link -->
-<script src="//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js"></script>	
-<script src="//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js"></script>
-
-<link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico">
-<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
-<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
@@ -151,64 +143,306 @@
       
       
 		<!-- 영역 challenge_divC START-->        
-      <div class="col-md-12 challenge_divC" style="border: solid;">
+      <div class="col-md-12 challenge_divC" style="border: solid; border-color: green;">
       
 	      <div class="row">
 		      <div class="col-md-1"></div>
+		      
+		      
 		      <div class="col-md-10" style="border: solid; border-color: red;">
-		      
-		      
+		      				<!-- ## detail 본문 내용 START -->
 		      				<div class="challenge_divC_1" style="border: solid; border-color: blue; padding-top: 25px;">
-     							 <!-- ## 타이틀 및 search창 START-->
-						       	   <div class="row">
-					                  <div class="col-md-3">
-					                     <h5>일주일 도전</h5>
-					                  </div>
-					                  <div class="col-md-3"></div>
-					                  <div class="col-md-6 search-bar">
-					                     
-					                  </div>
-					               </div>
-					               </div>
-						       	   <!-- 타이틀 및 search창 END-->
-      
+     							
+     							 <!-- ## 1. 도전 게시판 카테고리 START-->
+						       	  <div class="cha_divCategory">
+						       	     <div class="row board-detail">
+					    	 			<div class="col-md-12">
+											<h3>고민게시판</h3>
+										</div>
+	    	 						 </div>
+						       	  </div>
+						       	  <!-- 도전 게시판 카테고리 END-->
+						       	  
+						       	  <!-- ## 2.도전 게시글 제목 START-->
+						       	  <div class="cha_divTitle">
+						       	    <div class="row">
+					    	 			<div class="col-md-12">
+											<div class="tit col-md-12">
+												<p>운동이 하기 싫어요</p>
+											</div>
+										</div>
+					    	 		</div>
+						       	  </div>
+						       	  <!-- 도전 게시글 제목 END-->
+						       	  
+						       	  <!-- ## 3. 닉네임 조회수 등록일 START-->
+						       	  <div class="cha_divAddInfo">
+						       	    <div class="row">
+					    	 			<div class="col-md-12">
+											<div class="row info"> 
+												<div class="col-md-7">
+													<span class="glyphicon glyphicon-user">kjs1</span>
+												</div>
+												<div class="col-md-3">
+													<span class="glyphicon glyphicon-calendar">2017-12-29
+														19:02</span>
+												</div>
+												<div class="col-md-1">
+													<span class="glyphicon glyphicon-eye-open">1</span>
+												</div>
+												<div class="col-md-1">
+													<span class="glyphicon glyphicon-comment">1</span>
+												</div>
+											</div>
+										</div>
+					    	 		</div>
+						       	  </div>
+						       	  <!-- 닉네임 조회수 등록일 START END-->
+						       	  
+						       	  
+						       	  <!--  ## 4. 도전일기 쓰는 곳 DIV START -->
+						       	  <div class="cha_divBody">
+						       	  	
+						       	      <!-- ## 4-1 : 달력 넣는 곳 START -->
+						       	      <div class="cha_divCallendar">
+						       	      		    <div class="row">
+						       	      		      <div class="col-md-1 col-sm-6"></div>
+											        <div class="col-md-2 col-sm-6">
+											            <div class="pricingTable">
+											                <div class="pricingTable-header">
+											                    <a href="#" ><span class="price-value">
+											                        <span class="currency">$</span> 10
+											                        <span class="month">/mo</span>
+											                    </span></a>
+											                </div>
+											                <div class="pricing-content">
+											                    <ul>
+											                        <li>50GB Disk Space</li>
+											                    </ul>
+											                </div>
+											            </div>
+											        </div>
+											 
+											        <div class="col-md-2 col-sm-6">
+											            <div class="pricingTable">
+											                <div class="pricingTable-header">
+											                    <span class="price-value">
+											                        <span class="currency">$</span> 20
+											                        <span class="month">/mo</span>
+											                    </span>
+											                </div>
+											                <div class="pricing-content">
+											                    <ul>
+											                        <li>20 Domains</li>
+											                    </ul>
+											                </div>
+											            </div>
+											        </div>
+											        
+											        <div class="col-md-2 col-sm-6">
+											            <div class="pricingTable">
+											                <div class="pricingTable-header">
+											                    <span class="price-value">
+											                        <span class="currency">$</span> 20
+											                        <span class="month">/mo</span>
+											                    </span>
+											                </div>
+											                <div class="pricing-content">
+											                    <ul>
+											                        <li>20 Domains</li>
+											                    </ul>
+											                </div>
+											            </div>
+											        </div>
+											        
+											        <div class="col-md-2 col-sm-6">
+											            <div class="pricingTable">
+											                <div class="pricingTable-header">
+											                    <span class="price-value">
+											                        <span class="currency">$</span> 20
+											                        <span class="month">/mo</span>
+											                    </span>
+											                </div>
+											                <div class="pricing-content">
+											                    <ul>
+											                        <li>20 Domains</li>
+											                    </ul>
+											                </div>
+											            </div>
+											        </div>
+											        
+											        <div class="col-md-2 col-sm-6">
+											            <div class="pricingTable">
+											                <div class="pricingTable-header">
+											                    <span class="price-value">
+											                        <span class="currency">$</span> 20
+											                        <span class="month">/mo</span>
+											                    </span>
+											                </div>
+											                <div class="pricing-content">
+											                    <ul>
+											                        <li>20 Domains</li>
+											                    </ul>
+											                </div>
+											            </div>
+											        </div>
+											      <div class="col-md-1 col-sm-6"></div>
+											    </div>
+						       	      </div>
+						       	  	  <!-- 4-1 : 달력 넣는 곳 END -->
+											
+
+						       	  	  <!-- ## 4-2 : 이미지 넣는 곳  START-->
+						       	  	  <div class="cha_divImg">
+						       	  	  
+						       	  	    <div class="row">
+						       	  	    	<div class="col-md-2"> </div>
+						       	  	    	
+						       	  	    	<div class="col-md-8">
+						       	  	    		
+						       	  	    	  <div class="cha_divImg_slider">	
+													
+													
+													<div class="swiper-container swiper-slider swiper-slider_height-1" 
+													data-loop="true" data-autoplay="false" data-simulate-touch="false"
+													style="height: 100%;">
+										            <div class="swiper-wrapper">
+										              <div class="swiper-slide" data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
+										                <div class="swiper-slide-caption">
+										                  <div class="section-md"></div>
+										                </div>
+										              </div>
+										              <div class="swiper-slide" data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
+										                <div class="swiper-slide-caption">
+										                  <div class="section-md"></div>
+										                </div>
+										              </div>
+										              <div class="swiper-slide" data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
+										                <div class="swiper-slide-caption">
+										                  <div class="section-md"></div>
+										                </div>
+										              </div>
+										            </div>
+										            <!-- Swiper controls-->
+										            <div class="swiper-button-prev"></div>
+										            <div class="swiper-button-next"></div>
+										          </div>
+
+
+
+
+											  </div>
+						       	  	    	
+						       	  	    	
+						       	  	    	
+						       	  	    	</div>
+						       	  	    
+						       	  	    	<div class="col-md-2"> </div>
+						       	  	    	
+						       	  	    </div>
+						       	  	    
+						       	      </div>
+						       	  	  <!-- 4-2 : 이미지 넣는 곳 END -->
+
+						       	  	
+						       	  	  <!-- ## 4-3 : 원고지형식 글 넣는 곳 -->
+						       	  	  <div class="cha_divWirte">
+						       	  	    
+						       	  	    <div class="row">
+						       	  	    	<div class="col-md-2"> </div>
+						       	  	    	
+						       	  	    	<div class="col-md-8">
+						       	  	    		
+						       	  	    	  <div class="cha_divWrite_write">	
+													
+													<img style="width: 100%;" alt="" src="../../../challengeImges/wirteBoard.png">
+
+
+
+
+											  </div>
+						       	  	    	
+						       	  	    	
+						       	  	    	
+						       	  	    	</div>
+						       	  	    
+						       	  	    	<div class="col-md-2"> </div>
+						       	  	    	
+						       	  	    </div>	
+						       	  	    					       	      
+						       	      </div>
+						       	  	  <!-- 4-3 : 원고지형식 글 넣는 곳 END -->
+						       	  	  
+						       	  	  
+						       	  	  <!-- ## 4-4 : 그날의 기분/ 내일의 다짐  넣는 곳 START -->
+						       	  	  <div class="cha_divEmotion">
+						       	  	  	<div class="row" style="margin-left: 0px; margin-right: 0px;">
+							       	  	  	<div class="col-md-2"> </div>
+							       	  	    <!-- # 그날의 기분 START -->
+							       	  	    <div class="col-md-4 cha_divEmotion_today">
+							       	  	      <article class="box-minimal">
+							       	  	        <div class="row">
+								       	  	        <div class="col-md-10" style="    padding-top: 8px;">
+							                         <h6>오늘의 기분</h6> 
+							                        </div>
+							                        
+							                        <div class="col-md-2">
+							                      	    <div class="cha_social cha_twitter">
+												            <i class="fa fa-twitter fa-5x"></i>   
+												        </div>
+							                        </div>
+						                        </div>
+						                        <p>We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p>
+						                      </article>
+							       	  	    </div>
+							       	  	    
+							       	  	    <!-- # 내일의 다짐 START -->
+							       	  	    <div class="col-md-4 cha_divEmotion_tomorrow">
+							       	  	     <article class="box-minimal">
+						                        <h6>내일의 다짐</h6>
+						                        <p>We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p>
+						                      </article>
+							       	  	    </div>
+							       	  	    <div class="col-md-2"> </div>
+						       	  	  </div>
+						       	  	  <!-- 4-4 : 그날의 기분/ 내일의 다짐  넣는 곳 END -->
+						       	  	  </div>
+						       	  	  
+						       	  	  
+						       	  </div>
+						       	  <!--  4. 도전일기 쓰는 곳 DIV END -->
+					        </div>
+      						<!-- ## detail 본문 내용 END -->
       
       
       
       					 
 					
 			  <!-- 그룹방 글등록btn 및 paging START -->
-              <div class="divFreePaging" style="border: solid; border-color: pink;">
-              <div class="row">
+              <div class="cha_divPaging">
+              	 <div class="row">
 
-						<div class="col-md-4"></div>
-                       <!-- 페이징 -->
-                        <div class="col-md-4">
-                           <ul class="pagination-custom" id="pageNum">
-                              <li><a href="">◀◀</a></li>
-                              <li><a href="">◀</a></li>
-                              <c:forEach var="i" begin="1" end="4">
-                                 <li><a href="">${i}</a></li>
-                              </c:forEach>
-                              <li><a href="">▶</a></li>
-                              <li><a href="">▶▶</a></li>
-                           </ul>
-                        </div>
-                        
-                        <div class="col-md-3"></div>
-                        <!-- 글쓰기 버튼 -->
-                         <div class="col-md-1" style="padding-left: 0px;">
+						<div class="col-md-5"></div>
+					
+                         <!-- 임시저장 버튼 -->
+						<div class="col-md-3"style="padding-left: 0px;">
+						 <input class="btn btn-primary" type="button" id="write"
+                              value="등록" />
+						  <input class="btn btn-primary" type="button" id="write"
+                              value="취소" />
                            <input class="btn btn-primary" type="button" id="write"
-                              value="글쓰기" />
-                        </div>
+                              value="임시저장" />
+						</div>
+						<div class="col-md-4"></div>
+                       
                         
-                        
-                     </div>
+                 </div>
               </div>
-              <!-- 자유게시판 글등록btn 및 paging END -->	
+              <!-- 자유게시판 	글등록btn 및 paging END -->	
 					      						
       
-      </div>  
+           </div> 
+           <!-- detail 본문 내용 END --> 
       <div class="col-md-1"></div>   
       </div>
       </div> 
