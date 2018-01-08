@@ -259,16 +259,32 @@
 }
 
 
-/북마크, 엔젤링, 신고 버튼**/
-.cha_divButtons{
-    border: solid; 
-	border-color: red; 
+/*detail 북마크, 엔젤링, 신고 버튼  관련글 보기 list div**/
+.challenge_divC_2{
+	border: solid; 
+	border-color:  orange; 
 	padding-top: 25px;
 }
 
 
+/* 북마크, 엔젤링, 신고 버튼 **/
+.cha_divButtons{
+    border: solid; 
+	border-color: blue;	 
+	padding-top: 25px;
+}
+
+/* 관련글 보기 list */
+.cha_Related{
+	border: solid; 
+	border-color: pink;	 
+	padding-top: 25px;
+	
+}
+
+
 /*detail 댓글 div */
-.challenge_divC_2{
+.challenge_divC_3{
 	border: solid; 
 	border-color:  hotpink; 
 	padding-top: 25px;
