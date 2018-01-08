@@ -24,7 +24,7 @@
 <!-- 자유게시판 CSS link -->
 <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
 <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css">
-<link rel="stylesheet" href="/HappyRing/css/challenge/challengeFrame.css">
+<link rel="stylesheet" href="/HappyRing/css/challenge/challengeMainFrame.css">
 
 
 </head>
