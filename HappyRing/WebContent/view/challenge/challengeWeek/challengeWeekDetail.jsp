@@ -411,15 +411,24 @@
 						       	  	  <!-- 4-4 : 그날의 기분/ 내일의 다짐  넣는 곳 END -->
 						       	  	  </div>
 						       	  	  
-						       	  	  <!-- ## 4-5 : 북마크, 엔젤링, 신고 버튼  START-->
+						       	  </div>
+						       	  <!--  4. 도전일기 쓰는 곳 DIV END -->
+					        </div>
+      						<!-- detail 본문 내용 END -->
+      						
+      						
+      						
+      						<!-- ## detail 엔젤링, 북마크, 신고하기, 관련글 보기 list START-->
+      						<div class="challenge_divC_2">
+      								  <!-- ## 4-5 : 북마크, 엔젤링, 신고 버튼  START-->
 						       	  	  <div class="cha_divButtons">
 						       	  	    <div class="row">
 						       	  	    
 						       	  	    			<div class="col-md-2"></div>
 													<div class="col-md-8" style="padding-left: 70px;">
 														<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>북마크</a>
-														<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-heart-empty" style="margin-top: 0px;"></span>엔젤링</a>
-														<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-bullhorn" style="margin-top: 0px;"></span>신고</a>
+														<a class="button button-twitter" href="#" style="margin-top: 0px;"><span class="icon glyphicon glyphicon-heart-empty"></span>엔젤링</a>
+														<a class="button button-twitter" href="#" style="margin-top: 0px;"><span class="icon glyphicon glyphicon-bullhorn"></span>신고</a>
 													</div>
 													<div class="col-md-2"></div>
 													
@@ -427,14 +436,24 @@
 						    	 	  </div>	
 						       	  	  <!-- 4-5 : 북마크, 엔젤링, 신고 버튼  END -->
 						       	  	  
-						       	  </div>
-						       	  <!--  4. 도전일기 쓰는 곳 DIV END -->
-					        </div>
-      						<!-- detail 본문 내용 END -->
+						       	  	  <!-- ## 4-6 : 관련글 보기 list  START-->
+						       	  	  <div class="cha_Related">
+						       	  	   
+						       	  	   
+						       	  	   
+						    	 	  </div>	
+						       	  	  <!-- 4-5 : 관련글 보기 list  END -->
+						       	  	  
+						       	  	  
+						       	  	  
+      						</div>
+      						<!-- detail 엔젤링, 북마크, 신고하기, 관련글 보기 list END -->
+      						
+      						
       						
       						
       						<!-- ## detail 댓글  div START -->
-      						<div class="challenge_divC_2">
+      						<div class="challenge_divC_3">
       						  
       						  <!-- #댓글 작성 div START -->
       						  <div class="cha_comment">
