@@ -129,7 +129,8 @@
   margin: 0;
 }
 .sub-level-1 > li div:hover {
-  background: #DEDEDE;
+/*   background: #DEDEDE; */
+  background: none;
 }
 .sub-level-1 > li a {
   padding: 15px;
@@ -162,7 +163,8 @@
   margin: 0;
 }
 .sub-level-2 > li div:hover {
-  background: #DEDEDE;
+/*   background: #DEDEDE; */
+	background: none;
 }
 .sub-level-2 > li a {
   padding: 15px;
@@ -215,6 +217,8 @@ padding-bottom: 10%;
 	padding: 5px 5px 5px 10px;
 	font-size: 12px;
 }
+
+
 </style>
 
 
@@ -227,7 +231,7 @@ padding-bottom: 10%;
       
       
       <!-- ### header START -->     
-				<jsp:include page="/WEB-INF/views/include/header.jsp"/>
+		<jsp:include page="/WEB-INF/views/include/header.jsp" />
       <!-- header END -->
       
     <!-- Section 1 START -->      
@@ -483,6 +487,26 @@ padding-bottom: 10%;
 										          </li>
 										        </ul>
 									          </li>
+									          
+									          
+									          <!-- 도전 상세 검색 버튼 START -->
+									          <li class="section-title">
+									          	<div class="row" style="margin-left: 0px;margin-right: 0px; padding-top: 8%;">
+										          	<div class="col-md-9 col-lg-10"></div>
+										          	
+										          	<div class="col-md-2">
+										          		<input type="button" class="btn btn-primary" id="search" value="검색" />
+										          	</div>
+											          
+											        </div>
+									          		
+									          </li>
+									          <!-- 도전 상세 검색 버튼 END -->
+									          
+									          
+									          
+									          
+									          
 									        </ul>
 									      </li>
 									  </ul>
@@ -562,6 +586,28 @@ padding-bottom: 10%;
 									            <!-- 해시태그 버튼 group END -->
 									            
 									          </li>
+									          
+									          
+									          
+									          
+									          <!-- 도전 종류별 검색 버튼 START -->
+									          <li class="section-title">
+									          	<div class="row" style="margin-left: 0px;margin-right: 0px; padding-top: 8%;">
+										          	<div class="col-md-9 col-lg-10"></div>
+										          	
+										          	<div class="col-md-2">
+										          		<input type="button" class="btn btn-primary" id="search" value="검색" />
+										          	</div>
+											          
+											        </div>
+									          		
+									          </li>
+									          <!-- 도전 종류별 검색 버튼 END -->
+									          
+									          
+									          
+									          
+									          
 									        </ul>
 									      </li>
 									  </ul>
@@ -700,10 +746,13 @@ padding-bottom: 10%;
     <!--  freeBoard Javascript -->
     <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
     
-    <!-- challenge Jabvascript -->
-    	<script src="/HappyRing/js/challenge/challenge.js"></script> 
-		<!-- 카테고리분류 아코디언창 js -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    
+    
+    
+<!-- challenge Jabvascript -->
+    <script src="/HappyRing/js/challenge/challenge.js"></script> 
+<!-- 카테고리분류 아코디언창 js -->
 	
 <script type="text/javascript">
 $(document).ready(function(){
