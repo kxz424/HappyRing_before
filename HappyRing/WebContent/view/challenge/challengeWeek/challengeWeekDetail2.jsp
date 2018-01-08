@@ -24,13 +24,21 @@
 <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
 <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css">
 
-<!-- 자유게시판 CSS : 댓글창 -->
-<link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
-
 <!-- 그룹Detail CSS link -->
 <link rel="stylesheet" href="/HappyRing/css/challenge/challengeDetail.css">
 	
 
+
+
+
+
+<style type="text/css">
+.cha_divCallendar>.row>div {
+/* 	float: none; */
+/*  	margin: 0 auto; */
+	
+}
+</style>
 
 
 
@@ -151,9 +159,10 @@
 	      <div class="row">
 		      <div class="col-md-1"></div>
 		      
-		      
+		      <!-- ## detail 본문 내용 START -->
 		      <div class="col-md-10" style="border: solid; border-color: red;">
-		      				<!-- ## detail 본문 내용 START -->
+		      
+		      
 		      				<div class="challenge_divC_1" style="border: solid; border-color: blue; padding-top: 25px;">
      							
      							 <!-- ## 1. 도전 게시판 카테고리 START-->
@@ -206,11 +215,12 @@
 						       	  <!--  ## 4. 도전일기 쓰는 곳 DIV START -->
 						       	  <div class="cha_divBody">
 						       	  	
-						       	      <!-- ## 4-1 : 달력 넣는 곳 START -->
-						       	      <div class="cha_divCallendar">
+						       	  	<!-- ## 4-1 : 달력 넣는 곳 START -->
+						       	      <div class="cha_divCallendar containter-fluid">
 						       	      		    <div class="row">
-						       	      		      <div class="col-md-1 col-sm-6"></div>
-											        <div class="col-md-2 col-sm-6">
+						       	      		    <div class="col-md-11">
+						       	      		    	<div class="row">
+						       	      		    		<div class="col-md-1 col-sm-6 col-md-offset-3">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <a href="#" ><span class="price-value">
@@ -226,7 +236,7 @@
 											            </div>
 											        </div>
 											 
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-1 col-sm-6 ">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -242,7 +252,8 @@
 											            </div>
 											        </div>
 											        
-											        <div class="col-md-2 col-sm-6">
+											        
+											        <div class="col-md-1 col-sm-6 ">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -258,7 +269,7 @@
 											            </div>
 											        </div>
 											        
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-1 col-sm-6 ">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -274,7 +285,7 @@
 											            </div>
 											        </div>
 											        
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-1 col-sm-6 ">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -289,47 +300,57 @@
 											                </div>
 											            </div>
 											        </div>
-											      <div class="col-md-1 col-sm-6"></div>
+											        
+											        <div class="col-md-1 col-sm-6 ">
+											            <div class="pricingTable">
+											                <div class="pricingTable-header">
+											                    <span class="price-value">
+											                        <span class="currency">$</span> 20
+											                        <span class="month">/mo</span>
+											                    </span>
+											                </div>
+											                <div class="pricing-content">
+											                    <ul>
+											                        <li>20 Domains</li>
+											                    </ul>
+											                </div>
+											            </div>
+											        </div>
+											         <div class="col-md-1 col-sm-6 ">
+											            <div class="pricingTable">
+											                <div class="pricingTable-header">
+											                    <span class="price-value">
+											                        <span class="currency">$</span> 20
+											                        <span class="month">/mo</span>
+											                    </span>
+											                </div>
+											                <div class="pricing-content">
+											                    <ul>
+											                        <li>20 Domains</li>
+											                    </ul>
+											                </div>
+											            </div>
+											        </div>
+						       	      		    	</div>
+						       	      		    </div>
+											        
+											        
+											        
 											    </div>
 						       	      </div>
-						       	  	  <!-- 4-1 : 달력 넣는 곳 END -->
+						       	  	<!-- 4-1 : 달력 넣는 곳 END -->
 											
 
-						       	  	  <!-- ## 4-2 : 이미지 넣는 곳  START-->
+						       	  	<!-- ## 4-2 : 이미지 넣는 곳  START-->
 						       	  	  <div class="cha_divImg">
 						       	  	  
 						       	  	    <div class="row">
-						       	  	    	<div class="col-md-2"> </div>
+						       	  	    	<div class="col-md-3"> </div>
 						       	  	    	
-						       	  	    	<div class="col-md-8">
+						       	  	    	<div class="col-md-6">
 						       	  	    		
 						       	  	    	  <div class="cha_divImg_slider">	
-													
-													
-													<div class="swiper-container swiper-slider swiper-slider_height-1" 
-													data-loop="true" data-autoplay="false" data-simulate-touch="false"
-													style="height: 100%;">
-										            <div class="swiper-wrapper">
-										              <div class="swiper-slide" data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
-										                <div class="swiper-slide-caption">
-										                  <div class="section-md"></div>
-										                </div>
-										              </div>
-										              <div class="swiper-slide" data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
-										                <div class="swiper-slide-caption">
-										                  <div class="section-md"></div>
-										                </div>
-										              </div>
-										              <div class="swiper-slide" data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
-										                <div class="swiper-slide-caption">
-										                  <div class="section-md"></div>
-										                </div>
-										              </div>
-										            </div>
-										            <!-- Swiper controls-->
-										            <div class="swiper-button-prev"></div>
-										            <div class="swiper-button-next"></div>
-										          </div>
+
 
 
 
@@ -340,21 +361,22 @@
 						       	  	    	
 						       	  	    	</div>
 						       	  	    
-						       	  	    	<div class="col-md-2"> </div>
+						       	  	    	<div class="col-md-3"> </div>
 						       	  	    	
 						       	  	    </div>
 						       	  	    
 						       	      </div>
-						       	  	  <!-- 4-2 : 이미지 넣는 곳 END -->
+						       	  	
+						       	  	<!-- 4-2 : 이미지 넣는 곳 END -->
 
 						       	  	
-						       	  	  <!-- ## 4-3 : 원고지형식 글 넣는 곳 -->
+						       	  	<!-- ## 4-3 : 원고지형식 글 넣는 곳 -->
 						       	  	  <div class="cha_divWirte">
 						       	  	    
 						       	  	    <div class="row">
 						       	  	    	<div class="col-md-2"> </div>
 						       	  	    	
-						       	  	    	<div class="col-md-8">
+						       	  	    	<div class="col-md-9">
 						       	  	    		
 						       	  	    	  <div class="cha_divWrite_write">	
 													
@@ -369,189 +391,52 @@
 						       	  	    	
 						       	  	    	</div>
 						       	  	    
-						       	  	    	<div class="col-md-2"> </div>
+						       	  	    	<div class="col-md-1"> </div>
 						       	  	    	
 						       	  	    </div>	
 						       	  	    					       	      
 						       	      </div>
-						       	  	  <!-- 4-3 : 원고지형식 글 넣는 곳 END -->
-						       	  	  
-						       	  	  
-						       	  	  <!-- ## 4-4 : 그날의 기분/ 내일의 다짐  넣는 곳 START -->
-						       	  	  <div class="cha_divEmotion">
-						       	  	  	<div class="row" style="margin-left: 0px; margin-right: 0px;">
-							       	  	  	<div class="col-md-2"> </div>
-							       	  	    <!-- # 그날의 기분 START -->
-							       	  	    <div class="col-md-4 cha_divEmotion_today">
-							       	  	      <article class="box-minimal">
-							       	  	        <div class="row">
-								       	  	        <div class="col-md-10" style="    padding-top: 8px;">
-							                         <h6>오늘의 기분</h6> 
-							                        </div>
-							                        
-							                        <div class="col-md-2">
-							                      	    <div class="cha_social cha_twitter">
-												            <i class="fa fa-twitter fa-5x"></i>   
-												        </div>
-							                        </div>
-						                        </div>
-						                        <p>We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p>
-						                      </article>
-							       	  	    </div>
-							       	  	    
-							       	  	    <!-- # 내일의 다짐 START -->
-							       	  	    <div class="col-md-4 cha_divEmotion_tomorrow">
-							       	  	     <article class="box-minimal">
-						                        <h6>내일의 다짐</h6>
-						                        <p>We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p>
-						                      </article>
-							       	  	    </div>
-							       	  	    <div class="col-md-2"> </div>
-						       	  	  </div>
-						       	  	  <!-- 4-4 : 그날의 기분/ 내일의 다짐  넣는 곳 END -->
-						       	  	  </div>
-						       	  	  
-						       	  	  <!-- ## 4-5 : 북마크, 엔젤링, 신고 버튼  START-->
-						       	  	  <div class="cha_divButtons">
-						       	  	    <div class="row">
-						       	  	    
-						       	  	    			<div class="col-md-2"></div>
-													<div class="col-md-8" style="padding-left: 70px;">
-														<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>북마크</a>
-														<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-heart-empty" style="margin-top: 0px;"></span>엔젤링</a>
-														<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-bullhorn" style="margin-top: 0px;"></span>신고</a>
-													</div>
-													<div class="col-md-2"></div>
-													
-						    	 		</div>
-						    	 	  </div>	
-						       	  	  <!-- 4-5 : 북마크, 엔젤링, 신고 버튼  END -->
-						       	  	  
+						       	  	
+						       	  	<!-- 4-3 : 원고지형식 글 넣는 곳  -->
 						       	  </div>
 						       	  <!--  4. 도전일기 쓰는 곳 DIV END -->
 					        </div>
-      						<!-- detail 본문 내용 END -->
-      						
-      						
-      						<!-- ## detail 댓글  div START -->
-      						<div class="challenge_divC_2">
-      						  
-      						  <!-- #댓글 작성 div START -->
-      						  <div class="cha_comment">
-      						  	<div class="row">
-      						  		<div class="col-md-1"></div>
-				    	 			<div class="col-md-10 common-list">
-										<h5>댓글쓰기</h5>
-				    	 			    <div class="common-write">
-											<form method="post">
-												<input type="checkbox" id="secret" />
-												<label>비밀댓글</label>
-												 <div class="row">
-													<div class="col-md-12 ta">
-														<div class="row">
-															<div class="col-xs-8 col-sm-9 col-md-9 col-lg-10">
-																<textarea></textarea>
-															</div>
-															<div class="col-md-2">
-																<input type="button" class="reply-create btn btn-primary" value="등록" style="border-radius: 7%;"/>
-															</div>
-														</div>
-													</div>
-												</div>
-											</form>
-										</div>
-								     </div>
-								    <div class="col-md-1"></div> 
-				    	 		  </div>
-      						    </div>
-      						    <!-- 댓글 작성 div END -->
-      						    
-      						   <!-- #댓글 list div START -->
-      						   <div class="cha_comment_list">
-      						    <div class="row">
-      						    <div class="col-md-2"></div>
-			    	 			<div class="col-md-8">
-			    	 				<table class="table table-hover">
-										<tr>
-											<td style="padding-bottom: 25px; padding-top: 25px;">
-												<div class="row">
-													<div class="col-xs-2 col-md-2">
-														<img src="http://placehold.it/80"
-															class="img-circle img-responsive" alt="" />
-													</div>
-													<div class="col-xs-10 col-md-10">
-														<div>
-															<a href="#"> Congratulations</a>
-															<div class="mic-info">
-																By: <a href="#">Check My Athletics</a> on 12 Jun 2014
-															</div>
-														</div>
-														<div class="comment-text">We would like to
-															congratulate John on his achievement...</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="row">
-													<div class="col-xs-2 col-md-2">
-														<img src="http://placehold.it/80"
-															class="img-circle img-responsive" alt="" />
-													</div>
-													<div class="col-xs-10 col-md-10">
-														<div>
-															<a href="#"> Congratulations</a>
-															<div class="mic-info">
-																By: <a href="#">Check My Athletics</a> on 12 Jun 2014
-															</div>
-														</div>
-														<div class="comment-text">We would like to
-															congratulate John on his achievement...</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-									</table>
-			    	 			</div>
-			    	 			<div class="col-md-2"></div>
-			    	 		</div>
-			    	 		
-			    	 	  <!-- 그룹방 글등록 btn 및 paging START -->
-			              <div class="row">
-			
-								<div class="col-md-4"></div>
-			                       <!-- 페이징 -->
-			                        <div class="col-md-4">
-			                           <ul class="pagination-custom" id="pageNum">
-			                              <li><a href="">◀◀</a></li>
-			                              <li><a href="">◀</a></li>
-			                              <c:forEach var="i" begin="1" end="4">
-			                                 <li><a href="">${i}</a></li>
-			                              </c:forEach>
-			                              <li><a href="">▶</a></li>
-			                              <li><a href="">▶▶</a></li>
-			                           </ul>
-			                        </div>
-			                        
-			                        <div class="col-md-3"></div>
-			                        <!-- 글쓰기 버튼 -->
-			                        <div class="col-md-1" style="padding-left: 0px;">
-			                           <input class="btn btn-primary" type="button" id="write"
-			                              value="글쓰기" />
-			                        </div>
-			                </div>
-			              <!-- 그룹방 글등록 btn 및 paging END -->	
-			    	 	   </div>
-      					   <!-- 댓글 list div END -->
-      						</div>
-      						<!-- detail 댓글  div END -->
+      
       
       
       
       					 
 					
-			  
+			  <!-- 그룹방 글등록btn 및 paging START -->
+              <div class="divFreePaging" style="border: solid; border-color: pink;">
+              <div class="row">
+
+						<div class="col-md-4"></div>
+                       <!-- 페이징 -->
+                        <div class="col-md-4">
+                           <ul class="pagination-custom" id="pageNum">
+                              <li><a href="">◀◀</a></li>
+                              <li><a href="">◀</a></li>
+                              <c:forEach var="i" begin="1" end="4">
+                                 <li><a href="">${i}</a></li>
+                              </c:forEach>
+                              <li><a href="">▶</a></li>
+                              <li><a href="">▶▶</a></li>
+                           </ul>
+                        </div>
+                        
+                        <div class="col-md-3"></div>
+                        <!-- 글쓰기 버튼 -->
+                         <div class="col-md-1" style="padding-left: 0px;">
+                           <input class="btn btn-primary" type="button" id="write"
+                              value="글쓰기" />
+                        </div>
+                        
+                        
+                     </div>
+              </div>
+              <!-- 자유게시판 글등록btn 및 paging END -->	
+					      						
       
            </div> 
            <!-- detail 본문 내용 END --> 
