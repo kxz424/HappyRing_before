@@ -744,8 +744,8 @@ $(document).ready(function(){
 						       	      <!-- ## 4-1 : 달력 넣는 곳 START -->
 						       	      <div class="cha_divCallendar">
 						       	      		    <div class="row">
-						       	      		      <div class="col-md-1 col-sm-6"></div>
-											        <div class="col-md-2 col-sm-6">
+						       	      		      <div class="col-md-1 col-sm-1 col-xs-1"></div>
+											        <div class="col-md-2 col-sm-2 col-xs-2">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <a href="#" ><span class="price-value">
@@ -753,15 +753,15 @@ $(document).ready(function(){
 											                        <span class="month">/mo</span>
 											                    </span></a>
 											                </div>
-											                <div class="pricing-content">
+											                <div class="pricing-content" style="padding-bottom: 40px;">
 											                    <ul>
-											                        <li>50GB Disk Space</li>
+											                        <li>50GB Disk</li>
 											                    </ul>
 											                </div>
 											            </div>
 											        </div>
 											 
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-2 col-sm-2 col-xs-2">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -769,7 +769,7 @@ $(document).ready(function(){
 											                        <span class="month">/mo</span>
 											                    </span>
 											                </div>
-											                <div class="pricing-content">
+											                <div class="pricing-content" style="padding-bottom: 40px;">
 											                    <ul>
 											                        <li>20 Domains</li>
 											                    </ul>
@@ -777,7 +777,7 @@ $(document).ready(function(){
 											            </div>
 											        </div>
 											        
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-2 col-sm-2 col-xs-2">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -785,7 +785,7 @@ $(document).ready(function(){
 											                        <span class="month">/mo</span>
 											                    </span>
 											                </div>
-											                <div class="pricing-content">
+											                <div class="pricing-content" style="padding-bottom: 40px;">
 											                    <ul>
 											                        <li>20 Domains</li>
 											                    </ul>
@@ -793,7 +793,7 @@ $(document).ready(function(){
 											            </div>
 											        </div>
 											        
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-2 col-sm-2 col-xs-2">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -801,7 +801,7 @@ $(document).ready(function(){
 											                        <span class="month">/mo</span>
 											                    </span>
 											                </div>
-											                <div class="pricing-content">
+											                <div class="pricing-content" style="padding-bottom: 40px;">
 											                    <ul>
 											                        <li>20 Domains</li>
 											                    </ul>
@@ -809,7 +809,7 @@ $(document).ready(function(){
 											            </div>
 											        </div>
 											        
-											        <div class="col-md-2 col-sm-6">
+											        <div class="col-md-2 col-sm-2 col-xs-2">
 											            <div class="pricingTable">
 											                <div class="pricingTable-header">
 											                    <span class="price-value">
@@ -817,14 +817,14 @@ $(document).ready(function(){
 											                        <span class="month">/mo</span>
 											                    </span>
 											                </div>
-											                <div class="pricing-content">
+											                <div class="pricing-content" style="padding-bottom: 40px;">
 											                    <ul>
 											                        <li>20 Domains</li>
 											                    </ul>
 											                </div>
 											            </div>
 											        </div>
-											      <div class="col-md-1 col-sm-6"></div>
+											      <div class="col-md-1 col-sm-1 col-xs-1"></div>
 											    </div>
 						       	      </div>
 						       	  	  <!-- 4-1 : 달력 넣는 곳 END -->
