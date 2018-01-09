@@ -219,7 +219,22 @@
 	    	 	<!-- button START -->
 	    	 	
 	    	 	<div class="a-6">
-	    	 		
+	    	 		<div class="row">
+
+						<div class="col-sm-5 col-md-4"></div>
+					
+                         <!-- 임시저장 버튼 -->
+						<div class="col-sm-4 col-md-5"style="padding-left: 0px;">
+						 <input class="btn btn-primary" type="button" id="write"
+                              value="등록" />
+						  <input class="btn btn-primary" type="button" id="write"
+                              value="취소" />
+                           <input class="btn btn-primary" type="button" id="write"
+                              value="임시저장" />
+						</div>
+                       
+                        
+                 </div>
 	    	 	</div>
 	    	 	
 	    	 	<!-- button END -->
