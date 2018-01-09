@@ -29,7 +29,8 @@
 
 <!-- 그룹Detail CSS link -->
 <link rel="stylesheet" href="/HappyRing/css/challenge/challengeDetail.css">
-	
+ <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>	
 
 
 
@@ -437,9 +438,86 @@
 						       	  	  <!-- 4-5 : 북마크, 엔젤링, 신고 버튼  END -->
 						       	  	  
 						       	  	  <!-- ## 4-6 : 관련글 보기 list  START-->
-						       	  	  <div class="cha_Related">
-						       	  	   
-						       	  	   
+						       	  	  <div class="cha_Related" >
+						       	  	  
+						       	  	  <div class="row">
+						       	  	  <div class="col-md-1"></div>
+						       	  	  <div class="col-md-10">
+						       	  	  <div class="row">
+						       	  	  	<div class="col-md-10">
+						       	  	  		<h5>00님이 도전한 다른 도전 보기</h5>
+						       	  	  	</div>
+						       	  	  	<div class="col-md-2" style="padding-left: 102px;">
+						       	  	  		<h5>더보기</h5>
+						       	  	  	</div>
+						       	  	  </div>
+						       	  	  
+						       	  	   <div class="range range-50 range-xs-center instafeed text-center" data-instafeed-user="25025320" data-instafeed-get="user" 
+						       	  	   data-instafeed-sort="most-liked" data-lightgallery="group" style="margin-top: 0px; padding: 15px 15px 15px 15px;">
+						                  <div class="cell-xxs-6 cell-sm-4 cell-md-4 cell-lg-2" data-instafeed-item="">
+						                    <div class="thumbnail-instafeed thumbnail-instafeed-vertical"> <a class="instagram-link" data-lightgallery="group-item" href="#" data-images-standard_resolution-url="href"><img class="instagram-image" src="images/_blank.png" alt="" data-images-standard_resolution-url="src"/></a>
+						                      <div class="caption"> 
+						                        <ul class="list-inline">
+						                          <li><span class="icon mdi mdi-emoticon-happy"></span>현재 도전 중</li>
+						                          <li><span class="icon mdi mdi-eye"></span><span data-comments-count="text"></span></li>
+						                        </ul>
+						                      </div>
+						                    </div>
+						                  </div>
+						                  <div class="cell-xxs-6 cell-sm-4 cell-md-4 cell-lg-2" data-instafeed-item="">
+						                    <div class="thumbnail-instafeed thumbnail-instafeed-vertical"> <a class="instagram-link" data-lightgallery="group-item" href="#" data-images-standard_resolution-url="href"><img class="instagram-image" src="images/_blank.png" alt="" data-images-standard_resolution-url="src"/></a>
+						                      <div class="caption"> 
+						                        <ul class="list-inline">
+						                          <li><span class="icon mdi mdi-emoticon"></span>도전 완료</li>
+						                          <li><span class="icon mdi mdi-eye"></span>23423</li>
+						                        </ul>
+						                      </div>
+						                    </div>
+						                  </div>
+						                  <div class="cell-xxs-6 cell-sm-4 cell-md-4 cell-lg-2" data-instafeed-item="">
+						                    <div class="thumbnail-instafeed thumbnail-instafeed-vertical"> <a class="instagram-link" data-lightgallery="group-item" href="#" data-images-standard_resolution-url="href"><img class="instagram-image" src="images/_blank.png" alt="" data-images-standard_resolution-url="src"/></a>
+						                      <div class="caption"> 
+						                        <ul class="list-inline">
+						                          <li><span class="icon mdi mdi-flower"></span>다음에 다시</li>
+						                          <li><span class="icon mdi mdi-eye"></span><span data-comments-count="text"></span></li>
+						                        </ul>
+						                      </div>
+						                    </div>
+						                  </div>
+						                  <div class="cell-xxs-6 cell-sm-4 cell-md-4 cell-lg-2" data-instafeed-item="">
+						                    <div class="thumbnail-instafeed thumbnail-instafeed-vertical"> <a class="instagram-link" data-lightgallery="group-item" href="#" data-images-standard_resolution-url="href"><img class="instagram-image" src="images/_blank.png" alt="" data-images-standard_resolution-url="src"/></a>
+						                      <div class="caption"> 
+						                        <ul class="list-inline">
+						                          <li><span class="icon mdi mdi-heart"></span><span data-likes-count="text"></span></li>
+						                          <li><span class="icon mdi mdi-comment"></span><span data-comments-count="text"></span></li>
+						                        </ul>
+						                      </div>
+						                    </div>
+						                  </div>
+						                  <div class="cell-xxs-6 cell-sm-4 cell-md-4 cell-lg-2" data-instafeed-item="">
+						                    <div class="thumbnail-instafeed thumbnail-instafeed-vertical"> <a class="instagram-link" data-lightgallery="group-item" href="#" data-images-standard_resolution-url="href"><img class="instagram-image" src="images/_blank.png" alt="" data-images-standard_resolution-url="src"/></a>
+						                      <div class="caption"> 
+						                        <ul class="list-inline">
+						                          <li><span class="icon mdi mdi-heart"></span><span data-likes-count="text"></span></li>
+						                          <li><span class="icon mdi mdi-comment"></span><span data-comments-count="text"></span></li>
+						                        </ul>
+						                      </div>
+						                    </div>
+						                  </div>
+						                  <div class="cell-xxs-6 cell-sm-4 cell-md-4 cell-lg-2" data-instafeed-item="">
+						                    <div class="thumbnail-instafeed thumbnail-instafeed-vertical"> <a class="instagram-link" data-lightgallery="group-item" href="#" data-images-standard_resolution-url="href"><img class="instagram-image" src="images/_blank.png" alt="" data-images-standard_resolution-url="src"/></a>
+						                      <div class="caption"> 
+						                        <ul class="list-inline">
+						                          <li><span class="icon mdi mdi-heart"></span><span data-likes-count="text"></span></li>
+						                          <li><span class="icon mdi mdi-comment"></span><span data-comments-count="text"></span></li>
+						                        </ul>
+						                      </div>
+						                    </div>
+						                  </div>
+						                </div>
+						                </div>
+						                <div class="col-md-1"></div>
+						       	  	   </div>
 						       	  	   
 						    	 	  </div>	
 						       	  	  <!-- 4-5 : 관련글 보기 list  END -->
@@ -498,15 +576,26 @@
 														<img src="http://placehold.it/80"
 															class="img-circle img-responsive" alt="" />
 													</div>
-													<div class="col-xs-10 col-md-10">
-														<div>
-															<a href="#"> Congratulations</a>
+													<div class="col-xs-10 col-md-10" 	style="border: solid;">
+															<!-- 댓글 수정 삭제 버튼 START -->
+															<div class="row">
+															   <div class="col-md-10"></div> 
+															   <div class="col-md-2" data-toggle="buttons">
+														          <label class="btn btn-default btn-circle btn-lg">       
+														          <input type="radio" name="q1" value="1"><i class="glyphicon glyphicon-pencil"></i></label>
+														          <label class="btn btn-default btn-circle btn-lg">       
+														          <input type="radio" name="q1" value="0"><i class="glyphicon glyphicon-trash" checked></i></label>
+														          <label class="btn btn-default btn-circle btn-lg active">
+														          <input type="radio" name="q1" value="2"><i class="glyphicon glyphicon-ok"></i></label>
+														       </div>
+				                              				</div>
+				                              				<!-- 댓글 수정 삭제 버튼 END -->
 															<div class="mic-info">
 																By: <a href="#">Check My Athletics</a> on 12 Jun 2014
 															</div>
-														</div>
-														<div class="comment-text">We would like to
-															congratulate John on his achievement...</div>
+															<div class="comment-text">We would like to
+															congratulate John on his achievement...
+															</div>
 													</div>
 												</div>
 											</td>
@@ -555,14 +644,34 @@
 			                        
 			                        <div class="col-md-3"></div>
 			                        <!-- 글쓰기 버튼 -->
-			                        <div class="col-md-1" style="padding-left: 0px;">
-			                           <input class="btn btn-primary" type="button" id="write"
-			                              value="글쓰기" />
+			                        <div class="col-md-1">
 			                        </div>
 			                </div>
 			              <!-- 그룹방 글등록 btn 및 paging END -->	
 			    	 	   </div>
       					   <!-- 댓글 list div END -->
+      					   
+      					   <div class="cha_divPaging">
+				              	 <div class="row">
+				
+										<div class="col-md-5"></div>
+									
+				                         <!-- 임시저장 버튼 -->
+										<div class="col-md-3"style="padding-left: 0px;">
+										 <input class="btn btn-primary" type="button" id="write"
+				                              value="목록 보기" />
+										  <input class="btn btn-primary" type="button" id="write"
+				                              value="나도 도전" />
+										</div>
+										<div class="col-md-4"></div>
+				                       
+				                        
+				                 </div>
+				              </div>
+				      					   
+				      					   
+				      					   
+				      					   
       						</div>
       						<!-- detail 댓글  div END -->
       
