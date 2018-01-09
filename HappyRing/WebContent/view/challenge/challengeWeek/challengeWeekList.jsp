@@ -668,6 +668,7 @@ $(document).ready(function(){
       					<div class="challenge_divC_3" style="border: solid; border-color: green; padding-top: 25px;">
  						<div class="container-fluid" style="padding-top: 26px;">
 <!-- 						         <div class="range range-50 range-xs-center"> -->
+						         <a href="/HappyRing/view/challenge/challengeWeek/challengeWeekDetail.jsp">
 						         <div class="row">
 						           <% for(int i=0; i<12; i++ ) { %>
 <!-- 						               <div class="cell-xs-10 cell-sm-6 cell-lg-4"> -->
@@ -721,6 +722,7 @@ $(document).ready(function(){
 						                </div>
 						            <% }  %>
 						          </div>
+						         </a> 
 						  </div>
 					</div>	 
 					
@@ -744,10 +746,12 @@ $(document).ready(function(){
                         
                         <div class="col-md-3"></div>
                         <!-- 글쓰기 버튼 -->
+                        <a href="/HappyRing/view/challenge/challengeWeek/challengeWeekBoard.jsp">
                          <div class="col-md-1" style="padding-left: 0px;">
                            <input class="btn btn-primary" type="button" id="write"
                               value="글쓰기" />
-                        </div>
+                         </div>
+                        </a>
                         
                         
                      </div>

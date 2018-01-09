@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.th_dtail_a2_1{
+    padding-top: 60px; 
+   border: solid;
+}
+
+
+.th_detail_a2{
+	padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 66px;
+}
+    
+    
+.th_detail_body {   
+    padding-left: 0px;
+    padding-right: 0px;
+}    
+
+
+.th_dtail_a2_2{
+	border: solid;
+	border-color : green;
+	padding-top: 25px;
+}
+
+.th_dtail_a2_3{
+	border: solid;
+	border-color : pink;
+	padding-top: 25px;
+}
