@@ -1,0 +1,131 @@
+
+/* 영역 A */
+.th_divA {
+	padding-right: 12px;
+}
+
+.th_aFrameDiv{
+	padding-left: 20px; padding-right: 20px; padding-top: 20px; 
+	padding-bottom: 20px; border: solid; border-color: #008040;
+	
+}
+
+.th_a1 {
+	border: solid; border-color: pink; height: auto; padding-top: 1%;
+}
+
+
+.th_a2{
+	height: auto;
+	padding-top: 25px; 
+	border: solid; 
+	border-color: skyblue;
+	padding-left: 15px;
+    padding-right: 15px;
+}
+
+.th_a2_1{
+	
+}
+
+.th_a2_2{
+   padding-top: 26px;
+}
+.article_header{
+padding-bottom: 12px;
+}
+
+
+
+
+.th_a2_2_list{
+	border: solid;
+    border-color: #8080804a;
+}
+.th_a2_2_imgTitle{
+/*    padding-top: 12px; */
+}
+
+.th_a2_2_text{
+	padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 2px;
+    
+}
+
+
+
+.th_a2_2_tags {
+    padding-left: 16px;
+    padding-top: 10px;
+}
+
+
+.th_a2_3{
+	height: auto;
+    padding-top: 25px;
+    border: solid;
+    border-color: pink;
+}
+
+/* 영역 B : 광고 tab**/
+.th_d1{	
+	border: solid; 
+	border-color: black;
+	padding-top: 25px;
+}
+
+
+/* ���� C */
+
+.divC{
+	padding-right: 12px;
+}
+.cFrameDiv{
+	padding-left: 20px; padding-right: 20px; padding-top: 20px; 
+	padding-bottom: 20px; border: solid; border-color: red;
+}
+
+.c-1{
+	border: solid; 
+	border-color: pink; height: auto; padding-top: 1%;
+}
+
+.c-2{
+	height: auto;
+	padding-top: 25px; border: solid; border-color: skyblue;
+}
+/* ���� D */
+
+.divD{
+	padding-left: 13px;
+}
+
+.dFrameDiv{
+	padding-top: 20px; padding-bottom: 20px; 
+	margin-bottom: 100px;  border: solid; border-color: blue;
+}
+
+.d-1{
+	border: solid; border-color: black;
+}
+
+.d-2{
+	border: solid; border-color: purple; margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
