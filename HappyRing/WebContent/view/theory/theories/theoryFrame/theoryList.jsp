@@ -90,31 +90,33 @@
 	    <div class="th_a2" >
 				<!-- 세부영역 th_a2_1 시작 : 제목 -->
 				
-				<div class="row">
-                  <div class="col-md-3">
-                     <h5>기초심리학</h5>
-                  </div>
-                  <div class="col-md-9"></div>
-                </div> 
+<!-- 				<div class="row"> -->
+<!--                   <div class="col-md-3"> -->
+<!--                      <h5>기초심리학</h5> -->
+<!--                   </div> -->
+<!--                   <div class="col-md-9"></div> -->
+<!--                 </div>  -->
                   
                 <!-- 세부영역 th_a2_1 끝-->  
 				
 				
 	    		<!-- 세부영역 th_a2_2 시작 : 리스트  -->
-	    	 		<div class="th_a2_2">
+	    	 		<div class="th_a2_2" style="padding-top: 0px;">
 	    	 		
 	    	 			<!-- 리스트 구별 버튼 START -->
 	    	 			<div class="row">
-	    	 				<div class="col-md-6"></div>
 	    	 				<div class="col-md-6">
+	    	 				 <h4 style="padding-top: 5px">기초심리학</h5>
+	    	 				</div>
+	    	 				<div class="col-md-6" style="padding-left: 80px;">
 	    	 				   <ul class="isotope-filters isotope-filters-horizontal">
 			                      <li class="block-top-level">
 			                        <!-- Isotope Filters-->
 			                        <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-3" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
 			                        <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-3">
-			                          <li><a class="button-nina active" data-isotope-filter="*" data-isotope-group="theory1" href="#">All Categories</a></li>
-			                          <li><a class="button-nina" data-isotope-filter="type 1" data-isotope-group="theory1" href="#">Type 1</a></li>
-			                          <li><a class="button-nina" data-isotope-filter="type 2" data-isotope-group="theory1" href="#">Type 2</a></li>
+			                          <li class="th_a2_2_li"><a class="th_a2_2_btn  button-nina active" data-isotope-filter="*" data-isotope-group="theory1" href="#">All Categories</a></li>
+			                          <li class="th_a2_2_li"><a class="th_a2_2_btn button-nina" data-isotope-filter="type 1" data-isotope-group="theory1" href="#">Type 1</a></li>
+			                          <li class="th_a2_2_li"><a class="th_a2_2_btn button-nina" data-isotope-filter="type 2" data-isotope-group="theory1" href="#">Type 2</a></li>
 			                        </ul>
 			                      </li>
 			                    </ul>
@@ -122,9 +124,9 @@
 	    	 			</div>
 	    	 			<!-- 리스트 구별 버튼 END -->
 	    	 			  
-	    	 				   <div class="cell-lg-12">
-                    <div class="isotope" data-isotope-group="theory1" data-lightgallery="group">
-                      <div class="row">
+	    	 		 <div class="cell-lg-12" style="padding-top: 25px">
+		                    <div class="isotope" data-isotope-group="theory1" data-lightgallery="group">
+		                      <div class="row">
                       
                       
 						           <% for(int i=0; i<6; i++ ) { %>

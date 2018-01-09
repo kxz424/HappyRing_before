@@ -35,8 +35,15 @@
 padding-bottom: 12px;
 }
 
+.th_a2_2_li{
+margin-left: 5px !important;
+}
 
-
+.th_a2_2_btn{
+    border-radius: 7px !important;
+    max-height: 34px !important;
+    padding: 6px 25px !important;
+}
 
 .th_a2_2_list{
 	border: solid;
