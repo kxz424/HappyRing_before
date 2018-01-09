@@ -99,7 +99,7 @@ background-color:rgb(87, 203, 204);
                            	      <li>
 			                      <a href="freeBoardList.jsp">--주요심리학♥--</a>
 			                      </li>
-			                      <li><a href="freeBoardList.jsp">기초 심리학</a>
+			                      <li><a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicList.jsp">기초 심리학</a>
 			                      </li>
 			                      <li><a href="freeBoardList.jsp">3대 심리학</a>
 			                      </li>
@@ -137,9 +137,9 @@ background-color:rgb(87, 203, 204);
                   <li><a href="#">도전그룹방</a>
                     <!-- RD Navbar Megamenu-->
                       <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">전체</a>
+                      <li><a href="/HappyRing/view/challenge/challengeMain/challengeMainList.jsp">전체</a>
                       </li>
-                      <li><a href="landing-auction.html">일주일 도전</a>
+                      <li><a href="/HappyRing/view/challenge/challengeWeek/challengeWeekList.jsp">일주일 도전</a>
                       </li>
                       <li><a href="landing-environmental.html">30일 도전</a>
                       </li>
