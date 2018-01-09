@@ -219,13 +219,48 @@ padding-bottom: 10%;
 	margin-right: auto;
 }
 
-.test-table td {
-	width: 12%;
-	height: 20px;
-	border: 1px solid red;
+.test-txt {
+/* 	border: 1px solid red; */
+	width: 5%;
+	height: 10%;
+/* 	background-color: rgba(255, 255, 255, 0); */
+}
+
+.test-box {
+
+}
+
+.test-box img{
+/* 	position: absolute; */
+	z-index: -1;
 }
 </style>
 
+
+<!-- 원고지 -->
+<style type="text/css">
+.test-box table {
+	border-collapse: collapse;
+}
+.test-box table td{
+	border: 1px solid red;
+}
+.test-tr {
+	margin-bottom: 10px;
+}
+</style>
+
+
+<!-- 오늘의 기분 / 내일의 다짐 -->
+<style type="text/css">
+.feeling-promise textarea {
+	width: 100%;
+	height: 220px;
+	resize: none;
+	max-height: 220px;
+	overflow: hidden;
+}
+</style>
 
 
 
@@ -858,35 +893,34 @@ $(document).ready(function(){
 						       	  	    		
 						       	  	    	  <div class="cha_divWrite_write">	
 													
-													<img style="width: 100%;" alt="" src="../../../challengeImges/wirteBoard.png">
 													
 													
-													<table class=" test-table">
-														<tr>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-														</tr>
-														<tr>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-															<td></td>
-														</tr>
-													</table>
+													<div>
+														<div class="test-box" style="border: 1px solid red; width: auto; padding: 0; ">
+<!--  															<img style="width: 100%;" alt="" src="../../../challengeImges/wirteBoard.png" > -->
+															<c:forEach var="i" begin="0" end="5">
+																<div style="width: auto; padding: 0; margin-bottom: 7px;">
+																	<c:forEach var="j" begin="1" end="20">
+																		<input type="text" class="test-txt" id="test-txt${i*20 + j }"
+																			
+																			style="margin-right: -5px; border: 1px solid red; width: 5.24%" />
+																	</c:forEach>
+																</div>
+															</c:forEach>
+															
+															
+														</div>
+
+<!-- 															<table class="table table-bordered"> -->
+<%-- 																<c:forEach var="i" begin="1" end="3"> --%>
+<!-- 																	<tr class="test-tr"> -->
+<%-- 																		<c:forEach var="j" begin="1" end="20"> --%>
+<!-- 																			<td	style="border: 1px solid red; padding-bottom: 20px; box-sizing: content-box;"></td> -->
+<%-- 																		</c:forEach> --%>
+<!-- 																	</tr> -->
+<%-- 																</c:forEach> --%>
+<!-- 															</table> -->
+													</div>
 
 
 
@@ -911,27 +945,30 @@ $(document).ready(function(){
 							       	  	  	<div class="col-md-2"> </div>
 							       	  	    <!-- # 그날의 기분 START -->
 							       	  	    <div class="col-md-4 cha_divEmotion_today">
-							       	  	      <article class="box-minimal">
+							       	  	      <article class="box-minimal feeling-promise">
 							       	  	        <div class="row">
 								       	  	        <div class="col-md-10" style="    padding-top: 8px;">
 							                         <h6>오늘의 기분</h6> 
 							                        </div>
 							                        
 							                        <div class="col-md-2">
-							                      	    <div class="cha_social cha_twitter">
-												            <i class="fa fa-twitter fa-5x"></i>   
-												        </div>
+<!-- 							                      	    <div class="cha_social cha_twitter"> -->
+<!-- 												            <i class="fa fa-twitter fa-5x"></i>    -->
+<!-- 												        </div> -->
+														<a href="" class="button button-primary" style="min-width: 40px; height: 35px; padding: 0;"><span class="mdi mdi-emoticon-happy" style="font-size: 35px; line-height: 0.9;"></span></a>
 							                        </div>
 						                        </div>
-						                        <p>We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p>
+<!-- 						                        <p>We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p> -->
+						                        <textarea id="feeling" class="form-control" rows="10"></textarea>
 						                      </article>
 							       	  	    </div>
 							       	  	    
 							       	  	    <!-- # 내일의 다짐 START -->
 							       	  	    <div class="col-md-4 cha_divEmotion_tomorrow">
-							       	  	     <article class="box-minimal">
+							       	  	     <article class="box-minimal feeling-promise">
 						                        <h6>내일의 다짐</h6>
-						                        <p>We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p>
+<!-- 						                        <p>We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p> -->
+						                        <textarea id="promise" class="form-control" rows="10"></textarea>
 						                      </article>
 							       	  	    </div>
 							       	  	    <div class="col-md-2"> </div>
@@ -1008,4 +1045,40 @@ $(document).ready(function(){
 
 
   </body>
+
+
+
+
+
+<script type="text/javascript">
+	//오늘의 기분 / 내일의 다짐 글자수 제한
+	$(document).on('keyup', '#feeling, #promise', function() {
+		if ($(this).val().length > 200) {
+			alert("200자를 초과하셨습니다.");
+			$(this).val($(this).val().substring(0, 200));
+		}
+	});
+	//원고지에 글씨 입력시 자동으로 포커스 이동
+	$(document).on('keyup', '.test-txt', function(e){
+		if(e.keyCode == 32 || $(this).val().length > 1){
+			$(this).val($(this).val().charAt($(this).val().length-2));
+			var a = $(this).attr('id').substring(8, $(this).attr('id').length)*1+1;
+// 			alert($('#test-txt'+a+'').attr('id'));
+			$('#test-txt'+a+'').focus();
+		}
+		if(e.keyCode == 13){
+			var a = $(this).attr('id').substring(8, $(this).attr('id').length)*1;
+			if(a < 21){a = 21;}
+			else if(a < 41){a = 41;}
+			else if(a < 61){a = 61;}
+			else if(a < 81){a = 81;}
+			else if(a < 101){a = 101;}
+			$('#test-txt'+a+'').focus();
+		}
+	});
+</script>
+
+
+
+
 </html>
