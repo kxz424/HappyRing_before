@@ -14,8 +14,10 @@
  	
  	<!-- 심리이론 Frame Stylesheets -->
     <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
+        <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
    <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
    <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+   
    
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -87,7 +89,7 @@
 	    	  <!-- 세부영역 a-1 끝 -->	
 	    	  	
 	    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
-	    <div class="th_a2" >
+	    <div class="th_detail_a2" >
 				<!-- 세부영역 th_a2_1 시작 : 제목 -->
 				
 <!-- 				<div class="row"> -->
@@ -100,13 +102,14 @@
                 <!-- 세부영역 th_a2_1 끝-->  
 				
 				
-	    		<!-- 세부영역 th_a2_2 시작 : 리스트  -->
-	    	    <div class="th_dtail_a2_2" >
+	    		<!-- 세부영역 th_dtail_a2_1 시작 : 리스트  -->
+	    	    <div class="th_dtail_a2_1" >
 	    	 		<div class="range range-xs-center">
-			            <div class="cell-md-10 cell-lg-8 cell-xl-6 sections-collapsable">
+	    	 		
+			           <div class="th_detail_body> cell-md-10 cell-lg-8 cell-xl-6 sections-collapsable">
+			             <div class="row">
 			            
-			            
-			            
+			              <div class="col-md-12">
 			              <article class="post-blog-article">
 			                <p class="post-blog-article-title">How to Turn Small Talk Into Smart <br class="veil reveal-md-block">Conversation</p>
 			                <ul class="post-blog-article-meta group-xl">
@@ -142,78 +145,83 @@
 			
 			
 			
-			              <div class="section-md">
-			                <p class="h3-alternate">Comments</p>
-			                <div class="comment-group">
-			                  <!-- Comment-->
+<!-- 			              <div class="section-md"> -->
+<!-- 			                <p class="h3-alternate">Comments</p> -->
+<!-- 			                <div class="comment-group"> -->
+<!-- 			                  Comment -->
 			             
 			             
-			                </div>
-			              </div>
+<!-- 			                </div> -->
+<!-- 			              </div> -->
 			              
 			              
 			              
 			              
-			              <div class="section-lg">
-			                <p class="h3-alternate">Send a Comment</p>
-			                <!-- RD Mailform-->
+<!-- 			              <div class="section-lg"> -->
+<!-- 			                <p class="h3-alternate">Send a Comment</p> -->
+<!-- 			                RD Mailform -->
 			                
+<!-- 			              </div> -->
+			              
+			              
+			              
+<!-- 			              <div class="section-sm"> -->
+<!-- 			                <p class="h3-alternate">Recent Posts</p> -->
+<!-- 			                <div class="range range-30 range-lg-50"> -->
+<!-- 			                  <div class="cell-xs-10 cell-sm-6 post-light-wrap"> -->
+<!-- 			                    <article class="post-light"> -->
+<!-- 			                      <div class="unit unit-horizontal"> -->
+<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-1-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
+<!-- 			                        <div class="unit-body"> -->
+<!-- 			                          <p class="post-light-title"><a href="single-post.html">The Top 5 Reasons Why ‘The Customer Is Always Right’ Is Wrong</a></p> -->
+<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
+<!-- 			                        </div> -->
+<!-- 			                      </div> -->
+<!-- 			                    </article> -->
+<!-- 			                    <article class="post-light"> -->
+<!-- 			                      <div class="unit unit-horizontal"> -->
+<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-3-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
+<!-- 			                        <div class="unit-body"> -->
+<!-- 			                          <p class="post-light-title"><a href="single-post.html">7 Ways to Inspire Your Employees</a></p> -->
+<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
+<!-- 			                        </div> -->
+<!-- 			                      </div> -->
+<!-- 			                    </article> -->
+<!-- 			                  </div> -->
+<!-- 			                  <div class="cell-xs-10 cell-sm-6 post-light-wrap"> -->
+<!-- 			                    <article class="post-light"> -->
+<!-- 			                      <div class="unit unit-horizontal"> -->
+<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-2-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
+<!-- 			                        <div class="unit-body"> -->
+<!-- 			                          <p class="post-light-title"><a href="single-post.html">How to Improve Performance of Your Sales Managers: an Essential Guide</a></p> -->
+<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
+<!-- 			                        </div> -->
+<!-- 			                      </div> -->
+<!-- 			                    </article> -->
+<!-- 			                    <article class="post-light"> -->
+<!-- 			                      <div class="unit unit-horizontal"> -->
+<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-4-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
+<!-- 			                        <div class="unit-body"> -->
+<!-- 			                          <p class="post-light-title"><a href="single-post.html">Managing Your Time: Top 8 Tips</a></p> -->
+<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
+<!-- 			                        </div> -->
+<!-- 			                      </div> -->
+<!-- 			                    </article> -->
+<!-- 			                  </div> -->
+<!-- 			                </div> -->
+<!-- 			              </div> -->
 			              </div>
-			              
-			              
-			              
-			              <div class="section-sm">
-			                <p class="h3-alternate">Recent Posts</p>
-			                <div class="range range-30 range-lg-50">
-			                  <div class="cell-xs-10 cell-sm-6 post-light-wrap">
-			                    <article class="post-light">
-			                      <div class="unit unit-horizontal">
-			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-1-120x80.jpg" alt="" width="120" height="80"/></a></div>
-			                        <div class="unit-body">
-			                          <p class="post-light-title"><a href="single-post.html">The Top 5 Reasons Why ‘The Customer Is Always Right’ Is Wrong</a></p>
-			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time>
-			                        </div>
-			                      </div>
-			                    </article>
-			                    <article class="post-light">
-			                      <div class="unit unit-horizontal">
-			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-3-120x80.jpg" alt="" width="120" height="80"/></a></div>
-			                        <div class="unit-body">
-			                          <p class="post-light-title"><a href="single-post.html">7 Ways to Inspire Your Employees</a></p>
-			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time>
-			                        </div>
-			                      </div>
-			                    </article>
-			                  </div>
-			                  <div class="cell-xs-10 cell-sm-6 post-light-wrap">
-			                    <article class="post-light">
-			                      <div class="unit unit-horizontal">
-			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-2-120x80.jpg" alt="" width="120" height="80"/></a></div>
-			                        <div class="unit-body">
-			                          <p class="post-light-title"><a href="single-post.html">How to Improve Performance of Your Sales Managers: an Essential Guide</a></p>
-			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time>
-			                        </div>
-			                      </div>
-			                    </article>
-			                    <article class="post-light">
-			                      <div class="unit unit-horizontal">
-			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-4-120x80.jpg" alt="" width="120" height="80"/></a></div>
-			                        <div class="unit-body">
-			                          <p class="post-light-title"><a href="single-post.html">Managing Your Time: Top 8 Tips</a></p>
-			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time>
-			                        </div>
-			                      </div>
-			                    </article>
-			                  </div>
-			                </div>
 			              </div>
 			            </div>
 			          </div>
 				</div> 
-				<!-- 세부영역 th_a2_2  끝   -->
-						          
-						         <!-- 세부영역 th_a2_3 시작 : 페이징  --> 
-						         <div class="th_a2_3">
+				<!-- 세부영역 th_dtail_a2_1  끝   -->
+				
+				<!-- 세부영역 th_dtail_a2_2 -->
+				<div class="th_dtail_a2_2">
+				
+				</div>		          
+						         <div class="th_dtail_a2_3">
 						           <div class="row">
 										<div class="col-xs-0  col-md-4"></div>
 			<!-- 					                       페이징 -->
