@@ -14,8 +14,8 @@
  	
  	<!-- 심리이론 Frame Stylesheets -->
     <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-        <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
-   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+   <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
+   <link rel="stylesheet" href="/HappyRing/css/theory/theoryGuidList.css"> 
    <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
    <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
    
@@ -90,186 +90,60 @@
 	    	  <!-- 세부영역 a-1 끝 -->	
 	    	  	
 	    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
-	    <div class="th_detail_a2" >
-				<!-- 세부영역 th_a2_1 시작 : 제목 -->
-
-                  
-                <!-- 세부영역 th_a2_1 끝-->  
+	    <div class="th_guid_a2" >
+	       <!-- 세부영역 th_guid_a2_1 시작 :   -->
+	       <div class="th_guid_a2_1" >
+	    	  <div class="row">
+                  <div class="col-md-3">
+                     <h5>자유게시판</h5>
+                  </div>
+                  <div class="col-md-3"></div>
+                  <div class="col-md-6"></div>
+		   </div> 
+		   <!-- 세부영역 th_guid_a2_1  끝   -->
 				
-				
-	    		<!-- 세부영역 th_dtail_a2_1 시작 : 리스트  -->
-	    	    <div class="th_dtail_a2_1" >
-	    	 		<div class="range range-xs-center">
-	    	 		
-			           <div class="th_detail_body> cell-md-12 cell-lg-10 cell-xl-6 sections-collapsable">
-			             <div class="row">
-			            
-			              <div class="col-md-12">
-			              <article class="post-blog-article">
-			                <p class="post-blog-article-title">대화를 똑똑하게 하는 방법 <br class="veil reveal-md-block">Conversation</p>
-			                
-			                <div class="row" style="margin-top: 30px;">
-			                	<div class="col-md-4">
-			                	 	<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-account"></span>by
-				                      <div><a href="#">Ronald Chen</a></div>
-				                    </div>
-			                	</div>
-			                
-			                	<div class="col-md-3" style="padding-left: 0px;">
-			                		 <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-calendar-clock"></span>
-				                      <time datetime="2017">2018-01-10</time>
-				                    </div>
-			                	</div>
-			                	
-			                	<div class="col-md-5" style="padding-left: 0px;">
-			                		<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-tag"></span>
-				                      <time datetime="2017">Feb, 27 2017 at 5:47 pm</time>
-				                    </div>
-			                	</div>
-			                </div>
-			                
-			                
-			                
-			                <p class="big">Imagine almost any situation where two or more people are gathered—a wedding reception or a job interview. What do these situations have in common? Almost all of them involve people trying to talk with each other. But in these very moments where a conversation would enhance an encounter, we often fall short.</p>
-			                <img src="../../../images/blog-03-870x580.jpg" alt="" width="870" height="580"/>
-			                <p>When small talk stalls out, it’s often due to a phenomenon we call “mirroring.” In our attempts to be polite, we often answer people’s questions directly, repeat their observations, or just blandly agree with whatever they say. Such an approach can kill your conversation in the beginning. When you “break the mirror”, you give your interlocutor a chance to move forward in your small talk.</p>
-			                <p>People also tend to do a passable job at talking. We stagger through our romantic, professional and social worlds with the goal merely of not crashing, never considering that we might soar. We go home sweaty and puffy without realizing that small talks are keys to opening greater conversations. In this post, we would like to show you how you can change this. For example, you can ask open-ended questions. Aim for questions that invite people to tell stories, rather than give bland, one-word answers.</p>
-			                <article class="quote-primary">
-			                  <svg class="quote-primary-mark" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35px" height="25px" viewbox="0 0 35 25">
-			                    <path d="M27.461,10.206h7.5v15h-15v-15L25,0.127h7.5L27.461,10.206z M7.539,10.206h7.5v15h-15v-15L4.961,0.127h7.5 L7.539,10.206z"></path>
-			                  </svg>
-			                  <div class="quote-primary-text">
-			                    <p>If you mirror the opinion and language of your interlocutor, you follow the common social norm, but you also paralyze the discussion and miss a moment of fun. Instead, we recommend you to practice the art of disruption and move the dialogue forward using one of the methods described in this article.</p>
-			                  </div>
-			                  <p class="quote-primary-meta"><span>by</span><span class="cite">Ronald Chen</span></p>
-			                </article>
-			                <p>An even better way to break the boring conversation mirror is to skip over the expected response and go somewhere next-level. Even if your answer won’t concern the topic of the initial question, it will push the conversation forward. Don’t be afraid to go ahead and be bold. Upend the dinner table conversation! Turn small talk into big ideas at the next summer wedding reception you’re forced to attend! You never know which ideas will be worth spreading next and maybe breaking the ice of a small talk will end in amazing conversation.</p>
-			              </article>
-			
-			              
-			              </div>
-			              </div>
-			            </div>
-			          </div>
-				</div> 
-				<!-- 세부영역 th_dtail_a2_1  끝   -->
-				
-				
-				<!-- 북마크 엔젤링 수정요청 시작 -->
-				<div class="th_dtail_a2_buttons">
-	    	 		<div class="row">
-	    	 			<div class="col-md-1"></div>
-	    	 			<div class="col-md-10" style="padding-left: 60px;">
-	    	 			   <a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>북마크</a>
-	    	 			   <a class="button button-twitter" href="#" style="margin-top: 0px;"><span class="icon glyphicon glyphicon-heart-empty"></span>엔젱링</a>
-	    	 			   <a class="button button-twitter" href="#" style="margin-top: 0px;"><<span class="icon glyphicon glyphicon-bullhorn"></span>수정요청</a>
-	    	 			</div>
-						<div class="col-md-1"></div>		
-	    	 		</div>
-	    	 	</div>
-	    	 	<!-- 북마크 엔젤링 수정요청 끝  -->
 	    	 	
 	    	 	
-	    	 	
-	    	<!-- ##댓글쓰기 + 댓글 리스트 START -->
-	    	<div style="background-color: #e9f5fa ">	
-	    	 	
-				<!-- 세부영역 th_dtail_a2_2 : 댓글쓰기 시작-->
-				<div class="th_dtail_a2_2">
-				   <h5>댓글쓰기</h5>
-					<div class="row">
-	    	 		  <div class="col-md-12 common-list">
-	    	 			<div class="common-write">
-								<form method="post">
-									<input type="checkbox" id="secret" />
-									<label>비밀댓글</label>
-										<div class="row">
-											<div class="col-md-12 ta">
-											<div class="row">
-												<div class="col-xs-8 col-sm-9 col-md-9 col-lg-10" style="padding-right: 0px;">
-													<textarea></textarea>
-												</div>
-												<div class="col-md-2">
-													<input type="button" class="reply-create btn btn-primary" value="등록" style="border-radius: 7%;"/>
-												</div>
-											</div>
-												
-												
-											</div>
-										</div>
-								 </form>
-					     </div>
-				      </div>
-	    	 		</div>
-				</div>	
-				<!-- 세부영역 th_dtail_a2_2 끝-->
+		  <!-- 세부영역 th_guid_a2_2 : -->
+		  <div class="th_guid_a2_2">
+			<div class="shell shell-wide shell-box-minimal-wrap">
+	          <div class="range range-50 range-xs-center">
+	            <div class="cell-xs-10 cell-sm-6 cell-lg-4">
+	              <article class="box-minimal box-minimal-border">
+	                <div class="box-minimal-icon mdi mdi-bus"></div>
+	                <p class="big box-minimal-title">주요 심리학</p>
+	                <hr>
+	                <div class="box-minimal-text text-spacing-sm">We offer free Bus Service for children and adults, which allows young visitors and their parents to quickly reach our museum to usefully spend their time. After visiting us, you will be driven back home in our comfortable buses.</div>
+	              </article>
+	            </div>
+	            <div class="cell-xs-10 cell-sm-6 cell-lg-4">
+	              <article class="box-minimal box-minimal-border">
+	                <div class="box-minimal-icon mdi mdi-camera"></div>
+	                <p class="big box-minimal-title">심리학 지식</p>
+	                <hr>
+	                <div class="box-minimal-text text-spacing-sm">Our museum also has lots of interesting things for children including our Outdoor Playground, which is mainly our entertainment center for everyone up to 15 y.o. Our  team will provide your chilren with interesting activities</div>
+	              </article>
+	            </div>
+	            <div class="cell-xs-10 cell-sm-6 cell-lg-4">
+	              <article class="box-minimal box-minimal-border">
+	                <div class="box-minimal-icon mdi mdi-nature-people"></div>
+	                <p class="big box-minimal-title">묻고 답하기</p>
+	                <hr>
+	                <div class="box-minimal-text text-spacing-sm">Our museum also has lots of interesting things for children including our Outdoor Playground, which is mainly our entertainment center for everyone up to 15 y.o. Our  team will provide your chilren with interesting activities.</div>
+	              </article>
+	            </div>
+	          </div>
+	        </div>						
+		  </div>	
+		  <!-- 세부영역 th_dtail_a2_2 끝-->
 				
 				
-		       <!-- 세부영역 th_dtail_a2_3 : 댓글 리스트 시작 	-->
-		       <div class="th_dtail_a2_3">
-		        <div class="row">
-      						    <div class="col-md-2"></div>
-			    	 			<div class="col-md-8">
-			    	 				<table class="table table-hover">
-										<tr>
-											<td style="padding-bottom: 25px; padding-top: 25px;">
-												<div class="row">
-													<div class="col-xs-2 col-md-2">
-														<img src="http://placehold.it/80"
-															class="img-circle img-responsive" alt="" />
-													</div>
-													<div class="col-xs-10 col-md-10" 	style="border: solid;">
-															<!-- 댓글 수정 삭제 버튼 START -->
-															<div class="row">
-															   <div class="col-md-9"></div> 
-															   <div class="col-md-3" data-toggle="buttons" style="padding-right: 0px;padding-left: 46px;">
-														          <label class="btn btn-default btn-circle btn-lg">       
-														          <input type="radio" name="q1" value="1"><i class="glyphicon glyphicon-pencil"></i></label>
-														          <label class="btn btn-default btn-circle btn-lg">       
-														          <input type="radio" name="q1" value="0"><i class="glyphicon glyphicon-trash" checked></i></label>
-														          <label class="btn btn-default btn-circle btn-lg active">
-														          <input type="radio" name="q1" value="2"><i class="glyphicon glyphicon-ok"></i></label>
-														       </div>
-				                              				</div>
-				                              				<!-- 댓글 수정 삭제 버튼 END -->
-															<div class="mic-info">
-																By: <a href="#">Check My Athletics</a> on 12 Jun 2014
-															</div>
-															<div class="comment-text">We would like to
-															congratulate John on his achievement...
-															</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="row">
-													<div class="col-xs-2 col-md-2">
-														<img src="http://placehold.it/80"
-															class="img-circle img-responsive" alt="" />
-													</div>
-													<div class="col-xs-10 col-md-10">
-														<div>
-															<a href="#"> Congratulations</a>
-															<div class="mic-info">
-																By: <a href="#">Check My Athletics</a> on 12 Jun 2014
-															</div>
-														</div>
-														<div class="comment-text">We would like to
-															congratulate John on his achievement...</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-									</table>
-			    	 			</div>
-			    	 			<div class="col-md-2"></div>
-			    	 		</div>
-			    	</div>
+		       <!-- 세부영역 th_dtail_a2_3 : 	-->
+		       <div class="th_guid_a2_3">
+		        
+			    </div>
 			    
 			    
-			    </div> 
 			    <!-- 댓글쓰기 + 댓글 리스트 END -->
 			    
 						           
@@ -278,33 +152,11 @@
 				
 				<!-- 세부영역 th_a2_3 끝  -->
 				
-				<!-- 세부영역 th_dtail_a2_4 시작 	-->
-			    <div class="th_dtail_a2_4">
-				    <div class="row">
-					    <div class="col-xs-0  col-md-4"></div>
-					    
-						    <!-- 페이징 -->
-						    <div class="col-xs-12 col-md-5" style=" padding-right: 0px; padding-left: 0px;">
-						     <ul class="pagination-custom" id="pageNum">
-						     	<li><a href="">◀◀</a></li>
-						        <li><a href="">◀</a></li>
-						        <c:forEach var="i" begin="1" end="4">
-						           <li><a href="">${i}</a></li>
-						        </c:forEach>
-						        <li><a href="">▶</a></li>
-						        <li><a href="">▶▶</a></li>   
-						     </ul>
-						    </div>
-						    <div class="col-xs-7 col-md-1"></div>
-						    
-						    <!-- 글쓰기버튼 -->
-						    <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
-						    <input class="btn btn-primary" type="button" id="write"value="목록" />
-						    </div>
-						    <div class="col-xs-3 col-md-0"></div>
-				    </div>
+				<!-- 세부영역 "th_guid_a2_4" 시작 	-->
+			    <div class="th_guid_a2_4">
+				    
 			    </div>
-			    <!-- 세부영역 th_dtail_a2_4 끝 	-->
+			    <!-- 세부영역 "th_guid_a2_4" 끝 	-->
 						          
 						          
 	    	 		
