@@ -62,19 +62,19 @@
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-1-1920x910.jpg">
+                                    data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
@@ -92,13 +92,7 @@
 	    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
 	    <div class="th_detail_a2" >
 				<!-- 세부영역 th_a2_1 시작 : 제목 -->
-				
-<!-- 				<div class="row"> -->
-<!--                   <div class="col-md-3"> -->
-<!--                      <h5>기초심리학</h5> -->
-<!--                   </div> -->
-<!--                   <div class="col-md-9"></div> -->
-<!--                 </div>  -->
+
                   
                 <!-- 세부영역 th_a2_1 끝-->  
 				
@@ -107,31 +101,37 @@
 	    	    <div class="th_dtail_a2_1" >
 	    	 		<div class="range range-xs-center">
 	    	 		
-			           <div class="th_detail_body> cell-md-10 cell-lg-8 cell-xl-6 sections-collapsable">
+			           <div class="th_detail_body> cell-md-12 cell-lg-10 cell-xl-6 sections-collapsable">
 			             <div class="row">
 			            
 			              <div class="col-md-12">
 			              <article class="post-blog-article">
 			                <p class="post-blog-article-title">대화를 똑똑하게 하는 방법 <br class="veil reveal-md-block">Conversation</p>
-			                <ul class="post-blog-article-meta group-xl">
-			                  <li>
-			                    <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-account"></span>by
-			                      <div><a href="#">Ronald Chen</a></div>
-			                    </div>
-			                  </li>
-			                  <li>
-			                    <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-calendar-clock"></span>
-			                      <time datetime="2017">Feb, 27 2017 at 5:47 pm</time>
-			                    </div>
-			                  </li>
-			                  <li>
-			                    <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-tag"></span>
-			                      <time datetime="2017">Feb, 27 2017 at 5:47 pm</time>
-			                    </div>
-			                  </li>
-			                </ul>
+			                
+			                <div class="row" style="margin-top: 30px;">
+			                	<div class="col-md-4">
+			                	 	<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-account"></span>by
+				                      <div><a href="#">Ronald Chen</a></div>
+				                    </div>
+			                	</div>
+			                
+			                	<div class="col-md-3" style="padding-left: 0px;">
+			                		 <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-calendar-clock"></span>
+				                      <time datetime="2017">2018-01-10</time>
+				                    </div>
+			                	</div>
+			                	
+			                	<div class="col-md-5" style="padding-left: 0px;">
+			                		<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-tag"></span>
+				                      <time datetime="2017">Feb, 27 2017 at 5:47 pm</time>
+				                    </div>
+			                	</div>
+			                </div>
+			                
+			                
+			                
 			                <p class="big">Imagine almost any situation where two or more people are gathered—a wedding reception or a job interview. What do these situations have in common? Almost all of them involve people trying to talk with each other. But in these very moments where a conversation would enhance an encounter, we often fall short.</p>
-			                <img src="../../../../images/blog-03-870x580.jpg" alt="" width="870" height="580"/>
+			                <img src="../../../images/blog-03-870x580.jpg" alt="" width="870" height="580"/>
 			                <p>When small talk stalls out, it’s often due to a phenomenon we call “mirroring.” In our attempts to be polite, we often answer people’s questions directly, repeat their observations, or just blandly agree with whatever they say. Such an approach can kill your conversation in the beginning. When you “break the mirror”, you give your interlocutor a chance to move forward in your small talk.</p>
 			                <p>People also tend to do a passable job at talking. We stagger through our romantic, professional and social worlds with the goal merely of not crashing, never considering that we might soar. We go home sweaty and puffy without realizing that small talks are keys to opening greater conversations. In this post, we would like to show you how you can change this. For example, you can ask open-ended questions. Aim for questions that invite people to tell stories, rather than give bland, one-word answers.</p>
 			                <article class="quote-primary">
@@ -147,52 +147,6 @@
 			              </article>
 			
 			              
-			              
-<!-- 			              <div class="section-sm"> -->
-<!-- 			                <p class="h3-alternate">Recent Posts</p> -->
-<!-- 			                <div class="range range-30 range-lg-50"> -->
-<!-- 			                  <div class="cell-xs-10 cell-sm-6 post-light-wrap"> -->
-<!-- 			                    <article class="post-light"> -->
-<!-- 			                      <div class="unit unit-horizontal"> -->
-<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-1-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
-<!-- 			                        <div class="unit-body"> -->
-<!-- 			                          <p class="post-light-title"><a href="single-post.html">The Top 5 Reasons Why ‘The Customer Is Always Right’ Is Wrong</a></p> -->
-<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
-<!-- 			                        </div> -->
-<!-- 			                      </div> -->
-<!-- 			                    </article> -->
-<!-- 			                    <article class="post-light"> -->
-<!-- 			                      <div class="unit unit-horizontal"> -->
-<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-3-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
-<!-- 			                        <div class="unit-body"> -->
-<!-- 			                          <p class="post-light-title"><a href="single-post.html">7 Ways to Inspire Your Employees</a></p> -->
-<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
-<!-- 			                        </div> -->
-<!-- 			                      </div> -->
-<!-- 			                    </article> -->
-<!-- 			                  </div> -->
-<!-- 			                  <div class="cell-xs-10 cell-sm-6 post-light-wrap"> -->
-<!-- 			                    <article class="post-light"> -->
-<!-- 			                      <div class="unit unit-horizontal"> -->
-<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-2-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
-<!-- 			                        <div class="unit-body"> -->
-<!-- 			                          <p class="post-light-title"><a href="single-post.html">How to Improve Performance of Your Sales Managers: an Essential Guide</a></p> -->
-<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
-<!-- 			                        </div> -->
-<!-- 			                      </div> -->
-<!-- 			                    </article> -->
-<!-- 			                    <article class="post-light"> -->
-<!-- 			                      <div class="unit unit-horizontal"> -->
-<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-4-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
-<!-- 			                        <div class="unit-body"> -->
-<!-- 			                          <p class="post-light-title"><a href="single-post.html">Managing Your Time: Top 8 Tips</a></p> -->
-<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
-<!-- 			                        </div> -->
-<!-- 			                      </div> -->
-<!-- 			                    </article> -->
-<!-- 			                  </div> -->
-<!-- 			                </div> -->
-<!-- 			              </div> -->
 			              </div>
 			              </div>
 			            </div>
@@ -268,7 +222,7 @@
 															<!-- 댓글 수정 삭제 버튼 START -->
 															<div class="row">
 															   <div class="col-md-9"></div> 
-															   <div class="col-md-3" data-toggle="buttons">
+															   <div class="col-md-3" data-toggle="buttons" style="padding-right: 0px;padding-left: 46px;">
 														          <label class="btn btn-default btn-circle btn-lg">       
 														          <input type="radio" name="q1" value="1"><i class="glyphicon glyphicon-pencil"></i></label>
 														          <label class="btn btn-default btn-circle btn-lg">       
@@ -373,7 +327,7 @@
 		               
 		                 <button class="btn btn-primary btn-lg hidden-xs" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
                             
-		                     <jsp:include page="../../../member/login.jsp"/>
+		                     <jsp:include page="../../member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                
@@ -415,7 +369,7 @@
  	              <!-- 세부영역 B-4 : 날짜 영역 START-->   
 		               <div class="b-4">
 				               <br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다
-				               <img alt="" src="../../../../mainImages/날씨와기분.png" >               
+				               <img alt="" src="../../../mainImages/날씨와기분.png" >               
 		               </div>
 	              <!-- 세부영역 B-4 : 날씨 영역 END-->   
 	              
