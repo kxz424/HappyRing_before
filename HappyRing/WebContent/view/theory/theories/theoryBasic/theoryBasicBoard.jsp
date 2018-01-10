@@ -471,7 +471,7 @@ $(function(){
   <script type="text/javascript" src="/HappyRing/editjs/plugins/save.min.js"></script>
   <script type="text/javascript" src="/HappyRing/editjs/plugins/fullscreen.min.js"></script>
 
-  <script src="/HappyRing/editjs/edit.js"></script>
+  <script src="/HappyRing/editjs/edit.js"></script>	
 <!-- 에디터 -->
      
      
