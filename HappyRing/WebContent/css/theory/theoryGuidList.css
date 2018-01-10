@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.th_guid_a2_1{
+   border: solid;
+   padding-top: 15px;
+}
+
+
+.th_guid_a2{
+	padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 66px;
+}
+    
+
+
+.th_guid_a2_2{
+	border: solid;
+	border-color : #400080;
+	padding-top: 15px;
+}
+
+
+
+.th_guid_a2_3{
+	border: solid;
+	border-color : #408080;
+	padding-top: 15px;
+}
+
+
+.th_guid_a2_4{
+	border: solid;
+	border-color : yellow;
+	padding-top: 15px;
+}
