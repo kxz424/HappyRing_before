@@ -94,11 +94,11 @@
 	       <!-- 세부영역 th_guid_a2_1 시작 :   -->
 	       <div class="th_guid_a2_1" >
 	    	  <div class="row">
-                  <div class="col-md-3">
-                     <h5>자유게시판</h5>
-                  </div>
-                  <div class="col-md-3"></div>
-                  <div class="col-md-6"></div>
+	    	  	<div class="col-md-3">
+	    	  		<h5>심리가이드</h5>
+	    	  	</div>
+	    	  	<div class="col-md-9"></div>
+	    	  </div>
 		   </div> 
 		   <!-- 세부영역 th_guid_a2_1  끝   -->
 				

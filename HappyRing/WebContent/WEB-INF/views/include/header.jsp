@@ -122,9 +122,9 @@ background-color:rgb(87, 203, 204);
                           		<li>
 			                    <a href="#">--지식나눔방♥--</a>
 			                    </li>
-			                    <li><a href="landing-seo.html">심리학 지식</a>
+			                    <li><a href="/HappyRing/view/theory/theoryShare/theoryShareList.jsp">심리학 지식</a>
 			                    </li>
-			                    <li><a href="landing-seo.html">묻고 답하기</a>
+			                    <li><a href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNAList.jsp">묻고 답하기</a>
 			                    </li>
                           </ul>
                         </li>  

@@ -59,19 +59,19 @@
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-1-1920x910.jpg">
+                                    data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
@@ -106,7 +106,7 @@
 	    	 			<!-- 리스트 구별 버튼 START -->
 	    	 			<div class="row">
 	    	 				<div class="col-md-6">
-	    	 				 <h4 style="padding-top: 5px">기초심리학</h5>
+	    	 				 <h4 style="padding-top: 5px">심리학 지식</h5>
 	    	 				</div>
 	    	 				<div class="col-md-6" style="padding-left: 80px;">
 	    	 				   <ul class="isotope-filters isotope-filters-horizontal">
@@ -138,7 +138,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp"> 
-							                   	      <img alt="" src="../../../../images/bg-02.jpg">
+							                   	      <img alt="" src="../../../images/bg-02.jpg">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
@@ -177,7 +177,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="image-post.html"> 
-							                   	      <img alt="" src="../../../../images/slider-1-slide-3-1920x910.jpg">
+							                   	      <img alt="" src="../../../images/slider-1-slide-3-1920x910.jpg">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
@@ -241,12 +241,11 @@
 								                    </ul>
 								          </div>
 								          <div class="col-xs-7 col-md-1"></div>
-			<!-- 					                        글쓰기 버튼 -->
+			<!-- 					                        ㄹ 버튼 -->
 								          <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
-								          
-								          <a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
-								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
-								          </a>     
+								              <a href="/HappyRing/view/theory/theoryShare/theoryShareBoard.jsp"> 
+								              <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
+								              </a>
 								          </div>
 								           <div class="col-xs-3 col-md-0"></div>
 								  </div>
@@ -273,7 +272,7 @@
 		               
 		                 <button class="btn btn-primary btn-lg hidden-xs" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
                             
-		                     <jsp:include page="../../../member/login.jsp"/>
+		                     <jsp:include page="../../member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                
@@ -310,6 +309,38 @@
 								</div>
           			     </div>
 	              <!-- 세부영역 B-3 : 공지사항 END-->   
+		               
+		               
+		          <!--  qna List에서 추가한 부분 : 상담랭킹 START -->     
+		          		<div class="share_lanking" style="border: solid; border-color: green; margin-top: 25px;">
+			          		<table class="table table-hover">
+	                        <tbody>
+	                           <tr>
+	                              <td>이번주 엔젤</td>
+	                           </tr>
+	                           <tr>
+	                              <td>반갑습니다</td>
+	                           </tr>
+	                           <tr>
+	                              <td>좋은글이네요</td>
+	                           </tr>
+	                           <tr>
+	                              <td>잘보고갑니다^^</td>
+	                           </tr>
+	                           <tr>
+	                              <td>오늘도 즐거운 하루되세요!!!</td>
+	                           </tr>
+	                           <tr>
+	                              <td>너무 뻔한글 같아요 ㅠㅠ</td>
+	                           </tr>
+	                           <tr>
+	                              <td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
+	                           </tr>
+	                        </tbody>
+	                     </table>     
+		          	</div>     
+		          <!--  qua List에서 추가한 부분 : 상담랭킹 END -->       
+		               
 		               
 		               
  	              <!-- 세부영역 B-4 : 날짜 영역 START-->   

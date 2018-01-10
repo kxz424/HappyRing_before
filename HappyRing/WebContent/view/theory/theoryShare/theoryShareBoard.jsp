@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-글쓰는 곳 UI
+
 </body>
 </html>
