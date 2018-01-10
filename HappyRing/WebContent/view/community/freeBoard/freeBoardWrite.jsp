@@ -71,8 +71,11 @@
 .title {
 	width: 100%;
 }
-#edit p {
+#edit {
 	height: 400px;
+}
+#edit p {
+	margin-top: 0px;
 }
 </style>
 
