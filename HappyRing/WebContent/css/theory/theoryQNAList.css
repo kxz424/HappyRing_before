@@ -1,0 +1,93 @@
+
+/* 영역 A */
+.th_qna_divA {
+	padding-right: 12px;
+}
+
+.th_qna_aFrame{
+	padding-left: 20px; padding-right: 20px; padding-top: 20px; 
+	padding-bottom: 20px; border: solid; border-color: #008040;
+	
+}
+
+.th_qna1 {
+	border: solid; border-color: pink; height: auto; padding-top: 1%;
+}
+
+
+.th_qna2{
+	height: auto;
+	padding-top: 25px; 
+	border: solid; 
+	border-color: skyblue;
+	padding-left: 15px;
+    padding-right: 15px;
+}
+
+.th_qna1_1{
+	
+}
+
+.th_qna1_2{
+   padding-top: 26px;
+}
+/* .article_header{ */
+/* padding-bottom: 12px; */
+/* } */
+
+
+.th_qna_list1{
+	border: solid;
+    border-color: #8080804a;
+}
+
+.th_qna_list2{
+    border: solid;
+    border-color: #8080804a;
+}
+
+.th_qna_Contents{
+/* 	border: solid; */
+/*     border-color: red;	 */
+/*    padding-top: 12px; */    
+}
+
+.th_qna_tags {
+    padding-left: 16px;
+    padding-top: 10px;
+}
+
+.th_qna_text{
+	padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 2px;
+}
+
+
+.th_qna1_3{
+	height: auto;
+    padding-top: 25px;
+    border: solid;
+    border-color: pink;
+}
+
+.qna_lanking{
+	border: solid; 
+	border-color: black;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -59,19 +59,19 @@
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-1-1920x910.jpg">
+                                    data-slide-bg="../../images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="../../images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="../../images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
@@ -138,7 +138,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp"> 
-							                   	      <img alt="" src="../../../../images/bg-02.jpg">
+							                   	      <img alt="" src="../../images/bg-02.jpg">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
@@ -177,7 +177,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="image-post.html"> 
-							                   	      <img alt="" src="../../../../images/slider-1-slide-3-1920x910.jpg">
+							                   	      <img alt="" src="../../images/slider-1-slide-3-1920x910.jpg">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
@@ -273,7 +273,7 @@
 		               
 		                 <button class="btn btn-primary btn-lg hidden-xs" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
                             
-		                     <jsp:include page="../../../member/login.jsp"/>
+		                     <jsp:include page="../member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                

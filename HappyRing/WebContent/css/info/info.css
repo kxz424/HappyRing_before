@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+.btn.active {                
+	display: none;		
+}
+
+.btn span:nth-of-type(1)  {            	
+	display: none;
+}
+.btn span:last-child  {            	
+/* 	display: block;		 */
+}
+
+.btn.active  span:nth-of-type(1)  {            	
+	display: block;		
+}
+.btn.active span:last-child  {            	
+	display: none;			
+}
+
+.challenge-menu {
+  max-width: 600px;
+  margin: 20px auto;
+}
+.challenge-menu li > div {
+  border-bottom: 1px solid #fff;
+}
+.challenge-menu li > label {
+  border-bottom: 1px solid #fff;
+}
+
+.parent-level {
+  background: #DEDEDE;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.parent-level > li {
+  padding: 0;
+  margin: 0;
+}
+.parent-level > li div:hover {
+  background: #CCC;
+}
+.parent-level > li a {
+  padding: 15px;
+}
+.parent-level > li a.expand-icon {
+  text-align: center;
+  border-left: 1px solid #999;
+}
+
+.sub-level-1 {
+  background: #EFEFEF;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: none;
+}
+.sub-level-1 > li {
+  padding: 0;
+  margin: 0;
+}
+.sub-level-1 > li div:hover {
+/*   background: #DEDEDE; */
+  background: none;
+}
+.sub-level-1 > li a {
+  padding: 15px;
+}
+.sub-level-1 > li a.expand-icon {
+  text-align: center;
+  border-left: 1px solid #999;
+}
+.sub-level-1 > li a.clickable {
+  padding-left: 25px;
+}
+.sub-level-1 .section-title label {
+  padding: 15px 15px 15px 25px;
+  width: 100%;
+  margin-bottom: 0;
+}
+.sub-level-1.active {
+  display: block;
+}
+
+.sub-level-2 {
+  background: #FEFEFE;
+  display: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sub-level-2 > li {
+  padding: 0;
+  margin: 0;
+}
+.sub-level-2 > li div:hover {
+/*   background: #DEDEDE; */
+	background: none;
+}
+.sub-level-2 > li a {
+  padding: 15px;
+}
+.sub-level-2 > li a.expand-icon {
+  text-align: center;
+  border-left: 1px solid #999;
+}
+.sub-level-2 > li a.clickable {
+  padding-left: 35px;
+}
+.sub-level-2 .section-title label {
+  padding: 15px 15px 15px 35px;
+}
+.sub-level-2.active {
+  display: block;
+}
+
+.kind-button {
+	float: left; width: auto;
+	margin: 3px;
+}
+.sub-level-1 .section-title label {
+	padding: 5px 5px 5px 10px;
+	font-size: 12px;
+}
+
