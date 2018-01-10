@@ -25,8 +25,45 @@
 	padding-top: 25px;
 }
 
+.th_dtail_a2_buttons{
+	border: solid;
+	border-color : #800040;
+	padding-top: 25px;
+	
+}
+
 .th_dtail_a2_3{
 	border: solid;
-	border-color : pink;
+	border-color : #408080;
+	padding-top: 25px;
+}
+
+/* 댓글 수정 삭제 버튼 */
+      .btn-circle {
+        width: 10px;
+        height: 10px;
+        text-align: center;
+        padding: 6px 0;
+        font-size: 12px;
+        line-height: 1.428571429;
+        border-radius: 15px;
+       
+        
+      }
+      .btn-circle.btn-lg {
+         width: 26px;
+    height: 26px;
+    padding: 17px 14px;
+    font-size: 13px;
+    line-height: 1.8;
+    border-radius: 25px;
+     padding-top: 0px;
+    padding-left: 5.4px;
+      }
+
+
+.th_dtail_a2_4{
+	border: solid;
+	border-color : yellow;
 	padding-top: 25px;
 }
