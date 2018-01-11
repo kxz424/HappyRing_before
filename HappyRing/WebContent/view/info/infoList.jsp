@@ -14,13 +14,16 @@
  	
  	<!-- 심리이론 Frame Stylesheets -->
     <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+    <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+    <link rel="stylesheet" href="/HappyRing/css/info/info.css">
    
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+
+
 
 </head>
 
@@ -90,12 +93,12 @@
 	    <div class="th_a2" >
 				<!-- 세부영역 th_a2_1 시작 : 제목 -->
 				
-<!-- 				<div class="row"> -->
-<!--                   <div class="col-md-3"> -->
-<!--                      <h5>기초심리학</h5> -->
-<!--                   </div> -->
-<!--                   <div class="col-md-9"></div> -->
-<!--                 </div>  -->
+				<div class="row">
+                  <div class="col-md-3">
+                     <h5>정보방</h5>
+                  </div>
+                  <div class="col-md-9"></div>
+                </div> 
                   
                 <!-- 세부영역 th_a2_1 끝-->  
 				
@@ -105,9 +108,16 @@
 	    	 		
 	    	 			<!-- 리스트 구별 버튼 START -->
 	    	 			<div class="row">
-	    	 				<div class="col-md-6">
-	    	 				 <h4 style="padding-top: 5px">기초심리학</h5>
-	    	 				</div>
+	    	 				
+	    	 				
+	    	 				
+	    	 				
+	    	 				<div class="col-md-6" style="border: solid; border-color: red;">
+      								gdgd
+      							</div>
+	    	 				
+	    	 				
+	    	 				
 	    	 				<div class="col-md-6" style="padding-left: 80px;">
 	    	 				   <ul class="isotope-filters isotope-filters-horizontal">
 			                      <li class="block-top-level">
