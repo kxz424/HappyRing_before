@@ -437,10 +437,10 @@ $(function() {
 			                      <button type="button" class="btn btn-danger col-xs-3 col-sm-6 col-md-6" style="border-radius: 0px 0px 15px 0px; height: 120px;">근처<br>상담소<br>찾기</button>
 			                 </div>
 		               </div> 
-	              <!— 세부영역 B-2 : 심리테스트 영역 END—>   
+	              <!-- 세부영역 B-2 : 심리테스트 영역 END-->   
 		               
                
-	              <!— 세부영역 B-3 : 공지사항 START—>   
+	              <!-- 세부영역 B-3 : 공지사항 START-->   
                 		<div class="b-3">
 	             			 <div class="notice">
 									<h5>공지사항</h5>
@@ -459,55 +459,55 @@ $(function() {
 	
 								</div>
           			     </div>
-	              <!— 세부영역 B-3 : 공지사항 END—>   
+	              <!-- 세부영역 B-3 : 공지사항 END-->   
 		               
 		               
- 	              <!— 세부영역 B-4 : 날짜 영역 START—>   
+ 	              <!-- 세부영역 B-4 : 날짜 영역 START-->   
 		               <div class="b-4">
 				               <br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다
 				               <img alt="" src="../../../../mainImages/날씨와기분.png" >               
 		               </div>
-	              <!— 세부영역 B-4 : 날씨 영역 END—>   
+	              <!-- 세부영역 B-4 : 날씨 영역 END-->   
 	              
-	              <!— B-5 : 광고 Tab START —>
+	              <!-- B-5 : 광고 Tab START -->
 	              <div class="th_d1">
-		             <!— 상담 광고 tab START —>
+		             <!-- 상담 광고 tab START -->
 				      <jsp:include page="/ad_tab.jsp"/>
 		          </div>
-                  <!— B-5 : 광고 Tab END —>
+                  <!-- B-5 : 광고 Tab END -->
 	          </div>
 	        </div>
-	        <!— 영역 B_Frame_Div END—>  
+	        <!-- 영역 B_Frame_Div END-->  
       </div>
-      <!— Section1_CONTENTS_ROW_END —>      
+      <!-- Section1_CONTENTS_ROW_END -->      
     </section>
-    <!— Section 1 END —>
+    <!-- Section 1 END -->
     
     
     
     
     
     
-    <!— 하단 광고 DIV—>
+    <!-- 하단 광고 DIV-->
         <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
         style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
           <div class="shell">
             <h2 class="text-light">책광고</h2>
           </div>
         </div>
-      <!— footer START —>
+      <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
-      <!— footer END —>
+      <!-- footer END -->
     </div>
-    <!— Global Mailform Output—>
+    <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
-    <!— 공통 Javascript—>
+    <!-- 공통 Javascript-->
     <script src="/HappyRing/js/core.min.js"></script>
     <script src="/HappyRing/js/script.js"></script>
-    <!— 메인 Javascript—>
+    <!-- 메인 Javascript-->
      <script src="/HappyRing/js/main/main.js"></script>
      
-     <!—  freeBoard Javascript —>
+     <!--  freeBoard Javascript -->
     <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
      
      
@@ -526,9 +526,9 @@ $(function() {
      
      
      
-<!— 에디터 —>
+<!-- 에디터 -->
 
-<!— 에디터 —>
+<!-- 에디터 -->
      
      
   </body>
