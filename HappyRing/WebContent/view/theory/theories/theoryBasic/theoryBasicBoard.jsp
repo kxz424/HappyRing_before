@@ -1,72 +1,48 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>      
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-   <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
-    
-    
-    
-    
-    
-    <link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 <!-- 부가적인 테마 -->
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    
-    
-    
-    
-    
- 	
- 	<!-- 심리이론 Frame Stylesheets -->
-    <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-        <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
-   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-   
-   
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	
+	
 
-
-
-
-
-
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
+	
+	
+	
+	
+	
 <!-- 에디터 -->
 
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
-  <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
-
-
-
 <!-- 에디터 -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
-
-
-
+<link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+<!-- <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css"> -->
 
 
 
@@ -86,52 +62,34 @@
 
 
 
-
-
-<script type="text/javascript">
-$(function(){
-	$('#edit').click(function(){
-		$('#edit').find('div').find('div').focus();
-	});
-	
-	
-
-
-});
-</script>
-
-
-
 </head>
-
-<body>
+  <body>
     
     <!-- Page-->
     <div class="page">
+      
       
       <!-- ### header START -->     
 				<jsp:include page="/WEB-INF/views/include/header.jsp"/>
       <!-- header END -->
       
-      
-      
-    <!-- ##########Section 1 START -->      
+    <!-- Section 1 START -->      
     <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
        
-      <!-- ########Section1_ROW_START --> 
+       
+      <!-- ########Section1_CONTENTS_ROW_START --> 
       <div class="row">
       
       <div class="col-md-1"></div>
       
        <!-- ### 영역 A_Frame_Div START-->
-      	<div class="col-md-8 th_divA"> 
-          <div class="th_aFrameDiv">
-          		 
+      <div class="col-md-8 divA"> 
+          <div class="aFrameDiv">
+          
 	           <!-- ### A 세부영역 div -->
-	                     영역 A_Frame_Div
-	           <!-- ###세부영역 th_a1 : 슬라이더 광고 -->
-	    	  	<div class="th_a1">
-	    	  		<div class="shell">
+	    	  	<div class="a-1">
+	    	  		<!-- 슬라이더 START-->
+               <div class="shell">
                            <!-- Swiper-->
                            <div
                               class="swiper-container swiper-slider swiper-slider_height-1"
@@ -162,65 +120,81 @@ $(function(){
                                  <div class="swiper-pagination"></div>
                               </div>
                            </div>
-                      </div>
+                        </div>
+               
+               <!-- 슬라이더 END -->
 	    	  	</div>
-	    	  <!-- 세부영역 a-1 끝 -->	
-	    	  	
-	    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
-	    <div class="th_detail_a2" >
-				<!-- 세부영역 th_a2_1 시작 : 제목 -->
-				
-<!-- 				<div class="row"> -->
-<!--                   <div class="col-md-3"> -->
-<!--                      <h5>기초심리학</h5> -->
-<!--                   </div> -->
-<!--                   <div class="col-md-9"></div> -->
-<!--                 </div>  -->
-                  
-                <!-- 세부영역 th_a2_1 끝-->  
-				
-				
-	    		<!-- 세부영역 th_dtail_a2_1 시작 : 리스트  -->
-	    	    <div class="th_dtail_a2_1" >
-	    	 		<div class="range range-xs-center">
-	    	 		
-			           <div class="th_detail_body> cell-md-10 cell-lg-8 cell-xl-6 sections-collapsable">
-			             <div class="row">
-			            
-			              <div class="col-md-12">
-			              <article class="post-blog-article">
-			                <p class="post-blog-article-title">How to Turn Small Talk Into Smart <br class="veil reveal-md-block">Conversation</p>
-			                <ul class="post-blog-article-meta group-xl">
-			                  <li>
-			                    
-			                    
-			                    
-			                    
-			                    
-			                    
-			                    
-			                   <h1># 카테고리 선택 창 #</h1>
-			                    
-			                    
-			                    
-			                    
-			                    
-			                    
-			                    
-			                  </li>
-			                </ul>
-			                		<label>내용</label>
+	    	  	<!-- category START -->
+	    	 	<div class="a-2" >
+	    	 		<div class="row board-detail">
+	    	 			<div class="col-md-12">
+							<h3>기초심리학</h3>
+						</div>
+	    	 		</div>
+	    	 	</div> 
+	    	 	<!-- category END -->
+	    	 	
+	    	 	<!-- image upload START -->
+	    	 	<div class="a-2" >
+	    	 		<div class="row">
+	    	 			<div class="col-md-12">
+							
+						</div>
+	    	 		</div>
+	    	 	</div> 
+	    	 	<!-- image upload END -->
+	    	 	
+	    	 	<!-- title START -->
+	    	 	
+	    	 	<div class="a-3">
+	    	 		<div class="row">
+	    	 			<div class="tit col-md-12 txt">
+	    	 				<select class="selectpicker" data-style="btn-primary" multiple
+										data-max-options="1" data-title="카테고리">
+										<option>사랑/이별</option>
+										<option>자존감</option>
+										<option>심리적 고민</option>
+										<option>나만의 고민</option>
+									</select> 
+									<label>제목</label>
+									<input type="text" class="title"/>
+						</div>
+	    	 		</div>
+	    	 	</div>
+	    	 	
+	    	 	<!-- title END -->
+	    	 	
+	    	 	<!-- 닉네임 조회수 등록일 START -->
+	    	 	
+	    	 	<div class="a-4">
+	    	 		<div class="row">
+	    	 			<div class="col-md-12">
+							<div class="row info"> 
+								<div class="col-md-7">
+									<span class="glyphicon glyphicon-user">kjs1</span>
+								</div>
+								
+							</div>
+						</div>
+	    	 		</div>
+	    	 	</div>
+	    	 	
+	    	 	<!-- 닉네임 조회수 등록일 END -->
+	    	 	
+	    	 	<!-- content START -->
+	    	 	
+	    	 	<div class="a-5">
+	    	 		<div class="row">
+								<div class="col-md-12 txt">
+								
+								
+								
+								
+									<label>내용</label>
 									<div class="edit">
-<!-- 										<div id='edit' class="content" style="background-color: #ffffff"> -->
-<!-- 										</div> -->
-									<div id="summernote"><p>Hello Summernote</p></div>
-									  <script>
-									    $(document).ready(function() {
-									    	alert("에디터");
-									        $('#summernote').summernote();
-									    });
-									  </script>
-									
+										<div id='edit' class="content" style="background-color: #ffffff">
+										
+										</div>
 										
 										
 										
@@ -229,90 +203,63 @@ $(function(){
 										
 										
 									</div>
-			
-			
-			
-			
-			
-			
-<!-- 			              <div class="section-md"> -->
-<!-- 			                <p class="h3-alternate">Comments</p> -->
-<!-- 			                <div class="comment-group"> -->
-<!-- 			                  Comment -->
-			             
-			             
-<!-- 			                </div> -->
-<!-- 			              </div> -->
-			              
-			              
-			              
-			              
-<!-- 			              <div class="section-lg"> -->
-<!-- 			                <p class="h3-alternate">Send a Comment</p> -->
-<!-- 			                RD Mailform -->
-			                
-<!-- 			              </div> -->
-			              
-			              
-			              
-<!-- 			              <div class="section-sm"> -->
-<!-- 			                <p class="h3-alternate">Recent Posts</p> -->
-<!-- 			                <div class="range range-30 range-lg-50"> -->
-<!-- 			                  <div class="cell-xs-10 cell-sm-6 post-light-wrap"> -->
-<!-- 			                    <article class="post-light"> -->
-<!-- 			                      <div class="unit unit-horizontal"> -->
-<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-1-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
-<!-- 			                        <div class="unit-body"> -->
-<!-- 			                          <p class="post-light-title"><a href="single-post.html">The Top 5 Reasons Why ‘The Customer Is Always Right’ Is Wrong</a></p> -->
-<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
-<!-- 			                        </div> -->
-<!-- 			                      </div> -->
-<!-- 			                    </article> -->
-<!-- 			                    <article class="post-light"> -->
-<!-- 			                      <div class="unit unit-horizontal"> -->
-<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-3-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
-<!-- 			                        <div class="unit-body"> -->
-<!-- 			                          <p class="post-light-title"><a href="single-post.html">7 Ways to Inspire Your Employees</a></p> -->
-<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
-<!-- 			                        </div> -->
-<!-- 			                      </div> -->
-<!-- 			                    </article> -->
-<!-- 			                  </div> -->
-<!-- 			                  <div class="cell-xs-10 cell-sm-6 post-light-wrap"> -->
-<!-- 			                    <article class="post-light"> -->
-<!-- 			                      <div class="unit unit-horizontal"> -->
-<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-2-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
-<!-- 			                        <div class="unit-body"> -->
-<!-- 			                          <p class="post-light-title"><a href="single-post.html">How to Improve Performance of Your Sales Managers: an Essential Guide</a></p> -->
-<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
-<!-- 			                        </div> -->
-<!-- 			                      </div> -->
-<!-- 			                    </article> -->
-<!-- 			                    <article class="post-light"> -->
-<!-- 			                      <div class="unit unit-horizontal"> -->
-<!-- 			                        <div class="unit-left"><a href="single-post.html"><img src="../../../../images/post-light-4-120x80.jpg" alt="" width="120" height="80"/></a></div> -->
-<!-- 			                        <div class="unit-body"> -->
-<!-- 			                          <p class="post-light-title"><a href="single-post.html">Managing Your Time: Top 8 Tips</a></p> -->
-<!-- 			                          <time class="post-light-time" datetime="2017">Feb 27, 2017 at 5:47 pm</time> -->
-<!-- 			                        </div> -->
-<!-- 			                      </div> -->
-<!-- 			                    </article> -->
-<!-- 			                  </div> -->
-<!-- 			                </div> -->
-<!-- 			              </div> -->
-			              </div>
-			              </div>
-			            </div>
-			          </div>
-				</div> 
-				<!-- 세부영역 th_dtail_a2_1  끝   -->
-				
-				<!-- 세부영역 th_dtail_a2_2 -->
-				<div class="th_dtail_a2_2">
-				
-				</div>		          
-						         <div class="th_dtail_a2_3">
-						           <div class="row">
+								</div>
+							</div>
+	    	 	</div>
+	    	 	
+	    	 	<!-- content END -->
+	    	 	
+	    	 	<!-- button START -->
+	    	 	
+	    	 	<div class="a-6">
+	    	 		<div class="row">
+
+						<div class="col-sm-5 col-md-4"></div>
+					
+                         <!-- 임시저장 버튼 -->
+						<div class="col-sm-4 col-md-5"style="padding-left: 0px;">
+						 <input class="btn btn-primary" type="button" id="write"
+                              value="등록" />
+						  <input class="btn btn-primary" type="button" id="write"
+                              value="취소" />
+                           <input class="btn btn-primary" type="button" id="write"
+                              value="임시저장" />
+						</div>
+                       
+                        
+                 </div>
+	    	 	</div>
+	    	 	
+	    	 	<!-- button END -->
+	    	 	
+	    	 	<!-- 관련 list START -->
+	    	 	
+	    	 	<div class="a-7">
+	    	 		
+	    	 	</div>
+	    	 	
+	    	 	<!-- 관련 list END -->
+	    	 	
+	    	 	<!-- 하단 button START -->
+	    	 	
+	    	 	<div class="a-8">
+	    	 		
+	    	 	</div>
+	    	 	
+	    	 	<!-- 하단 button END -->
+	    	 	
+	    	 	<!-- 댓글 등록 START -->
+	    	 	
+	    	 	<div class="a-1">
+	    	 		
+	    	 	</div>
+	    	 	
+	    	 	<!-- 댓글 등록 END -->
+	    	 	
+	    	 	<!-- 댓글 리스트 START -->
+	    	 	
+	    	 	<div class="a-8">
+	    	 		<div class="row">
 										<div class="col-xs-0  col-md-4"></div>
 			<!-- 					                       페이징 -->
 								          <div class="col-xs-12 col-md-5" style=" padding-right: 0px; padding-left: 0px;">
@@ -333,16 +280,16 @@ $(function(){
 								          </div>
 								           <div class="col-xs-3 col-md-0"></div>
 								  </div>
-								</div>
-						         <!-- 세부영역 th_a2_3 끝  -->
-						          
-	    	 		
-	    </div> 
-	    <!-- 세부영역 th_a2  끝 -->
+	    	 	</div>
+	    	 	
+	    	 	<!-- 댓글 리스트 END -->
+	    	 	
+	    	 	
+	           <!-- A 세부영역 div END -->
 	                    
+          </div>
       </div>
-    </div>
-    <!-- 영역 A_Frame_Div END-->     
+       <!-- 영역 A_Frame_Div END-->     
       
       
       
@@ -411,10 +358,10 @@ $(function(){
 	          </div>
 	        </div>
 	        <!-- 영역 B_Frame_Div END-->  
-	      </div>
-	      <!-- Section1_CONTENTS_ROW_END -->      
-	    </section>
-	    <!-- Section 1 END -->
+      </div>
+      <!-- Section1_CONTENTS_ROW_END -->      
+    </section>
+    <!-- Section 1 END -->
     
     
     
@@ -432,26 +379,36 @@ $(function(){
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
     </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
     <!-- 공통 Javascript-->
     <script src="/HappyRing/js/core.min.js"></script>
     <script src="/HappyRing/js/script.js"></script>
-    <!--  메인 Javascript -->
+    <!-- 메인 Javascript-->
      <script src="/HappyRing/js/main/main.js"></script>
      
+     <!--  freeBoard Javascript -->
+    <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
      
      
      
      
      
-     <!-- 에디터 -->
-    
-	
-	<!-- 에디터 -->
+     
 
      
      
      
      
+     
+     
+     
+     
+     
+     
+<!-- 에디터 -->
+
+<!-- 에디터 -->
      
      
   </body>
