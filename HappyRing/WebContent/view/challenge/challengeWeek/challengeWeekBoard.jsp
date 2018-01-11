@@ -1128,7 +1128,7 @@ $(document).ready(function(){
 
 						<div class="col-md-5"></div>
 					
-                         <!— 임시저장 버튼 —>
+                         <!-- 임시저장 버튼 -->
 						<div class="col-md-3"style="padding-left: 0px;">
 						 <input class="btn btn-primary" type="button" id="write"
                               value="등록" />
@@ -1142,36 +1142,36 @@ $(document).ready(function(){
                         
                  </div>
               </div>
-              <!— 자유게시판 	글등록btn 및 paging END —>	
+              <!-- 자유게시판 	글등록btn 및 paging END -->	
 					      						
       
            </div> 
-           <!— detail 본문 내용 END —> 
+           <!-- detail 본문 내용 END --> 
       <div class="col-md-1"></div>   
       </div>
       </div> 
       </div>
-      <!— Section1_CONTENTS_ROW_END —>
+      <!-- Section1_CONTENTS_ROW_END -->
     </section>
-    <!— Section 1 END —>
+    <!-- Section 1 END -->
     
       
     
     
     
-    <!— 하단 광고 DIV—>
+    <!-- 하단 광고 DIV-->
         <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
         style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
           <div class="shell">
             <h2 class="text-light">책광고</h2>
           </div>
         </div>
-      <!— footer START —>
+      <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
-      <!— footer END —>
+      <!-- footer END -->
     </div>
 
-    <!— 메인 Javascript —>
+    <!-- 메인 Javascript -->
      <script src="/HappyRing/js/main/main.js"></script>
      
      
