@@ -312,7 +312,7 @@ $(document).ready(function(){
 <!-- 이미지 첨부 부분 -->
 <style type="text/css">
 .image-preview-input {
-/*     position: relative; */
+     position: relative;
     overflow: hidden;
     margin: 0px;    
     color: #333;
@@ -320,9 +320,9 @@ $(document).ready(function(){
     border-color: #ccc;    
 }
 .image-preview-input input[type=file] {
-/* 	position: relative; */
-/* 	top: 0; */
-/* 	right: 0; */
+ 	position: absolute; 
+ 	top: 0; 
+ 	right: 0; 
 	margin: 0;
 	padding: 0;
 	font-size: 20px;
@@ -376,6 +376,11 @@ $(function() {
         $('.image-preview-clear').hide();
         $('.image-preview-input input:file').val("");
         $(".image-preview-input-title").text("Browse"); 
+        
+        
+        //슬라이더 이미지 기본이미지로 교체
+        $('.image-1').css("background-image", "url(../../../images/slider-1-slide-1-1920x910.jpg)");
+        
     }); 
     // Create the preview image
     $(".image-preview-input input:file").change(function (){     
@@ -393,8 +398,20 @@ $(function() {
             $(".image-preview-filename").val(file.name);            
             img.attr('src', e.target.result);
             $(".image-preview").attr("data-content",$(img)[0].outerHTML).popover("show");
+			
+            
+            //preview 숨기기
+            $('.image-preview').popover('hide');
+            //이미지 슬라이더에 삽입
+            $('.image-1').css('background-image', 'url(' + $('#dynamic').attr('src') + ')');
+         	//이미지 등록 버튼 숨기기 
+            $('.image-btn-1').css("display", "none");
+         	//이미지 수정 버튼 보이기
+            $('.image-btn-2').css("display", "block");
         }        
         reader.readAsDataURL(file);
+        
+      
     });  
 });
 </script>
@@ -950,16 +967,13 @@ $(function() {
 													data-loop="true" data-autoplay="false" data-simulate-touch="false"
 													style="height: 100%;">
 										            <div class="swiper-wrapper" >
-										              <div class="swiper-slide" data-slide-bg="" style="z-index: 1;">
-										              	<img src="../../../images/slider-1-slide-1-1920x910.jpg" class="img1" />
+										              <div class="swiper-slide image-1" style="background-image: url(../../../images/slider-1-slide-1-1920x910.jpg); background-size: contain; background-repeat: no-repeat;">
 										                <div class="swiper-slide-caption">
 										                  <div class="section-md test-btn">
 <!-- 										                  	<input type="button" class="btn btn-primary" value="이미지 첨부"/> -->
 
-																	
-
 																		<!-- image-preview-filename input [CUT FROM HERE]-->
-																		<div class="input-group image-preview">
+																		<div class="input-group image-preview image-btn-1">
 																			<!-- don't give a name === doesn't send on POST/GET -->
 																			<span class="input-group-btn"> <!-- image-preview-clear button -->
 																				<button type="button"
@@ -968,7 +982,29 @@ $(function() {
 																					<span class="glyphicon glyphicon-remove"></span>
 																					Clear
 																				</button> <!-- image-preview-input -->
-																				<div class="btn btn-default image-preview-input" style="z-index: 2000; top:0; left: 0;">
+																				<div class="btn btn-default image-preview-input" >
+																					<span class="glyphicon glyphicon-folder-open"></span>
+																					<span class="image-preview-input-title">Browse</span>
+																					<input type="file"
+																						accept="image/png, image/jpeg, image/gif"
+																						name="input-file-preview" />
+																					<!-- rename it -->
+																				</div>
+																			</span>
+																		</div>
+																		<!-- /input-group image-preview [TO HERE]-->
+																		
+																		<!-- image-preview-filename input [CUT FROM HERE]-->
+																		<div class="input-group image-preview image-btn-2" style="display: none;">
+																			<!-- don't give a name === doesn't send on POST/GET -->
+																			<span class="input-group-btn"> <!-- image-preview-clear button -->
+																				<button type="button"
+																					class="btn btn-default image-preview-clear"
+																					style="display: none;">
+																					<span class="glyphicon glyphicon-remove"></span>
+																					Clear
+																				</button> <!-- image-preview-input -->
+																				<div class="btn btn-default image-preview-input" >
 																					<span class="glyphicon glyphicon-folder-open"></span>
 																					<span class="image-preview-input-title">Browse</span>
 																					<input type="file"
@@ -985,15 +1021,120 @@ $(function() {
 																	</div>
 										                </div>
 										              </div>
-										              <div class="swiper-slide" data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
+										              <div class="swiper-slide image-2" style="background-image: url(../../../images/slider-1-slide-2-1920x910.jpg); background-size: contain; background-repeat: no-repeat;">
 										                <div class="swiper-slide-caption">
-										                  <div class="section-md test-btn"><input type="button" class="btn btn-primary" value="이미지 첨부"/></div>
+										                  <div class="section-md test-btn">
+<!-- 										                  	<input type="button" class="btn btn-primary" value="이미지 첨부"/> -->
+
+
+
+
+
+																<!-- image-preview-filename input [CUT FROM HERE]-->
+																		<div class="input-group image-preview image-btn2-1">
+																			<!-- don't give a name === doesn't send on POST/GET -->
+																			<span class="input-group-btn"> <!-- image-preview-clear button -->
+																				<button type="button"
+																					class="btn btn-default image-preview-clear"
+																					style="display: none;">
+																					<span class="glyphicon glyphicon-remove"></span>
+																					Clear
+																				</button> <!-- image-preview-input -->
+																				<div class="btn btn-default image-preview-input" >
+																					<span class="glyphicon glyphicon-folder-open"></span>
+																					<span class="image-preview-input-title">Browse</span>
+																					<input type="file"
+																						accept="image/png, image/jpeg, image/gif"
+																						name="input-file-preview" />
+																					<!-- rename it -->
+																				</div>
+																			</span>
+																		</div>
+																		<!-- /input-group image-preview [TO HERE]-->
+																		
+																		<!-- image-preview-filename input [CUT FROM HERE]-->
+																		<div class="input-group image-preview image-btn2-2" style="display: none;">
+																			<!-- don't give a name === doesn't send on POST/GET -->
+																			<span class="input-group-btn"> <!-- image-preview-clear button -->
+																				<button type="button"
+																					class="btn btn-default image-preview-clear"
+																					style="display: none;">
+																					<span class="glyphicon glyphicon-remove"></span>
+																					Clear
+																				</button> <!-- image-preview-input -->
+																				<div class="btn btn-default image-preview-input" >
+																					<span class="glyphicon glyphicon-folder-open"></span>
+																					<span class="image-preview-input-title">Browse</span>
+																					<input type="file"
+																						accept="image/png, image/jpeg, image/gif"
+																						name="input-file-preview" />
+																					<!-- rename it -->
+																				</div>
+																			</span>
+																		</div>
+																		<!-- /input-group image-preview [TO HERE]-->
+																		
+																		
+
+
+
+										                  </div>
 										                </div>
 										              </div>
-										              <div class="swiper-slide" data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg" >
+										              <div class="swiper-slide image-3" style="background-image: url(../../../images/slider-1-slide-3-1920x910.jpg); background-size: contain; background-repeat: no-repeat;" >
 										              
 										                <div class="swiper-slide-caption">
-										                  <div class="section-md test-btn"><input type="button" class="btn btn-primary" value="이미지 첨부"/></div>
+										                  <div class="section-md test-btn">
+<!-- 										                  	<input type="button" class="btn btn-primary" value="이미지 첨부"/> -->
+
+
+															<!-- image-preview-filename input [CUT FROM HERE]-->
+																		<div class="input-group image-preview image-btn3-1">
+																			<!-- don't give a name === doesn't send on POST/GET -->
+																			<span class="input-group-btn"> <!-- image-preview-clear button -->
+																				<button type="button"
+																					class="btn btn-default image-preview-clear"
+																					style="display: none;">
+																					<span class="glyphicon glyphicon-remove"></span>
+																					Clear
+																				</button> <!-- image-preview-input -->
+																				<div class="btn btn-default image-preview-input" >
+																					<span class="glyphicon glyphicon-folder-open"></span>
+																					<span class="image-preview-input-title">Browse</span>
+																					<input type="file"
+																						accept="image/png, image/jpeg, image/gif"
+																						name="input-file-preview" />
+																					<!-- rename it -->
+																				</div>
+																			</span>
+																		</div>
+																		<!-- /input-group image-preview [TO HERE]-->
+																		
+																		<!-- image-preview-filename input [CUT FROM HERE]-->
+																		<div class="input-group image-preview image-btn3-2" style="display: none;">
+																			<!-- don't give a name === doesn't send on POST/GET -->
+																			<span class="input-group-btn"> <!-- image-preview-clear button -->
+																				<button type="button"
+																					class="btn btn-default image-preview-clear"
+																					style="display: none;">
+																					<span class="glyphicon glyphicon-remove"></span>
+																					Clear
+																				</button> <!-- image-preview-input -->
+																				<div class="btn btn-default image-preview-input" >
+																					<span class="glyphicon glyphicon-folder-open"></span>
+																					<span class="image-preview-input-title">Browse</span>
+																					<input type="file"
+																						accept="image/png, image/jpeg, image/gif"
+																						name="input-file-preview" />
+																					<!-- rename it -->
+																				</div>
+																			</span>
+																		</div>
+																		<!-- /input-group image-preview [TO HERE]-->
+
+
+
+										                  </div>
 										                </div>
 										              </div>
 										            </div>
