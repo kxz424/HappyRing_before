@@ -311,7 +311,7 @@ $(document).ready(function(){
 
 <!-- 이미지 첨부 부분 -->
 <style type="text/css">
-.image-preview-input {
+.image-preview-input,.image-preview-input2,.image-preview-input3 {
      position: relative;
     overflow: hidden;
     margin: 0px;    
@@ -319,7 +319,7 @@ $(document).ready(function(){
     background-color: #fff;
     border-color: #ccc;    
 }
-.image-preview-input input[type=file] {
+.image-preview-input input[type=file],.image-preview-input2 input[type=file],.image-preview-input3 input[type=file] {
  	position: absolute; 
  	top: 0; 
  	right: 0; 
@@ -330,7 +330,7 @@ $(document).ready(function(){
 	opacity: 0;
 	filter: alpha(opacity=0);
 }
-.image-preview-input-title {
+.image-preview-input-title,.image-preview-input-title2,.image-preview-input-title3 {
     margin-left:2px;
 }
 </style>
@@ -339,20 +339,21 @@ $(document).ready(function(){
 
 
 <script type="text/javascript">
-$(document).on('click', '#close-preview', function(){ 
-    $('.image-preview').popover('hide');
-    // Hover befor close the preview
-    $('.image-preview').hover(
-        function () {
-           $('.image-preview').popover('show');
-        }, 
-         function () {
-           $('.image-preview').popover('hide');
-        }
-    );    
-});
+// $(document).on('click', '#close-preview', function(){ 
+//     $('.image-preview').popover('hide');
+//     // Hover befor close the preview
+//     $('.image-preview').hover(
+//         function () {
+//            $('.image-preview').popover('show');
+//         }, 
+//          function () {
+//            $('.image-preview').popover('hide');
+//         }
+//     );    
+// });
 
 $(function() {
+	//첫번째 슬라이드 이미지 첨부
     // Create the close button
     var closebtn = $('<button/>', {
         type:"button",
@@ -380,6 +381,10 @@ $(function() {
         
         //슬라이더 이미지 기본이미지로 교체
         $('.image-1').css("background-image", "url(../../../images/slider-1-slide-1-1920x910.jpg)");
+      	//이미지 등록 버튼 숨기기 
+        $('.image-btn-1').css("display", "block");
+     	//이미지 수정 버튼 보이기
+        $('.image-btn-2').css("display", "none");
         
     }); 
     // Create the preview image
@@ -413,6 +418,157 @@ $(function() {
         
       
     });  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //두번째 슬라이드의 이미지 첨부
+ // Create the close button
+    var closebtn = $('<button/>', {
+        type:"button",
+        text: 'x',
+        id: 'close-preview2',
+        style: 'font-size: initial;',
+    });
+    closebtn.attr("class","close pull-right");
+    // Set the popover default content
+    $('.image-preview2').popover({
+        trigger:'manual',
+        html:true,
+        title: "<strong>Preview2</strong>"+$(closebtn)[0].outerHTML,
+        content: "There's no image",
+        placement:'bottom'
+    });
+    // Clear event
+    $('.image-preview-clear2').click(function(){
+        $('.image-preview2').attr("data-content","").popover('hide');
+        $('.image-preview-filename2').val("");
+        $('.image-preview-clear2').hide();
+        $('.image-preview-input2 input:file').val("");
+        $(".image-preview-input-title2").text("Browse"); 
+        
+        
+        //슬라이더 이미지 기본이미지로 교체
+        $('.image-2').css("background-image", "url(../../../images/slider-1-slide-2-1920x910.jpg)");
+        
+    }); 
+    // Create the preview image
+    $(".image-preview-input2 input:file").change(function (){     
+        var img = $('<img/>', {
+            id: 'dynamic2',
+            width:250,
+            height:200
+        });      
+        var file = this.files[0];
+        var reader = new FileReader();
+        // Set preview image into the popover data-content
+        reader.onload = function (e) {
+            $(".image-preview-input-title2").text("Change");
+            $(".image-preview-clear2").show();
+            $(".image-preview-filename2").val(file.name);            
+            img.attr('src', e.target.result);
+            $(".image-preview2").attr("data-content",$(img)[0].outerHTML).popover("show");
+			
+            
+            //preview 숨기기
+            $('.image-preview2').popover('hide');
+            //이미지 슬라이더에 삽입
+            $('.image-2').css('background-image', 'url(' + $('#dynamic2').attr('src') + ')');
+         	//이미지 등록 버튼 숨기기 
+            $('.image-btn2-1').css("display", "none");
+         	//이미지 수정 버튼 보이기
+            $('.image-btn2-2').css("display", "block");
+        }        
+        reader.readAsDataURL(file);
+        
+      
+    });  
+    
+    
+    
+    
+    
+    
+    
+    
+    //세번째 슬라이드의 이미지 첨부
+ // Create the close button
+    var closebtn = $('<button/>', {
+        type:"button",
+        text: 'x',
+        id: 'close-preview3',
+        style: 'font-size: initial;',
+    });
+    closebtn.attr("class","close pull-right");
+    // Set the popover default content
+    $('.image-preview3').popover({
+        trigger:'manual',
+        html:true,
+        title: "<strong>Preview3</strong>"+$(closebtn)[0].outerHTML,
+        content: "There's no image",
+        placement:'bottom'
+    });
+    // Clear event
+    $('.image-preview-clear3').click(function(){
+        $('.image-preview3').attr("data-content","").popover('hide');
+        $('.image-preview-filename3').val("");
+        $('.image-preview-clear3').hide();
+        $('.image-preview-input3 input:file').val("");
+        $(".image-preview-input-title3").text("Browse"); 
+        
+        
+        //슬라이더 이미지 기본이미지로 교체
+        $('.image-3').css("background-image", "url(../../../images/slider-1-slide-3-1920x910.jpg)");
+        
+    }); 
+    // Create the preview image
+    $(".image-preview-input3 input:file").change(function (){     
+        var img = $('<img/>', {
+            id: 'dynamic3',
+            width:250,
+            height:200
+        });      
+        var file = this.files[0];
+        var reader = new FileReader();
+        // Set preview image into the popover data-content
+        reader.onload = function (e) {
+            $(".image-preview-input-title3").text("Change");
+            $(".image-preview-clear3").show();
+            $(".image-preview-filename3").val(file.name);            
+            img.attr('src', e.target.result);
+            $(".image-preview3").attr("data-content",$(img)[0].outerHTML).popover("show");
+			
+            
+            //preview 숨기기
+            $('.image-preview3').popover('hide');
+            //이미지 슬라이더에 삽입
+            $('.image-3').css('background-image', 'url(' + $('#dynamic3').attr('src') + ')');
+         	//이미지 등록 버튼 숨기기 
+            $('.image-btn3-1').css("display", "none");
+         	//이미지 수정 버튼 보이기
+            $('.image-btn3-2').css("display", "block");
+        }        
+        reader.readAsDataURL(file);
+        
+      
+    });  
+    
+    
+    
+    
+    
+    
+    
+    
+    
 });
 </script>
 
@@ -968,6 +1124,8 @@ $(function() {
 													style="height: 100%;">
 										            <div class="swiper-wrapper" >
 										              <div class="swiper-slide image-1" style="background-image: url(../../../images/slider-1-slide-1-1920x910.jpg); background-size: contain; background-repeat: no-repeat;">
+										                
+										                
 										                <div class="swiper-slide-caption">
 										                  <div class="section-md test-btn">
 <!-- 										                  	<input type="button" class="btn btn-primary" value="이미지 첨부"/> -->
@@ -993,9 +1151,14 @@ $(function() {
 																			</span>
 																		</div>
 																		<!-- /input-group image-preview [TO HERE]-->
-																		
-																		<!-- image-preview-filename input [CUT FROM HERE]-->
-																		<div class="input-group image-preview image-btn-2" style="display: none;">
+																	</div>
+										                </div>
+										                
+										                
+										                
+										                
+										                <!-- image-preview-filename input [CUT FROM HERE]-->
+																		<div class="input-group image-preview image-btn-2" style="position: absolute; width:15.4%; top:0px; right:90px; display: none;">
 																			<!-- don't give a name === doesn't send on POST/GET -->
 																			<span class="input-group-btn"> <!-- image-preview-clear button -->
 																				<button type="button"
@@ -1015,11 +1178,11 @@ $(function() {
 																			</span>
 																		</div>
 																		<!-- /input-group image-preview [TO HERE]-->
-
-
-
-																	</div>
-										                </div>
+										                
+										                
+										                
+										                
+										                
 										              </div>
 										              <div class="swiper-slide image-2" style="background-image: url(../../../images/slider-1-slide-2-1920x910.jpg); background-size: contain; background-repeat: no-repeat;">
 										                <div class="swiper-slide-caption">
@@ -1031,21 +1194,21 @@ $(function() {
 
 
 																<!-- image-preview-filename input [CUT FROM HERE]-->
-																		<div class="input-group image-preview image-btn2-1">
+																		<div class="input-group image-preview2 image-btn2-1">
 																			<!-- don't give a name === doesn't send on POST/GET -->
 																			<span class="input-group-btn"> <!-- image-preview-clear button -->
 																				<button type="button"
-																					class="btn btn-default image-preview-clear"
+																					class="btn btn-default image-preview-clear2"
 																					style="display: none;">
 																					<span class="glyphicon glyphicon-remove"></span>
 																					Clear
 																				</button> <!-- image-preview-input -->
-																				<div class="btn btn-default image-preview-input" >
+																				<div class="btn btn-default image-preview-input2" >
 																					<span class="glyphicon glyphicon-folder-open"></span>
-																					<span class="image-preview-input-title">Browse</span>
+																					<span class="image-preview-input-title2">Browse</span>
 																					<input type="file"
 																						accept="image/png, image/jpeg, image/gif"
-																						name="input-file-preview" />
+																						name="input-file-preview2" />
 																					<!-- rename it -->
 																				</div>
 																			</span>
@@ -1053,18 +1216,18 @@ $(function() {
 																		<!-- /input-group image-preview [TO HERE]-->
 																		
 																		<!-- image-preview-filename input [CUT FROM HERE]-->
-																		<div class="input-group image-preview image-btn2-2" style="display: none;">
+																		<div class="input-group image-preview2 image-btn2-2" style="display: none;">
 																			<!-- don't give a name === doesn't send on POST/GET -->
 																			<span class="input-group-btn"> <!-- image-preview-clear button -->
 																				<button type="button"
-																					class="btn btn-default image-preview-clear"
+																					class="btn btn-default image-preview-clear2"
 																					style="display: none;">
 																					<span class="glyphicon glyphicon-remove"></span>
 																					Clear
 																				</button> <!-- image-preview-input -->
-																				<div class="btn btn-default image-preview-input" >
+																				<div class="btn btn-default image-preview-input2" >
 																					<span class="glyphicon glyphicon-folder-open"></span>
-																					<span class="image-preview-input-title">Browse</span>
+																					<span class="image-preview-input-title2">Browse</span>
 																					<input type="file"
 																						accept="image/png, image/jpeg, image/gif"
 																						name="input-file-preview" />
@@ -1089,18 +1252,18 @@ $(function() {
 
 
 															<!-- image-preview-filename input [CUT FROM HERE]-->
-																		<div class="input-group image-preview image-btn3-1">
+																		<div class="input-group image-preview3 image-btn3-1">
 																			<!-- don't give a name === doesn't send on POST/GET -->
 																			<span class="input-group-btn"> <!-- image-preview-clear button -->
 																				<button type="button"
-																					class="btn btn-default image-preview-clear"
+																					class="btn btn-default image-preview-clear3"
 																					style="display: none;">
 																					<span class="glyphicon glyphicon-remove"></span>
 																					Clear
 																				</button> <!-- image-preview-input -->
-																				<div class="btn btn-default image-preview-input" >
+																				<div class="btn btn-default image-preview-input3" >
 																					<span class="glyphicon glyphicon-folder-open"></span>
-																					<span class="image-preview-input-title">Browse</span>
+																					<span class="image-preview-input-title3">Browse</span>
 																					<input type="file"
 																						accept="image/png, image/jpeg, image/gif"
 																						name="input-file-preview" />
@@ -1111,18 +1274,18 @@ $(function() {
 																		<!-- /input-group image-preview [TO HERE]-->
 																		
 																		<!-- image-preview-filename input [CUT FROM HERE]-->
-																		<div class="input-group image-preview image-btn3-2" style="display: none;">
+																		<div class="input-group image-preview3 image-btn3-2" style="display: none;">
 																			<!-- don't give a name === doesn't send on POST/GET -->
 																			<span class="input-group-btn"> <!-- image-preview-clear button -->
 																				<button type="button"
-																					class="btn btn-default image-preview-clear"
+																					class="btn btn-default image-preview-clear3"
 																					style="display: none;">
 																					<span class="glyphicon glyphicon-remove"></span>
 																					Clear
 																				</button> <!-- image-preview-input -->
-																				<div class="btn btn-default image-preview-input" >
+																				<div class="btn btn-default image-preview-input3" >
 																					<span class="glyphicon glyphicon-folder-open"></span>
-																					<span class="image-preview-input-title">Browse</span>
+																					<span class="image-preview-input-title3">Browse</span>
 																					<input type="file"
 																						accept="image/png, image/jpeg, image/gif"
 																						name="input-file-preview" />
