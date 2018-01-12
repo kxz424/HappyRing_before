@@ -1,22 +1,14 @@
 @charset "UTF-8";
 
 
-.divTitle {
-		
-	border: solid;
-	border-color: red;
-	
+.rb_de_1{
+	height: auto;padding-top: 25px; border: solid; border-color: blue;
 }
 
-
-.rb_1{
-	height: auto;padding-top: 25px; border: solid; border-color: pink;
+.rb_de_2{
+	height: auto;padding-top: 25px; border: solid; border-color: #408080;
 }
 
-.rb_2{
-	height: auto;padding-top: 25px; border: solid; border-color: pink;
-}
-
-.rb_3{
-	height: auto;padding-top: 25px; border: solid; border-color: pink;
+.rb_de_3{
+	height: auto;padding-top: 25px; border: solid; border-color: #8080ff;
 }

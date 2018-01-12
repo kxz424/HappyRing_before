@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
         <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
    <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
    <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
    
    
