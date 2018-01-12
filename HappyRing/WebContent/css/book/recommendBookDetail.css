@@ -1,0 +1,49 @@
+
+.rb_de_1{
+	height: auto;
+	padding-top: 25px; 
+	padding-bottom: 26px;
+	border: solid; 
+	border-color: #808040; 
+	background-color: #eff3f3;
+	
+}
+
+.rb_de_2{
+	height: auto;
+	padding-top: 95px; 
+	border: solid; 
+	border-color: #ffff00;
+}
+
+.rb_de_3{
+	height: auto;
+	padding-top: 25px; 
+	border: solid; 
+	border-color: #ff8000;
+}
+
+
+/* 댓글 수정 삭제 버튼 */
+      .btn-circle {
+        width: 10px;
+        height: 10px;
+        text-align: center;
+        padding: 6px 0;
+        font-size: 12px;
+        line-height: 1.428571429;
+        border-radius: 15px;
+       
+        
+      }
+      .btn-circle.btn-lg {
+         width: 26px;
+    height: 26px;
+    padding: 17px 14px;
+    font-size: 13px;
+    line-height: 1.8;
+    border-radius: 25px;
+     padding-top: 0px;
+    padding-left: 5.4px;
+      }
+
