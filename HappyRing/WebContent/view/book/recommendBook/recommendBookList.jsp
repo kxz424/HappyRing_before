@@ -141,6 +141,21 @@
                
               <!-- 자유게시판 타이틀 및 select box END -->
               
+              <!-- ### 추천 도서 list START-->
+              <div class="rb_1">
+              
+              
+              
+              </div>
+              <!-- 추천 도서 list END -->
+              
+              <!-- ### -->
+              <div class="rb_2">
+              
+              
+              
+              </div>
+              <!--  -->
               
               <!-- 자유게시판 글등록btn 및 paging START -->
               
