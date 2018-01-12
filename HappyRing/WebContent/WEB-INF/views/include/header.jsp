@@ -183,25 +183,21 @@ background-color:rgb(87, 203, 204);
                       
                     </ul>
                   </li>
-                  <li><a href="#">해피링칼럼</a>
+                  <li><a href="/HappyRing/view/column/doctorColumn/doctorColumnList.jsp">해피링칼럼</a>
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">전체</a>
+                      <li><a href="/HappyRing/view/column/doctorColumn/doctorColumnList.jsp">Dr.Happy</a>
                       </li>
-                      <li><a href="landing-auction.html">Dr.Happy</a>
-                      </li>
-                      <li><a href="landing-environmental.html">퍼온 글</a>
+                      <li><a href="/HappyRing/view/column/shareColumn/shareColumnList.jsp">퍼온 글</a>
                       </li>
                     </ul>
                   </li>
-                  <li><a href="#">도서</a>
+                  <li><a href="/HappyRing/view/book/recommendBook/recommendBookList.jsp">도서</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
-                      <li><a href="landing-auction.html">이달의 추천</a>
+                      <li><a href="/HappyRing/view/book/recommendBook/recommendBookList.jsp">이달의 추천</a>
                       </li>
-                      <li><a href="landing-environmental.html">독서 자유게시판</a>
-                      </li>
-                      <li><a href="landing-environmental.html">독서그룹</a>
+                      <li><a href="/HappyRing/view/book/groupBook/groupBookList.jsp">독서그룹</a>
                       </li>
                     </ul>
                   </li>
@@ -211,11 +207,9 @@ background-color:rgb(87, 203, 204);
                       </li>
                       <li><a href="landing-auction.html">이달의 추천</a>
                       </li>
-                      <li><a href="landing-environmental.html">영상 자유게시판</a>
-                      </li>
                     </ul>
                    </li>
-                    <li ><a href="index.html">정보방</a></li>
+                    <li ><a href="/HappyRing/view/info/infoList.jsp">정보방</a></li>
                 </ul>
               </div>
             </div>

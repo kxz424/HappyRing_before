@@ -14,20 +14,13 @@
  	
  	<!-- 심리이론 Frame Stylesheets -->
     <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-    <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-    <link rel="stylesheet" href="/HappyRing/css/info/info.css">
+   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
    
-<!-- 부가적인 테마 -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<!-- 카테고리 select css -->
-  <link rel="stylesheet"/.. href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
-	
-
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 </head>
 
@@ -66,19 +59,19 @@
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../images/slider-1-slide-1-1920x910.jpg">
+                                    data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
@@ -96,23 +89,13 @@
 	    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
 	    <div class="th_a2" >
 				<!-- 세부영역 th_a2_1 시작 : 제목 -->
-				<div class="th_a2_1" style="padding-top: 0px;">
-					<div class="row">
-	                  <div class="col-md-3">
-	                     <h5>정보방</h5>
-	                  </div>
-	                  <div class="col-md-9"></div>
-	                </div>
-	                
-	                <div class="row">
-	                  <div class="col-md-1"></div>	
-	                  <div class="col-md-10" style="padding-left: 54px;">
-	                     <span class="icon mdi mdi-volume-high"></span>&nbsp;<h7>해피링이 추천하고 해피링이 보증하는 상담소 정보만 모아두었습니다.<strong>안심하고 연락해보세요</strong> </h7>
-	                  </div>
-	                  <div class="col-md-1"></div>	
-	                </div>
-                </div>
-                 
+				
+<!-- 				<div class="row"> -->
+<!--                   <div class="col-md-3"> -->
+<!--                      <h5>기초심리학</h5> -->
+<!--                   </div> -->
+<!--                   <div class="col-md-9"></div> -->
+<!--                 </div>  -->
                   
                 <!-- 세부영역 th_a2_1 끝-->  
 				
@@ -121,43 +104,23 @@
 	    	 		<div class="th_a2_2" style="padding-top: 0px;">
 	    	 		
 	    	 			<!-- 리스트 구별 버튼 START -->
-	    	 			<div class="row"  style="border: solid; border-color: blue;">
-	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
-	    	 				  <select class="selectpicker" data-style="btn-primary" multiple
-										data-max-options="1" data-title="서울시">
-										<option>서울시</option>
-										<option>경기도</option>
-										<option>심리적 고민</option>
-										<option>나만의 고민</option>
-							  </select> 
+	    	 			<div class="row">
+	    	 				<div class="col-md-6">
+	    	 				 <h4 style="padding-top: 5px">퍼온 글</h5>
 	    	 				</div>
-	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
-	    	 				  <select class="selectpicker" data-style="btn-primary" multiple
-										data-max-options="1" data-title="금천구">
-										<option>사랑/이별</option>
-										<option>자존감</option>
-										<option>심리적 고민</option>
-										<option>나만의 고민</option>
-							  </select> 
-	    	 				</div>
-	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
-	    	 				  <select class="selectpicker" data-style="btn-primary" multiple
-										data-max-options="1" data-title="가산동">
-										<option>사랑/이별</option>
-										<option>자존감</option>
-										<option>심리적 고민</option>
-										<option>나만의 고민</option>
-							  </select> 
-	    	 				</div>
-	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
-	    	 				<input type="button" class="reply-create btn btn-primary" value="검색" style="border-radius: 7%; height: 37px;">
-	    	 				
-	    	 				</div>
-	    	 				
+	    	 				<div class="col-md-6" style="padding-left: 50px;">
+	    	 				   <ul class="isotope-filters isotope-filters-horizontal">
+			                      <li class="block-top-level">
+			                        <!-- Isotope Filters-->
+			                        <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-3" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
+			                        <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-3">
+			                          <li class="th_a2_2_li"><a class="th_a2_2_btn  button-nina active" data-isotope-filter="*" data-isotope-group="theory1" href="#">All Categories</a></li>
+			                          <li class="th_a2_2_li"><a class="th_a2_2_btn button-nina" data-isotope-filter="type 1" data-isotope-group="theory1" href="#">최신순</a></li>
+			                          <li class="th_a2_2_li"><a class="th_a2_2_btn button-nina" data-isotope-filter="type 2" data-isotope-group="theory1" href="#">좋아요순</a></li>
+			                        </ul>
+			                      </li>
+			                    </ul>
+                   		    </div>
 	    	 			</div>
 	    	 			<!-- 리스트 구별 버튼 END -->
 	    	 			  
@@ -175,18 +138,17 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp"> 
-							                   	      <img alt="" src="../../images/bg-02.jpg">
+							                   	      <img alt="" src="../../../images/bg-02.jpg">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
 							                         <div class="th_a2_2_tags">
-							                         	<a class="button-tags" href="single-post.html">상담소 이름</a>
+							                         	<a class="button-tags" href="single-post.html">Tips & Tricks</a>
 							                         </div>
 							                          <!-- 내용 -->
 								                      <div class="th_a2_2_text box-minimal-text" style="margin-top: 10px;">
 								                      
-								                      	상담소 소개 들어가는 부분 <br> client and we never offer you a set of 
-								                      	standard
+								                      	제목 들어가는 부분 <br> (+ 부가적인 설명 ex: 마음이 여린 사람들 읽어보세요~)
 								                      </div>
 							                     </div> 
 							                     
@@ -194,9 +156,10 @@
 							                    
 								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
 												  <!-- 등록일 -->	
-												  <div class="col-md-12" style=" border-color:  green;">
-												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">서울시 금천구 가산동</time>
+												  <div class="col-md-8" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-calendar-clock"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
 												  </div>
+						                   	      <div class="col-md-4" style=" border-color: pink;">no.12344</div>
 							                   </div> 
 						                    </article>
 						                   </a> 
@@ -213,7 +176,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="image-post.html"> 
-							                   	      <img alt="" src="../../images/slider-1-slide-3-1920x910.jpg">
+							                   	      <img alt="" src="../../../images/slider-1-slide-3-1920x910.jpg">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
@@ -232,9 +195,10 @@
 							                    
 								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
 												  <!-- 등록일 -->	
-												  <div class="col-md-12" style=" border-color:  green;">
-												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
+												  <div class="col-md-8" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-calendar-clock"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
 												  </div>
+						                   	      <div class="col-md-4" style=" border-color: pink;">no.12344</div>
 							                   </div> 
 						                    </article>
 						                   </a> 
@@ -276,12 +240,11 @@
 								                    </ul>
 								          </div>
 								          <div class="col-xs-7 col-md-1"></div>
-			<!-- 					                        글쓰기 버튼 -->
+			<!-- 					                        ㄹ 버튼 -->
 								          <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
-								          
-								          <a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
-								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
-								          </a>     
+								              <a href="/HappyRing/view/theory/theoryShare/theoryShareBoard.jsp"> 
+								              <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
+								              </a>
 								          </div>
 								           <div class="col-xs-3 col-md-0"></div>
 								  </div>
@@ -308,7 +271,7 @@
 		               
 		                 <button class="btn btn-primary btn-lg hidden-xs" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
                             
-		                     <jsp:include page="../member/login.jsp"/>
+		                     <jsp:include page="../../member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                
@@ -345,6 +308,38 @@
 								</div>
           			     </div>
 	              <!-- 세부영역 B-3 : 공지사항 END-->   
+		               
+		               
+		          <!--  qna List에서 추가한 부분 : 상담랭킹 START -->     
+		          		<div class="share_lanking" style="border: solid; border-color: green; margin-top: 25px;">
+			          		<table class="table table-hover">
+	                        <tbody>
+	                           <tr>
+	                              <td>이번주 엔젤</td>
+	                           </tr>
+	                           <tr>
+	                              <td>반갑습니다</td>
+	                           </tr>
+	                           <tr>
+	                              <td>좋은글이네요</td>
+	                           </tr>
+	                           <tr>
+	                              <td>잘보고갑니다^^</td>
+	                           </tr>
+	                           <tr>
+	                              <td>오늘도 즐거운 하루되세요!!!</td>
+	                           </tr>
+	                           <tr>
+	                              <td>너무 뻔한글 같아요 ㅠㅠ</td>
+	                           </tr>
+	                           <tr>
+	                              <td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
+	                           </tr>
+	                        </tbody>
+	                     </table>     
+		          	</div>     
+		          <!--  qua List에서 추가한 부분 : 상담랭킹 END -->       
+		               
 		               
 		               
  	              <!-- 세부영역 B-4 : 날짜 영역 START-->   

@@ -3,3 +3,10 @@
 .paging-btn {
 	padding-left: 5px;
 }
+
+
+.divPaging{
+    border: solid;
+	border-color: green;
+	
+}
