@@ -17,11 +17,11 @@
     <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
     <link rel="stylesheet" href="/HappyRing/css/info/info.css">
    
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
+<!-- 카테고리 select css -->
+  <link rel="stylesheet"/.. href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
+	
 
 
 
@@ -107,30 +107,20 @@
 	    	 		<div class="th_a2_2" style="padding-top: 0px;">
 	    	 		
 	    	 			<!-- 리스트 구별 버튼 START -->
-	    	 			<div class="row">
+	    	 			<div class="row"  style="border: solid; border-color: blue;">
 	    	 				
+	    	 				<div class="col-md-4" style="border: solid; border-color: red;">
+	    	 				  <select class="selectpicker" data-style="btn-primary" multiple
+										data-max-options="1" data-title="카테고리">
+										<option>사랑/이별</option>
+										<option>자존감</option>
+										<option>심리적 고민</option>
+										<option>나만의 고민</option>
+							  </select> 
+	    	 				</div>
 	    	 				
+	    	 				<div class="col-md-8"></div>
 	    	 				
-	    	 				
-	    	 				<div class="col-md-6" style="border: solid; border-color: red;">
-      								gdgd
-      							</div>
-	    	 				
-	    	 				
-	    	 				
-	    	 				<div class="col-md-6" style="padding-left: 80px;">
-	    	 				   <ul class="isotope-filters isotope-filters-horizontal">
-			                      <li class="block-top-level">
-			                        <!-- Isotope Filters-->
-			                        <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-3" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
-			                        <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-3">
-			                          <li class="th_a2_2_li"><a class="th_a2_2_btn  button-nina active" data-isotope-filter="*" data-isotope-group="theory1" href="#">All Categories</a></li>
-			                          <li class="th_a2_2_li"><a class="th_a2_2_btn button-nina" data-isotope-filter="type 1" data-isotope-group="theory1" href="#">Type 1</a></li>
-			                          <li class="th_a2_2_li"><a class="th_a2_2_btn button-nina" data-isotope-filter="type 2" data-isotope-group="theory1" href="#">Type 2</a></li>
-			                        </ul>
-			                      </li>
-			                    </ul>
-                   		    </div>
 	    	 			</div>
 	    	 			<!-- 리스트 구별 버튼 END -->
 	    	 			  
@@ -153,12 +143,12 @@
 							                         
 							                         <!-- 태그 -->
 							                         <div class="th_a2_2_tags">
-							                         	<a class="button-tags" href="single-post.html">Tips & Tricks</a>
+							                         	<a class="button-tags" href="single-post.html">상담소 이름</a>
 							                         </div>
 							                          <!-- 내용 -->
 								                      <div class="th_a2_2_text box-minimal-text" style="margin-top: 10px;">
 								                      
-								                      	방 소개 들어가는 부분 <br> client and we never offer you a set of 
+								                      	상담소 소개 들어가는 부분 <br> client and we never offer you a set of 
 								                      	standard
 								                      </div>
 							                     </div> 
@@ -167,10 +157,9 @@
 							                    
 								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
 												  <!-- 등록일 -->	
-												  <div class="col-md-8" style=" border-color:  green;">
-												  	<span class="icon mdi mdi-calendar-clock"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
+												  <div class="col-md-12" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">서욼시 금천구 가산동</time>
 												  </div>
-						                   	      <div class="col-md-4" style=" border-color: pink;">no.12344</div>
 							                   </div> 
 						                    </article>
 						                   </a> 
@@ -206,10 +195,9 @@
 							                    
 								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
 												  <!-- 등록일 -->	
-												  <div class="col-md-8" style=" border-color:  green;">
-												  	<span class="icon mdi mdi-calendar-clock"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
+												  <div class="col-md-12" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
 												  </div>
-						                   	      <div class="col-md-4" style=" border-color: pink;">no.12344</div>
 							                   </div> 
 						                    </article>
 						                   </a> 
