@@ -239,15 +239,15 @@ border: solid; border-color: blue;
 
 .item {
 
-    padding-bottom: 120px;
-    background-color: #f2f3f9;
-    border-bottom: solid;
-    border-bottom-color: pink;
-    border-left: solid;
-    border-left-color: pink;
-    border-right: solid;
-    border-right-color: pink;
-    border-radius: 0 0 26px 26px;
+/*     padding-bottom: 120px; */
+/*     background-color: #f2f3f9; */
+/*     border-bottom: solid; */
+/*     border-bottom-color: pink; */
+/*     border-left: solid; */
+/*     border-left-color: pink; */
+/*     border-right: solid; */
+/*     border-right-color: pink; */
+/*     border-radius: 0 0 26px 26px; */
 }
 
 /* ���� �ι�° �� */
@@ -360,20 +360,6 @@ border: solid; border-color: blue;
 
 
 
-/* �� contents ����*/
-
-.item {
-
-    padding-bottom: 120px;
-    background-color: #f2f3f9;
-    border-bottom: solid;
-    border-bottom-color: pink;
-    border-left: solid;
-    border-left-color: pink;
-    border-right: solid;
-    border-right-color: pink;
-    border-radius: 0 0 26px 26px;
-}
 
 
 
