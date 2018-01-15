@@ -14,11 +14,55 @@
 }
 
 
-.owl-carousel-widget.owl-carousel {
-	width: 92%;
-}
-.slider-widget-aside {
-	padding: 20px 0px !important;
+
+
+/* 작가인터뷰 및 해피링 추천도서 */
+@media (min-width: 480px) {
+	.owl-carousel-widget.owl-carousel {
+		width: 94%;
+	}
+	.slider-widget-aside {
+		padding: 20px 0px !important;
+	}
 }
 
-@media ()
+@media (min-width: 768px) {
+	.owl-carousel-widget.owl-carousel {
+		width: 92.3%;
+	}
+	.slider-widget-aside {
+		padding: 20px 5px !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.owl-carousel-widget.owl-carousel {
+		width: 88.5%;
+	}
+	.slider-widget-aside {
+		padding: 20px 5px !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.owl-carousel-widget.owl-carousel {
+		width: 92%;
+	}
+	.slider-widget-aside {
+		padding: 20px 0px !important;
+	}
+}
+
+.slider-widget-aside {
+	width : 35px !important;
+}
+
+
+/* 도서 게시물 높이 고정 */
+.product {
+	height: 400px;
+}
+
+
+
+
