@@ -201,7 +201,7 @@ background-color:rgb(87, 203, 204);
                       </li>
                     </ul>
                   </li>
-                  <li><a href="#">영상</a>
+                  <li><a href="/HappyRing/view/video/videoList.jsp">영상</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
