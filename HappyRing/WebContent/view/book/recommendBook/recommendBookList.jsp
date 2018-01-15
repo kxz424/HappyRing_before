@@ -268,8 +268,9 @@
 							<!-- ### -->
 							<div class="rb_2">
 
-
-								<div class="slider-widget">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="slider-widget">
 									<!-- Owl Carousel-->
 									<div class="owl-carousel-widget owl-carousel"
 										data-custom-nav="true" data-items="1" data-dots="false"
@@ -334,7 +335,7 @@
 											</article>
 										</div>
 									</div>
-									<div class="slider-widget-aside">
+									<div class="slider-widget-aside" style="width: 35px; ">
 										<div class="icon icon-lg-smaller mdi mdi-format-quote"></div>
 										<div class="owl-carousel-widget-nav">
 											<button class="slick-prev mdi mdi-arrow-left-bold-circle"
@@ -344,6 +345,86 @@
 										</div>
 									</div>
 								</div>
+									</div>
+									<div class="col-md-6">
+										<div class="slider-widget">
+									<!-- Owl Carousel-->
+									<div class="owl-carousel-widget owl-carousel"
+										data-custom-nav="true" data-items="1" data-dots="false"
+										data-nav="false" data-stage-padding="15" data-loop="true"
+										data-margin="0" data-mouse-drag="false">
+										<div class="item">
+											<article class="quote-classic">
+												<div class="quote-classic-header">
+													<img class="quote-classic-image"
+														src="../../../images/quote-taxi-1-103x107.jpg" alt="" width="103"
+														height="107" />
+													<div class="quote-classic-meta">
+														<p class="quote-classic-cite">Mary McMillan</p>
+														<p class="quote-classic-small">Cleaning expert</p>
+													</div>
+												</div>
+												<div class="quote-classic-text">
+													<p>I would just like to say thank you for your
+														effective online marketing services, for your friendly and
+														professional support and answers to my questions! Your
+														expert SEO services helped me make my services known to a
+														greater number of people.</p>
+												</div>
+											</article>
+										</div>
+										<div class="item">
+											<article class="quote-classic">
+												<div class="quote-classic-header">
+													<img class="quote-classic-image"
+														src="../../../images/quote-taxi-2-107x111.jpg" alt="" width="107"
+														height="111" />
+													<div class="quote-classic-meta">
+														<p class="quote-classic-cite">James Smith</p>
+														<p class="quote-classic-small">Business Owner</p>
+													</div>
+												</div>
+												<div class="quote-classic-text">
+													<p>Thank you for the SEO services you delivered. You
+														helped my company to attract new partners and promote our
+														services to a greater number of customers. Your brand
+														management and online advertising services saved us!</p>
+												</div>
+											</article>
+										</div>
+										<div class="item">
+											<article class="quote-classic">
+												<div class="quote-classic-header">
+													<img class="quote-classic-image"
+														src="../../../images/quote-taxi-3-109x112.jpg" alt="" width="109"
+														height="112" />
+													<div class="quote-classic-meta">
+														<p class="quote-classic-cite">Susan Contreras</p>
+														<p class="quote-classic-small">Designer</p>
+													</div>
+												</div>
+												<div class="quote-classic-text">
+													<p>Brave is the only agency that provides high quality
+														online marketing and promotion services. The members of
+														their team are real professionals in SEO, and it’s no
+														wonder that they helped me promote my design services.</p>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div class="slider-widget-aside" style="width: 35px; padding: 20px 0px;">
+										<div class="icon icon-lg-smaller mdi mdi-format-quote"></div>
+										<div class="owl-carousel-widget-nav">
+											<button class="slick-prev mdi mdi-arrow-left-bold-circle"
+												type="button" data-slick="slick-1"></button>
+											<button class="slick-next mdi mdi-arrow-right-bold-circle"
+												type="button" data-slick="slick-1"></button>
+										</div>
+									</div>
+								</div>
+									</div>
+								</div>
+								
 
 
 							</div>
