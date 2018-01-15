@@ -25,7 +25,6 @@
 <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
 <link rel="stylesheet" href="/HappyRing/css/book/recommendBookList.css">
 <link rel="stylesheet" href="/HappyRing/css/common/paging.css">
-<link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
 
 
 </head>
@@ -269,7 +268,7 @@
 							<div class="rb_2">
 
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-sm-6 col-md-6">
 										<div class="slider-widget">
 									<!-- Owl Carousel-->
 									<div class="owl-carousel-widget owl-carousel"
@@ -319,8 +318,8 @@
 											<article class="quote-classic">
 												<div class="quote-classic-header">
 													<img class="quote-classic-image"
-														src="../../../images/quote-taxi-3-109x112.jpg" alt="" width="109"
-														height="112" />
+														src="../../../images/quote-taxi-3-109x112.jpg" alt="" width="33"
+														height="33" />
 													<div class="quote-classic-meta">
 														<p class="quote-classic-cite">Susan Contreras</p>
 														<p class="quote-classic-small">Designer</p>
@@ -335,7 +334,7 @@
 											</article>
 										</div>
 									</div>
-									<div class="slider-widget-aside" style="width: 35px; ">
+									<div class="slider-widget-aside">
 										<div class="icon icon-lg-smaller mdi mdi-format-quote"></div>
 										<div class="owl-carousel-widget-nav">
 											<button class="slick-prev mdi mdi-arrow-left-bold-circle"
@@ -346,7 +345,7 @@
 									</div>
 								</div>
 									</div>
-									<div class="col-md-6">
+									<div class="col-sm-6 col-md-6">
 										<div class="slider-widget">
 									<!-- Owl Carousel-->
 									<div class="owl-carousel-widget owl-carousel"
@@ -412,7 +411,7 @@
 											</article>
 										</div>
 									</div>
-									<div class="slider-widget-aside" style="width: 35px; padding: 20px 0px;">
+									<div class="slider-widget-aside">
 										<div class="icon icon-lg-smaller mdi mdi-format-quote"></div>
 										<div class="owl-carousel-widget-nav">
 											<button class="slick-prev mdi mdi-arrow-left-bold-circle"
