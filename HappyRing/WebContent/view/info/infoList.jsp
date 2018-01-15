@@ -168,13 +168,13 @@
                       
 						           <% for(int i=0; i<6; i++ ) { %>
 						               <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
-						                 <a class="gallery-item" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp" data-lightgallery="group-item">
+						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
 						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;">
 						                   	   
 						                   	   
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
-							                   	     <a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp"> 
+							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
 							                   	      <img alt="" src="../../images/bg-02.jpg">
 							                         </a> 
 							                         
