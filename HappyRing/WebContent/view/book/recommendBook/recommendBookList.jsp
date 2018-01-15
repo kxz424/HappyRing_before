@@ -25,7 +25,6 @@
 <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
 <link rel="stylesheet" href="/HappyRing/css/book/recommendBookList.css">
 <link rel="stylesheet" href="/HappyRing/css/common/paging.css">
-<link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
 
 
 </head>

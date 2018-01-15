@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+/* 공간 구분자 */
+.v_1{
+	height: auto;padding-top: 25px; border: solid; border-color: blue;
+}
+
+.v_2{
+	height: auto;padding-top: 25px; border: solid; border-color: #408080;
+}
+
+.v_3{
+	height: auto;padding-top: 25px; border: solid; border-color: #8080ff;
+}
+
+/* 게시물 제목 */
+.thumbnail-modern-caption {
+	margin-top: 5px !important;
+}
+
+/* 게시물 번호 */
+.isotope-item label {
+	float: right;
+}
+
+/* 게시물 flickr 수정 */
+.isotope-item {
+	margin-bottom: 30px;
+}
+.gallery-item-image img {
+	width: 100% !important;
+	height: 100% !important;
+}
+.embed-responsive-item {
+	content: none;
+}
+.caption {
+	background: #ed1c9499 !important;
+	font-size: 17px;
+}
+.caption:before{
+	display: none !important;
+}
+.caption:after {
+	display: none;
+}
+.caption .caption-title {
+	font-size: 13px !important;
+}
+.caption .caption-text {
+	opacity: 0.9 !important;
+}
