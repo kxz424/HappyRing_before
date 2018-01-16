@@ -206,11 +206,9 @@ $(function(){
 												data-filter="type 2">
 												<label>No.123</label>
 												<a class="gallery-item"
-													href="#"
-													data-lightgallery="group-item">
-													
-													
-													<div class="gallery-item-image">
+													href="/HappyRing/view/video/videoBoard.jsp"
+													data-lightgallery="">
+													<div class="gallery-item-image" >
 
 														<div
 															class="embed-responsive-item">
