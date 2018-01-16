@@ -1338,7 +1338,7 @@ $(function() {
 													<div>
 														<div class="test-box" style="border: 1px solid red; width: auto; padding: 0; ">
 <!--  															<img style="width: 100%;" alt="" src="../../../challengeImges/wirteBoard.png" > -->
-															<c:forEach var="i" begin="0" end="5">
+															<c:forEach var="i" begin="0" end="10">
 																<div style="width: auto; padding: 0; margin-bottom: 7px;">
 																	<c:forEach var="j" begin="1" end="20">
 																		<input type="text" class="test-txt" id="test-txt${i*20 + j }"

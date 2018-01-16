@@ -36,7 +36,7 @@
 
 
 <script type="text/javascript">
-'use strict';
+// 'use strict';
 $(function () {
 
 	//표정 아이콘 클릭시 해당 아이콘 선택 이벤트
@@ -328,7 +328,26 @@ $(function () {
 						       	  	    		
 						       	  	    	  <div class="cha_divWrite_write">	
 													
-													<img style="width: 100%;" alt="" src="../../challengeImges/wirteBoard.png">
+<!-- 													<img style="width: 100%;" alt="" src="../../challengeImges/wirteBoard.png"> -->
+
+
+
+												<div>
+														<div class="test-box" style="border: 1px solid red; width: auto; padding: 0; ">
+															<c:forEach var="i" begin="0" end="10">
+																<div style="width: auto; padding: 0; margin-bottom: 7px;">
+																	<c:forEach var="j" begin="1" end="20">
+																		<input type="text" class="test-txt" id="test-txt${i*20 + j }"
+																			
+																			style="margin-right: -5px; border: 1px solid red; width: 5.24%" disabled="disabled" />
+																	</c:forEach>
+																</div>
+															</c:forEach>
+															
+															
+														</div>
+
+													</div>
 
 
 
