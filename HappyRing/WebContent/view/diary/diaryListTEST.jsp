@@ -13,11 +13,8 @@
     <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
  	
  	<!-- 심리이론 Frame Stylesheets -->
-    <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-<!--    <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css"> -->
-   <link rel="stylesheet" href="/HappyRing/css/theory/theoryGuidList.css"> 
-   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-<!--    <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css"> -->
+    <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+     <link rel="stylesheet" href="/HappyRing/css/diary/diaryList.css">
    
    
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -25,6 +22,9 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
+	<link rel="stylesheet" href="https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.css
+">
+ 
 </head>
 
 <body>
@@ -48,12 +48,12 @@
       
        <!-- ### 영역 A_Frame_Div START-->
       	<div class="col-md-8 th_divA"> 
-          <div class="th_aFrameDiv">
+          <div class="aFrameDiv">
           		 
 	           <!-- ### A 세부영역 div -->
 	                     영역 A_Frame_Div
-	           <!-- ###세부영역 th_a1 : 슬라이더 광고 -->
-	    	  	<div class="th_a1">
+	           <!-- ###세부영역 a-1 : 슬라이더 광고 -->
+	    	  	<div class="a-1">
 	    	  		<div class="shell">
                            <!-- Swiper-->
                            <div
@@ -62,19 +62,19 @@
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
+                                    data-slide-bg="../../images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="../../images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="../../images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
@@ -89,10 +89,11 @@
 	    	  	</div>
 	    	  <!-- 세부영역 a-1 끝 -->	
 	    	  	
-	    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
-	    <div class="th_guid_a2" >
+	    <!-- ###세부영역 a-2 시작 : 제목, 게시글 리시트 -->
+	    <div class=" a-2" >
+	    
 	       <!-- 세부영역 th_guid_a2_1 시작 :   -->
-	       <div class="th_guid_a2_1" >
+	       <div class="di-title" >
 	    	  <div class="row">
 	    	  	<div class="col-md-3">
 	    	  		<h5>심리가이드</h5>
@@ -104,64 +105,51 @@
 				
 	    	 	
 	    	 	
-		  <!-- 세부영역 th_guid_a2_2 : -->
-		  <div class="th_guid_a2_2">
-			<div class="shell shell-wide shell-box-minimal-wrap">
-	          <div class="range range-50 range-xs-center">
-	            <div class="cell-xs-10 cell-sm-6 cell-lg-4">
-	              <article class="box-minimal box-minimal-border">
-	                <div class="box-minimal-icon mdi mdi-bus"></div>
-	                <p class="big box-minimal-title">주요 심리학</p>
-	                <hr>
-	                <div class="box-minimal-text text-spacing-sm">We offer free Bus Service for children and adults, which allows young visitors and their parents to quickly reach our museum to usefully spend their time. After visiting us, you will be driven back home in our comfortable buses.</div>
-	              </article>
-	            </div>
-	            <div class="cell-xs-10 cell-sm-6 cell-lg-4">
-	              <article class="box-minimal box-minimal-border">
-	                <div class="box-minimal-icon mdi mdi-camera"></div>
-	                <p class="big box-minimal-title">심리학 지식</p>
-	                <hr>
-	                <div class="box-minimal-text text-spacing-sm">Our museum also has lots of interesting things for children including our Outdoor Playground, which is mainly our entertainment center for everyone up to 15 y.o. Our  team will provide your chilren with interesting activities</div>
-	              </article>
-	            </div>
-	            <div class="cell-xs-10 cell-sm-6 cell-lg-4">
-	              <article class="box-minimal box-minimal-border">
-	                <div class="box-minimal-icon mdi mdi-nature-people"></div>
-	                <p class="big box-minimal-title">묻고 답하기</p>
-	                <hr>
-	                <div class="box-minimal-text text-spacing-sm">Our museum also has lots of interesting things for children including our Outdoor Playground, which is mainly our entertainment center for everyone up to 15 y.o. Our  team will provide your chilren with interesting activities.</div>
-	              </article>
-	            </div>
-	          </div>
-	        </div>						
+		  <!-- 세부영역 diary_list : -->
+		  <div class="diary_list">
+			
+
+
+
+
+
+
+
+
+
+<div id="calendarContainer"></div>
+<div id="organizerContainer"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
 		  </div>	
-		  <!-- 세부영역 th_dtail_a2_2 끝-->
+		  <!-- 세부영역 diary_list 끝-->
 				
-				
-		       <!-- 세부영역 th_dtail_a2_3 : 	-->
-		       <div class="th_guid_a2_3">
-		        
-			    </div>
-			    
-			    
-			    <!-- 댓글쓰기 + 댓글 리스트 END -->
-			    
-						           
-										
-								  
-				
-				<!-- 세부영역 th_a2_3 끝  -->
-				
-				<!-- 세부영역 "th_guid_a2_4" 시작 	-->
-			    <div class="th_guid_a2_4">
-				    
-			    </div>
-			    <!-- 세부영역 "th_guid_a2_4" 끝 	-->
-						          
 						          
 	    	 		
 	    </div> 
-	    <!-- 세부영역 th_a2  끝 -->
+	    <!-- 세부영역 a-2  끝 -->
 	                    
       </div>
     </div>
@@ -179,7 +167,7 @@
 		               
 		                 <button class="btn btn-primary btn-lg hidden-xs" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
                             
-		                     <jsp:include page="../../member/login.jsp"/>
+		                     <jsp:include page="../member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
                
@@ -221,7 +209,7 @@
  	              <!-- 세부영역 B-4 : 날짜 영역 START-->   
 		               <div class="b-4">
 				               <br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다
-				               <img alt="" src="../../../mainImages/날씨와기분.png" >               
+				               <img alt="" src="../../mainImages/날씨와기분.png" >               
 		               </div>
 	              <!-- 세부영역 B-4 : 날씨 영역 END-->   
 	              
@@ -260,6 +248,74 @@
     <script src="/HappyRing/js/script.js"></script>
     <!--  메인 Javascript -->
      <script src="/HappyRing/js/main/main.js"></script>
+     
+     
+     <script type="text/javascript">
+     
+     "use strict";
+
+  // function that creates dummy data for demonstration
+  function createDummyData() {
+    var date = new Date();
+    var data = {};
+
+    for (var i = 0; i < 10; i++) {
+      data[date.getFullYear() + i] = {};
+
+      for (var j = 0; j < 12; j++) {
+        data[date.getFullYear() + i][j + 1] = {};
+
+        for (var k = 0; k < Math.ceil(Math.random() * 10); k++) {
+          var l = Math.ceil(Math.random() * 28);
+
+          try {
+            data[date.getFullYear() + i][j + 1][l].push({
+              startTime: "10:00",
+              endTime: "12:00",
+              text: "Some Event Here"
+            });
+          } catch (e) {
+            data[date.getFullYear() + i][j + 1][l] = [];
+            data[date.getFullYear() + i][j + 1][l].push({
+              startTime: "10:00",
+              endTime: "12:00",
+              text: "Some Event Here"
+            });
+          }
+        }
+      }
+    }
+
+    return data;
+  }
+
+  // creating the dummy static data
+  var data = createDummyData();
+
+  // initializing a new calendar object, that will use an html container to create itself
+  var calendar = new Calendar(
+    "calendarContainer", // id of html container for calendar
+    "medium", // size of calendar, can be small | medium | large
+    [
+      "Wednesday", // left most day of calendar labels
+      3 // maximum length of the calendar labels
+    ],
+    [
+      "#E91E63", // primary color
+      "#C2185B", // primary dark color
+      "#FFFFFF", // text color
+      "#F8BBD0" // text dark color
+    ]
+  );
+
+  // initializing a new organizer object, that will use an html container to create itself
+  var organizer = new Organizer(
+    "organizerContainer", // id of html container for calendar
+    calendar, // defining the calendar that the organizer is related to
+    data // giving the organizer the static data that should be displayed
+  );
+
+     </script>
      
   </body>
 </html>
