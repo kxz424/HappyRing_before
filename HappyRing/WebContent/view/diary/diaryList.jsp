@@ -11,10 +11,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
- 	
  	<!-- 심리이론 Frame Stylesheets -->
     <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-     <link rel="stylesheet" href="/HappyRing/css/diary/diaryList.css">
+    <!-- 내 일기장(diary CSS -->
+    <link rel="stylesheet" href="/HappyRing/css/diary/diaryList.css">
    
    
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -27,287 +27,6 @@
 
 
 
-#container {
-  width: 800px;
-  padding: 60px;
-  margin: 0 auto;
-}
-
-
-/*calendar*/
-
-#calendar {
-  width: 380px;
-  background: #ffffff;
-  border-radius: 5px;
-  overflow: hidden;
-  float: left;
-}
-
-.ui-datepicker {
-  margin: 30px 20px;
-  font-size: 22px;
-}
-
-.ui-datepicker a {
-  text-decoration: none;
-  color: #6a7883;
-}
-
-.ui-datepicker table {
-  width: 100%;
-}
-
-
-/*Styling the Header Section*/
-
-.ui-datepicker-header {
-  height: 60px;
-  border-bottom: 1px solid #c6cdd2;
-}
-
-.ui-datepicker-title {
-  font-size: 32px;
-  color: #e5eaee;
-  text-align: center;
-}
-
-.ui-datepicker-prev,
-.ui-datepicker-next {
-  width: 12px;
-  height: 12px;
-  text-indent: 9999px;
-  border-radius: 100%;
-  cursor: pointer;
-  overflow: hidden;
-  margin-top: -12px;
-}
-
-.ui-datepicker-prev {
-  float: left;
-  margin-left: 12px;
-}
-
-.ui-datepicker-prev:after {
-  transform: rotate(45deg);
-}
-
-.ui-datepicker-next {
-  float: right;
-  margin-right: 12px;
-}
-
-.ui-datepicker-next:after {
-  transform: rotate(-135deg);
-}
-
-.ui-datepicker-prev:after,
-.ui-datepicker-next:after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 12px;
-  height: 12px;
-  border-left: 3px solid #6a7883;
-  border-bottom: 3px solid #6a7883;
-}
-
-.ui-datepicker-calendar thead tr th span {
-  display: block;
-  width: 40px;
-  color: #bdc5cb;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 50px;
-}
-
-
-/*Styling the Dates*/
-
-.ui-state-default {
-  display: block;
-  color: #f26a63;
-  line-height: 40px;
-  text-align: center;
-  font-size: 16px;
-  width: 40px;
-}
-
-.ui-datepicker-other-month .ui-state-default {
-  color: #bdc5cb;
-}
-
-
-/*active day*/
-
-.ui-state-default:hover {
-  background: #6a7883;
-  color: #ffffff;
-  border: 1px solid #6a7883;
-  border-radius: 99px;
-  position: relative;
-  margin: -1px;
-}
-
-.ui-datepicker-calendar .ui-state-highlight {
-  color: #f26a63;
-  font-weight: bold;
-}
-
-.ui-datepicker-calendar .ui-state-active {
-  background: #6a7883;
-  color: #ffffff;
-  border: 1px solid #6a7883;
-  border-radius: 99px;
-  position: relative;
-  margin: -1px;
-}
-
-
-/*weather*/
-
-#weather {
-  width: 320px;
-  background: #ffffff;
-  border-radius: 5px;
-  overflow: hidden;
-  float: right;
-  padding: 20px;
-}
-
-#today {
-  margin: 0 auto;
-  width: 120px;
-}
-
-#temp {
-  font-size: 42px;
-  font-weight: 400;
-  color: #6a7883;
-  display: inline-block;
-}
-
-#icon {
-  font-size: 42px;
-  font-weight: 400;
-  color: #6a7883;
-  display: inline-block;
-  margin: 0 5px;
-  ;
-}
-
-#city {
-  font-size: 22px;
-  color: #bdc5cb;
-  text-align: center;
-  margin: 0;
-  line-height: 40px;
-  padding-bottom: 10px;
-}
-
-#week {
-  border-top: 1px solid #c6cdd2;
-  padding-top: 10px;
-}
-
-#weekdays {
-  font-size: 22px;
-  color: #bdc5cb;
-  margin: 0;
-  line-height: 40px;
-}
-
-.icons {
-  text-align: center;
-  font-size: 38px;
-  color: #6c7a85;
-}
-
-#forecast {
-  font-size: 22px;
-  color: #6c7a85;
-  margin: 0;
-  margin-top: 15px;
-}
-
-.gap {
-  display: inline-block;
-  width: 80px;
-  text-align: center;
-}
-
-
-/*music*/
-
-#music {
-  width: 360px;
-  background: #ffffff;
-  border-radius: 5px;
-  overflow: hidden;
-  float: right;
-  margin-top: 50px;
-}
-
-#music img {
-  width: 100%;
-}
-
-.title {
-  text-align: center;
-  line-height: 26px;
-  font-size: 14px;
-}
-
-#pause {
-  display: none;
-}
-
-progress[value] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 100%;
-  height: 6px;
-}
-
-progress[value]::-webkit-progress-bar {
-  background-color: #f1faff;
-}
-
-progress[value]::-webkit-progress-value {
-  background-color: #9ad9fd;
-}
-
-.actions {
-  padding: 15px 20px;
-  overflow: hidden;
-}
-
-.actions i {
-  font-size: 18px;
-  color: #6a7883;
-  float: left;
-  cursor: pointer;
-}
-
-.prev {
-  margin-left: 97px;
-  float: left;
-}
-
-.play {
-  margin: 0 20px 0 20px;
-  float: left;
-}
-
-.next {
-  margin-right: 97px;
-  float: left;
-}
-
-#mute {
-  display: none;
-}
 </style>
 </head>
 
@@ -402,23 +121,118 @@ progress[value]::-webkit-progress-value {
 
 
 
+<!-- inspired by http://colorhunt.co/c/8184 and 
+    https://dribbble.com/shots/2407357-Calendar%60 -->
+<!-- <div class="cal"> -->
+    <div class="containerCal">
+      <div class="calendar">
+        <div class="front">
+          <div class="current-date">
+            <h1>Friday 15th</h1>
+            <h1>January 2016</h1>	
+          </div>
 
+          <div class="current-month">
+            <ul class="week-days">
+              <li>MON</li>
+              <li>TUE</li>
+              <li>WED</li>
+              <li>THU</li>
+              <li>FRI</li>
+              <li>SAT</li>
+              <li>SUN</li>
+            </ul>
 
-<div id="container">
-  <!-- calendar -->
-  <div id="calendar"></div>
-  <!-- weather -->
-  <div id="weather">
-    <div id="today">
-      <div id='temp'></div>
-      <div id='icon'></div>
-      <div id='city'></div>
+            <div class="weeks">
+              <div class="first interval">
+                <span class="last-month">28</span>
+                <span class="last-month">29</span>
+                <span class="last-month">30</span>
+                <span class="last-month">31</span>
+                <span>01</span>
+                <span>02</span>
+                <span>03</span>
+              </div>
+
+              <div class="second interval">
+                <span>04</span>
+                <span>05</span>
+                <span class="event">06</span>
+                <span>07</span>
+                <span>08</span>
+                <span>09</span>
+                <span>10</span>
+              </div>
+
+              <div class="third interval">
+                <span>11</span>
+                <span>12</span>
+                <span>13</span>
+                <span>14</span>
+                <span class="active">15</span>
+                <span>16</span>
+                <span>17</span>
+              </div>
+
+              <div class="fourth interval">
+                <span>18</span>
+                <span>19</span>
+                <span>20</span>
+                <span>21</span>
+                <span>22</span>
+                <span>23</span>
+                <span>24</span>
+              </div>
+
+              <div class="fifth interval">
+                <span>25</span>
+                <span>26</span>
+                <span>27</span>
+                <span>28</span>
+                <span>29</span>
+                <span>30</span>
+                <span>31</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="back">
+<!--           <input placeholder="What's the event?"> -->
+          <div class="info">
+            <div class="date">
+              <p class="info-date">
+              Date: <span>Jan 15th, 2016</span>
+              </p>
+              <p class="info-time">
+                Time: <span>6:35 PM</span>
+              </p>
+            </div>
+            <div class="address">
+              <p>
+                Address: <span>129 W 81st St, New York, NY</span>
+              </p>
+            </div>
+            <div class="observations">
+              <p>
+                Observations: <span>Be there 15 minutes earlier</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="showDiary">
+            <button class="save">
+              2018-01-XX 일기보기  <i class="ion-checkmark"></i>
+            </button>
+            <button class="dismiss">
+                                 달력으로 돌아가기 <i class="ion-android-close"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
     </div>
-   
-  </div>
-  <!-- music player -->
-  
-</div>
+<!-- </div> -->
 
 
 
@@ -544,295 +358,9 @@ progress[value]::-webkit-progress-value {
     <script src="/HappyRing/js/core.min.js"></script>
     <script src="/HappyRing/js/script.js"></script>
     <!--  메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
-     
-     
-     
-     <script type="text/javascript">
-     
-     
-     /*calendar*/
-     $(function() {
-       $("#calendar").datepicker({
-         inline: true,
-         showOtherMonths: true,
-         selectOtherMonths: false,
-         dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-       });
-     });
-
-     /*weather*/
-     var weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-     d = new Date();
-     var measurement = 'cel';
-     $measurement = 'cel';
-
-     $(document).ready(function() {
-       $measurement = 'cel';
-       getLocation();
-     });
-
-     function setIcon(status) {
-       switch (status) {
-         case 'Rain':
-           $('#icon').append('<i class="wi wi-rain-mix"></i>');
-           break;
-         case 'Drizzle':
-           $('#icon').append('<i class="wi wi-rain-mix"></i>');
-           break;
-         case 'Clear':
-           $('#icon').append('<i class="wi wi-day-sunny"></i>');
-           break;
-         case 'Clouds':
-           $('#icon').append('<i class="wi wi-cloudy"></i>');
-           break;
-         case 'Thunderstorm':
-           $('#icon').append('<i class="wi wi-storm-showers"></i>');
-           break;
-         case 'Snow':
-           $('#icon').append('<i class="wi wi-snow"></i>');
-           break;
-         case 'Mist':
-           $('#icon').append('<i class="wi wi-fog"></i>');
-           break;
-         case 'Fog':
-           $('#icon').append('<i class="wi wi-fog"></i>');
-           break;
-         case 'Haze':
-           $('#icon').append('<i class="wi wi-smoke"></i>');
-           break;
-       }
-     }
-
-     function setCurrent(city) {
-       $.ajax({
-         url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=18779931dba6c5d8e6c9cac52c1c2f90',
-         method: 'GET',
-         data: {},
-         dataType: 'json',
-         success: function(data) {
-           $('#city').empty();
-           $('#city').append(city.substring(0, city.indexOf(',')));
-           $('#temp').empty();
-           if ($('#icon').is(':empty')) {
-             setIcon(data.weather[0].main);
-           }
-           if ($('#temp').is(':empty')) {
-             $('#temp').append(inCel(data.main.temp));
-           }
-         }
-       });
-     }
-
-     function setForecast(city, reason) {
-       $.ajax({
-         url: 'https://api.openweathermap.org/data/2.5/forecast/daily?q=' + city + ',de&mode=json&appid=18779931dba6c5d8e6c9cac52c1c2f90',
-         method: 'GET',
-         data: {},
-         dataType: 'json',
-         success: function(data) {
-
-           var dayCounter = d.getDay();
-           for (i = 0; i <= 3; i++) {
-             if (dayCounter >= weekday.length - 1) {
-               dayCounter = 0
-             } else {
-               dayCounter += 1
-             }
-             if (data.list[i].weather[0].main !== '' && reason !== 'refresh') {
-               $('#weekdays').append('<div class="gap">' + weekday[dayCounter] + '</div>');
-               $('.icons').append('<div class="gap">' + getIcon(data.list[i].weather[0].main) + '</div>');
-             }
-             $('#forecast').append('<div class="gap">' + inCel(data.list[i].temp.max) + '</div>');
-           }
-         }
-       });
-     }
-
-     function getIcon(weather) {
-       switch (weather) {
-         case 'Rain':
-           return '<i class="wi wi-rain-mix"></i>';
-         case 'Drizzle':
-           return '<i class="wi wi-rain-mix"></i>';
-         case 'Clouds':
-           return '<i class="wi wi-cloudy"></i>';
-         case 'Clear':
-           return '<i class="wi wi-day-sunny"></i>';
-         case 'Thunderstorm':
-           return '<i class="wi wi-storm-showers"></i>';
-         case 'Snow':
-           return '<i class="wi wi-snow"></i>';
-         case 'Haze':
-           return '<i class="wi wi-smoke"></i>';
-         case 'Fog':
-           return '<i class="wi wi-fog"></i>';
-         case 'Mist':
-           return '<i class="wi wi-fog"></i>';
-         default:
-           return '<i class="wi wi-time-1"></i>';
-       }
-     }
-
-     function inCel(value, reason) {
-       if ($measurement === 'cel') {
-         return Math.round(value - 273.15) + '°';
-       } else {}
-     }
-
-     function getLocation() {
-       $.ajax({
-         url: 'https://ipapi.co/json/',
-         method: 'GET',
-         data: {},
-         dataType: 'json',
-         success: function(data) {
-           $city = data.country_name + ',' + data.timezone;
-           setCurrent($city);
-           setForecast($city);
-         },
-         error: function(err) {
-           console.log(err)
-         }
-       });
-     }
-
-     /*music player*/
-     var num = 0;
-     var hiddenPlayer = $('#hidden-player');
-     var player = $('#player');
-     var title = $('.title');
-     var cover = $('.coverr');
-
-     function secondsTimeSpanToHMS(s) {
-       var h = Math.floor(s / 3600);
-       s -= h * 3600;
-       var m = Math.floor(s / 60);
-       s -= m * 60;
-       return h + ":" + (m < 10 ? '0' + m : m) + ":" + (s < 10 ? '0' + s : s);
-     };
-
-     songs = [{
-       src: "http://chenyiya.com/codepen/iron.mp3",
-       title: "Woodkid - Iron",
-       coverart: "http://chenyiya.com/codepen/iron-image.jpg"
-     }, {
-       src: "http://chenyiya.com/codepen/A New Error.mp3",
-       title: "Moderat - A New Error",
-       coverart: "http://chenyiya.com/codepen/moderat.jpg"
-     }, {
-       src: "http://chenyiya.com/codepen/midnight city.mp3",
-       title: "M83 - Midnight City",
-       coverart: "http://chenyiya.com/codepen/m83.jpg"
-     }, ];
-
-     var initSongSrc = songs[0].src;
-     var initSongTitle = songs[0].title;
-     var initSongCover = songs[0].coverart;
-     var items = songs.length - 1;
-
-     hiddenPlayer.attr("src", initSongSrc);
-     title.html(initSongTitle);
-     cover.attr('src', initSongCover);
-
-     $('.next').on('click', function() {
-       var songOrder = hiddenPlayer.attr('order');
-
-       if (items == songOrder) {
-         num = 0;
-         var songSrc = songs[0].src;
-         var songTitle = songs[0].title;
-         var songCover = songs[0].coverart;
-         hiddenPlayer.attr('order', '0');
-         hiddenPlayer.attr('src', songSrc).trigger('play');
-         title.html(songTitle);
-         cover.attr('src', songCover);
-       } else {
-         console.log(songOrder);
-         num += 1;
-         var songSrc = songs[num].src;
-         var songTitle = songs[num].title;
-         var songCover = songs[num].coverart;
-         hiddenPlayer.attr('src', songSrc).trigger('play');
-         title.html(songTitle);
-         cover.attr('src', songCover);
-         hiddenPlayer.attr('order', num);
-       }
-     });
-
-     $('.prev').on('click', function() {
-       var songOrder = hiddenPlayer.attr('order');
-
-       if (songOrder == 0) {
-         num = items;
-         var songSrc = songs[items].src;
-         var songTitle = songs[items].title;
-         var songCover = songs[items].coverart;
-         hiddenPlayer.attr('order', items);
-         hiddenPlayer.attr('src', songSrc).trigger('play');
-         title.html(songTitle);
-         cover.attr('src', songCover);
-       } else {
-         num -= 1;
-         var songSrc = songs[num].src;
-         var songTitle = songs[num].title;
-         var songCover = songs[num].coverart;
-         hiddenPlayer.attr('src', songSrc).trigger('play');
-         title.html(songTitle);
-         cover.attr('src', songCover);
-         hiddenPlayer.attr('order', num);
-       }
-     });
-
-     $("#playmusic").click(function() {
-       hiddenPlayer[0].play();
-       $("#playmusic").hide();
-       $("#pause").show().addClass('active');
-     });
-     $("#pause").click(function() {
-       hiddenPlayer[0].pause();
-       $("#playmusic").show();
-       $("#pause").hide();
-     });
-
-     hiddenPlayer.on('timeupdate', function() {
-       var songLength = secondsTimeSpanToHMS(this.duration)
-       var songLengthParse = songLength.split(".")[0];
-
-       var songCurrent = secondsTimeSpanToHMS(this.currentTime)
-       var songCurrentParse = songCurrent.split(".")[0];
-       $('progress').attr("value", this.currentTime / this.duration);
-
-       if (!hiddenPlayer[0].paused) {
-         $("#playmusic").hide();
-         $("#pause").show();
-         $('progress').css('cursor', 'pointer');
-         $('progress').on('click', function(e) {
-           var parentOffset = $(this).parent().offset();
-           var relX = e.pageX - parentOffset.left;
-           var percPos = relX * 100 / 355;
-           var second = hiddenPlayer[0].duration * parseInt(percPos) / 100;
-           console.log(second);
-           hiddenPlayer[0].currentTime = second;
-         })
-       }
-
-       if (this.currentTime == this.duration) {
-         $('.next').trigger('click');
-       }
-     });
-
-     $("#mute").click(function() {
-       hiddenPlayer[0].volume = 1;
-       $("#mute").hide();
-       $("#sound").show();
-     });
-     $("#sound").click(function() {
-       hiddenPlayer[0].volume = 0;
-       $("#mute").show();
-       $("#sound").hide();
-     });
-     </script>
+    <script src="/HappyRing/js/main/main.js"></script>
+    <!-- diaryList.js --> 
+    <script src="/HappyRing/js/diary/diaryList.js"></script>
      
   </body>
 </html>
