@@ -18,9 +18,9 @@
    <!-- 자유게시판 CSS link -->
    <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
    <link rel="stylesheet" href="/HappyRing/css/common/paging.css">
-   <link rel="stylesheet" href="/HappyRing/css/video2/videoDetail.css">
-     <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
-     <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
+   <link rel="stylesheet" href="/HappyRing/css/video/videoDetail.css">
+   <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
+   <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
    
    
    
@@ -97,7 +97,7 @@
               <div class="divTitle" style=" border: solid; border-color: red;">
               <div class="row">
                   <div class="col-md-3">
-                     <h5>상담소 정보</h5>
+                     <h5>영상 </h5>
                   </div>
                   <div class="col-md-3"></div>
                   <div class="col-md-6"> </div>

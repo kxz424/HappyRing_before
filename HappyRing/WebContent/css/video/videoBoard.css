@@ -1,0 +1,144 @@
+@CHARSET "UTF-8";
+
+
+.videoInsert{
+	
+	height: auto;
+    padding-top: 25px;
+    padding-bottom: 26px;
+    border: solid;
+    border-color: #808040;
+    background-color: #eff3f3;
+}
+
+
+
+/* 텍스트필드 css START **/
+/* FORM STYLES ------------------------------- */
+.mz-field {
+  width: 100%;
+/*   margin: 5% 0; */
+  /* LABEL ======================================= */
+  /* BOTTOM BARS ================================= */
+  /* HIGHLIGHTER ================================== */
+}
+.mz-field-group {
+  position: relative;
+}
+.mz-field p {
+  color: #212121;
+}
+.mz-field input {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(182, 182, 182, 0.5);
+  /* valid state */
+  /* disabled state */
+  /* active state */
+}
+.mz-field input:focus {
+  outline: none;
+  /* active state */
+}
+.mz-field input:focus ~ label {
+  top: -20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #428bca;
+}
+.mz-field input:valid ~ label {
+  display: none;
+}
+.mz-field input:disabled {
+  background: none;
+  border-bottom: 1px dashed rgba(182, 182, 182, 0.5);
+}
+.mz-field input:disabled ~ label {
+  color: #ddd;
+}
+.mz-field input[disabled="disabled"][value="Test"] {
+  color: #ddd;
+}
+.mz-field input[disabled="disabled"][value="Test"] ~ label {
+  display: none;
+}
+.mz-field input:focus ~ .mz-field-bar:before,
+.mz-field input:focus ~ .mz-field-bar:after {
+  width: 50%;
+}
+.mz-field input:focus ~ .mz-field-highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+.mz-field label {
+  color: #b6b6b6;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  font-weight: 400;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.mz-field-bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.mz-field-bar:before, .mz-field-bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #428bca;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.mz-field-bar:before {
+  left: 50%;
+}
+.mz-field-bar:after {
+  right: 50%;
+}
+.mz-field-highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+
+/* 텍스트필드 css END **/
