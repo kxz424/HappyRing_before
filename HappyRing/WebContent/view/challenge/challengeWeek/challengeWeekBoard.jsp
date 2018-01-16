@@ -265,46 +265,33 @@ padding-bottom: 10%;
 
 
 
+<!-- 제목 및 내용 입력 부분 -->
+<style type="text/css">
+.title {
+	width: 100%;
+}
+#edit {
+	height: 400px;
+}
+#edit p {
+	margin-top: 0px;
+}
+
+/* 카테고리 사이즈 */
+.selectpicker ~ .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+	width: auto;
+}
+</style>
+
+
+
+
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     
 <!-- challenge Jabvascript -->
     <script src="/HappyRing/js/challenge/challengeList.js"></script> 
-<!-- 카테고리분류 아코디언창 js -->
-	
-<script type="text/javascript">
-$(document).ready(function(){
-	  var expand = $('.expand-icon');
-	  
-	  $(expand).on('click', function() {
-		  
-		//아래화살표 아이콘 중복 제거
-		$('.bs-caret').find('span').attr('class', '');
-		  
-		  
-	    $(this).children('i').toggleClass('fa-plus fa-minus');
-	  $(this).closest("li").find(".submenu").eq(0).slideToggle('10000', function() {
-	    $(this).toggleClass('active');
-	    
-	    
-	    
-	});
-	    
-	});
-	});
-</script>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -334,6 +321,36 @@ $(document).ready(function(){
     margin-left:2px;
 }
 </style>
+
+
+
+
+
+<!-- 카테고리분류 아코디언창 js -->
+<script type="text/javascript">
+$(document).ready(function(){
+	  var expand = $('.expand-icon');
+	  
+	  $(expand).on('click', function() {
+		  
+		//아래화살표 아이콘 중복 제거
+		$('.bs-caret').find('span').attr('class', '');
+		  
+		  
+	    $(this).children('i').toggleClass('fa-plus fa-minus');
+	  $(this).closest("li").find(".submenu").eq(0).slideToggle('10000', function() {
+	    $(this).toggleClass('active');
+	    
+	    
+	    
+	});
+	    
+	});
+	});
+</script>
+
+
+
 
 
 
@@ -706,7 +723,7 @@ $(function() {
 						       	  <div class="cha_divCategory">
 						       	     <div class="row board-detail">
 					    	 			<div class="col-md-12">
-											<h3>고민게시판</h3>
+											<h3>일주일 도전</h3>
 										</div>
 	    	 						 </div>
 						       	  </div>
@@ -980,15 +997,20 @@ $(function() {
 						       	  
 						       	  
 						       	  <!-- ## 2.도전 게시글 제목 START-->
-						       	  <div class="cha_divTitle">
-						       	    <div class="row">
-					    	 			<div class="col-md-12">
-											<div class="tit col-md-12">
-												<p>운동이 하기 싫어요</p>
-											</div>
+									<div class="row">
+										
+							    	 	<div class="tit col-md-12 txt">
+							    	 		<select class="selectpicker" data-style="btn-primary" multiple
+													data-max-options="1" data-title="카테고리">
+													<option>사랑/이별</option>
+													<option>자존감</option>
+													<option>심리적 고민</option>
+													<option>나만의 고민</option>
+													</select> 
+											<label>제목</label>
+											<input type="text" class="title"/>
 										</div>
 					    	 		</div>
-						       	  </div>
 						       	  <!-- 도전 게시글 제목 END-->
 						       	  
 						       	  <!-- ## 3. 닉네임 조회수 등록일 START-->

@@ -35,32 +35,7 @@
 <link rel="stylesheet" href="/HappyRing/css/diary/diaryDetail.css">
 
 
-<script type="text/javascript">
-// 'use strict';
-$(function () {
 
-	//표정 아이콘 클릭시 해당 아이콘 선택 이벤트
-	$('.icon-like img').click(function(){
-// 		alert($(this).attr('src'));
-		if($(this).css("width") == "90px"){
-			$(this).css("width", "60px");
-			$(this).css("height", "60px");
-		}else{
-			for(var i = 0; i < $('.icon-like img').size(); i++){
-				if($('.icon-like img').eq(i).css("width") == "90px"){
-					$('.icon-like img').eq(i).css("width", "60px");
-					$('.icon-like img').eq(i).css("height", "60px");
-				}
-			}
-			$(this).css("width", "90px");
-			$(this).css("height", "90px");
-		}
-		
-	});
-    
-    
-});
-</script>
 
    
 </head>
@@ -243,14 +218,11 @@ $(function () {
 						       	      			<span class="icon-md icon-primary mdi mdi-calendar-clock">2018-01-15 월요일</span>
 						       	      		</div>
 						       	      		<div class="col-md-5 dailyEmotion">
-						       	      			<span class="icon-md icon-primary mdi mdi-calendar-clock"></span>
 						       	      			
 						       	      			
 						       	      			<div class="icon-like">
-						       	      				<img src="/HappyRing/img/icon-image/angryGif.gif" style="width:60px; height: 60px;"/>
+						       	      				<label>나의 기분</label>
 						       	      				<img src="/HappyRing/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
-						       	      				<img src="/HappyRing/img/icon-image/sadGif.gif" style="width:60px; height: 60px;"/>
-						       	      				<img src="/HappyRing/img/icon-image/wowGif.gif" style="width:60px; height: 60px;"/>
 						       	      				
 						       	      				
 						       	      				
@@ -398,12 +370,16 @@ $(function () {
 							       	  	    <div class="col-md-2"> </div>
 						       	  	  </div>
 						       	  	  <!-- 4-4 : 오늘 나에게 주는 점수/ 내일의 다짐  넣는 곳 END -->
+						       	  	  
+						       	  	  
+						       	  	  
 						       	  	  </div>
 						       	  	  
 						       	  </div>
 						       	  <!--  4. 도전일기 쓰는 곳 DIV END -->
 					        </div>
       						<!-- detail 본문 내용 END -->
+      						
       						
       						
       						
@@ -427,6 +403,167 @@ $(function () {
 						       	  	  
       						</div>
       						<!-- detail 엔젤링, 북마크, 신고하기, 관련글 보기 list END -->
+      						
+      						
+      						
+      						
+      						
+      						<!-- ## detail 엔젤링, 북마크, 신고하기, 관련글 보기 list START-->
+      						<div class="challenge_divC_2">
+      								  <!-- ## 4-5 : 북마크, 엔젤링, 신고 버튼  START-->
+						       	  	  <div class="cha_divButtons">
+						       	  	    <div class="row">
+						       	  	    
+						       	  	    			<div class="col-md-2"></div>
+													<div class="col-md-8" style="padding-left: 70px;">
+														<a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>북마크</a>
+														<a class="button button-twitter" href="#" style="margin-top: 0px;"><span class="icon glyphicon glyphicon-heart-empty"></span>엔젤링</a>
+														<a class="button button-twitter" href="#" style="margin-top: 0px;"><span class="icon glyphicon glyphicon-bullhorn"></span>신고</a>
+													</div>
+													<div class="col-md-2"></div>
+													
+						    	 		</div>
+						    	 	  </div>	
+						       	  	  <!-- 4-5 : 북마크, 엔젤링, 신고 버튼  END -->
+						       	  	  
+						       	  	  
+						       	  	  
+						       	  	  
+						       	  	  
+      						</div>
+      						<!-- detail 엔젤링, 북마크, 신고하기, 관련글 보기 list END -->
+      						
+      						
+      						
+      						
+      						<!-- ## detail 댓글  div START -->
+      						<div class="challenge_divC_3">
+      						  
+      						  <!-- #댓글 작성 div START -->
+      						  <div class="cha_comment">
+      						  	<div class="row">
+      						  		<div class="col-md-1"></div>
+				    	 			<div class="col-md-10 common-list">
+										<h5>댓글쓰기</h5>
+				    	 			    <div class="common-write">
+											<form method="post">
+												<input type="checkbox" id="secret" />
+												<label>비밀댓글</label>
+												 <div class="row">
+													<div class="col-md-12 ta">
+														<div class="row">
+															<div class="col-xs-8 col-sm-9 col-md-9 col-lg-10">
+																<textarea></textarea>
+															</div>
+															<div class="col-md-2">
+																<input type="button" class="reply-create btn btn-primary" value="등록" style="border-radius: 7%;"/>
+															</div>
+														</div>
+													</div>
+												</div>
+											</form>
+										</div>
+								     </div>
+								    <div class="col-md-1"></div> 
+				    	 		  </div>
+      						    </div>
+      						    <!-- 댓글 작성 div END -->
+      						    
+      						   <!-- #댓글 list div START -->
+      						   <div class="cha_comment_list">
+      						    <div class="row">
+      						    <div class="col-md-2"></div>
+			    	 			<div class="col-md-8">
+			    	 				<table class="table table-hover">
+										<tr>
+											<td style="padding-bottom: 25px; padding-top: 25px;">
+												<div class="row">
+													<div class="col-xs-2 col-md-2">
+														<img src="http://placehold.it/80"
+															class="img-circle img-responsive" alt="" />
+													</div>
+													<div class="col-xs-10 col-md-10" 	style="border: solid;">
+															<!-- 댓글 수정 삭제 버튼 START -->
+															<div class="row">
+															   <div class="col-md-10"></div> 
+															   <div class="col-md-2" data-toggle="buttons">
+														          <label class="btn btn-default btn-circle btn-lg">       
+														          <input type="radio" name="q1" value="1"><i class="glyphicon glyphicon-pencil"></i></label>
+														          <label class="btn btn-default btn-circle btn-lg">       
+														          <input type="radio" name="q1" value="0"><i class="glyphicon glyphicon-trash" checked></i></label>
+														          <label class="btn btn-default btn-circle btn-lg active">
+														          <input type="radio" name="q1" value="2"><i class="glyphicon glyphicon-ok"></i></label>
+														       </div>
+				                              				</div>
+				                              				<!-- 댓글 수정 삭제 버튼 END -->
+															<div class="mic-info">
+																By: <a href="#">Check My Athletics</a> on 12 Jun 2014
+															</div>
+															<div class="comment-text">We would like to
+															congratulate John on his achievement...
+															</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="row">
+													<div class="col-xs-2 col-md-2">
+														<img src="http://placehold.it/80"
+															class="img-circle img-responsive" alt="" />
+													</div>
+													<div class="col-xs-10 col-md-10">
+														<div>
+															<a href="#"> Congratulations</a>
+															<div class="mic-info">
+																By: <a href="#">Check My Athletics</a> on 12 Jun 2014
+															</div>
+														</div>
+														<div class="comment-text">We would like to
+															congratulate John on his achievement...</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</table>
+			    	 			</div>
+			    	 			<div class="col-md-2"></div>
+			    	 		</div>
+			    	 		
+			    	 	  <!-- 그룹방 글등록 btn 및 paging START -->
+			              <div class="row">
+			
+								<div class="col-md-4"></div>
+			                       <!-- 페이징 -->
+			                        <div class="col-md-4">
+			                           <ul class="pagination-custom" id="pageNum">
+			                              <li><a href="">◀◀</a></li>
+			                              <li><a href="">◀</a></li>
+			                              <c:forEach var="i" begin="1" end="4">
+			                                 <li><a href="">${i}</a></li>
+			                              </c:forEach>
+			                              <li><a href="">▶</a></li>
+			                              <li><a href="">▶▶</a></li>
+			                           </ul>
+			                        </div>
+			                        
+			                        <div class="col-md-3"></div>
+			                        <!-- 글쓰기 버튼 -->
+			                        <div class="col-md-1">
+			                        </div>
+			                </div>
+			              <!-- 그룹방 글등록 btn 및 paging END -->	
+			    	 	   </div>
+      					   <!-- 댓글 list div END -->
+      					   
+      					   
+				      					   
+				      					   
+				      					   
+				      					   
+      						</div>
+      						<!-- detail 댓글  div END -->
       						
       						
       						
