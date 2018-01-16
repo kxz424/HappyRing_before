@@ -15,7 +15,10 @@
     <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
     <!-- 내 일기장(diary CSS -->
     <link rel="stylesheet" href="/HappyRing/css/diary/diaryList.css">
-   
+    <!-- 그룹Detail CSS link -->
+	<link rel="stylesheet" href="/HappyRing/css/challenge/challengeDetail.css">
+	<!-- 그룹Detail CSS link -->
+	<link rel="stylesheet" href="/HappyRing/css/diary/diaryDetail.css">
    
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -99,7 +102,7 @@
 	       <div class="di-title" >
 	    	  <div class="row">
 	    	  	<div class="col-md-3">
-	    	  		<h5>심리가이드</h5>
+	    	  		<h5>일기리스트</h5>
 	    	  	</div>
 	    	  	<div class="col-md-9"></div>
 	    	  </div>
@@ -200,24 +203,130 @@
         <div class="back">
 <!--           <input placeholder="What's the event?"> -->
           <div class="info">
-            <div class="date">
-              <p class="info-date">
-              Date: <span>Jan 15th, 2016</span>
-              </p>
-              <p class="info-time">
-                Time: <span>6:35 PM</span>
-              </p>
-            </div>
-            <div class="address">
-              <p>
-                Address: <span>129 W 81st St, New York, NY</span>
-              </p>
-            </div>
-            <div class="observations">
-              <p>
-                Observations: <span>Be there 15 minutes earlier</span>
-              </p>
-            </div>
+<!--             <div class="date"> -->
+<!--               <p class="info-date"> -->
+<!--               Date: <span>Jan 15th, 2016</span> -->
+<!--               </p> -->
+<!--               <p class="info-time"> -->
+<!--                 Time: <span>6:35 PM</s	pan> -->
+<!--               </p> -->
+<!--             </div> -->
+<!--             <div class="address"> -->
+<!--               <p> -->
+<!--                 Address: <span>129 W 81st St, New York, NY</span> -->
+<!--               </p> -->
+<!--             </div> -->
+<!--             <div class="observations"> -->
+<!--               <p> -->
+<!--                 Observations: <span>Be there 15 minutes earlier</span> -->
+<!--               </p> -->
+<!--             </div> -->
+
+
+
+<div class="cha_divBody" style="padding-left: 30px; padding-right: 30px;">
+						       	  	
+						       	      <!-- ## 4-1 : 달력 넣는 곳 START -->
+						       	      		<div class=" dailyEmotion">
+						       	      			<div class="icon-like" style="margin-bottom: 0px;">
+						       	      				<label>나의 기분</label>
+						       	      				<img src="/HappyRing/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
+						       	      			</div>
+											</div>
+						       	  	  <!-- 4-1 : 달력 넣는 곳 END -->
+											
+
+						       	  	  <!-- ## 4-2 : 이미지 넣는 곳  START-->
+						       	  	  <div class="cha_divImg">
+						       	  	  
+						       	  	    <div class="row">
+						       	  	    	
+						       	  	    	<div class="col-md-5">
+						       	  	    	  <div class="cha_divImg_slider" style="height: 195px;">	
+													
+													<div class="swiper-container swiper-slider swiper-slider_height-1" 
+													data-loop="true" data-autoplay="false" data-simulate-touch="false"
+													style="height: 100%;">
+										            <div class="swiper-wrapper">
+										              <div class="swiper-slide" data-slide-bg="../../images/slider-1-slide-1-1920x910.jpg">
+										                <div class="swiper-slide-caption">
+										                  <div class="section-md"></div>
+										                </div>
+										              </div>
+										              <div class="swiper-slide" data-slide-bg="../../images/slider-1-slide-2-1920x910.jpg">
+										                <div class="swiper-slide-caption">
+										                  <div class="section-md"></div>
+										                </div>
+										              </div>
+										              <div class="swiper-slide" data-slide-bg="../../images/slider-1-slide-3-1920x910.jpg">
+										                <div class="swiper-slide-caption">
+										                  <div class="section-md"></div>
+										                </div>
+										              </div>
+										            </div>
+										            <!-- Swiper controls-->
+										            <div class="swiper-button-prev" style="width: 22px; height: 23px;line-height: 20px; font-size: 15px; left: 6px;"></div>
+										            <div class="swiper-button-next" style="width: 22px; height: 23px;line-height: 23px; font-size: 15px; right: 6px;"></div>
+										          </div>
+											  </div>
+						       	  	    	</div>
+						       	  	    
+						       	  	    	<div class="col-md-7"> </div>
+						       	  	    	
+						       	  	    </div>
+						       	  	    
+						       	      </div>
+						       	  	  <!-- 4-2 : 이미지 넣는 곳 END -->
+
+						       	  	  
+						       	  	  <!-- ## 4-4 : 오늘 나에게 주는 점수/ 내일의 다짐  넣는 곳 START -->
+						       	  	  <div class="cha_divEmotion">
+						       	  	  	<div class="row" style="margin-left: 0px; margin-right: 0px;">
+							       	  	    <!-- # 오늘 나에게 주는 점수 START -->
+							       	  	    <div class="col-md-6 cha_divEmotion_today">
+							       	  	      <article class="box-minimal">
+							       	  	        <div class="row">
+								       	  	        <div class="col-md-10" style="    padding-top: 8px;">
+							                         <h6 style="color: white;"> 오늘의 나에게 주는 점수</h6> 
+							                        </div>
+							                        
+							                        <div class="col-md-2">
+							                      	    <div class="cha_social cha_twitter">
+												            <i class="fa fa-twitter fa-5x"></i>   
+												        </div>
+							                        </div>
+						                        </div>
+						                        <p style="font-size: 14.5px;">We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p>
+						                      </article>
+							       	  	    </div>
+							       	  	    
+							       	  	    <!-- # 내일의 다짐 START -->
+							       	  	    <div class="col-md-6 cha_divEmotion_tomorrow">
+							       	  	     <article class="box-minimal">
+						                        <h6 style="color: white;">내일의 나를 위한 다짐</h6>
+						                        <p style="font-size: 14.5px;">We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p>
+						                      </article>
+							       	  	    </div>
+						       	  	  </div>
+						       	  	  <!-- 4-4 : 오늘 나에게 주는 점수/ 내일의 다짐  넣는 곳 END -->
+						       	  	  
+						       	  	  
+						       	  	  
+						       	  	  </div>
+						       	  	  
+						       	  </div>
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
 
           <div class="showDiary">

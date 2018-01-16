@@ -51,6 +51,8 @@
 	margin: 0 auto;
 	max-width: 880px;
 	width: 100%;
+	margin-top: 34px;
+	margin-bottom: 34px;
 }
 
 .calendar {
@@ -174,11 +176,11 @@
 	flex-direction: column;
 	font-weight: 600;
 	font-size: 1.2em;
-	padding: 30px 40px;
+/* 	padding: 30px 40px; */
 }
 
 .info div:not(.observations) {
-	margin-bottom: 40px;
+/* 	margin-bottom: 40px; */
 }
 
 .info span {
