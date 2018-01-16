@@ -124,6 +124,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <script type="text/javascript">
 // $(document).on('click', '#close-preview', function(){ 
 //     $('.image-preview').popover('hide');
@@ -395,6 +407,8 @@ $(function () {
     
 });
 </script>
+
+
 
    
 </head>
@@ -883,17 +897,20 @@ $(function () {
 <!-- 							                      	    <div class="cha_social cha_twitter"> -->
 <!-- 												            <i class="fa fa-twitter fa-5x"></i>    -->
 <!-- 												        </div> -->
-<!-- 														<a href="" class="button button-primary" style="min-width: 40px; height: 35px; padding: 0;"><span class="mdi mdi-emoticon-happy" style="font-size: 35px; line-height: 0.9;"></span></a> -->
+<!-- 														<a href="" class="button button-primary btn-tooltip" style="min-width: 40px; height: 35px; padding: 0;"><span class="mdi mdi-emoticon-happy" style="font-size: 35px; line-height: 0.9;"></span></a> -->
+															
+															
+															<!-- 툴팁 start -->
 															<div class="box-element" style="padding: 0px;">
-																<div class="tooltip-custom" data-toggle="tooltip"
-																	data-placement="top" title="Tooltip text">
+																<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="툴팁입니다">
 																	<button class="button button-secondary button-nina"
 																		style="min-width: 40px; height: 35px; padding: 0;">
 																		<span class="mdi mdi-emoticon-happy"
-																			style="font-size: 35px; line-height: 0.9;">
+																			style="font-size: 35px; line-height: 1.1;"></span>
 																	</button>
 																</div>
 															</div>
+															<!-- 툴팁 end -->
 
 														</div>
 						                        </div>
@@ -983,6 +1000,12 @@ $(function () {
 
     <!-- 메인 Javascript -->
      <script src="/HappyRing/js/main/main.js"></script>
+     
+     
+     
+
+
+
      
 
 
