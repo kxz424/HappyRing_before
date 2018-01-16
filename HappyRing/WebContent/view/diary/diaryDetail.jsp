@@ -35,6 +35,33 @@
 <link rel="stylesheet" href="/HappyRing/css/diary/diaryDetail.css">
 
 
+<script type="text/javascript">
+'use strict';
+$(function () {
+
+	//표정 아이콘 클릭시 해당 아이콘 선택 이벤트
+	$('.icon-like img').click(function(){
+// 		alert($(this).attr('src'));
+		if($(this).css("width") == "90px"){
+			$(this).css("width", "60px");
+			$(this).css("height", "60px");
+		}else{
+			for(var i = 0; i < $('.icon-like img').size(); i++){
+				if($('.icon-like img').eq(i).css("width") == "90px"){
+					$('.icon-like img').eq(i).css("width", "60px");
+					$('.icon-like img').eq(i).css("height", "60px");
+				}
+			}
+			$(this).css("width", "90px");
+			$(this).css("height", "90px");
+		}
+		
+	});
+    
+    
+});
+</script>
+
    
 </head>
   <body>
@@ -213,11 +240,24 @@
 						       	      	<div class="row">
 						       	      		<div class="col-md-2"></div>
 						       	      		<div class="col-md-4 dailyDate">
-						       	      			<span class="icon icon-md icon-primary mdi mdi-calendar-clock">2018-01-15 월요일</span>
+						       	      			<span class="icon-md icon-primary mdi mdi-calendar-clock">2018-01-15 월요일</span>
 						       	      		</div>
-						       	      		<div class="col-md-4 dailyEmotion">
-						       	      			<span class="icon icon-md icon-primary mdi mdi-calendar-clock"></span>
-						       	      		</div>
+						       	      		<div class="col-md-5 dailyEmotion">
+						       	      			<span class="icon-md icon-primary mdi mdi-calendar-clock"></span>
+						       	      			
+						       	      			
+						       	      			<div class="icon-like">
+						       	      				<img src="/HappyRing/img/icon-image/angryGif.gif" style="width:60px; height: 60px;"/>
+						       	      				<img src="/HappyRing/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
+						       	      				<img src="/HappyRing/img/icon-image/sadGif.gif" style="width:60px; height: 60px;"/>
+						       	      				<img src="/HappyRing/img/icon-image/wowGif.gif" style="width:60px; height: 60px;"/>
+						       	      				
+						       	      				
+						       	      				
+						       	      			</div>
+						       	      			
+												
+											</div>
 						       	      		<div class="col-md-2"></div>
 						       	      	</div>
 						       	      
