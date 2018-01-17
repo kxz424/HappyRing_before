@@ -436,13 +436,7 @@
     <!-- section2 END -->     
     
     
-    <!-- 하단 광고 DIV-->
-        <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
-          <div class="shell">
-            <h2 class="text-light">책광고</h2>
-          </div>
-        </div>
+  
       <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->

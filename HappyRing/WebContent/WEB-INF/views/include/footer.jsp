@@ -30,19 +30,25 @@ background-color: #29293a;
     
 </head>
 <body>
-
-
-    <footer class="section page-footer page-footer-default text-left bg-gray-darker footerBackColor">
-        <div class="shell-wide">
-          <div class="range range-50 range-xs-center">
-          
-           <div style="height: 100px;"></div>
-            
+        <!-- # 하단 광고 DIV START -->
+        <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
+        style="padding-top: 45px; padding-bottom: 45px; background-image: -webkit-linear-gradient(left, #57cbcc 0%, #91f5f6d6 100%)">
+          <div class="shell">
+            <h2 class="text-light">책광고</h2>
           </div>
+        </div>
+        <!-- 하단 광고 DIV END -->
+
+	   <!-- # footer DIV START -->	
+       <footer class="section page-footer page-footer-default text-left bg-gray-darker footerBackColor">
+        <div class="shell-wide" style="padding-top: 170px;">
+          
+          <!-- 저작권 문구  -->
           <p class="right">&#169;&nbsp;<span class="copyright-year"></span> All Rights Reserved&nbsp;<a href="#">Terms of Use</a>&nbsp;and&nbsp;<a href="privacy-policy.html">Privacy Policy</a></p>
-          <!-- {%FOOTER_LINK}-->
+        
         </div>
       </footer>
+      <!-- # footer DIV END -->	
       
       
       
