@@ -17,7 +17,15 @@
     <link rel="stylesheet" href="/HappyRing/css/common/mdi.css">
     <link rel="stylesheet" href="/HappyRing/css/common/fl-bigmug-line.css">
     
-    
+
+	
+	
+	
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
     
 <style type="text/css">
 
@@ -43,6 +51,13 @@
 
 background-color:rgb(87, 203, 204);
 
+}
+
+
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+	width: 15%;
+	height: 40px;
 }
   
 
@@ -226,10 +241,37 @@ background-color:rgb(87, 203, 204);
               <div class="rd-navbar-aside-center">
                 <!-- RD Navbar Search-->
                 <div class="rd-navbar-search"><a class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search" href="#"><span></span></a>
+                
+                
+                
+                
+                
+                
                   <form class="rd-search" action="search-results.html" data-search-live="rd-search-results-live" method="GET">
                     <div class="rd-mailform-inline rd-mailform-sm rd-mailform-inline-modern">
+                    
                       <div class="rd-mailform-inline-inner">
+                      <select class="selectpicker header" data-style="button-secondary"
+																		multiple data-max-options="1" data-title="중분류">
+																		<option>대인관계</option>
+																		<option>가족</option>
+																		<option>학업</option>
+																		<option>미래고민</option>
+																		<option>이성문제</option>
+																		<option>자존감</option>
+																	</select>
+							<select class="selectpicker header" data-style="button-secondary"
+								multiple data-max-options="1" data-title="중분류">
+								<option>대인관계</option>
+								<option>가족</option>
+								<option>학업</option>
+								<option>미래고민</option>
+								<option>이성문제</option>
+								<option>자존감</option>
+							</select>
                         <div class="form-wrap form-wrap-icon mdi-magnify">
+                        
+                        	
                           <label class="form-label form-label" for="rd-navbar-search-form-input">Search...</label>
                           <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off">
                           <div class="rd-search-results-live"></div>
@@ -237,8 +279,16 @@ background-color:rgb(87, 203, 204);
                         <button class="rd-search-form-submit rd-search-form-submit-icon mdi mdi-magnify btnColor"></button>
                         <button class="rd-search-form-submit button form-button button-sm button-secondary button-nina btnColor">search</button>
                       </div>
+                      
                     </div>
                   </form>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
                 </div>
               </div>
               <div class="rd-navbar-aside-right">
