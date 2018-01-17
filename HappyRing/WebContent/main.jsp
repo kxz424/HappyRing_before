@@ -4,22 +4,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-   <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
- 	
- 	<!-- 공통 Stylesheets -->
-      <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+<title>메인</title>
    
+    <!-- 부트스트랩 적용 CSS -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
+    <!-- 메인 list CSS -->
+    <link rel="stylesheet" href="/HappyRing/css/main/mainList.css">
 </head>
+
+
 
 <body>
     
@@ -33,24 +30,23 @@
       
       
     <!-- ##########Section 1 START -->      
-    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
+    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px; background-color: white;">
        
       <!-- ########Section1_ROW_START --> 
       <div class="row">
       
-      <div class="col-md-1"></div>
+       <div class="col-md-1"></div>
       
        <!-- ### 영역 A_Frame_Div START-->
       	<div class="col-md-8 divA"> 
           <div class="aFrameDiv">
           		 
 	           <!-- ### A 세부영역 div -->
-	           
 	           <!-- ###세부영역 a-1 : 어서오세요 같은 자동 타이틀 들어가 있음 -->
-	    	  	<div class="a-1-title">
+	    	   <div class="a-1-title">
 	    	  		 <h5 class="typed-text-wrap">&nbsp;어서오세요 &nbsp;<span class="typed-text"></span>&nbsp;♡</h5>
-	    	  	</div>
-	    	  <!-- 세부영역 a-1 끝 -->	
+	    	   </div>
+	    	   <!-- 세부영역 a-1 끝 -->	
 	    	  	
 	    	  	<!-- ###세부영역 a-2 : 탭 들어가 있음 -->
 	    	 	<div class="a-2" >
@@ -60,11 +56,11 @@
 	    	 		<!--# 탭 버튼 -->
 			          <div class="controls">
 			            <ul class="nav">
-			              <li data-target="#custom_carousel" data-slide-to="0" class="active"> <a href="#" style="padding-top: 57px; padding-bottom: 50px;"><img src="mainImages/success.png"><br>비포 & 애프터</a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="1"> <a href="#" style="padding-top: 57px; padding-bottom: 50px;"><img src="mainImages/success.png"><br>명예의 전당</a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="2"> <a href="#" style="padding-top: 57px; padding-bottom: 50px;"><img src="mainImages/success.png"><br>셀프트레이닝 </a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="3"> <a href="#" style="padding-top: 57px; padding-bottom: 50px;"><img src="mainImages/success.png"><br>꿀팁</a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="4"> <a href="#" style="padding-top: 57px; padding-bottom: 50px;"><img src="mainImages/success.png"><br>멋진응원</a> </li>
+			              <li data-target="#custom_carousel" data-slide-to="0" class="active"> <a href="#"><img src="mainImages/success.png"><br>비포 & 애프터</a> </li>
+			              <li data-target="#custom_carousel" data-slide-to="1"> <a href="#"><img src="mainImages/success.png"><br>명예의 전당</a> </li>
+			              <li data-target="#custom_carousel" data-slide-to="2"> <a href="#"><img src="mainImages/success.png"><br>셀프트레이닝 </a> </li>
+			              <li data-target="#custom_carousel" data-slide-to="3"> <a href="#"><img src="mainImages/success.png"><br>꿀팁</a> </li>
+			              <li data-target="#custom_carousel" data-slide-to="4"> <a href="#"><img src="mainImages/success.png"><br>멋진응원</a> </li>
 			            </ul>
 			          </div>
 			          
@@ -80,7 +76,7 @@
 			                <p>
 			                <% for(int i=0; i<4; i++) { %>
 			                <div class="col-xs-6 col-sm-4 col-md-3">
-			                    <article class="post-blog" style="margin-bottom: 30px;"><a class="post-blog-image myImg" href="single-post.html"><img src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
+			                    <article class="post-blog contents-Border" style="margin-bottom: 30px;"><a class="post-blog-image myImg" href="single-post.html"><img src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
 				                    <div class="post-blog-caption">
 				                    
 				                    	<!-- header 부분 -->
