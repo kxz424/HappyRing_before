@@ -12,3 +12,7 @@
 	border: solid !important; 
 	border-color: #8080802b !important;
 }
+
+.carousel-inner {
+	border: solid pink;
+}
