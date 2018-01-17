@@ -19,7 +19,10 @@
 }	
 
 .a-2{
-	height: auto;padding-top: 25px; border: solid; border-color: skyblue;
+	height: auto;
+	padding-top: 25px; 
+/* 	border: solid;  */
+/* 	border-color: skyblue; */
 }
 
 .a-3{
