@@ -14,6 +14,7 @@
 
     <!-- 메인 list CSS -->
     <link rel="stylesheet" href="/HappyRing/css/main/mainList.css">
+    
 </head>
 
 
@@ -76,7 +77,8 @@
 			                <p>
 			                <% for(int i=0; i<4; i++) { %>
 			                <div class="col-xs-6 col-sm-4 col-md-3">
-			                    <article class="post-blog contents-Border" style="margin-bottom: 30px;"><a class="post-blog-image myImg" href="single-post.html"><img src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
+			                    <article class=" post-blog" style="margin-bottom: 30px; border: solid; border-color: #8080802b;">
+			                    <a class="post-blog-image myImg" href="single-post.html"><img src="mainImages/flower2.jpg" alt="" width="420" height="305"/></a>
 				                    <div class="post-blog-caption">
 				                    
 				                    	<!-- header 부분 -->
