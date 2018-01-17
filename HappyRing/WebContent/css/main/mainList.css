@@ -8,7 +8,7 @@
 
 
 /* */
-.contents-Border{
-	border: solid !important; 
-	border-color: #8080802b !important;
+.post-blog.contents-Border {
+	border: 1px solid #8080802b !important; 
+/* 	border-color: #8080802b !important; */
 }
