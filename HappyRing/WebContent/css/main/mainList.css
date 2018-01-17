@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+
+.
+/** main 상단 카로셀 
+ css/common/carousel/crouselBottom.css 에 있음
+*/
+
+
+/* */
+.contents-Border{
+	border: solid !important; 
+	border-color: #8080802b !important;
+}

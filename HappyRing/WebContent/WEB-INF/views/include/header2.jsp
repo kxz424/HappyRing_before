@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
+   <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
     <link rel="stylesheet" href="/HappyRing/css/common/bootstrap.css">
@@ -17,10 +17,7 @@
     <link rel="stylesheet" href="/HappyRing/css/common/mdi.css">
     <link rel="stylesheet" href="/HappyRing/css/common/fl-bigmug-line.css">
     
-    <!-- 공통 Stylesheets -->
-    <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-    <!-- 하단 카로셀(광고) css -->
-    <link rel="stylesheet" href="/HappyRing/css/common/carousel/crouselBottom.css">
+    
     
 <style type="text/css">
 
@@ -89,7 +86,7 @@ background-color:rgb(87, 203, 204);
                   
                   <li class="active"><a href="main.jsp">심리이론</a>
                     <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-megamenu">
+                    <ul class="rd-navbar-megamenu" style="padding-left: 30px; padding-right: 20px;">
                      <li>
                           <ul class="rd-megamenu-list">
 		                      </li>
@@ -224,7 +221,7 @@ background-color:rgb(87, 203, 204);
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="mainImages/logo2.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
+                <div class="rd-navbar-brand"><a class="brand-name" href="#"><img class="logo-default" src="mainImages/logo2.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
               </div>
               <div class="rd-navbar-aside-center">
                 <!-- RD Navbar Search-->
