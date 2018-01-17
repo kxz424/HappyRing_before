@@ -14,5 +14,7 @@
 }
 
 .carousel-inner {
-	border: solid pink;
+	border: solid #b0e5ff2e;
+/* 	background-color: #8080802b; */
+background-color: white;
 }

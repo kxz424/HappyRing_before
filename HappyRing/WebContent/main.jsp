@@ -31,7 +31,7 @@
       
       
     <!-- ##########Section 1 START -->      
-    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px; background-color: white;">
+    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
        
       <!-- ########Section1_ROW_START --> 
       <div class="row">
@@ -72,7 +72,7 @@
 			            <div class="item active">
 			              <div class="container-fluid">
 			                <h4 style="color:white;">
-			                		 탭1
+<!-- 			                		 탭1 -->
 			                </h4>
 			                <p>
 			                <% for(int i=0; i<4; i++) { %>
