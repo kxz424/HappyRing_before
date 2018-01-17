@@ -13,11 +13,17 @@
   width:150px;
   height:150px;
   display:block;
-  border:1px solid #ccc;
+/*   border:1px solid #ccc; */
   margin:0 auto 15px;
-  background-size:100% auto;
+  background-size:contain;
   background-repeat:no-repeat;
   background-position:center;
+}
+
+.preview-img {
+	width: 100px;
+	height: 100px;
+	margin:0 auto 0;
 }
 
 .upload-wrap{
@@ -31,8 +37,23 @@ input[type="file"] {
     margin: 0 auto;
     display: block;
 }
+/* 모달창 이미지 업로드 부분 */
 
+/* 모달창 메인 이미지 부분 설정 */
+.modal-main-img {
+	background-image: url("/HappyRing/images/product-modal-01-318x416.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	min-height: 300px !important;
+	min-width: 50px !important;
+	height: auto;
+}
 
+.modal-main-img img {
+	visibility: hidden;
+}
+/* 모달창 메인 이미지 부분 설정 */
 
 
 

@@ -39,9 +39,38 @@
    
 <script type="text/javascript">
 $(function(){
+	//메인 이미지 클릭 시 이미지 첨부 모달창 띄움
 	$('.img-upload-btn').click(function(){
 		$("#product-modal").modal("show");
 	});
+	
+	
+	//이미지 파일 선택 시 preview로 보여줌
+	$('.upload-wrap input[type=file]').change(function(){
+	    var id = $(this).attr("id");
+	    var newimage = new FileReader();
+	    newimage.readAsDataURL(this.files[0]);
+	    newimage.onload = function(e){
+	      $('.uploadpreview.' + id ).css('background-image', 'url(' + e.target.result + ')' );
+	      
+	      //메인이미지를 첫번째 업로드 이미지로 교체
+	      $('.modal-main-img').css('background-image', $('.uploadpreview.01').css('background-image'));
+	      $('.modal-main-img img').attr('src', $('.uploadpreview.01').css('background-image'));
+	    }
+	  });
+	
+	//프리뷰 이미지 클릭 시 메인이미지 변경
+	$('.preview-img').click(function(){
+		$('.img-upload-btn').css('background-image', $(this).css('background-image'));
+		for(var i = 0; i < 3; i++){
+			$('.preview-img').eq(i).parent().removeClass();
+		}
+		$(this).parent().attr('class', 'active');
+	});
+	
+	
+	
+	
 });
 </script>
    
@@ -138,15 +167,16 @@ $(function(){
 	          <div class="range range-ten range-xs-center range-md-justify range-30 range-md-middle">
 	            <div class="cell-md-4 cell-lg-5 cell-xl-4">
 	              <div class="product-single-preview">
-	                <div class="unit unit-sm-horizontal unit-sm-middle unit-spacing-md-midle unit--inverse unit-sm">
-	                  <div class="unit-body">
+	                <div class="unit unit-sm-horizontal unit-sm-middle unit-spacing-md-midle unit--inverse unit-sm row">
+	                  <div class="unit-body col-md-5">
 	                    <ul class="product-thumbnails">
-	                      <li class="active" data-large-image="../../images/shop-01-420x550.png"><img src="../../images/shop-01-54x71.png" alt="" width="54" height="71"></li>
-	                      <li data-large-image="../../images/shop-02-420x550.png"><img src="../../images/shop-02-10x71.png" alt="" width="10" height="71"></li>
+	                      <li class="active" ><div class="uploadpreview 01 preview-img"></div></li>
+	                      <li ><div class="uploadpreview 02 preview-img"></div></li>
+	                      <li ><div class="uploadpreview 03 preview-img"></div></li>
 	                    </ul>
 	                  </div>
-	                  <div class="unit-right product-single-image">
-	                    <div class="product-single-image-element img-upload-btn"><img class="product-image-area animateImageIn" src="../../images/shop-01-420x550.png" alt=""></div>
+	                  <div class="unit-right product-single-image col-md-7">
+	                    <div class="product-single-image-element img-upload-btn modal-main-img"></div>
 	                  </div>
 	                </div>
 	              </div>
@@ -214,57 +244,31 @@ $(function(){
            <!-- info_de_2 : 상담소 상세 정보 END -->
               
               
-              <!-- ### 북마크 엔젤링 수정요청 시작-->
-              <div class="info_de_3">
-	    	 		<div class="row">
-	    	 			<div class="col-md-1"></div>
-	    	 			<div class="col-md-10" style="padding-left: 60px;">
-	    	 			   <a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>북마크</a>
-	    	 			   <a class="button button-twitter" href="#" style="margin-top: 0px;"><span class="icon glyphicon glyphicon-heart-empty"></span>엔젱링</a>
-	    	 			   <a class="button button-twitter" href="#" style="margin-top: 0px;"><<span class="icon glyphicon glyphicon-bullhorn"></span>수정요청</a>
-	    	 			</div>
-						<div class="col-md-1"></div>		
-	    	 		</div>
-              </div>
-              <!-- 북마크 엔젤링 수정요청 시작 END -->
+              
        <!-- 상담소 정보 contents END -->
 
               
               <!-- 추천도서 글등록btn 및 paging START -->
               <div class="divPaging">
               
-              <h5>아낌없이 주는 나무님이 쓴 다른 게시글</h5>
-								<div class="row">
-										<div class="col-xs-0  col-md-2"></div>
-			<!-- 					                       페이징 -->
-								          <div class="col-xs-12 col-md-8" style=" padding-right: 0px; padding-left: 0px;">
-<!-- 								                  <ul class="pagination-custom" id="pageNum"> -->
-<!-- 								                       <li><a href="">◀◀</a></li> -->
-<!-- 								                       <li><a href="">◀</a></li> -->
-<%-- 								                          <c:forEach var="i" begin="1" end="4"> --%>
-<%-- 								                       <li><a href="">${i}</a></li> --%>
-<%-- 								                           </c:forEach> --%>
-<!-- 								                       <li><a href="">▶</a></li> -->
-<!-- 								                       <li><a href="">▶▶</a></li> -->
-<!-- 								                    </ul> -->
-											<input class="btn btn-primary" type="button" id="write"value="댓글 1" />
-											<input class="btn btn-primary" type="button" id="write"value="답글 3" />
-											<input class="btn btn-primary" type="button" id="write"value="게시글 20" />
-											<input class="btn btn-primary" type="button" id="write"value="정보  2" />
-											<input class="btn btn-primary" type="button" id="write"value="심리지식 3" />
-											<input class="btn btn-primary" type="button" id="write"value="QnA 5" />
+              	 <div class="row">
 
-
-								          </div>
-								          <div class="col-xs-7 col-md-1"></div>
-			<!-- 					                        ㄹ 버튼 -->
-								          <div class="col-xs-2 col-md-1" style="">
-								              <a href="/HappyRing/view/info/infoList.jsp"> 
-								              <input class="btn btn-primary" type="button" id="write"value="목록" />
-								              </a>
-								          </div>
-								           <div class="col-xs-3 col-md-0"></div>
-								  </div>              
+						<div class="col-md-4"></div>
+					
+                         <!-- 임시저장 버튼 -->
+						<div class="col-md-5"style="padding-left: 0px;">
+						 <input class="btn btn-primary" type="button" id="write"
+                              value="등록" />
+						  <input class="btn btn-primary" type="button" id="write"
+                              value="취소" />
+                           <input class="btn btn-primary" type="button" id="write"
+                              value="임시저장" />
+						</div>
+						<div class="col-md-3"></div>
+                       
+                        
+                 </div>
+                   
               </div>
               <!-- 자유게시판 글등록btn 및 paging END -->
               
@@ -401,9 +405,13 @@ $(function(){
             <h5><a class="modal-title" href="product-page.html">사진을 선택하세요</a></h5>
             	<div class="row">
 						<div class="col-md-5">
-							<a class="modal-product-image" href="product-page.html"><img
-								src="/HappyRing/images/product-modal-01-318x416.jpg" alt=""
-								width="318" height="416" /></a>
+							<div class="modal-main-img">
+								<img src="/HappyRing/images/product-modal-01-318x416.jpg"/>
+							</div>
+							
+<!-- 							<a class="modal-product-image" href="product-page.html"><img -->
+<!-- 								src="/HappyRing/images/product-modal-01-318x416.jpg" alt="" -->
+<!-- 								width="318" height="416" /></a> -->
 						</div>
 
 						<div class="col-md-7">
