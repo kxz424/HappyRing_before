@@ -162,6 +162,131 @@
 		                      <div class="row">
                       
                       
+                      				<!-- SAMPLE TEST로 보여주기식 자료 넣은 것 _ 삭제해도 됨 START -->
+                      				<div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
+						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
+						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;background-color: white;">
+						                   	   
+						                   	   
+						                   	   <div class="th_a2_2_imgTitle">
+							                   	      <!-- 제목 --> 
+							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
+							                   	      <img alt="" src="../../images/bg-02.jpg">
+							                         </a> 
+							                         
+							                         <!-- 태그 -->
+							                         <div class="th_a2_2_tags">
+							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->정신분석 심리상담소</a>
+							                         </div>
+							                          <!-- 내용 -->
+								                      <div class="th_a2_2_text box-minimal-text" style="margin-top: 10px;">
+								                      
+								                      	상담소 소개 들어가는 부분 <br> client and we never offer you a set of 
+								                      	standard
+								                      </div>
+							                     </div> 
+							                     
+							                   <div class="row" style="margin-right: 0px; margin-left: 0px;">
+							                    
+								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
+												  <!-- 등록일 -->	
+												  <div class="col-md-12" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">서울시 금천구 가산동</time>
+												  </div>
+							                   </div> 
+						                    </article>
+						                   </a> 
+						                </div>
+						                
+						                <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
+						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
+						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;background-color: white;">
+						                   	   
+						                   	   
+						                   	   <div class="th_a2_2_imgTitle">
+							                   	      <!-- 제목 --> 
+							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
+							                   	      <img alt="" src="../../images/bg-02.jpg">
+							                         </a> 
+							                         
+							                         <!-- 태그 -->
+							                         <div class="th_a2_2_tags">
+							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->정신분석 심리상담소</a>
+							                         </div>
+							                          <!-- 내용 -->
+								                      <div class="th_a2_2_text box-minimal-text" style="margin-top: 10px;">
+								                      
+								                      	상담소 소개 들어가는 부분 <br> client and we never offer you a set of 
+								                      	standard
+								                      </div>
+							                     </div> 
+							                     
+							                   <div class="row" style="margin-right: 0px; margin-left: 0px;">
+							                    
+								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
+												  <!-- 등록일 -->	
+												  <div class="col-md-12" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">서울시 금천구 가산동</time>
+												  </div>
+							                   </div> 
+						                    </article>
+						                   </a> 
+						                </div>
+						                
+						                <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
+						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
+						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;background-color: white;">
+						                   	   
+						                   	   
+						                   	   <div class="th_a2_2_imgTitle">
+							                   	      <!-- 제목 --> 
+							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
+							                   	      <img alt="" src="/HappyRing/img/sample/sampleImg.png" style="height: 124px; width : auto;" align="center">
+							                         </a> 
+							                         
+							                         <!-- 태그 -->
+							                         <div class="th_a2_2_tags">
+							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->한국 EFT 코칭센터</a>
+							                         </div>
+							                          <!-- 내용 -->
+								                      <div class="th_a2_2_text box-minimal-text" style="margin-top: 10px;">
+								                      
+								                      	상담소 소개 들어가는 부분 <br> client and we never offer you a set of 
+								                      	standard
+								                      </div>
+							                     </div> 
+							                     
+							                   <div class="row" style="margin-right: 0px; margin-left: 0px;">
+							                    
+								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
+												  <!-- 등록일 -->	
+												  <div class="col-md-12" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">서울시 금천구 가산동</time>
+												  </div>
+							                   </div> 
+						                    </article>
+						                   </a> 
+						                </div>
+						                
+						                
+						                
+						                
+						                
+						                
+						                
+						                
+						                
+						                
+						                
+                      					<!-- SAMPLE TEST로 보여주기식 자료 넣은 것 _ 삭제해도 됨 END -->
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
 						           <% for(int i=0; i<6; i++ ) { %>
 						               <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
 						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
@@ -176,7 +301,7 @@
 							                         
 							                         <!-- 태그 -->
 							                         <div class="th_a2_2_tags">
-							                         	<a class="button-tags" href="single-post.html">상담소 이름</a>
+							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->정신분석 심리상담소</a>
 							                         </div>
 							                          <!-- 내용 -->
 								                      <div class="th_a2_2_text box-minimal-text" style="margin-top: 10px;">

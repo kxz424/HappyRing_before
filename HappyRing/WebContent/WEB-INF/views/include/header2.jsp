@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
@@ -12,11 +12,31 @@
    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
+    <link href="http://fonts.googleapis.com/earlyaccess/hanna.css" rel="stylesheet">
     <link rel="stylesheet" href="/HappyRing/css/common/bootstrap.css">
     <link rel="stylesheet" href="/HappyRing/css/common/style.css">
     <link rel="stylesheet" href="/HappyRing/css/common/mdi.css">
     <link rel="stylesheet" href="/HappyRing/css/common/fl-bigmug-line.css">
-    
+	
+   <!-- 부트스트랩 사용 css -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
+   
+   <!-- 메인 Frame Css --> 
+   <link rel="stylesheet" href="/HappyRing/css/common/frame/frame.css">
+   <!-- carousel bottom css --> 
+   <link rel="stylesheet" href="/HappyRing/css/common/carousel/carouselBottom.css">
+
+<style type="text/css">
+/* 폰트 적용 */
+.hn {
+  font-family: 'Hanna', sans-serif;
+	
+	}
+</style>    
     
     
 <style type="text/css">
@@ -44,7 +64,7 @@
 background-color:rgb(87, 203, 204);
 
 }
-  
+
 
 </style>
 
