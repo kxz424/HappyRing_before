@@ -36,18 +36,22 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" style="height: auto;">
             <div class="item active">
-              <div class="container-fluid" style="padding-left: 5px; padding-bottom: 15px; padding-right: 5px;">
+              <div class="container-fluid" style="padding-left: 5px; padding-right: 5px;">
                  
                  
                  <!-- 광고란 -->
                  
-                 <div class="carousel_add" >1
-                 	<img alt="" src="/HappyRing/img/sample/sampleImg.png" style="height: 100px; width: auto; margin-left: auto; margin-right: auto; display: block;">
+                 <div class="carousel_add">
+                 	<img alt="" src="/HappyRing/img/sample/sampleImg.png" style="height: 100%; width: auto; display: block; margin-left: auto; margin-right: auto;">
                  </div>
                  
-                 <div class="carousel_add">2</div>
+                 <div class="carousel_add">
+                 	<img alt="" src="/HappyRing/img/sample/MyStory.png" style="height: 100%; width: auto; display: block; margin-left: auto; margin-right: auto;">
+                 </div>
                  
-                 <div class="carousel_add">3</div>
+                 <div class="carousel_add">
+                 	<img alt="" src="/HappyRing/img/sample/bright.png" style="height: 100%; width: auto; display: block; margin-left: auto; margin-right: auto;">
+                 </div>
                 
                  <div class="carousel_add">4</div>
                  

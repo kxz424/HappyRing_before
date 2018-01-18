@@ -42,7 +42,16 @@
 			<!-- 세부영역 B-3 : 공지사항 START-->
 			<div class="b-3">
 				<div class="notice">
-					<h5>공지사항</h5>
+					<div class="row">
+						<div class="col-md-8">
+							<h4>공지사항</h4>
+						</div>
+						<div class="col-md-4">
+							<a href="#" class="button button-primary"><span class="glyphicon glyphicon-plus"></span></a>
+						</div>
+						
+					</div>
+					
 					<!-- 									<ul class="list-unstyled"> -->
 					<!-- 										<li><span class="glyphicon glyphicon-paperclip"> -->
 					<!-- 												공지사항1 </span></li> -->
