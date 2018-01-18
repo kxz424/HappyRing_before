@@ -1,27 +1,28 @@
 
 /* 영역 A */
 .th_divA {
-	padding-right: 12px;
+/* 	padding-right: 12px; */
 }
 
 .th_aFrameDiv{
-	padding-left: 20px; padding-right: 20px; padding-top: 20px; 
-	padding-bottom: 20px; border: solid; border-color: #008040;
+/* 	padding-left: 20px; padding-right: 20px; padding-top: 20px;  */
+/* 	padding-bottom: 20px; border: solid; border-color: #008040; */
 	
 }
 
 .th_a1 {
-	border: solid; border-color: pink; height: auto; padding-top: 1%;
+/* 	border: solid; border-color: pink; height: auto; padding-top: 1%; */
 }
 
 
 .th_a2{
 	height: auto;
 	padding-top: 25px; 
-	border: solid; 
-	border-color: skyblue;
+/* 	border: solid;  */
+/* 	border-color: skyblue; */
 	padding-left: 15px;
     padding-right: 15px;
+/*     background-color: white; */
 }
 
 .th_a2_1{

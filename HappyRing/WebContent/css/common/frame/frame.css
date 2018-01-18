@@ -2,12 +2,17 @@
 /* ############### frmae A 시작 */
 .divA {
 	padding-right: 12px;
+	
+	/*info List 수정하면서 0px 추가해봄*/
+	padding-right: 0px;
 }
 
 .aFrameDiv{
-	padding-left: 20px; padding-right: 20px; padding-top: 20px; 
+	padding-left: 20px; 
+/* 	padding-right: 20px;  */
+	padding-top: 20px; 
 	padding-bottom: 20px; 
-	border: solid; border-color: red;
+/* 	border: solid; border-color: red; */
 	
 }
 
@@ -16,11 +21,42 @@
 }
 
 
+.top-slide-add{
+/* 		border: solid; border-color: pink;  */
+		height: auto; 
+/* 		padding-top: 1%; */
+        
+}
+
 .a-2{
 	height: auto;
 	padding-top: 25px; 
 	border: solid; 
 	border-color: skyblue;
+}
+
+.a-2a{
+    height: auto;
+	padding-top: 25px; 
+/* 	border: solid;  */
+/* 	border-color: skyblue; */
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 15px;
+    padding-bottom: 25px;
+	
+}
+
+.a-2b{
+    height: auto;
+	padding-top: 25px; 
+/* 	border: solid;  */
+/* 	border-color: skyblue; */
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 15px;
 }
 
 .a-3{
@@ -64,25 +100,32 @@
 
 .bFrameDiv {
 padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;  
-border: solid; border-color: blue;
+/* border: solid; border-color: blue; */
 }
 
 
 .b-1{
-	border: solid; border-color: black;
+/* 	border: solid; border-color: black; */
+	padding: 4% 2%;
+    background-color: white;
 }
 
 .b-1 button{
 	white-space: pre-wrap; 
 	border-radius: 4px; width: 100%;
+	
 }
 
 
 
 .b-2{
-	border: solid; border-color: purple;
-
-margin-top: 25px; 
+	/* border: solid; */
+    /* border-color: purple; */
+    margin-top: 25px;
+    /* padding: 2px 2px; */
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 5px;
 }
 
 
