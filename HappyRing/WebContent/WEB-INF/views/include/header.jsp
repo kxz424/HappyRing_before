@@ -26,7 +26,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
    
    <!-- ¸ÞÀÎ Frame Css --> 
-   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+   <link rel="stylesheet" href="/HappyRing/css/common/frame/frame.css">
    <!-- carousel bottom css --> 
    <link rel="stylesheet" href="/HappyRing/css/common/carousel/carouselBottom.css">
 

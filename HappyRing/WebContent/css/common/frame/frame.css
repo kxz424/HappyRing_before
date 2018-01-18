@@ -7,7 +7,7 @@
 .aFrameDiv{
 	padding-left: 20px; padding-right: 20px; padding-top: 20px; 
 	padding-bottom: 20px; 
-/* 	border: solid; border-color: red; */
+	border: solid; border-color: red;
 	
 }
 
@@ -19,8 +19,8 @@
 .a-2{
 	height: auto;
 	padding-top: 25px; 
-/* 	border: solid;  */
-/* 	border-color: skyblue; */
+	border: solid; 
+	border-color: skyblue;
 }
 
 .a-3{
@@ -64,12 +64,12 @@
 
 .bFrameDiv {
 padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;  
-/* border: solid; border-color: blue; */
+border: solid; border-color: blue;
 }
 
 
 .b-1{
-/* 	border: solid; border-color: black; */
+	border: solid; border-color: black;
 }
 
 .b-1 button{
@@ -80,7 +80,7 @@ padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;
 
 
 .b-2{
-/* 	border: solid; border-color: purple; */
+	border: solid; border-color: purple;
 
 margin-top: 25px; 
 }
