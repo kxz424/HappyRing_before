@@ -1,13 +1,17 @@
 @CHARSET "UTF-8";
 
 
-.
-/** main 상단 카로셀 
- css/common/carousel/crouselBottom.css 에 있음
-*/
 
+/* 자동 타입핑 텍스트 감싸는 div*/
+.a-1-title{
+/*   border: solid;  */
+/*   border-color: pink;  */
+  height: 46px; 
+  padding-top: 1%;
+  border-radius: 7px;
+}	
 
-/* */
+/* main 상단 카로셀  */
 #contents-Border{
 	border: solid !important; 
 	border-color: #8080802b !important;
@@ -18,3 +22,10 @@
 /* 	background-color: #8080802b; */
 background-color: white;
 }
+
+/** main 하단 카로셀 
+ css/common/carousel/crouselBottom.css 에 있음
+*/
+
+
+
