@@ -265,7 +265,7 @@
 	              <!-- 세부영역 B-3 : 공지사항 END-->   
 		               
 		          <!--  qna List에서 추가한 부분 : 상담랭킹 START -->     
-		          		<div class="qna_lanking">
+		          		<div class="b-lanking">
 			          		<table class="table table-hover">
 	                        <tbody>
 	                           <tr>

@@ -420,7 +420,7 @@ $(function(){
 
 
 						<!--  qna List에서 추가한 부분 : 상담랭킹 START -->
-						<div class="share_lanking"
+						<div class="b-lanking"
 							style="border: solid; border-color: green; margin-top: 25px;">
 							<table class="table table-hover">
 								<tbody>
