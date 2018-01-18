@@ -42,8 +42,9 @@
 
 			<!-- 세부영역 B-3 : 공지사항 START-->
 			<div class="b-3">
-				<div class="notice">
-					<h5>공지사항</h5>
+				<div class="notice" 
+				  style="padding-left: 10px; padding-bottom: 0.3px; padding-top: 16px; padding-right: 10px;">
+					<p class="hn" style="padding-bottom: 9px;">공지사항</p>
 					<!-- 									<ul class="list-unstyled"> -->
 					<!-- 										<li><span class="glyphicon glyphicon-paperclip"> -->
 					<!-- 												공지사항1 </span></li> -->
@@ -85,8 +86,8 @@
 
 			<!-- 세부영역 B-4 : 날짜 영역 START-->
 			<div class="b-4">
-				<br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다 <img alt=""
-					src="mainImages/날씨와기분.png">
+<!-- 				<br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다  -->
+				<img alt="" src="/HappyRing/mainImages/weatherNews.jpg">
 			</div>
 			<!-- 세부영역 B-4 : 날씨 영역 END-->
 

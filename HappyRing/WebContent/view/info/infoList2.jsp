@@ -21,11 +21,6 @@
 <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
 <script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<!-- 카테고리 select css -->
-  <link rel="stylesheet"/.. href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
-	
 
 
 </head>
@@ -42,7 +37,7 @@
       
       
     <!-- ##########Section 1 START -->      
-    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
+    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 120px;">
        
       <!-- ########Section1_ROW_START --> 
       <div class="row">
@@ -278,7 +273,7 @@
 								          </div>
 								          <div class="col-xs-7 col-md-1"></div>
 			<!-- 					                        글쓰기 버튼 -->
-								          <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
+								          <div class="col-xs-2 col-md-2" style="padding-left: 50px;">
 								          
 								          <a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
 								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
