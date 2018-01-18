@@ -46,15 +46,14 @@
       <div class="col-md-1"></div>
       
        <!-- ### 영역 A_Frame_Div START-->
-      	<div class="col-md-8 th_divA"> 
+      	<div class="col-md-8 divA"> 
 <!--           <div class="th_aFrameDiv"> -->
 		   <div class="aFrameDiv">
           		 
 	           <!-- ### A 세부영역 div -->
-	                     영역 A_Frame_Div
 	           <!-- ###세부영역 th_a1 : 슬라이더 광고 -->
-	    	  	<div class="th_a1">
-	    	  		<div class="shell">
+	    	  	<div class="top-slide-add">
+	    	  		<div class="shell" style="padding-left: 0px; padding-right: 0px;">
                            <!-- Swiper-->
                            <div
                               class="swiper-container swiper-slider swiper-slider_height-1"
@@ -81,7 +80,7 @@
                                  </div>
                               </div>
                               <!-- Swiper controls-->
-                              <div class="swiper-pagination-wrap">
+                              <div class="swiper-pagination-wrap" style="left: 80px; bottom: 12px;">
                                  <div class="swiper-pagination"></div>
                               </div>
                            </div>
@@ -90,14 +89,15 @@
 	    	  <!-- 세부영역 a-1 끝 -->	
 	    	  	
 	    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
-	    <div class="th_a2" >
+<!-- 	    <div class="th_a2" > -->
 				<!-- 세부영역 th_a2_1 시작 : 제목 -->
-				<div class="th_a2_1" style="padding-top: 0px;">
+<!-- 				<div class="th_a2_1" style="padding-top: 0px;"> -->
+				<div class="a-2a">
 					<div class="row">
-	                  <div class="col-md-3">
-	                     <h5>정보방</h5>
+	                  <div class="col-md-4" style="padding-left: 4%; margin-bottom: 2%;">
+	                     <h3 class="hn">Information</h3>
 	                  </div>
-	                  <div class="col-md-9"></div>
+	                  <div class="col-md-8"></div>
 	                </div>
 	                
 	                <div class="row">
@@ -107,17 +107,18 @@
 	                  </div>
 	                  <div class="col-md-1"></div>	
 	                </div>
-                </div>
+	          </div>      
+<!--                 </div> -->
                  
                   
                 <!-- 세부영역 th_a2_1 끝-->  
 				
 				
 	    		<!-- 세부영역 th_a2_2 시작 : 리스트  -->
-	    	 		<div class="th_a2_2" style="padding-top: 0px;">
+	    	 		<div class="a-2b" style="padding-top: 0px;">
 	    	 		
 	    	 			<!-- 리스트 구별 버튼 START -->
-	    	 			<div class="row"  style="border: solid; border-color: blue;">
+	    	 			<div class="row"  style="border: solid; border-color: blue; display: none;">
 	    	 				
 	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
 	    	 				  <select class="selectpicker" data-style="btn-primary" multiple
@@ -165,7 +166,7 @@
 						           <% for(int i=0; i<6; i++ ) { %>
 						               <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
 						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
-						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;">
+						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;background-color: white;">
 						                   	   
 						                   	   
 						                   	   <div class="th_a2_2_imgTitle">
@@ -285,7 +286,7 @@
 						         <!-- 세부영역 th_a2_3 끝  -->
 						          
 	    	 		
-	    </div> 
+<!-- 	    </div>  -->
 	    <!-- 세부영역 th_a2  끝 -->
 <!-- 	     </div>	                -->
       </div>
@@ -297,7 +298,7 @@
            <!-- ### 영역 B_Frame_Div START-->    
        		 <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver2.jsp"/>
 	        <!-- 영역 B_Frame_Div END-->  
-	      </div>
+	      </div>	
 	      <!-- Section1_CONTENTS_ROW_END -->      
 	    </section>
 	    <!-- Section 1 END -->
@@ -305,15 +306,7 @@
     
     
     
-    
-    
-    <!-- 하단 광고 DIV-->
-        <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
-          <div class="shell">
-            <h2 class="text-light">책광고</h2>
-          </div>
-        </div>
+  
       <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
