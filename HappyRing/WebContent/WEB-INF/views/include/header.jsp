@@ -77,22 +77,33 @@ background-color:rgb(87, 203, 204);
 	border-bottom: 0; 
 	border-right: 0;
 	margin: 1px;
-	height: 60px;
+	height: 54px;
 }
-
 .header1 button {
 	border-radius: 8px 0 0 8px;
 }
 .header2 button {
 	border-radius: 0 8px 8px 0;
 }
-
 .header~.bootstrap-select.show-tick.header {
 	width: 12% !important;
-	margin-top: 8px;
+	margin-top: 11px;
 }
 .rd-mailform-inline-inner.search-input {
- 	padding-left: 0 !important;
+ 	padding-left: 2px !important;
+ 	padding-right: 3px !important;
+}
+.rd-mailform-inline-inner.search-input::before {
+	border-radius: 8px !important;
+}
+.search-input-box {
+	width: 100% !important;
+	margin: 0;
+}
+.search-btn {
+	height: 54px;
+	margin-top: 12px !important;
+	border-radius: 8px !important;
 }
 /* header 검색창 css */
 
@@ -280,10 +291,8 @@ background-color:rgb(87, 203, 204);
                 
                 
                 
-                
-                
                   <form class="rd-search" action="search-results.html" data-search-live="rd-search-results-live" method="GET">
-                    <div class="rd-mailform-inline rd-mailform-sm rd-mailform-inline-modern">
+                    <div class="rd-mailform-inline rd-mailform-sm rd-mailform-inline-modern search-input-div">
                     
                       <div class="rd-mailform-inline-inner search-input">
                       <select class="selectpicker header header1" data-style="button-secondary"
@@ -304,15 +313,15 @@ background-color:rgb(87, 203, 204);
 								<option>이성문제</option>
 								<option>자존감</option>
 							</select>
-                        <div class="form-wrap form-wrap-icon mdi-magnify">
+                        <div class="form-wrap form-wrap-icon mdi-magnify search-input-div">
                         
                         	
                           <label class="form-label form-label" for="rd-navbar-search-form-input">Search...</label>
-                          <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off">
+                          <input class="rd-navbar-search-form-input form-input search-input-box" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off">
                           <div class="rd-search-results-live"></div>
                         </div>
                         <button class="rd-search-form-submit rd-search-form-submit-icon mdi mdi-magnify btnColor"></button>
-                        <button class="rd-search-form-submit button form-button button-sm button-secondary button-nina btnColor">search</button>
+                        <button class="rd-search-form-submit button form-button button-sm button-secondary button-nina btnColor search-btn">search</button>
                       </div>
                       
                     </div>
