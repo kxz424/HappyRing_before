@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
         <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
    <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
+   <!-- 댓글입력창 CSS 때문에  freeBoardDetail.css 필요함-->
    <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
    
    
