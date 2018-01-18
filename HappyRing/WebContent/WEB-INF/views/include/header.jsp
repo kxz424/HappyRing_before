@@ -67,12 +67,34 @@ background-color:rgb(87, 203, 204);
 }
 
 
-
-.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
-	width: 15%;
+/* header 검색창 css */
+.header button, .header~.bootstrap-select.show-tick.header {
+	width: 100% !important;
 	height: 40px;
+	border-color: red !important;
+	border-left: 0 !important;
+	border-top: 0;
+	border-bottom: 0; 
+	border-right: 0;
+	margin: 1px;
+	height: 60px;
 }
-  
+
+.header1 button {
+	border-radius: 8px 0 0 8px;
+}
+.header2 button {
+	border-radius: 0 8px 8px 0;
+}
+
+.header~.bootstrap-select.show-tick.header {
+	width: 12% !important;
+	margin-top: 8px;
+}
+.rd-mailform-inline-inner.search-input {
+ 	padding-left: 0 !important;
+}
+/* header 검색창 css */
 
 </style>
 
@@ -263,8 +285,8 @@ background-color:rgb(87, 203, 204);
                   <form class="rd-search" action="search-results.html" data-search-live="rd-search-results-live" method="GET">
                     <div class="rd-mailform-inline rd-mailform-sm rd-mailform-inline-modern">
                     
-                      <div class="rd-mailform-inline-inner">
-                      <select class="selectpicker header" data-style="button-secondary"
+                      <div class="rd-mailform-inline-inner search-input">
+                      <select class="selectpicker header header1" data-style="button-secondary"
 																		multiple data-max-options="1" data-title="중분류">
 																		<option>대인관계</option>
 																		<option>가족</option>
@@ -273,7 +295,7 @@ background-color:rgb(87, 203, 204);
 																		<option>이성문제</option>
 																		<option>자존감</option>
 																	</select>
-							<select class="selectpicker header" data-style="button-secondary"
+							<select class="selectpicker header header2" data-style="button-secondary"
 								multiple data-max-options="1" data-title="중분류">
 								<option>대인관계</option>
 								<option>가족</option>
