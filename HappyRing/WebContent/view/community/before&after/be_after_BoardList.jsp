@@ -219,93 +219,10 @@
       
       
        <!-- ### 영역 B_Frame_Div START-->    
-       <div class="col-md-2 divB">
-          <div class="bFrameDiv">
-           	영역 B_Frame_Div
-	         <!-- ### B 세부영역 div -->             
-                 <!-- 세부영역 B-1 : 로그인 START-->   
-                     <div class="b-1">
-                        <button class="btn btn-primary btn-lg hidden-xs" href="#signup" data-toggle="modal" data-target=".bs-modal-md" >로그인/회원가입</button>
-                        <jsp:include page="../../member/login.jsp"/>
-                     </div>
-                 <!-- 세부영역 B-1 : 로그인  END--> 
-               
-	              <!-- 세부영역 B-2 : 심리테스트 영역 START-->   
-		               <div class="b-2">
-		               
-			                <div class="row b-2-row">
-								<button type="button" class="btn btn-success col-xs-3 col-sm-6 col-md-6">
-									심리<br>자가측정<br>테스트
-								</button>
-								<button type="button" class="btn btn-info col-xs-3 col-sm-6 col-md-6">
-									매일 목표 <br> 처방받기
-								</button>
-								<button type="button" class="btn btn-warning col-xs-3 col-sm-6 col-md-6">
-									happyRing<br>APP
-								</button>
-								<button type="button" class="btn btn-danger col-xs-3 col-sm-6 col-md-6">
-									근처<br>상담소<br>찾기
-								</button>
-							</div>
-		               </div> 
-	              <!-- 세부영역 B-2 : 심리테스트 영역 END-->   
-		               
-               
-	              <!-- 세부영역 B-3 : 공지사항 START-->   
-                		<div class="b-3">
-	             			 <div class="notice">
-									<h5>공지사항</h5>
-									<ul class="list-unstyled">
-										<li><span class="glyphicon glyphicon-paperclip">
-												공지사항1 </span></li>
-										<li><span class="glyphicon glyphicon-paperclip">
-												공지사항2</span></li>
-										<li><span class="glyphicon glyphicon-paperclip">
-												공지사항3</span></li>
-										<li><span class="glyphicon glyphicon-paperclip">
-												공지사항4</span></li>
-										<li><span class="glyphicon glyphicon-paperclip">
-												공지사항5</span></li>
-									</ul>
-	
-								</div>
-          			     </div>
-	              <!-- 세부영역 B-3 : 공지사항 END-->   
-		               
-		               
- 	              <!-- 세부영역 B-4 : 댓글 영역 START-->   
-		               <div class="b-4">
-				               <table class="table table-hover">
-								<tbody>
-									<tr>
-										<td>안녕하세요</td>
-									</tr>
-									<tr>
-										<td>반갑습니다</td>
-									</tr>
-									<tr>
-										<td>좋은글이네요</td>
-									</tr>
-									<tr>
-										<td>잘보고갑니다^^</td>
-									</tr>
-									<tr>
-										<td>오늘도 즐거운 하루되세요!!!</td>
-									</tr>
-									<tr>
-										<td>너무 뻔한글 같아요 ㅠㅠ</td>
-									</tr>
-									<tr>
-										<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
-									</tr>
-								</tbody>
-							</table>     
-		               </div>
-	              <!-- 세부영역 B-4 : 댓글 영역 END-->   
-                  
-          </div>
-       </div>
-        <!-- 영역 B_Frame_Div END-->  
+       <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver1_comment.jsp"></jsp:include>
+       <!-- 영역 B_Frame_Div END-->  
+       
+       
       </div>
       <!-- Section1_CONTENTS_ROW_END -->      
     </section>
