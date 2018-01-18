@@ -105,6 +105,15 @@ background-color:rgb(87, 203, 204);
 	margin-top: 12px !important;
 	border-radius: 8px !important;
 }
+@media(min-width:992px ){
+	.panel-left, .aside-right {
+ 		width: 15% !important; 
+	}
+	.aside-center {
+ 		width: 70% !important; 
+	}
+}
+
 /* header °Ë»öÃ¢ css */
 
 </style>
@@ -278,13 +287,13 @@ background-color:rgb(87, 203, 204);
             
              <div class="rd-navbar-inner backColor" style="padding-right: 40px; padding-left: 35px;">
               <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel">
+              <div class="rd-navbar-panel panel-left">
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
                 <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="mainImages/logo2.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
               </div>
-              <div class="rd-navbar-aside-center">
+              <div class="rd-navbar-aside-center aside-center">
                 <!-- RD Navbar Search-->
                 <div class="rd-navbar-search"><a class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search" href="#"><span></span></a>
                 
@@ -335,7 +344,7 @@ background-color:rgb(87, 203, 204);
                   
                 </div>
               </div>
-              <div class="rd-navbar-aside-right">
+              <div class="rd-navbar-aside-right aside-right">
                 <div class="rd-navbar-shop rd-navbar-login">
 <!--                 <a class="rd-navbar-shop-icon mdi mdi-login" href="login-page.html"><span class="veil reveal-lg-inline">Login </span></a> -->
 <!--                 <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;"> -->
