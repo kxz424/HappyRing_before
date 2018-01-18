@@ -7,17 +7,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-<!-- <div style="padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;  border: solid; border-color: blue;"> -->
-<!--            	영역 B_Frame_Div -->
-          
-                  
-     
+
+
+     <!-- ### 영역 B_Frame_Div START--> 
+     <div class="col-md-2 divB">
+          <div class="bFrameDiv">
+           	영역 B_Frame_Div
 	         <!-- ### B 세부영역 div -->             
 	              <!-- 세부영역 B-1 : 로그인 START-->   
 		               <div class="b-1">
 		               
-		                 <button class="btn btn-primary btn-lg hidden-xs" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%; padding: 11px 20px;">로그인/회원가입</button>
-                            
+		                 <button class="btn btn-primary btn-lg hidden-xs" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
 		                     <jsp:include page="/view/member/login.jsp"/>
 		               </div>
 	              <!-- 세부영역 B-1 : 로그인  END-->   
@@ -39,51 +39,70 @@
                 		<div class="b-3">
 	             			 <div class="notice">
 									<h5>공지사항</h5>
-<!-- 									<ul class="list-unstyled"> -->
-<!-- 										<li><span class="glyphicon glyphicon-paperclip"> -->
-<!-- 												공지사항1 </span></li> -->
-<!-- 										<li><span class="glyphicon glyphicon-paperclip"> -->
-<!-- 												공지사항2</span></li> -->
-<!-- 										<li><span class="glyphicon glyphicon-paperclip"> -->
-<!-- 												공지사항3</span></li> -->
-<!-- 										<li><span class="glyphicon glyphicon-paperclip"> -->
-<!-- 												공지사항4</span></li> -->
-<!-- 										<li><span class="glyphicon glyphicon-paperclip"> -->
-<!-- 												공지사항5</span></li> -->
-<!-- 									</ul> -->
-
-										<table class="table table-hover">
-											<tr>
-												<td><span class="glyphicon glyphicon-paperclip"> 
- 												공지사항1 </span></td>
-											</tr>
-											<tr>
-												<td><span class="glyphicon glyphicon-paperclip"> 
- 												공지사항1 </span></td>
-											</tr>
-											<tr>
-												<td><span class="glyphicon glyphicon-paperclip"> 
- 												공지사항1 </span></td>
-											</tr>
-											<tr>
-												<td><span class="glyphicon glyphicon-paperclip"> 
-												공지사항1 </span></td>
-											</tr>
-											
-											
-										</table>
+									<ul class="list-unstyled">
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항1 </span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항2</span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항3</span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항4</span></li>
+										<li><span class="glyphicon glyphicon-paperclip">
+												공지사항5</span></li>
+									</ul>
 	
 								</div>
           			     </div>
 	              <!-- 세부영역 B-3 : 공지사항 END-->   
 		               
-		               
+		          <!--  qna List에서 추가한 부분 : 상담랭킹 START -->     
+		          		<div class="b-lanking">
+			          		<table class="table table-hover">
+	                        <tbody>
+	                           <tr>
+	                              <td>이번주 엔젤</td>
+	                           </tr>
+	                           <tr>
+	                              <td>반갑습니다</td>
+	                           </tr>
+	                           <tr>
+	                              <td>좋은글이네요</td>
+	                           </tr>
+	                           <tr>
+	                              <td>잘보고갑니다^^</td>
+	                           </tr>
+	                           <tr>
+	                              <td>오늘도 즐거운 하루되세요!!!</td>
+	                           </tr>
+	                           <tr>
+	                              <td>너무 뻔한글 같아요 ㅠㅠ</td>
+	                           </tr>
+	                           <tr>
+	                              <td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
+	                           </tr>
+	                        </tbody>
+	                     </table>     
+		          	</div>     
+		          <!--  qua List에서 추가한 부분 : 상담랭킹 END -->     
+		          
  	              <!-- 세부영역 B-4 : 날짜 영역 START-->   
-		               <div class="b-4">
-				               <br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다
-				               <img alt="" src="mainImages/날씨와기분.png" >               
-		               </div>
+<!-- 		               <div class="b-4"> -->
+<!-- 				               <br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다 -->
+<!-- 				               <img alt="" src="../../../../mainImages/날씨와기분.png" >                -->
+<!-- 		               </div> -->
 	              <!-- 세부영역 B-4 : 날씨 영역 END-->   
-<!--           </div> -->
+	              
+	              <!-- B-5 : 광고 Tab START -->
+	              <div class="b-carouselBottom">
+		             <!-- 상담 광고 tab START -->
+				      <jsp:include page="/ad_tab.jsp"/>
+		          </div>
+                  <!-- B-5 : 광고 Tab END -->
+                  
+                  
+	          </div>
+	        </div>
+	        <!-- 영역 B_Frame_Div END--> 
 </body>
 </html>
