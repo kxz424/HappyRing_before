@@ -30,8 +30,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
 	
-<!-- main CSS -->
-<link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">	
 <!-- #### videoBoard CSS -->	
 <link rel="stylesheet" href="/HappyRing/css/video/videoBoard.css">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
