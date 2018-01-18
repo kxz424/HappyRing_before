@@ -1,5 +1,5 @@
 
-/* ���� A */
+/* ############### frmae A 시작 */
 .divA {
 	padding-right: 12px;
 }
@@ -14,7 +14,6 @@
 .a-1{
 	border: solid; border-color: pink; height: auto; padding-top: 1%;
 }
-
 
 
 .a-2{
@@ -56,11 +55,11 @@
 	height: auto;padding-top: 25px; border: solid; border-color: skyblue;
 }
 
+/* frmae A 끝 */
 
-/* ���� B */
+/* ############### frame B 시작*/
 .divB{
 	padding-left: 13px;
-	
 }
 
 .bFrameDiv {
@@ -85,6 +84,7 @@ padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;
 
 margin-top: 25px; 
 }
+
 
 
 .b-2-row {
@@ -115,9 +115,6 @@ margin-top: 25px;
 }
 
 
-
-
-
 .b-3{
 	border: solid; border-color: babyblue; margin-top: 25px;
 }
@@ -133,8 +130,22 @@ margin-top: 25px;
 	height: auto;
 }
 
+.b-carouselBottom{
+	/* 영역 B : 광고 tab**/
+	border: solid; 
+	border-color: black;
+	padding-top: 25px;
+}
 
-/* ���� C */
+.b-lanking{
+    border: solid; 
+	border-color: black;
+	padding-top: 25px;
+}
+
+/* frmae B 끝 */
+
+/* ############### frmae C 시작 */
 
 .divC{
 	padding-right: 12px;
@@ -153,7 +164,10 @@ margin-top: 25px;
 	height: auto;
 	padding-top: 25px; border: solid; border-color: skyblue;
 }
-/* ���� D */
+
+/* frmae C 끝 */
+
+/* ############### frmae D 시작 */
 
 .divD{
 	padding-left: 13px;
@@ -172,6 +186,13 @@ margin-top: 25px;
 	border: solid; border-color: purple; margin-top: 25px;
 }
 
+/* frmae D 끝 */
+
+
+
+
+
+
 
 
 
@@ -186,9 +207,7 @@ margin-top: 25px;
 
 /* �� ��ư css*/
 #btnTab{
-
   border-radius: 5px;
-
 }
 
 #btnTabLi{
