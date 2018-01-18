@@ -12,6 +12,7 @@
    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
+    <link href="http://fonts.googleapis.com/earlyaccess/hanna.css" rel="stylesheet">
     <link rel="stylesheet" href="/HappyRing/css/common/bootstrap.css">
     <link rel="stylesheet" href="/HappyRing/css/common/style.css">
     <link rel="stylesheet" href="/HappyRing/css/common/mdi.css">
@@ -28,7 +29,15 @@
    <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
    <!-- carousel bottom css --> 
    <link rel="stylesheet" href="/HappyRing/css/common/carousel/carouselBottom.css">
-    
+
+
+<style type="text/css">
+/* 폰트 적용 */
+.hn {
+  font-family: 'Hanna', sans-serif;
+	
+	}
+</style>    
     
     
 <style type="text/css">
