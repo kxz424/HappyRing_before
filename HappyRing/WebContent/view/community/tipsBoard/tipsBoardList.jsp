@@ -22,7 +22,6 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
    <!-- 자유게시판 CSS link -->
-   	<link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
 	<link rel="stylesheet" href="/HappyRing/css/free/commonFree.css">
 	<link rel="stylesheet" href="/HappyRing/css/free/freeList.css">
 	<link rel="stylesheet" href="/HappyRing/css/common/paging.css">

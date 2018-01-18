@@ -22,7 +22,6 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
 <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
 
 

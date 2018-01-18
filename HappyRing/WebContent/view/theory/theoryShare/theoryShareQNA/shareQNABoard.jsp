@@ -60,8 +60,6 @@
 	
 	
 	
-
-<link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
 <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
 
 

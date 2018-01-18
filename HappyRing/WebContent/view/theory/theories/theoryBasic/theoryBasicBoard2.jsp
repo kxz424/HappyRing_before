@@ -38,8 +38,6 @@
  	<!-- 심리이론 Frame Stylesheets -->
     <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
         <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
-   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
    
    
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -400,7 +398,7 @@ $(function(){
 	              <!-- 세부영역 B-4 : 날씨 영역 END-->   
 	              
 	              <!-- B-5 : 광고 Tab START -->
-	              <div class="th_d1">
+	              <div class="b-carouselBottom">
 		             <!-- 상담 광고 tab START -->
 				      <jsp:include page="/ad_tab.jsp"/>
 		          </div>

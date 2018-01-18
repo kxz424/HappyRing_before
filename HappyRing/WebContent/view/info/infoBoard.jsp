@@ -16,7 +16,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
    <!-- 자유게시판 CSS link -->
-   <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
    <link rel="stylesheet" href="/HappyRing/css/common/paging.css">
    <link rel="stylesheet" href="/HappyRing/css/info/info.css">
    
@@ -340,7 +339,7 @@ $(function(){
 		               
 		               
 		          <!--  qna List에서 추가한 부분 : 상담랭킹 START -->     
-		          		<div class="share_lanking" style="border: solid; border-color: green; margin-top: 25px;">
+		          		<div class="b-lanking" style="border: solid; border-color: green; margin-top: 25px;">
 			          		<table class="table table-hover">
 	                        <tbody>
 	                           <tr>
@@ -379,7 +378,7 @@ $(function(){
 	              <!-- 세부영역 B-4 : 날씨 영역 END-->   
 	              
 	              <!-- B-5 : 광고 Tab START -->
-	              <div class="th_d1">
+	              <div class="b-carouselBottom">
 		             <!-- 상담 광고 tab START -->
 				      <jsp:include page="/ad_tab.jsp"/>
 		          </div>

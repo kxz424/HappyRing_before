@@ -26,7 +26,6 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
 
 <!-- 자유게시판 CSS link -->
-<link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
 <!-- <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css"> -->
 
 <!-- 그룹Detail CSS link -->
