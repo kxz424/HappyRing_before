@@ -109,7 +109,8 @@
 {
     display: table-cell;
     width: 1%;
-    max-width: 90px
+    max-width: 90px;
+/*     background-color: #ace6e6; */
 }
 
 #custom_carousel2 .controls li.active
@@ -124,7 +125,9 @@
     display: block;
     font-size: 10px;
     margin-top: 5px;
-    font-weight: bold
+    font-weight: bold;
+    
+    
 }
 
 .featurette img { width: 35px; }
@@ -154,4 +157,11 @@
 
 #custom_carousel2 .carousel-inner {
 	background-color: white;
+}
+
+
+.carousel_add {
+	
+	border: solid; border-color: grey; height: 80px; margin-top: 16px;
+	
 }

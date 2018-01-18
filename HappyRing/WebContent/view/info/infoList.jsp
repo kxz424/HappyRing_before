@@ -12,15 +12,28 @@
     <meta charset="utf-8">
     <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
  	
- 	<!-- 심리이론 Frame Stylesheets -->
-    <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-    <link rel="stylesheet" href="/HappyRing/css/info/info.css">
+ 	
    
 <!-- 부가적인 테마 -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
 <script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
+<!-- 심리이론 Frame Stylesheets -->
+    <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
+    <link rel="stylesheet" href="/HappyRing/css/info/info.css">
+
+
+
+
+
+
+
+
+
+
 
 
 </head>
@@ -241,12 +254,12 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
-							                   	      <img alt="" src="/HappyRing/img/sample/sampleImg.png" style="height: 124px; width : auto;" align="center">
+							                   	      <img alt="" src="/HappyRing/img/sample/sampleImg.png" style="height: 124px !important;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
 							                         <div class="th_a2_2_tags">
-							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->한국 EFT 코칭센터</a>
+							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->정신분석 심리상담소</a>
 							                         </div>
 							                          <!-- 내용 -->
 								                      <div class="th_a2_2_text box-minimal-text" style="margin-top: 10px;">
@@ -296,7 +309,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
-							                   	      <img alt="" src="../../images/bg-02.jpg">
+							                   	      <img class="img-test" alt="" src="../../images/bg-02.jpg" style="height:124px !important;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
@@ -334,7 +347,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="image-post.html"> 
-							                   	      <img alt="" src="../../images/slider-1-slide-3-1920x910.jpg">
+							                   	      <img alt="" src="../../img/icon-image/angryGif.gif" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
