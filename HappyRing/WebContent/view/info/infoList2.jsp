@@ -73,7 +73,7 @@
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../images/slider-1-slide-1-1920x910.jpg">
+                                    style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
