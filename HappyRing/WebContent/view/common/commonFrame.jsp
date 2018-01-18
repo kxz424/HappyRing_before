@@ -12,7 +12,6 @@
     <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
     
     
-  	<link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
    
 
 </head>
