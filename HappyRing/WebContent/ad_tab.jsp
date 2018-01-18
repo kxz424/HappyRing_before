@@ -5,7 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
-  	<link rel="stylesheet" href="/HappyRing/css/main/main.css">
+  	<link rel="stylesheet" href="/HappyRing/css/common/carousel/carouselBottom.css">
+  	
+  	
 </head>
 <body>
 
@@ -39,19 +41,23 @@
                  
                  <!-- 광고란 -->
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">1</div>
+                 <div class="carousel_add">1
+                 	<img alt="" src="/HappyRing/img/sample/sampleImg.png" style="height: 50px !important;">
+                 </div>
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">2</div>
-                   
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">3</div>
+                 <div class="carousel_add">2</div>
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">4</div>
+                 <div class="carousel_add">3</div>
+                
+                 <div class="carousel_add">4</div>
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">5</div>
+                 <div class="carousel_add">5</div>
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">6</div>
+                 <div class="carousel_add">6</div>
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">7</div>
+                 <div class="carousel_add">7</div>
+                
+                
                  
                  <!-- 광고란 끝 -->
                  
@@ -70,20 +76,19 @@
                
                   <!-- 광고란 -->
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">1</div>
+                 <div class="carousel_add">1</div>
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">2</div>
-                   
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">3</div>
+                 <div class="carousel_add">2</div>
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">4</div>
+                 <div class="carousel_add">3</div>
+                
+                 <div class="carousel_add">4</div>
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">5</div>
+                 <div class="carousel_add">5</div>
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">6</div>
+                 <div class="carousel_add">6</div>
                  
-                 <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">7</div>
-                 
+                 <div class="carousel_add">7</div>
                  <!-- 광고란 끝 -->
                  
                  
