@@ -264,7 +264,7 @@
                   
                   
                   
-                  <jsp:include page="/WEB-INF/views/include/frame_B.jsp"/>
+                  <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver1.jsp"/>
                   
                   
                   
