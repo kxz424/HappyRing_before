@@ -391,7 +391,7 @@ th, td {
             <!-- ### B 세부영역 div -->             
                  <!-- 세부영역 B-1 : 로그인 START-->   
                      <div class="b-1">
-                        <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
+                        <button class="btn btn-primary btn-lg hidden-xs" href="#signup" data-toggle="modal" data-target=".bs-modal-md" >로그인/회원가입</button>
                         <jsp:include page="../../member/login.jsp"/>
                      </div>
                  <!-- 세부영역 B-1 : 로그인  END-->   
@@ -431,7 +431,7 @@ th, td {
                  <!-- 세부영역 B-3 : 공지사항 END-->   
                      
                      
-                  <!-- 세부영역 B-4 : 날짜 영역 START-->   
+                  <!-- 세부영역 B-4 : 댓글 영역 START-->   
                      <div class="b-4">
                            <table class="table table-hover">
                         <tbody>
@@ -459,7 +459,7 @@ th, td {
                         </tbody>
                      </table>     
                      </div>
-                 <!-- 세부영역 B-4 : 날씨 영역 END-->   
+                 <!-- 세부영역 B-4 : 댓글 영역 END-->   
                   
           </div>
        </div>

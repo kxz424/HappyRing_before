@@ -204,7 +204,7 @@ background-color:rgb(87, 203, 204);
                       </li>
                       <li><a href="/HappyRing/view/community/toAdminBoard/toAdminBoardList.jsp">관리자에게</a>
                       </li>
-                      <li><a href="/HappyRing/view/community/noticeBoard/noticeBoardList.jsp">공지사항</a>
+                      <li><a href="/HappyRing/view/community/notice/noticeBoardList.jsp">공지사항</a>
                       </li>
                       
                       
