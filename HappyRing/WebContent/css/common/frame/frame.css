@@ -159,12 +159,15 @@ padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;
 
 
 .b-3{
-	border: solid; border-color: babyblue; margin-top: 25px;
+/* 	border: solid; border-color: babyblue;  */
+	margin-top: 25px;
+	background-color: white;
 }
 
 
 .b-4{
-	border: solid; border-color: pink; margin-top: 25px;
+/* 	border: solid; border-color: pink;  */
+	margin-top: 25px;
 	height: auto;
 }
 
@@ -177,7 +180,7 @@ padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;
 	/* 영역 B : 광고 tab**/
 	border: solid; 
 	border-color: black;
-	padding-top: 25px;
+	margin-top: 25px;
 }
 
 .b-lanking{

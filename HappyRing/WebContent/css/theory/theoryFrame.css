@@ -70,10 +70,17 @@ margin-left: 5px !important;
 
 
 .th_a2_3{
-	height: auto;
-    padding-top: 25px;
-    border: solid;
-    border-color: pink;
+/* 	height: auto; */
+/*     padding-top: 25px; */
+/*     border: solid; */
+/*     border-color: pink; */
+
+    height: auto;
+    margin-top: 12px;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    background-color: white;
+}
 }
 
 
