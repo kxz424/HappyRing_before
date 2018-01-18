@@ -257,20 +257,11 @@
       
       
       
-       <!-- ### 영역 B_Frame_Div START-->    
-       <div class="col-md-2 divB">
-          <div class="bFrameDiv">
-	         
-                  
-                  
-                  
-                  <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver1.jsp"/>
-                  
-                  
-                  
-	          </div>
-	        </div>
-	        <!-- 영역 B_Frame_Div END-->  
+       <!-- ### 영역 B_Frame_Div START-->
+       <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver1.jsp"/>
+       <!-- 영역 B_Frame_Div END-->  
+       
+       
 	      </div>
 	      <!-- Section1_CONTENTS_ROW_END -->      
 	    </section>
