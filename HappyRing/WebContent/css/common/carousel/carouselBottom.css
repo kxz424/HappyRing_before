@@ -150,3 +150,8 @@
     padding-bottom: 120px;
     background-color: #f2f3f9;
 }
+
+
+#custom_carousel2 .carousel-inner {
+	background-color: white;
+}
