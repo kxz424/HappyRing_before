@@ -126,23 +126,26 @@
                 <!-- 세부영역 th_a2_1 끝-->  
 				
 				
-	    		<!-- 세부영역 th_a2_2 시작 : 리스트  -->
-	    	 		<div class="a-2b" style="padding-top: 0px;">
-	    	 		
-	    	 			<!-- 리스트 구별 버튼 START -->
-	    	 			<div class="row"  style="border: solid; border-color: blue; display: none;">
+				<!-- 검색조건 버튼 시/구/동  시작 -->
+				<div class="a-2b" style="display: none;">
+				
+	    	 			<div class="row">
+	    	 			
+	    	 				<div class="col-md-2"></div>
 	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
-	    	 				  <select class="selectpicker" data-style="btn-primary" multiple
-										data-max-options="1" data-title="서울시">
-										<option>서울시</option>
-										<option>경기도</option>
-										<option>심리적 고민</option>
-										<option>나만의 고민</option>
-							  </select> 
-	    	 				</div>
-	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
+	    	 				<div class="col-md-8" style="border: solid; border-color: red; padding-left: 0px; padding-right: 0px;  width: 121px;">
+	    	 				  
+	    	 				  <ul style="list-style-type: none;">
+	    	 				  <li style=" display: block;float: left;">
+		    	 				  <select class="selectpicker" data-style="btn-primary" multiple
+											data-max-options="1" data-title="서울시" >
+											<option>서울시</option>
+											<option>경기도</option>
+											<option>심리적 고민</option>
+											<option>나만의 고민</option>
+								  </select> 
+	    	 				  </li>
+	    	 				  <li style=" display: block;float: left;">
 	    	 				  <select class="selectpicker" data-style="btn-primary" multiple
 										data-max-options="1" data-title="금천구">
 										<option>사랑/이별</option>
@@ -150,9 +153,8 @@
 										<option>심리적 고민</option>
 										<option>나만의 고민</option>
 							  </select> 
-	    	 				</div>
-	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
+	    	 				  </li>
+	    	 				  <li style=" display: block;float: left;">
 	    	 				  <select class="selectpicker" data-style="btn-primary" multiple
 										data-max-options="1" data-title="가산동">
 										<option>사랑/이별</option>
@@ -160,15 +162,26 @@
 										<option>심리적 고민</option>
 										<option>나만의 고민</option>
 							  </select> 
+							  </li>
+							  </ul>
 	    	 				</div>
 	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
+	    	 				<div class="col-md-2" style="border: solid; border-color: red;">
 	    	 				<input type="button" class="reply-create btn btn-primary" value="검색" style="border-radius: 7%; height: 37px;">
 	    	 				
 	    	 				</div>
 	    	 				
 	    	 			</div>
-	    	 			<!-- 리스트 구별 버튼 END -->
+	    	 			
+	    	 	</div>		
+				<!-- 검색조건 버튼 시/구/동  끝 -->
+				
+				
+				
+	    		<!-- 세부영역 th_a2_2 시작 : 리스트  -->
+	    	 		<div class="a-2c" style="padding-top: 0px;">
+	    	 		
+	    	 			
 	    	 			  
 	    	 		 <div class="cell-lg-12" style="padding-top: 25px">
 		                    <div class="isotope" data-isotope-group="theory1" data-lightgallery="group">

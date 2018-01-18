@@ -49,6 +49,24 @@
 }
 
 .a-2b{
+	
+	 height: auto;
+/* 	padding-top: 25px;  */
+/* 	border: solid;  */
+/* 	border-color: skyblue; */
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+
+.a-2b .btn  {
+	width: 115px;
+	
+}
+
+.a-2c{
     height: auto;
 	padding-top: 25px; 
 /* 	border: solid;  */
