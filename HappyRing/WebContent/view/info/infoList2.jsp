@@ -184,7 +184,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
-							                   	      <img alt="" src="/HappyRing/img/sample/bright.png" style="height:124px !important; width: auto !important; display: block; margin-left: auto; margin-right: auto;">
+							                   	      <img alt="" src="/HappyRing/img/sample/bright.png" style="height:124px !important; width: auto !important; display: block; margin-left: auto; margin-right: auto; border-bottom: 1px solid;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
@@ -219,7 +219,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
-							                   	      <img alt="" src="/HappyRing/img/sample/MyStory.png" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto;">
+							                   	      <img alt="" src="/HappyRing/img/sample/MyStory.png" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto; border-bottom: 1px solid;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
@@ -254,7 +254,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
-							                   	      <img alt="" src="/HappyRing/img/sample/sampleImg.png" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto;">
+							                   	      <img alt="" src="/HappyRing/img/sample/sampleImg.png" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto; border-bottom: 1px solid;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
@@ -309,7 +309,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
-							                   	      <img class="img-test" alt="" src="../../images/bg-02.jpg" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto;">
+							                   	      <img class="img-test" alt="" src="../../images/bg-02.jpg" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto; border-bottom: 1px solid;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
@@ -347,7 +347,7 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="image-post.html"> 
-							                   	      <img alt="" src="../../img/icon-image/angryGif.gif" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto;">
+							                   	      <img alt="" src="../../img/icon-image/angryGif.gif" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto; border-bottom: 1px solid;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
