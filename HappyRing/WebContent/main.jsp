@@ -57,11 +57,11 @@
 	    	 		<!--# 탭 버튼 -->
 			          <div class="controls">
 			            <ul class="nav">
-			              <li data-target="#custom_carousel" data-slide-to="0" class="active"> <a href="#"><img src="mainImages/success.png"><br>비포 & 애프터</a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="1"> <a href="#"><img src="mainImages/success.png"><br>명예의 전당</a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="2"> <a href="#"><img src="mainImages/success.png"><br>셀프트레이닝 </a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="3"> <a href="#"><img src="mainImages/success.png"><br>꿀팁</a> </li>
-			              <li data-target="#custom_carousel" data-slide-to="4"> <a href="#"><img src="mainImages/success.png"><br>멋진응원</a> </li>
+			              <li data-target="#custom_carousel" data-slide-to="0" class="active"> <a href="#"><img src="mainImages/success.png"><br><p class="hn">비포 & 애프터</p></a> </li>
+			              <li data-target="#custom_carousel" data-slide-to="1"> <a href="#"><img src="mainImages/success.png"><br><p class="hn">명예의 전당</p></a> </li>
+			              <li data-target="#custom_carousel" data-slide-to="2"> <a href="#"><img src="mainImages/success.png"><br><p class="hn">셀프트레이닝 </p></a> </li>
+			              <li data-target="#custom_carousel" data-slide-to="3"> <a href="#"><img src="mainImages/success.png"><br><p class="hn">꿀팁</p></a> </li>
+			              <li data-target="#custom_carousel" data-slide-to="4"> <a href="#"><img src="mainImages/success.png"><br><p class="hn">멋진응원</p></a> </li>
 			            </ul>
 			          </div>
 			          

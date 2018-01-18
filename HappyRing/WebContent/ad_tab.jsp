@@ -1,7 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>      
+<!DOCTYPE html><html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
@@ -15,19 +15,19 @@
                    
                    
                    
-                   <!-- ªÛ¥„ ±§∞Ì tab -->
+                   <!-- ÏÉÅÎã¥ Í¥ëÍ≥† tab -->
                          
                          
                          
                          
-                         <div id="custom_carousel2" class="carousel slide" data-ride="carousel" data-interval="9500">
+           <div id="custom_carousel2" class="carousel slide" data-ride="carousel" data-interval="9500">
           
           
           
           <div class="controls">
             <ul class="nav">
-              <li data-target="#custom_carousel2" data-slide-to="0" class="active"> <a href="#" style="padding-top: 10px; padding-left: 5px; padding-right: 5px;" >ªÛ¥„º“ ¡§∫∏</a> </li>
-              <li data-target="#custom_carousel2" data-slide-to="1"> <a href="#" style="padding-top: 10px; padding-left: 5px; padding-right: 5px;">ªÛ¥„º“ ∑©≈∑</a> </li>
+              <li data-target="#custom_carousel2" data-slide-to="0" class="active"> <a href="#" style="padding-top: 10px; padding-left: 5px; padding-right: 5px;" >ÏÉÅÎã¥ÏÜå Ï†ïÎ≥¥</a> </li>
+              <li data-target="#custom_carousel2" data-slide-to="1"> <a href="#" style="padding-top: 10px; padding-left: 5px; padding-right: 5px;">ÏÉÅÎã¥ÏÜå Îû≠ÌÇπ</a> </li>
             </ul>
           </div>
           
@@ -37,7 +37,7 @@
               <div class="container-fluid" style="padding-left: 5px; padding-right: 5px;">
                  
                  
-                 <!-- ±§∞Ì∂ı -->
+                 <!-- Í¥ëÍ≥†ÎûÄ -->
                  
                  <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">1</div>
                  
@@ -53,12 +53,12 @@
                  
                  <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">7</div>
                  
-                 <!-- ±§∞Ì∂ı ≥° -->
+                 <!-- Í¥ëÍ≥†ÎûÄ ÎÅù -->
                  
                  
                  
                  
-                <!-- ≈«≥ªøÎ -->
+                <!-- ÌÉ≠ÎÇ¥Ïö© -->
                 
               </div>
             </div>
@@ -68,7 +68,7 @@
            <div class="item">
                <div class="container-fluid">
                
-                  <!-- ±§∞Ì∂ı -->
+                  <!-- Í¥ëÍ≥†ÎûÄ -->
                  
                  <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">1</div>
                  
@@ -84,11 +84,11 @@
                  
                  <div style="border: solid; border-color:white; height: 80px; margin-top: 16px;">7</div>
                  
-                 <!-- ±§∞Ì∂ı ≥° -->
+                 <!-- Í¥ëÍ≥†ÎûÄ ÎÅù -->
                  
                  
                 
-           <!-- ≈«≥ªøÎ -->
+           <!-- ÌÉ≠ÎÇ¥Ïö© -->
                  
               </div>
             </div>
@@ -113,7 +113,7 @@
                
                 <!-- Tab panes-->
                 
-                   <!-- ªÛ¥„±§∞Ì tab ≥° -->     
+                   <!-- ÏÉÅÎã¥Í¥ëÍ≥† tab ÎÅù -->     
                    
                    
    <script src="/HappyRing/js/main/main.js"></script>
