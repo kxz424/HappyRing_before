@@ -20,7 +20,8 @@
 
 				<button class="btn btn-primary btn-lg hidden-xs" href="#signup"
 					data-toggle="modal" data-target=".bs-modal-md"
-					style="border-radius: 4px; width: 100%; padding: 11px 20px;">로그인/회원가입</button>
+					style="border-radius: 4px; width: 100%; padding: 11px 20px;
+					    padding-top: 20px; padding-bottom: 20px; ">로그인/회원가입</button>
 
 				<jsp:include page="/view/member/login.jsp" />
 			</div>

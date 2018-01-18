@@ -32,7 +32,7 @@ background-color: #29293a;
 <body>
         <!-- # 하단 광고 DIV START -->
         <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px; background-image: -webkit-linear-gradient(left, #57cbcc 0%, #91f5f6d6 100%)">
+        style="padding-top: 45px; padding-bottom: 45px; margin-top: 0px; background-image: -webkit-linear-gradient(left, #57cbcc 0%, #91f5f6d6 100%)">
           <div class="shell">
             <h2 class="text-light">책광고</h2>
           </div>
