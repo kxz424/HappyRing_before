@@ -143,7 +143,7 @@
               
               
               <!-- 자유게시판 list START -->
-              <div class="a-2c">
+              <div class="a-new2c">
               <div class="row table-list">
                   <div class="col-md-12">
 
