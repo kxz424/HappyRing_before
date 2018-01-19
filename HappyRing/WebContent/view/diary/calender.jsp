@@ -7,29 +7,20 @@
 <title>Insert title here</title>
 
 
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
+   
 <!-- 부가적인 테마 -->
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	
+<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 
+<!-- 심리이론 Frame Stylesheets -->
+    <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
+    <link rel="stylesheet" href="/HappyRing/css/info/info.css">
 
-
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-
-
-<link rel="stylesheet" href="/HappyRing/css/diary/diaryList.css"/>
+<!-- 달력 -->
+    <link rel="stylesheet" href="/HappyRing/css/diary/diaryList.css">
 
 
 
@@ -137,7 +128,10 @@ $(function(){
 			}
 			arrTable.push('</div></div></div>');
 
+			//back 부분 추가
+			var back = $('.calendar').html();
 			$('.calendar').html(arrTable.join(""));
+			$('.calendar').append(back);
 
 			that.changeMonth();
 		}
@@ -210,12 +204,16 @@ $(function(){
 // 					settings.input.focus();
 // 				});
 				$(document).on('click', '.weeks span', function(){
-					instance.swap(settings.calendar, settings.form);
+					instance.swap($('.front'), $('.back'));
 					settings.input.focus();
 				});
 
-				settings.buttons.on('click', function(){
-					instance.swap(settings.form, settings.calendar);
+// 				settings.buttons.on('click', function(){
+// 					instance.swap(settings.form, settings.calendar);
+// 				});
+				$(document).on('click', '.back button', function(){
+					instance.swap($('.back'), $('.front'));
+					settings.input.focus();
 				});
 			}
 		}
@@ -231,18 +229,140 @@ $(function(){
 
 </head>
 <body>
-
-<div class='wrap'>
+<jsp:include page="/WEB-INF/views/include/header.jsp"/>
+<div class=''>
 	<div class='btn-holder'>
 		<button id='btnPrev'>&lt;</button>
 		 <span id="currentDate"></span> 
 		<button id='btnNext'>&gt;</button>
 	</div>
 	<div class="containerCal">
-	<div class="calendar"></div>
+	<div class="calendar">
 	
 	
-			<div class="back">
+	<div class="back">
+
+		 <div class="info">
+
+
+
+<div class="cha_divBody" style="padding-left: 30px; padding-right: 30px;border: solid purple;">
+						       	  	
+						       	  	<div class="row" style="border: solid pink;">
+						       	  	  <div class="col-md-4"></div>
+						       	  	  <div class="col-md-5">
+						       	  		 <p class="hn" style="font-size: 25px;"> 2018년 01월 19일에 내가 쓴 일기 </p>
+						       	  	   </div>
+						       	  	   <div class="col-md-3"></div>
+						       	  	</div>
+						       	  	
+						       	  	
+						       	  	
+						       	      <!-- ## 4-1 : 달력 넣는 곳 START -->
+						       	      		<div class=" dailyEmotion">
+						       	      			<div class="icon-like" style="margin-bottom: 0px;border: solid;">
+						       	      				<label>나의 기분</label>
+						       	      				<img src="/HappyRing/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
+						       	      			</div>
+											</div>
+						       	  	  <!-- 4-1 : 달력 넣는 곳 END -->
+											
+
+						       	  	  <!-- ## 4-2 : 이미지 넣는 곳  START-->
+						       	  	  <div class="cha_divImg" style="border: solid green;">
+						       	  	  
+						       	  	    <div class="row">
+						       	  	    	
+						       	  	    	<div class="col-md-5">
+						       	  	    	  <div class="cha_divImg_slider" style="height: 195px;">	
+													
+													<div class="swiper-container swiper-slider swiper-slider_height-1" 
+													data-loop="true" data-autoplay="false" data-simulate-touch="false"
+													style="height: 100%;">
+										            <div class="swiper-wrapper">
+										              <div class="swiper-slide" data-slide-bg="../../images/slider-1-slide-1-1920x910.jpg">
+										                <div class="swiper-slide-caption">
+										                  <div class="section-md"></div>
+										                </div>
+										              </div>
+										              <div class="swiper-slide" data-slide-bg="../../images/slider-1-slide-2-1920x910.jpg">
+										                <div class="swiper-slide-caption">
+										                  <div class="section-md"></div>
+										                </div>
+										              </div>
+										              <div class="swiper-slide" data-slide-bg="../../images/slider-1-slide-3-1920x910.jpg">
+										                <div class="swiper-slide-caption">
+										                  <div class="section-md"></div>
+										                </div>
+										              </div>
+										            </div>
+										            <!-- Swiper controls-->
+										            <div class="swiper-button-prev" style="width: 22px; height: 23px;line-height: 20px; font-size: 15px; left: 6px;"></div>
+										            <div class="swiper-button-next" style="width: 22px; height: 23px;line-height: 23px; font-size: 15px; right: 6px;"></div>
+										          </div>
+											  </div>
+						       	  	    	</div>
+						       	  	    
+						       	  	    	<div class="col-md-7"> </div>
+						       	  	    	
+						       	  	    </div>
+						       	  	    
+						       	      </div>
+						       	  	  <!-- 4-2 : 이미지 넣는 곳 END -->
+
+						       	  	  
+						       	  	  <!-- ## 4-4 : 오늘 나에게 주는 점수/ 내일의 다짐  넣는 곳 START -->
+						       	  	  <div class="cha_divEmotion" style="border: solid pink;">
+						       	  	  	<div class="row" style="margin-left: 0px; margin-right: 0px;">
+							       	  	    <!-- # 오늘 나에게 주는 점수 START -->
+							       	  	    <div class="col-md-6 cha_divEmotion_today" style="border: solid;">
+							       	  	      <article class="box-minimal">
+							       	  	        <div class="row">
+								       	  	        <div class="col-md-10" style="    padding-top: 8px;">
+							                         <h6 style="color: white;"> 오늘의 나에게 주는 점수</h6> 
+							                        </div>
+							                        
+							                        <div class="col-md-2">
+							                      	    <div class="cha_social cha_twitter">
+												            <i class="fa fa-twitter fa-5x"></i>   
+												        </div>
+							                        </div>
+						                        </div>
+						                        <p style="font-size: 14.5px;">We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p>
+						                      </article>
+							       	  	    </div>
+							       	  	    
+							       	  	    <!-- # 내일의 다짐 START -->
+							       	  	    <div class="col-md-6 cha_divEmotion_tomorrow" style="border: solid yellow;">
+							       	  	     <article class="box-minimal">
+						                        <h6 style="color: white;">내일의 나를 위한 다짐</h6>
+						                        <p style="font-size: 14.5px;">We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p>
+						                      </article>
+							       	  	    </div>
+						       	  	  </div>
+						       	  	  <!-- 4-4 : 오늘 나에게 주는 점수/ 내일의 다짐  넣는 곳 END -->
+						       	  	  
+						       	  	  
+						       	  	  
+						       	  	  </div>
+						       	  	  
+						       	  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+
 
 
 				<div class="showDiary">
@@ -254,6 +374,11 @@ $(function(){
 					</button>
 				</div>
 			</div>
+	
+	</div>
+	
+	
+			
 
 		</div>
 </div>
