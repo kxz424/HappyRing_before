@@ -245,11 +245,21 @@
 
 
 
-<div class="cha_divBody" style="padding-left: 30px; padding-right: 30px;">
+<div class="cha_divBody" style="padding-left: 30px; padding-right: 30px;border: solid purple;">
+						       	  	
+						       	  	<div class="row" style="border: solid pink;">
+						       	  	  <div class="col-md-4"></div>
+						       	  	  <div class="col-md-5">
+						       	  		 <p class="hn" style="font-size: 25px;"> 2018년 01월 19일에 내가 쓴 일기 </p>
+						       	  	   </div>
+						       	  	   <div class="col-md-3"></div>
+						       	  	</div>
+						       	  	
+						       	  	
 						       	  	
 						       	      <!-- ## 4-1 : 달력 넣는 곳 START -->
 						       	      		<div class=" dailyEmotion">
-						       	      			<div class="icon-like" style="margin-bottom: 0px;">
+						       	      			<div class="icon-like" style="margin-bottom: 0px;border: solid;">
 						       	      				<label>나의 기분</label>
 						       	      				<img src="/HappyRing/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
 						       	      			</div>
@@ -258,7 +268,7 @@
 											
 
 						       	  	  <!-- ## 4-2 : 이미지 넣는 곳  START-->
-						       	  	  <div class="cha_divImg">
+						       	  	  <div class="cha_divImg" style="border: solid green;">
 						       	  	  
 						       	  	    <div class="row">
 						       	  	    	
@@ -301,10 +311,10 @@
 
 						       	  	  
 						       	  	  <!-- ## 4-4 : 오늘 나에게 주는 점수/ 내일의 다짐  넣는 곳 START -->
-						       	  	  <div class="cha_divEmotion">
+						       	  	  <div class="cha_divEmotion" style="border: solid pink;">
 						       	  	  	<div class="row" style="margin-left: 0px; margin-right: 0px;">
 							       	  	    <!-- # 오늘 나에게 주는 점수 START -->
-							       	  	    <div class="col-md-6 cha_divEmotion_today">
+							       	  	    <div class="col-md-6 cha_divEmotion_today" style="border: solid;">
 							       	  	      <article class="box-minimal">
 							       	  	        <div class="row">
 								       	  	        <div class="col-md-10" style="    padding-top: 8px;">
@@ -322,7 +332,7 @@
 							       	  	    </div>
 							       	  	    
 							       	  	    <!-- # 내일의 다짐 START -->
-							       	  	    <div class="col-md-6 cha_divEmotion_tomorrow">
+							       	  	    <div class="col-md-6 cha_divEmotion_tomorrow" style="border: solid yellow;">
 							       	  	     <article class="box-minimal">
 						                        <h6 style="color: white;">내일의 나를 위한 다짐</h6>
 						                        <p style="font-size: 14.5px;">We provide a wide variety of marketing services and proper support included in our templates. This allows you to promote your products and services using Brave and its features.</p>
@@ -450,6 +460,6 @@
     <script src="/HappyRing/js/script.js"></script>
     <!--  메인 Javascript -->
      <script src="/HappyRing/js/main/main.js"></script>
-     
+     <script src="/HappyRing/js/diary/diaryList.js"></script>
   </body>
 </html>
