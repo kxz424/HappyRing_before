@@ -79,19 +79,19 @@
 <!--                                     </div> -->
 <!--                                  </div> -->
 								<div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/img/sample/healmate.png">
+                                    data-slide-bg="/HappyRing/img/sample/sampleView.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/img/sample/test4.png">
+                                    data-slide-bg="/HappyRing/img/sample/sampleView2.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/img/sample/test5.png">
+                                    data-slide-bg="/HappyRing/img/sample/sampleView3.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>

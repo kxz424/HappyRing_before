@@ -45,18 +45,6 @@
 
 
 
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
-
-
-
-
-
-
-
 
 <style type="text/css">
 
@@ -193,9 +181,8 @@
 
 
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
-	width: 100%;
+	width: 60% !important;
 }
-
 
 /* */
 
@@ -434,7 +421,7 @@ $(document).ready(function(){
 															<!-- 도전 상세검색 select box 3개 START -->
 															<div class="row" style="margin-left: 0px;margin-right: 0px; padding-top: 8%;">
 																<div class="col-md-4">
-																	<span>고민 유형</span>
+																	<span>고민 유형</span><br/>
 																	<select class="selectpicker" data-style="btn-primary"
 																		multiple data-max-options="1" data-title="대분류">
 																		<option>대인관계</option>
@@ -446,7 +433,7 @@ $(document).ready(function(){
 																	</select>
 																</div>
 																<div class="col-md-4">
-																	<span>고민 분류</span>
+																	<span>고민 분류</span><br/>
 																	<select class="selectpicker" data-style="btn-primary"
 																		multiple data-max-options="1" data-title="중분류">
 																		<option>대인관계</option>
@@ -458,7 +445,7 @@ $(document).ready(function(){
 																	</select>
 																</div>
 																<div class="col-md-4">
-																	<span>도전 난이도</span>
+																	<span>도전 난이도</span><br/>
 																	<select class="selectpicker" data-style="btn-primary"
 																		multiple data-max-options="1" data-title="소분류">
 																		<option>대인관계</option>
