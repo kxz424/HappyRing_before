@@ -84,32 +84,26 @@
 			<!-- 세부영역 B-3 : 공지사항 END-->
 
  			<!--  qna List에서 추가한 부분 : 상담랭킹 START -->     
-		          		<div class="b-lanking" style="border: solid; border-color: green; margin-top: 25px;">
-			          		<table class="table table-hover">
-	                        <tbody>
-	                           <tr>
-	                              <td>이번주 엔젤</td>
-	                           </tr>
-	                           <tr>
-	                              <td>반갑습니다</td>
-	                           </tr>
-	                           <tr>
-	                              <td>좋은글이네요</td>
-	                           </tr>
-	                           <tr>
-	                              <td>잘보고갑니다^^</td>
-	                           </tr>
-	                           <tr>
-	                              <td>오늘도 즐거운 하루되세요!!!</td>
-	                           </tr>
-	                           <tr>
-	                              <td>너무 뻔한글 같아요 ㅠㅠ</td>
-	                           </tr>
-	                           <tr>
-	                              <td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
-	                           </tr>
-	                        </tbody>
-	                     </table>     
+		          	<div class="b-lanking" style="border: solid; border-color: green; margin-top: 25px;">
+		          		<p class="hn" style="padding-bottom: 9px;">이번주 엔젤</p>
+				         <table class="table table-hover">
+							<tr>
+								<td>너무 뻔한글 같아요 ㅠㅠ</td>
+							</tr>
+							<tr>
+								<td>오늘도 즐거운 하루되세요!!!</td>
+							</tr>
+							<tr>
+								<td>잘보고갑니다^^</td>
+							</tr>
+							<tr>
+								<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
+							</tr>
+							<tr>
+								<td>반갑습니다</td>
+							</tr>
+	
+						</table>    
 		          	</div>     
 		          <!--  qua List에서 추가한 부분 : 상담랭킹 END -->      
 			<!-- 세부영역 B-4 : 날짜 영역 START-->
