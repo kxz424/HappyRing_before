@@ -335,6 +335,10 @@ $(function(){
 						</div>
 
 					</div>
+					<div>
+						
+					</div>
+					<button class="btn btn-primary" type="button" data-dismiss="modal" aria-label="Close" style="float: right;"><span>등록</span></button>
 							
 
 							
