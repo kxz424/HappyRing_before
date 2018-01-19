@@ -23,63 +23,9 @@
 
    <!-- 자유게시판 CSS link -->
    <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css">
-
-<style type="text/css">
-
-
-/* 댓글 영역 */
-.reply td, .notice {
-	font-size: 13px;
-}
-/* 검색창 설정 */
-.search-box {
-	min-height: 35px;
-}
-
-.search-panel span, .search-panel a {
-	font-size: 12px;
-}
-
-.search-bar {
-	padding-top: 2.5px;
-}
-
-/* 오른쪽 영역 설정 */
-.side-area {
-	margin-top: 33px;
-}
-
-/* 카테고리텝 설정 */
-.search-btn {
-	padding: 0 20px;
-}
-
-.search-panel span, .search-panel a {
-	font-size: 12px;
-}
-
-/* 테이블 설정 */
-.table-list {
-	margin-top: 30px;
-}
-
-th, td {
-	font-size: 14px;
-}
-
-.t1, .t5, .t7, .t8 {
-	width: 9%;
-}
-
-.t2, .t3, .t6 {
-	width: 15%;
-}
-
-#pageNum a, #write {
-	font-size: 12px;
-}
-
-</style>   
+   <link rel="stylesheet" href="/HappyRing/css/community/freeList.css">
+   <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
+   
    
 </head>
   <body>
@@ -93,7 +39,7 @@ th, td {
       <!-- header END -->
       
     <!-- Section 1 START -->      
-    <section  class="section" style="padding-top: 20px; padding-bottom: 40px;">
+    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 120px;">
        
        
       <!-- ########Section1_CONTENTS_ROW_START --> 
@@ -104,103 +50,105 @@ th, td {
        <!-- ### 영역 A_Frame_Div START-->
       <div class="col-md-8 divA"> 
           <div class="aFrameDiv">
-                영역 A_Frame_Div
           
               <!-- ### A 세부영역 div -->
-               <div class="a-1">
-               
-               <!-- 슬라이더 START-->
-               <div class="shell">
+               <div class="top-slide-add">
+	    	  		<div class="shell" style="padding-left: 0px; padding-right: 0px;">
                            <!-- Swiper-->
                            <div
                               class="swiper-container swiper-slider swiper-slider_height-1"
                               data-loop="true" data-autoplay="false"
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
-                                 <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
+<!--                                  <div class="swiper-slide" -->
+<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     <div class="swiper-slide-caption"> -->
+<!--                                        <div class="section-md"></div> -->
+<!--                                     </div> -->
+<!--                                  </div> -->
+								<div class="swiper-slide"
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                               </div>
                               <!-- Swiper controls-->
-                              <div class="swiper-pagination-wrap">
+                              <div class="swiper-pagination-wrap" style="left: 80px; bottom: 12px;">
                                  <div class="swiper-pagination"></div>
                               </div>
                            </div>
-                        </div>
-               
-               <!-- 슬라이더 END -->
-               </div>
+                      </div>
+	    	  	</div>
               
               
-              <div class="a-2" >
               
-              <!-- 고민게시판 타이틀 및 select box START -->
-              <div class="divFreeTitle">
-              <div class="row">
+              <!-- 자유게시판 타이틀 및 select box START -->
+              
+              <div class="a-2a">
+                 <div class="row">
                   <div class="col-md-3">
-                     <h5>고민게시판</h5>
+                     <h5>자유게시판</h5>
                   </div>
                   <div class="col-md-3"></div>
                   <div class="col-md-6 search-bar">
 
                      <!-- 검색 입력 -->
-                     <div class="input-group">
-                        <div class="input-group-btn search-panel">
-                           <button type="button"
-                              class="btn btn-default dropdown-toggle search-btn"
-                              data-toggle="dropdown">
-                              <span id="search_concept">Filter by</span> <span class="caret"></span>
-                           </button>
-                           <ul class="dropdown-menu" role="menu">
-                              <li><a href="#contains">Contains</a></li>
-                              <li><a href="#its_equal">It's equal</a></li>
-                              <li><a href="#greather_than">Greather than ></a></li>
-                              <li><a href="#less_than">Less than < </a></li>
-                              <li class="divider"></li>
-                              <li><a href="#all">Anything</a></li>
-                           </ul>
-                        </div>
-                        <input type="hidden" name="search_param" value="all"
-                           id="search_param"> <input type="text"
-                           class="form-control search-box" name="x"
-                           placeholder="Search term..."> <span
-                           class="input-group-btn">
-                           <button class="btn btn-default search-btn" type="button">
-                              <span class="glyphicon glyphicon-search"></span>
-                           </button>
-                        </span>
-                     </div>
+<!--                      <div class="input-group"> -->
+<!--                         <div class="input-group-btn search-panel"> -->
+<!--                            <button type="button" -->
+<!--                               class="btn btn-default dropdown-toggle search-button" -->
+<!--                               data-toggle="dropdown"> -->
+<!--                               <span id="search_concept">Filter by</span> <span class="caret"></span> -->
+<!--                            </button> -->
+<!--                            <ul class="dropdown-menu" role="menu"> -->
+<!--                               <li><a href="#contains">Contains</a></li> -->
+<!--                               <li><a href="#its_equal">It's equal</a></li> -->
+<!--                               <li><a href="#greather_than">Greather than ></a></li> -->
+<!--                               <li><a href="#less_than">Less than < </a></li> -->
+<!--                               <li class="divider"></li> -->
+<!--                               <li><a href="#all">Anything</a></li> -->
+<!--                            </ul> -->
+<!--                         </div> -->
+<!--                         <input type="hidden" name="search_param" value="all" -->
+<!--                            id="search_param"> <input type="text" -->
+<!--                            class="form-control search-box" name="x" -->
+<!--                            placeholder="Search term..."> <span -->
+<!--                            class="input-group-btn"> -->
+<!--                            <button class="btn btn-default search-button" type="button"> -->
+<!--                               <span class="glyphicon glyphicon-search"></span> -->
+<!--                            </button> -->
+<!--                         </span> -->
+<!--                      </div> -->
+
+
+
                   </div>
                </div>
-            </div>   
-              <!-- 고민게시판 타이틀 및 select box END -->
+           	  </div>   
+               
+              <!-- 자유게시판 타이틀 및 select box END -->
               
-       
               
-              
-              <!-- 고민게시판 list START -->
-                     <div class="a-3">
-                     <div class="row table-list">
-						<div class="col-md-12">
+              <!-- 자유게시판 list START -->
+              <div class="a-new2c">
+              <div class="row table-list">
+                  <div class="col-md-12">
 
-							<!-- 카테고리별 게시판 검색 -->
-							<!-- Horizontal button tabs-->
-							<div class="tabs-custom tabs-horizontal tabs-buttons" id="tabs-4">
+
+                     <div class="tabs-custom tabs-horizontal tabs-buttons" id="tabs-4">
 								<!-- Nav tabs-->
 								<ul class="nav nav-tabs">
 									<li class="active"><a class="button-nina" href="#tabs-4-1"
@@ -343,38 +291,85 @@ th, td {
 								</div>
 
 							</div>
-						</div>
-					</div>
-				</div>
-                     
-              <!-- 고민게시판 list END -->
-           <div class="a-4">
-					<div class="row">
-							<div class="col-xs-0  col-md-4"></div>
-<!-- 					                       페이징 -->
-					          <div class="col-xs-12 col-md-5" style=" padding-right: 0px; padding-left: 0px;">
-					                  <ul class="pagination-custom" id="pageNum">
-					                       <li><a href="">◀◀</a></li>
-					                       <li><a href="">◀</a></li>
-					                          <c:forEach var="i" begin="1" end="4">
-					                       <li><a href="">${i}</a></li>
-					                           </c:forEach>
-					                       <li><a href="">▶</a></li>
-					                       <li><a href="">▶▶</a></li>
-					                    </ul>
-					          </div>
-					          <div class="col-xs-7 col-md-1"></div>
-<!-- 					                        글쓰기 버튼 -->
-					          <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
-					               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
-					          </div>
-					           <div class="col-xs-3 col-md-0"></div>
-					</div>
-			</div>
+                  </div>
+               </div>
+              </div>
+              <!-- 자유게시판 list END -->
+              
+              <!-- 자유게시판 글등록btn 및 paging START -->
+              
+              				<div class="th_a2_3">
+						           <div class="row">
+										<div class="col-xs-0  col-md-4"></div>
+			<!-- 					                       페이징 -->
+								          <div class="col-xs-12 col-md-5" style=" padding-right: 0px; padding-left: 0px;">
+								                  <ul class="pagination-custom" id="pageNum">
+								                       <li><a href="">◀◀</a></li>
+								                       <li><a href="">◀</a></li>
+								                          <c:forEach var="i" begin="1" end="4">
+								                       <li><a href="">${i}</a></li>
+								                           </c:forEach>
+								                       <li><a href="">▶</a></li>
+								                       <li><a href="">▶▶</a></li>
+								                    </ul>
+								          </div>
+								          <div class="col-xs-7 col-md-1"></div>
+			<!-- 					                        글쓰기 버튼 -->
+								          <div class="col-xs-2 col-md-2" style="padding-left: 50px;">
+								          
+								          <a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
+								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
+								          </a>     
+								          </div>
+								           <div class="col-xs-3 col-md-0"></div>
+								  </div>
+								</div>
+              <!-- 자유게시판 글등록btn 및 paging END -->
               
               
               
-              </div> 
+              
+								<div class="bottomSearch" style="background-color: white;">
+								<div class="row">
+					                  <div class="col-md-3"></div>
+					                  <div class="col-md-6 search-bar">
+					
+					                     <!-- 검색 입력 -->
+					                     <div class="input-group">
+					                        <div class="input-group-btn search-panel">
+					                           <button type="button"
+					                              class="btn btn-default dropdown-toggle search-button"
+					                              data-toggle="dropdown">
+					                              <span id="search_concept">Filter by</span> <span class="caret"></span>
+					                           </button>
+					                           <ul class="dropdown-menu" role="menu">
+					                              <li><a href="#contains">Contains</a></li>
+					                              <li><a href="#its_equal">It's equal</a></li>
+					                              <li><a href="#greather_than">Greather than ></a></li>
+					                              <li><a href="#less_than">Less than < </a></li>
+					                              <li class="divider"></li>
+					                              <li><a href="#all">Anything</a></li>
+					                           </ul>
+					                        </div>
+					                        <input type="hidden" name="search_param" value="all"
+					                           id="search_param"> <input type="text"
+					                           class="form-control search-box" name="x"
+					                           placeholder="Search term..."> <span
+					                           class="input-group-btn">
+					                           <button class="btn btn-default search-button" type="button">
+					                              <span class="glyphicon glyphicon-search"></span>
+					                           </button>
+					                        </span>
+					                     </div>
+                  			</div>
+                  <div class="col-md-3"></div>
+               </div>
+               
+               
+								
+								</div>              
+              
+              
               <!-- A 세부영역 div END --> 
                        
           </div>
@@ -397,13 +392,7 @@ th, td {
     
     
     
-    <!-- 하단 광고 DIV-->
-        <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
-          <div class="shell">
-            <h2 class="text-light">책광고</h2>
-          </div>
-        </div>
+  
       <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
