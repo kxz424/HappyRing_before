@@ -49,6 +49,46 @@
 }
 
 .a-2b{
+	
+	 height: auto;
+/* 	padding-top: 25px;  */
+/* 	border: solid;  */
+/* 	border-color: skyblue; */
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+/* .a-2b-col{ */
+/* 	border: solid; */
+/*     border-color: red; */
+/*     width: 110px; */
+/*     padding-right: 0px; */
+/*     padding-left: 0px; */
+	
+/* } */
+
+.a-2b .btn  {
+	width: 110px;
+}
+
+/* .a-2b .show-tick { */
+/* 	width: 110px; */
+	
+/* } */
+
+
+
+.bootstrap-select.btn-group .dropdown-menu {
+	
+	min-width: 65%
+	}
+
+
+
+
+.a-2c{
     height: auto;
 	padding-top: 25px; 
 /* 	border: solid;  */

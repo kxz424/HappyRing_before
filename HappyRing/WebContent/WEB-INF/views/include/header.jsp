@@ -335,7 +335,9 @@ display: none;
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="mainImages/logo2.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
+                <div class="rd-navbar-brand" style="padding-right: 26%;">
+                <a class="brand-name" href="index.html">
+                <img class="logo-default" src="/HappyRing/mainImages/logo2.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
               </div>
               <div class="rd-navbar-aside-center aside-center">
                 <!-- RD Navbar Search-->

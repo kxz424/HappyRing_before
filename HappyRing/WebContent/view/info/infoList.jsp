@@ -72,20 +72,26 @@
                               data-loop="true" data-autoplay="false"
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
-                                 <div class="swiper-slide"
-                                    data-slide-bg="../../images/slider-1-slide-1-1920x910.jpg">
+<!--                                  <div class="swiper-slide" -->
+<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     <div class="swiper-slide-caption"> -->
+<!--                                        <div class="section-md"></div> -->
+<!--                                     </div> -->
+<!--                                  </div> -->
+								<div class="swiper-slide"
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
@@ -101,7 +107,6 @@
 	    	  <!-- 세부영역 a-1 끝 -->	
 	    	  	
 	    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
-<!-- 	    <div class="th_a2" > -->
 				<!-- 세부영역 th_a2_1 시작 : 제목 -->
 <!-- 				<div class="th_a2_1" style="padding-top: 0px;"> -->
 				<div class="a-2a">
@@ -115,24 +120,22 @@
 	                <div class="row">
 	                  <div class="col-md-1"></div>	
 	                  <div class="col-md-10" style="padding-left: 54px;">
-	                     <span class="icon mdi mdi-volume-high"></span>&nbsp;<h7>해피링이 추천하고 해피링이 보증하는 상담소 정보만 모아두었습니다.<strong>안심하고 연락해보세요</strong> </h7>
+	                     <span class="icon mdi mdi-volume-high"></span>&nbsp;<h7>해피링이 추천하고 해피링이 보증하는 상담소 정보만 모아두었습니다.<strong>&nbsp;안심하고 연락해보세요</strong> </h7>
 	                  </div>
 	                  <div class="col-md-1"></div>	
 	                </div>
 	          </div>      
-<!--                 </div> -->
                  
                   
                 <!-- 세부영역 th_a2_1 끝-->  
 				
-				
-	    		<!-- 세부영역 th_a2_2 시작 : 리스트  -->
-	    	 		<div class="a-2b" style="padding-top: 0px;">
-	    	 		
-	    	 			<!-- 리스트 구별 버튼 START -->
-	    	 			<div class="row"  style="border: solid; border-color: blue; display: none;">
+				<!-- 세부영역 a-2b 시작 -->
+				<div class="a-2b" style="padding-top: 0px;">
+	    	 		<!-- 리스트 구별 버튼 START -->
+	    	 			<div class="row" style="padding-top: 13px; padding-bottom: 8px;">
 	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
+	    	 				<div class="col-md-4" style="margin-right: 160px;"></div>
+	    	 				<div class="col-md-2 col-xs-3" style="width: 117px; padding-right: 0px; padding-left: 0px;">
 	    	 				  <select class="selectpicker" data-style="btn-primary" multiple
 										data-max-options="1" data-title="서울시">
 										<option>서울시</option>
@@ -142,7 +145,7 @@
 							  </select> 
 	    	 				</div>
 	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
+	    	 				<div class="col-md-2 col-xs-3" style="width: 117px; padding-right: 0px; padding-left: 0px;">
 	    	 				  <select class="selectpicker" data-style="btn-primary" multiple
 										data-max-options="1" data-title="금천구">
 										<option>사랑/이별</option>
@@ -152,7 +155,7 @@
 							  </select> 
 	    	 				</div>
 	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
+	    	 				<div class="col-md-2 col-xs-3" style="width: 117px; padding-right: 0px; padding-left: 0px;">
 	    	 				  <select class="selectpicker" data-style="btn-primary" multiple
 										data-max-options="1" data-title="가산동">
 										<option>사랑/이별</option>
@@ -162,13 +165,19 @@
 							  </select> 
 	    	 				</div>
 	    	 				
-	    	 				<div class="col-md-3" style="border: solid; border-color: red;">
+	    	 				<div class="col-md-2 col-xs-3" style="width: 138px; padding-right: 0px; padding-left: 9px;">
 	    	 				<input type="button" class="reply-create btn btn-primary" value="검색" style="border-radius: 7%; height: 37px;">
 	    	 				
 	    	 				</div>
 	    	 				
 	    	 			</div>
 	    	 			<!-- 리스트 구별 버튼 END -->
+	    	 	</div>	
+				<!-- 세부영역 a-2b 끝 -->
+				
+				
+	    		<!-- 세부영역 th_a2_2 시작 : 리스트  -->
+	    	 		<div class="a-2c" style="padding-top: 0px;">
 	    	 			  
 	    	 		 <div class="cell-lg-12" style="padding-top: 25px">
 		                    <div class="isotope" data-isotope-group="theory1" data-lightgallery="group">
@@ -183,12 +192,12 @@
 						                   	   
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
-							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
-							                   	      <img alt="" src="../../images/bg-02.jpg">
+							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp" > 
+							                   	      <img alt="" src="/HappyRing/img/sample/bright.png" style="height:124px !important; width: auto !important; display: block; margin-left: auto; margin-right: auto;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
-							                         <div class="th_a2_2_tags">
+							                         <div class="company_title">
 							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->정신분석 심리상담소</a>
 							                         </div>
 							                          <!-- 내용 -->
@@ -219,11 +228,11 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
-							                   	      <img alt="" src="../../images/bg-02.jpg">
+							                   	      <img alt="" src="/HappyRing/img/sample/MyStory.png" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto; ">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
-							                         <div class="th_a2_2_tags">
+							                         <div class="company_title">
 							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->정신분석 심리상담소</a>
 							                         </div>
 							                          <!-- 내용 -->
@@ -254,11 +263,11 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
-							                   	      <img alt="" src="/HappyRing/img/sample/sampleImg.png" style="height: 124px !important;">
+							                   	      <img alt="" src="/HappyRing/img/sample/sampleImg.png" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
-							                         <div class="th_a2_2_tags">
+							                         <div class="company_title">
 							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->정신분석 심리상담소</a>
 							                         </div>
 							                          <!-- 내용 -->
@@ -309,11 +318,11 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
-							                   	      <img class="img-test" alt="" src="../../images/bg-02.jpg" style="height:124px !important;">
+							                   	      <img class="img-test" alt="" src="../../images/bg-02.jpg" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto; ">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
-							                         <div class="th_a2_2_tags">
+							                         <div class="company_title">
 							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->정신분석 심리상담소</a>
 							                         </div>
 							                          <!-- 내용 -->
@@ -351,7 +360,7 @@
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
-							                         <div class="th_a2_2_tags">
+							                         <div class="company_title">
 							                         	<a class="button-tags" href="single-post.html">Tips & Tricks222</a>
 							                         </div>
 							                          <!-- 내용 -->
