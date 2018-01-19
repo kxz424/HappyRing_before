@@ -93,7 +93,7 @@
 	    	 	<div class="a-2" >
 	    	 		<div class="row board-detail">
 	    	 			<div class="col-md-12">
-							<h3>고민게시판</h3>
+							<h3>자유게시판</h3>
 						</div>
 	    	 		</div>
 	    	 	</div> 

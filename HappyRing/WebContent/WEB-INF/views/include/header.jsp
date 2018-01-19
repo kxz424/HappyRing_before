@@ -70,7 +70,6 @@ background-color:rgb(87, 203, 204);
 /* header °Ë»öÃ¢ css */
 .header button, .header~.bootstrap-select.show-tick.header {
 	width: 100% !important;
-	height: 40px;
 	border-color: red !important;
 	border-left: 0 !important;
 	border-top: 0;

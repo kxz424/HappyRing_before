@@ -25,11 +25,6 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	
 	
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
-	
 <!-- #### videoBoard CSS -->	
 <link rel="stylesheet" href="/HappyRing/css/video/videoBoard.css">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
@@ -197,7 +192,7 @@
 							   
 							    <!-- 글씨체 선택 START -->
 								<h1 id = "font-change">Font Selector</h1>
-								<textarea rows="5" cols="5" style="font-family: Nanum Pen Script">안녕하세요</textarea>
+								<textarea rows="5" style="font-family: Nanum Pen Script; width: 100%;">안녕하세요</textarea>
 
 <div class="dropdown">
   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
