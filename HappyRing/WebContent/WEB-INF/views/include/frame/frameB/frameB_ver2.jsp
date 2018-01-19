@@ -16,19 +16,19 @@
 
 			<!-- ### B 세부영역 div -->
 			<!-- 세부영역 B-1 : 로그인 START-->
-			<div class="b-1">
+<!-- 			<div class="b-1"> -->
 
-				<button class="btn btn-primary btn-lg hidden-xs" href="#signup"
-					data-toggle="modal" data-target=".bs-modal-md"
-					style="border-radius: 4px; width: 100%; padding: 11px 20px;
-					    padding-top: 20px; padding-bottom: 20px; ">로그인/회원가입</button>
+<!-- 				<button class="btn btn-primary btn-lg hidden-xs" href="#signup" -->
+<!-- 					data-toggle="modal" data-target=".bs-modal-md" -->
+<!-- 					style="border-radius: 4px; width: 100%; padding: 11px 20px; -->
+<!-- 					    padding-top: 20px; padding-bottom: 20px; ">로그인/회원가입</button> -->
 
-				<jsp:include page="/view/member/login.jsp" />
-			</div>
+<%-- 				<jsp:include page="/view/member/login.jsp" /> --%>
+<!-- 			</div> -->
 			<!-- 세부영역 B-1 : 로그인  END-->
 
 			<!-- 세부영역 B-2 : 심리테스트 영역 START-->
-			<div class="b-2">
+			<div class="b-2" style="margin-top: 0px;">
 
 				<div class="row b-2-row" >
 			       <button type="button" class="btn btn-success col-xs-3 col-sm-6 col-md-6" style="border-radius:15px 0px 0px 0px; height: 120px;">심리<br>자가측정<br>테스트</button>

@@ -26,7 +26,13 @@
 }
 
 
-
+.company_title{
+	padding-left: 16px;
+    padding-top: 10px;
+    border-top: 1.7px dotted;
+    border-color: #e2e5e3;
+	
+}
 
 
 /* /* 댓글 수정 삭제 버튼 */ */
