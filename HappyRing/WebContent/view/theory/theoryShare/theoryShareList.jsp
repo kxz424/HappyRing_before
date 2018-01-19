@@ -42,48 +42,70 @@
       <div class="col-md-1"></div>
       
        <!-- ### 영역 A_Frame_Div START-->
-      	<div class="col-md-8 th_divA"> 
-          <div class="th_aFrameDiv">
+      	<div class="col-md-8 divA"> 
+          <div class="aFrameDiv">
           		 
 	           <!-- ### A 세부영역 div -->
-	                     영역 A_Frame_Div
 	           <!-- ###세부영역 th_a1 : 슬라이더 광고 -->
-	    	  	<div class="th_a1">
-	    	  		<div class="shell">
+	    	  	<div class="top-slide-add">
+	    	  		<div class="shell" style="padding-left: 0px; padding-right: 0px;">
                            <!-- Swiper-->
                            <div
                               class="swiper-container swiper-slider swiper-slider_height-1"
                               data-loop="true" data-autoplay="false"
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
-                                 <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
+<!--                                  <div class="swiper-slide" -->
+<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     <div class="swiper-slide-caption"> -->
+<!--                                        <div class="section-md"></div> -->
+<!--                                     </div> -->
+<!--                                  </div> -->
+								<div class="swiper-slide"
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                               </div>
                               <!-- Swiper controls-->
-                              <div class="swiper-pagination-wrap">
+                              <div class="swiper-pagination-wrap" style="left: 80px; bottom: 12px;">
                                  <div class="swiper-pagination"></div>
                               </div>
                            </div>
                       </div>
 	    	  	</div>
 	    	  <!-- 세부영역 a-1 끝 -->	
-	    	  	
+	    	  <!-- 게시판 제목 시작  -->
+	    	  <div class="a-2a">
+					<div class="row">
+	                  <div class="col-md-4" style="padding-left: 4%; margin-bottom: 2%;">
+	                     <h3 class="hn">Basic Theory</h3>
+	                  </div>
+	                  <div class="col-md-8"></div>
+	                </div>
+	                
+	                <div class="row">
+	                  <div class="col-md-1"></div>	
+	                  <div class="col-md-10" style="padding-left: 108px;">
+	                     <span class="icon mdi mdi-volume-high"></span>&nbsp;<h7>당신이 할 수 있는 가장<strong>&nbsp; 반짝반짝 빛나는 스스로의 방식을 찾을 것</strong>&nbsp;&nbsp;&nbsp;<span style="font-size: 12px">   by. 메릴 스트립 Meryl Streep</span> </h7>
+	                  </div>
+	                  <div class="col-md-1"></div>	
+	                </div>
+	          </div>      
+	    	  <!-- 게시판 제목 끝 -->
 	    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
 	    <div class="th_a2" >
 				<!-- 세부영역 th_a2_1 시작 : 제목 -->
@@ -273,13 +295,7 @@
     
     
     
-    <!-- 하단 광고 DIV-->
-        <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
-          <div class="shell">
-            <h2 class="text-light">책광고</h2>
-          </div>
-        </div>
+      
       <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
