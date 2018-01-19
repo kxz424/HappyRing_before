@@ -72,19 +72,19 @@ $(function(){
 									data-simulate-touch="false">
 									<div class="swiper-wrapper">
 										<div class="swiper-slide"
-											data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
+											data-slide-bg="/HappyRing/images/slider-1-slide-1-1920x910.jpg">
 											<div class="swiper-slide-caption">
 												<div class="section-md"></div>
 											</div>
 										</div>
 										<div class="swiper-slide"
-											data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
+											data-slide-bg="/HappyRing/images/slider-1-slide-2-1920x910.jpg">
 											<div class="swiper-slide-caption">
 												<div class="section-md"></div>
 											</div>
 										</div>
 										<div class="swiper-slide"
-											data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
+											data-slide-bg="/HappyRing/images/slider-1-slide-3-1920x910.jpg">
 											<div class="swiper-slide-caption">
 												<div class="section-md"></div>
 											</div>
@@ -117,7 +117,7 @@ $(function(){
 										<div class="input-group">
 											<div class="input-group-btn search-panel">
 												<button type="button"
-													class="btn btn-default dropdown-toggle search-btn"
+													class="btn btn-default dropdown-toggle search-button"
 													data-toggle="dropdown">
 													<span id="search_concept">Filter by</span> <span
 														class="caret"></span>
@@ -136,7 +136,7 @@ $(function(){
 												class="form-control search-box" name="x"
 												placeholder="Search term..."> <span
 												class="input-group-btn">
-												<button class="btn btn-default search-btn" type="button">
+												<button class="btn btn-default search-button" type="button">
 													<span class="glyphicon glyphicon-search"></span>
 												</button>
 											</span>
@@ -193,7 +193,7 @@ $(function(){
 									<!-- 리스트 구별 버튼 END -->
 
 									<div class="cell-lg-12" style="padding-top: 25px">
-										<div class="isotope" data-isotope-group="theory1"
+										<div class="isotope row" data-isotope-group="theory1"
 											data-lightgallery="group">
 											<div class="row">
 
@@ -202,7 +202,7 @@ $(function(){
 											
 											
 											<div class="col-xs-12 col-sm-4 col-md-4 isotope-item"
-												data-filter="type 2">
+												data-filter="type 1">
 												<label>No.123</label>
 												<a class="gallery-item"
 													href="/HappyRing/view/video/videoBoard.jsp"
@@ -293,7 +293,7 @@ $(function(){
 
 
 
-										</div>
+<!-- 										</div> -->
 										</div>
 									</div>
 								</div>

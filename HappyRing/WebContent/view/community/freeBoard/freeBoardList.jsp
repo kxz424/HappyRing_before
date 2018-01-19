@@ -109,7 +109,7 @@
                      <div class="input-group">
                         <div class="input-group-btn search-panel">
                            <button type="button"
-                              class="btn btn-default dropdown-toggle search-btn"
+                              class="btn btn-default dropdown-toggle search-button"
                               data-toggle="dropdown">
                               <span id="search_concept">Filter by</span> <span class="caret"></span>
                            </button>
@@ -127,7 +127,7 @@
                            class="form-control search-box" name="x"
                            placeholder="Search term..."> <span
                            class="input-group-btn">
-                           <button class="btn btn-default search-btn" type="button">
+                           <button class="btn btn-default search-button" type="button">
                               <span class="glyphicon glyphicon-search"></span>
                            </button>
                         </span>
