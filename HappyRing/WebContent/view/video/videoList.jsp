@@ -202,7 +202,7 @@ $(function(){
 											
 											
 											<div class="col-xs-12 col-sm-4 col-md-4 isotope-item"
-												data-filter="type 2">
+												data-filter="type 1">
 												<label>No.123</label>
 												<a class="gallery-item"
 													href="/HappyRing/view/video/videoBoard.jsp"
