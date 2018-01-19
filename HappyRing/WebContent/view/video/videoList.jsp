@@ -193,7 +193,7 @@ $(function(){
 									<!-- 리스트 구별 버튼 END -->
 
 									<div class="cell-lg-12" style="padding-top: 25px">
-										<div class="isotope row" data-isotope-group="theory1"
+										<div class="isotope" data-isotope-group="theory1"
 											data-lightgallery="group">
 											<div class="row">
 
@@ -351,7 +351,7 @@ $(function(){
 				<!-- 영역 A_Frame_Div END-->
 
 
-
+				</div>
 				 <!-- ### 영역 B_Frame_Div START-->    
        		    <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver4.jsp"/>
 	             <!-- 영역 B_Frame_Div END-->  
