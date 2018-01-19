@@ -237,8 +237,8 @@ padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;
 }
 
 .b-lanking{
-    border: solid; 
-	border-color: black;
+/*     border: solid;  */
+/* 	border-color: black; */
 	padding-top: 25px;
 }
 
@@ -333,7 +333,13 @@ padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;
 }
 
 
-
+.bottomSearch{
+	background-color: white;
+    margin-top: 3px;
+    padding-top: 11px;
+    padding-bottom: 14px;
+    padding-left: 18px;
+}
 
 
 

@@ -43,64 +43,79 @@
       <div class="col-md-1"></div>
       
        <!-- ### 영역 th_qna_aFrame START-->
-      	<div class="col-md-8 th_qna_divA"> 
-          <div class="th_qna_aFrame">
+      	<div class="col-md-8 th_divA"> 
+          <div class="aFrameDiv">
           		 
 	           <!-- ### A 세부영역 div -->
-	                     영역 A_Frame_Div
 	           <!-- ###세부영역 th_qna1 : 슬라이더 광고 -->
-	    	  	<div class="th_qna1">
-	    	  		<div class="shell">
+	    	  	<div class="top-slide-add">
+	    	  		<div class="shell" style="padding-left: 0px; padding-right: 0px;">
                            <!-- Swiper-->
                            <div
                               class="swiper-container swiper-slider swiper-slider_height-1"
                               data-loop="true" data-autoplay="false"
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
-                                 <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-1-1920x910.jpg">
+<!--                                  <div class="swiper-slide" -->
+<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     <div class="swiper-slide-caption"> -->
+<!--                                        <div class="section-md"></div> -->
+<!--                                     </div> -->
+<!--                                  </div> -->
+								<div class="swiper-slide"
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                               </div>
                               <!-- Swiper controls-->
-                              <div class="swiper-pagination-wrap">
+                              <div class="swiper-pagination-wrap" style="left: 80px; bottom: 12px;">
                                  <div class="swiper-pagination"></div>
                               </div>
                            </div>
                       </div>
 	    	  	</div>
-	    	  <!-- 세부영역  th_qna1 끝 -->	
-	    	  	
+	    	  <!-- 세부영역  th_qna1 끝 -->
+	    	  
+	    	  <!-- 게시판 제목 : qna 시작 -->	
+	    	  	<div class="a-2a">
+					<div class="row">
+	                  <div class="col-md-6" style="padding-left: 4%; margin-bottom: 2%;">
+	                     <h3 class="hn">Quest n Answer</h3>
+	                  </div>
+	                  <div class="col-md-6"></div>
+	                </div>
+	                
+	                <div class="row">
+	                  <div class="col-md-1"></div>	
+	                  <div class="col-md-10" style="padding-left: 108px;">
+	                     <span class="icon mdi mdi-volume-high"></span>&nbsp;<h7>당신이 할 수 있는 가장<strong>&nbsp; 반짝반짝 빛나는 스스로의 방식을 찾을 것</strong>&nbsp;&nbsp;&nbsp;<span style="font-size: 12px">   by. 메릴 스트립 Meryl Streep</span> </h7>
+	                  </div>
+	                  <div class="col-md-1"></div>	
+	                </div>
+	           </div> 
+	          <!-- 게시판 제목 : qna 끝 --> 
+	           
+	            
 	    <!-- ###세부영역 th_qna2시작 : 제목, 게시글 리시트 -->
-	    <div class="th_qna2" >
-				<!-- 세부영역 th_qna1_1 시작 : 제목 -->
-			   <div class="th_qna1_1">
-				<div class="row">
-                  <div class="col-md-3">
-                     <h5>묻고 답하기</h5>
-                  </div>
-                  <div class="col-md-9"></div>
-                </div> 
-               </div>   
-                <!-- 세부영역 th_qna1_1 끝-->  
-				
+	  <div class="a-2c" style="padding-top: 0px;">
+			
 				
 	    		<!-- 세부영역 th_qna1_2 시작 : 리스트  -->
-	    	 	<div class="th_qna1_2" style="padding-top: 0px;">
+	    	 	<div class="th_qna1_2" style="padding-top: 25px">
 	    	 		
 	    	 			<!-- 리스트 구별 버튼 START -->
 	    	 			<!-- 리스트 구별 버튼 END -->
@@ -109,11 +124,105 @@
 <!-- 		                    <div class="isotope" data-isotope-group="theory1" data-lightgallery="group"> -->
 		                      <div class="row">
                       
+                      		<!-- SAMPLE TEST용. 나중에 삭제하기 START -->
+                      				<div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
+						                 <a class="gallery-item" href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
+						                   <article class="post-blog th_qna_list1" style="padding: 0px 0px 14px 0px; margin-bottom: 30px; background-color: snow;">
+						                   	   
+						                   	   
+						                   	   <div class="th_qna_Contents">
+							                         <!-- 태그 -->
+							                         <div class="th_qna_tags">
+							                         	<a class="button-tags" href="single-post.html">친구관계</a>
+							                         </div>
+							                          <!-- 내용 -->
+								                      <div class="th_qna_text box-minimal-text" style="margin-top: 10px;">
+								                      	<a href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp"> 전학온 친구랑 친해지고 싶어요  <br> 
+																친구 빨리 사귀기 같은 좋은 방법 조언해주세요
+								                      	</a>
+								                      </div>
+							                     </div> 
+							                     
+							                   <div class="row" style="margin-right: 0px; margin-left: 0px;">
+							                    
+								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
+												  <!-- 등록일 -->	
+												  <div class="col-md-8">
+												  	<span class="icon mdi mdi-calendar-clock"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
+												  </div>
+						                   	      <div class="col-md-4">no.12344</div>
+							                   </div> 
+						                    </article>
+						                   </a> 
+						                </div>
+						                <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
+						                 <a class="gallery-item" href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
+						                   <article class="post-blog th_qna_list1" style="padding: 0px 0px 14px 0px; margin-bottom: 30px; background-color: snow;">
+						                   	   
+						                   	   
+						                   	   <div class="th_qna_Contents">
+							                         <!-- 태그 -->
+							                         <div class="th_qna_tags">
+							                         	<a class="button-tags" href="single-post.html">대인관계</a>
+							                         </div>
+							                          <!-- 내용 -->
+								                      <div class="th_qna_text box-minimal-text" style="margin-top: 10px;">
+								                      	<a href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp"> 공황장애에 걸린 것 같습니다  <br>
+								                      	약을 처방받아야 할까요. 공황장애 겸험있으신 분 있나요 
+								                      	</a>
+								                      </div>
+							                     </div> 
+							                     
+							                   <div class="row" style="margin-right: 0px; margin-left: 0px;">
+							                    
+								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
+												  <!-- 등록일 -->	
+												  <div class="col-md-8">
+												  	<span class="icon mdi mdi-calendar-clock"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
+												  </div>
+						                   	      <div class="col-md-4">no.12344</div>
+							                   </div> 
+						                    </article>
+						                   </a> 
+						                </div>
+						                <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
+						                 <a class="gallery-item" href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
+						                   <article class="post-blog th_qna_list1" style="padding: 0px 0px 14px 0px; margin-bottom: 30px; background-color: snow;">
+						                   	   
+						                   	   
+						                   	   <div class="th_qna_Contents">
+							                         <!-- 태그 -->
+							                         <div class="th_qna_tags">
+							                         	<a class="button-tags" href="single-post.html">가정문제</a>
+							                         </div>
+							                          <!-- 내용 -->
+								                      <div class="th_qna_text box-minimal-text" style="margin-top: 10px;">
+								                      	<a href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp"> 아빠가 맨날 야근해요 <br>
+								                      	회사 사장님한테 화가나는데 어쩌면 좋을까요 
+								                      	</a>
+								                      </div>
+							                     </div> 
+							                     
+							                   <div class="row" style="margin-right: 0px; margin-left: 0px;">
+							                    
+								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
+												  <!-- 등록일 -->	
+												  <div class="col-md-8">
+												  	<span class="icon mdi mdi-calendar-clock"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
+												  </div>
+						                   	      <div class="col-md-4">no.12344</div>
+							                   </div> 
+						                    </article>
+						                   </a> 
+						                </div>
+                      		<!-- SAMPLE TEST용. 나중에 삭제하기 END-->
+                      
+                      
                       
 						           <% for(int i=0; i<9; i++ ) { %>
 						               <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
 						                 <a class="gallery-item" href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
-						                   <article class="post-blog th_qna_list1" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;">
+						                   <article class="post-blog th_qna_list1" style="padding: 0px 0px 14px 0px; margin-bottom: 30px; background-color: snow;">
 						                   	   
 						                   	   
 						                   	   <div class="th_qna_Contents">
@@ -147,7 +256,7 @@
 						             <% for(int i=0; i<9; i++ ) { %>
 						               <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 2">
 						                 <a class="gallery-item" href="images/gallery-01-original.jpg" data-lightgallery="group-item">
-						                   <article class="post-blog th_qna_list2" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;">
+						                   <article class="post-blog th_qna_list2" style="padding: 0px 0px 14px 0px; margin-bottom: 30px; background-color: snow;">
 						                   	   
 						                   	   
 						                   	   <div class="th_qna_Contents">
@@ -180,8 +289,13 @@
 						         </div> 
 						         <!-- 세부영역 th_qna1_2  끝 : 리스트  -->
 						          
-						         <!-- 세부영역 th_qna1_3 시작 : 페이징  --> 
-						         <div class="th_qna1_3">
+						          
+	    	 		
+	    </div> 
+	    <!-- 세부영역 th_qna2  끝 -->
+	    
+	                     <!-- 세부영역 th_a2_3 시작 : 페이징  --> 
+						         <div class="th_a2_3">
 						           <div class="row">
 										<div class="col-xs-0  col-md-4"></div>
 			<!-- 					                       페이징 -->
@@ -198,18 +312,16 @@
 								          </div>
 								          <div class="col-xs-7 col-md-1"></div>
 			<!-- 					                        글쓰기 버튼 -->
-								          <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
-								            <a href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNABoard.jsp"><input class="btn btn-primary" type="button" id="write"value="글쓰기" /></a>
+								          <div class="col-xs-2 col-md-2" style="padding-left: 50px;">
+								          
+								          <a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
+								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
+								          </a>     
 								          </div>
 								           <div class="col-xs-3 col-md-0"></div>
 								  </div>
 								</div>
-						         <!-- 세부영역 th_qna1_3 끝  -->
-						          
-	    	 		
-	    </div> 
-	    <!-- 세부영역 th_qna2  끝 -->
-	                    
+				      <!-- 세부영역 th_a2_3 끝  -->                
       </div>
     </div>
     <!-- 영역 th_qna_aFrame END-->     
@@ -217,7 +329,7 @@
       
       
 	        <!-- ### 영역 B_Frame_Div START-->    
-	        <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver3.jsp"/>
+	         <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver4.jsp"/>
 	        <!-- 영역 B_Frame_Div END-->  
 	      </div>
 	      <!-- Section1_CONTENTS_ROW_END -->      
@@ -229,13 +341,7 @@
     
     
     
-    <!-- 하단 광고 DIV-->
-        <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
-          <div class="shell">
-            <h2 class="text-light">책광고</h2>
-          </div>
-        </div>
+      
       <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->

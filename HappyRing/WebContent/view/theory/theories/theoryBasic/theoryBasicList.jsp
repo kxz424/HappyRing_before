@@ -93,7 +93,7 @@
 	    	  	
 	    	  		    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
 				<!-- 세부영역 th_a2_1 시작 : 제목 -->
-<!-- 				<div class="th_a2_1" style="padding-top: 0px;"> -->
+<!-- 		<div class="th_a2_1" style="padding-top: 0px;"> -->
 				<div class="a-2a">
 					<div class="row">
 	                  <div class="col-md-4" style="padding-left: 4%; margin-bottom: 2%;">
@@ -109,7 +109,7 @@
 	                  </div>
 	                  <div class="col-md-1"></div>	
 	                </div>
-	          </div>      
+	           </div>      
                  
                   
                 <!-- 세부영역 th_a2_1 끝-->  
@@ -381,7 +381,7 @@
 								          </div>
 								          <div class="col-xs-7 col-md-1"></div>
 			<!-- 					                        글쓰기 버튼 -->
-								          <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
+								          <div class="col-xs-2 col-md-2" style="padding-left: 50px;">
 								          
 								          <a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
 								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />

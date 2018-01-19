@@ -83,8 +83,10 @@
 			</div>
 			<!-- 세부영역 B-3 : 공지사항 END-->
 
- 			<!--  qna List에서 추가한 부분 : 상담랭킹 START -->     
-		          	<div class="b-lanking" style="border: solid; border-color: green; margin-top: 25px;">
+ 			<!--  qna List에서 추가한 부분 : 상담랭킹 START -->  
+ 				<div class="b-3">
+		          	<div class="b-lanking" 
+		          	style="padding-left: 10px; padding-bottom: 0.3px; padding-top: 16px; padding-right: 10px;">
 		          		<p class="hn" style="padding-bottom: 9px;">이번주 엔젤</p>
 				         <table class="table table-hover">
 							<tr>
@@ -104,7 +106,8 @@
 							</tr>
 	
 						</table>    
-		          	</div>     
+		          	</div>  
+		         </div>    	   
 		          <!--  qua List에서 추가한 부분 : 상담랭킹 END -->      
 			<!-- 세부영역 B-4 : 날짜 영역 START-->
 			<div class="b-4">
