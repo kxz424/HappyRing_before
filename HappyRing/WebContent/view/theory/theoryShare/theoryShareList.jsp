@@ -378,7 +378,7 @@
 								          </div>
 								          <div class="col-xs-7 col-md-1"></div>
 			<!-- 					                        글쓰기 버튼 -->
-								          <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
+								          <div class="col-xs-2 col-md-2" style="padding-left: 50px;">
 								          
 								          <a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
 								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
