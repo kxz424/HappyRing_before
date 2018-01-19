@@ -92,7 +92,7 @@
 	    	  <div class="a-2a">
 					<div class="row">
 	                  <div class="col-md-4" style="padding-left: 4%; margin-bottom: 2%;">
-	                     <h3 class="hn">Basic Theory</h3>
+	                     <h3 class="hn">Psychological knowledge</h3>
 	                  </div>
 	                  <div class="col-md-8"></div>
 	                </div>
