@@ -14,6 +14,7 @@
  	
  	<!-- 심리이론 Frame Stylesheets -->
     <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
+    <link rel="stylesheet" href="/HappyRing/css/info/info.css">
    
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -107,7 +108,6 @@
 	          </div>      
 	    	  <!-- 게시판 제목 끝 -->
 	    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
-	    <div class="th_a2" >
 				<!-- 세부영역 th_a2_1 시작 : 제목 -->
 				
 <!-- 				<div class="row"> -->
@@ -121,18 +121,14 @@
 				
 				
 	    		<!-- 세부영역 th_a2_2 시작 : 리스트  -->
-	    	 		<div class="th_a2_2" style="padding-top: 0px;">
-	    	 		
-	    	 			<!-- 리스트 구별 버튼 START -->
+	    	 		<div class="a-2c" style="padding-top: 20px;">
 	    	 			<div class="row">
-	    	 				<div class="col-md-6">
-	    	 				 <h4 style="padding-top: 5px">심리학 지식</h5>
-	    	 				</div>
-	    	 				<div class="col-md-6" style="padding-left: 80px;">
+	    	 				<div class="col-md-2"></div>
+	    	 				<div class="col-md-10" style="padding-left: 150px;">
 	    	 				   <ul class="isotope-filters isotope-filters-horizontal">
 			                      <li class="block-top-level">
-			                        <!-- Isotope Filters-->
-			                        <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-3" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
+<!-- 			                        Isotope Filters -->
+			                        <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-3" data-custom-toggle-hide-on-blur="true" >Filter<span class="caret"></span></button>
 			                        <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-3">
 			                          <li class="th_a2_2_li"><a class="th_a2_2_btn  button-nina active" data-isotope-filter="*" data-isotope-group="theory1" href="#">All Categories</a></li>
 			                          <li class="th_a2_2_li"><a class="th_a2_2_btn button-nina" data-isotope-filter="type 1" data-isotope-group="theory1" href="#">Type 1</a></li>
@@ -149,26 +145,148 @@
 		                      <div class="row">
                       
                       
-						           <% for(int i=0; i<6; i++ ) { %>
-						               <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
-						                 <a class="gallery-item" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp" data-lightgallery="group-item">
-						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;">
+                      				<!-- SAMPLE TEST로 보여주기식 자료 넣은 것 _ 삭제해도 됨 START -->
+                      				<div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
+						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
+						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;background-color: white;">
 						                   	   
 						                   	   
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
-							                   	     <a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp"> 
-							                   	      <img alt="" src="../../../images/bg-02.jpg">
+							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp" > 
+							                   	      <img alt="" src="/HappyRing/img/sample/baby.jpg" style="height:124px !important; width: auto !important; display: block; margin-left: auto; margin-right: auto;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
-							                         <div class="th_a2_2_tags">
-							                         	<a class="button-tags" href="single-post.html">Tips & Tricks</a>
+							                         <div class="company_title">
+							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->아동심리학</a>
 							                         </div>
 							                          <!-- 내용 -->
 								                      <div class="th_a2_2_text box-minimal-text" style="margin-top: 10px;">
 								                      
-								                      	방 소개 들어가는 부분 <br> client and we never offer you a set of 
+								                      	부모의 역할이 왜 중요할까요? <br>한 아이의 생애가 어떻게 영향을 받는지 궁금하지 않으신가요?
+								                      </div>
+							                     </div> 
+							                     
+							                   <div class="row" style="margin-right: 0px; margin-left: 0px;">
+							                    
+								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
+												  <!-- 등록일 -->	
+												  <div class="col-md-12" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">서울시 금천구 가산동</time>
+												  </div>
+							                   </div> 
+						                    </article>
+						                   </a> 
+						                </div>
+						                
+						                <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
+						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
+						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;background-color: white;">
+						                   	   
+						                   	   
+						                   	   <div class="th_a2_2_imgTitle">
+							                   	      <!-- 제목 --> 
+							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
+							                   	      <img alt="" src="/HappyRing/img/sample/personality.png" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto; ">
+							                         </a> 
+							                         
+							                         <!-- 태그 -->
+							                         <div class="company_title">
+							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->성격심리학</a>
+							                         </div>
+							                          <!-- 내용 -->
+								                      <div class="th_a2_2_text box-minimal-text" style="margin-top: 10px;">
+								                      
+								                      	재미있는 성격심리학 <br> 성격이란 용어의 기원부터 알아볼까요?
+								                      </div>
+							                     </div> 
+							                     
+							                   <div class="row" style="margin-right: 0px; margin-left: 0px;">
+							                    
+								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
+												  <!-- 등록일 -->	
+												  <div class="col-md-12" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">서울시 금천구 가산동</time>
+												  </div>
+							                   </div> 
+						                    </article>
+						                   </a> 
+						                </div>
+						                
+						                <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
+						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
+						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;background-color: white;">
+						                   	   
+						                   	   
+						                   	   <div class="th_a2_2_imgTitle">
+							                   	      <!-- 제목 --> 
+							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
+							                   	      <img alt="" src="/HappyRing/img/sample/psychology.jpg" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto;">
+							                         </a> 
+							                         
+							                         <!-- 태그 -->
+							                         <div class="company_title">
+							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->심리학개론</a>
+							                         </div>
+							                          <!-- 내용 -->
+								                      <div class="th_a2_2_text box-minimal-text" style="margin-top: 10px;">
+								                      
+								                      	심리학의 탄생과 본질 <br> 심리학은 무엇을 공부하는 학문인가?
+								                      </div>
+							                     </div> 
+							                     
+							                   <div class="row" style="margin-right: 0px; margin-left: 0px;">
+							                    
+								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
+												  <!-- 등록일 -->	
+												  <div class="col-md-12" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">서울시 금천구 가산동</time>
+												  </div>
+							                   </div> 
+						                    </article>
+						                   </a> 
+						                </div>
+						                
+						                
+						                
+						                
+						                
+						                
+						                
+						                
+						                
+						                
+						                
+                      					<!-- SAMPLE TEST로 보여주기식 자료 넣은 것 _ 삭제해도 됨 END -->
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+						           <% for(int i=0; i<6; i++ ) { %>
+						               <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
+						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
+						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;background-color: white;">
+						                   	   
+						                   	   
+						                   	   <div class="th_a2_2_imgTitle">
+							                   	      <!-- 제목 --> 
+							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
+							                   	      <img class="img-test" alt="" src="/HappyRing/images/bg-02.jpg" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto; ">
+							                         </a> 
+							                         
+							                         <!-- 태그 -->
+							                         <div class="company_title">
+							                         	<a class="button-tags" href="single-post.html"><!-- 상담소 이름 -->정신분석 심리상담소</a>
+							                         </div>
+							                          <!-- 내용 -->
+								                      <div class="th_a2_2_text box-minimal-text" style="margin-top: 10px;">
+								                      
+								                      	상담소 소개 들어가는 부분 <br> client and we never offer you a set of 
 								                      	standard
 								                      </div>
 							                     </div> 
@@ -177,10 +295,9 @@
 							                    
 								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
 												  <!-- 등록일 -->	
-												  <div class="col-md-8" style=" border-color:  green;">
-												  	<span class="icon mdi mdi-calendar-clock"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
+												  <div class="col-md-12" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">서울시 금천구 가산동</time>
 												  </div>
-						                   	      <div class="col-md-4" style=" border-color: pink;">no.12344</div>
 							                   </div> 
 						                    </article>
 						                   </a> 
@@ -197,11 +314,11 @@
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
 							                   	     <a class="post-blog-image" href="image-post.html"> 
-							                   	      <img alt="" src="../../../images/slider-1-slide-3-1920x910.jpg">
+							                   	      <img alt="" src="/HappyRing/img/icon-image/angryGif.gif" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto;">
 							                         </a> 
 							                         
 							                         <!-- 태그 -->
-							                         <div class="th_a2_2_tags">
+							                         <div class="company_title">
 							                         	<a class="button-tags" href="single-post.html">Tips & Tricks222</a>
 							                         </div>
 							                          <!-- 내용 -->
@@ -216,10 +333,9 @@
 							                    
 								                    <hr style="margin-top: 10px; margin-bottom: 20px;">
 												  <!-- 등록일 -->	
-												  <div class="col-md-8" style=" border-color:  green;">
-												  	<span class="icon mdi mdi-calendar-clock"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
+												  <div class="col-md-12" style=" border-color:  green;">
+												  	<span class="icon mdi mdi-map-marker"></span>&nbsp;<time datetime="2018" style="font-size: 13px;">2018-01-09</time>
 												  </div>
-						                   	      <div class="col-md-4" style=" border-color: pink;">no.12344</div>
 							                   </div> 
 						                    </article>
 						                   </a> 
@@ -240,7 +356,7 @@
 						            
 						            </div>
 						           </div>
-						          </div>  
+						          </div>   
 						         </div> 
 						         <!-- 세부영역 th_a2_2  끝 : 리스트  -->
 						          
@@ -261,11 +377,12 @@
 								                    </ul>
 								          </div>
 								          <div class="col-xs-7 col-md-1"></div>
-			<!-- 					                        ㄹ 버튼 -->
+			<!-- 					                        글쓰기 버튼 -->
 								          <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
-								              <a href="/HappyRing/view/theory/theoryShare/theoryShareBoard.jsp"> 
-								              <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
-								              </a>
+								          
+								          <a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
+								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
+								          </a>     
 								          </div>
 								           <div class="col-xs-3 col-md-0"></div>
 								  </div>
@@ -273,7 +390,6 @@
 						         <!-- 세부영역 th_a2_3 끝  -->
 						          
 	    	 		
-	    </div> 
 	    <!-- 세부영역 th_a2  끝 -->
 	                    
       </div>
