@@ -7,31 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 
-
-
-
-<link rel="stylesheet"
-   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-<!-- 부가적인 테마 -->
-<link rel="stylesheet"
-   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
-<script
-   src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-<script
-   src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-
-
-
-
 	
  <link rel="stylesheet" href="/HappyRing/css/community/commonBoard.css">	
- 
-
+	
+	
 	
 	
 <!-- 에디터 -->
@@ -54,18 +33,6 @@
 
 
 <!-- 제목 및 내용 입력 부분 -->
-<style type="text/css">
-.title {
-	width: 100%;
-}
-#edit {
-	height: 400px;
-}
-#edit p {
-	margin-top: 0px;
-}
-</style>
-
 
 
 
@@ -77,7 +44,7 @@
       
       
       <!-- ### header START -->     
-				<jsp:include page="/WEB-INF/views/include/header3.jsp"/>
+				<jsp:include page="/WEB-INF/views/include/header.jsp"/>
       <!-- header END -->
       
     <!-- Section 1 START -->      
@@ -85,7 +52,6 @@
        
        
       <!-- ########Section1_CONTENTS_ROW_START --> 
-      
       <div class="row">
       
       <div class="col-md-1"></div>
@@ -95,59 +61,70 @@
           <div class="aFrameDiv">
           
 	           <!-- ### A 세부영역 div -->
-	    	  	<div class="a-1">
-	    	  		<!-- 슬라이더 START-->
-               <div class="shell">
+	    	  	<div class="top-slide-add">
+	    	  		<div class="shell" style="padding-left: 0px; padding-right: 0px;">
                            <!-- Swiper-->
                            <div
                               class="swiper-container swiper-slider swiper-slider_height-1"
                               data-loop="true" data-autoplay="false"
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
-                                 <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-1-1920x910.jpg">
+<!--                                  <div class="swiper-slide" -->
+<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     <div class="swiper-slide-caption"> -->
+<!--                                        <div class="section-md"></div> -->
+<!--                                     </div> -->
+<!--                                  </div> -->
+								<div class="swiper-slide"
+                                    data-slide-bg="/HappyRing/img/sample/sampleView.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/img/sample/sampleView2.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/img/sample/sampleView3.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                               </div>
                               <!-- Swiper controls-->
-                              <div class="swiper-pagination-wrap">
+                              <div class="swiper-pagination-wrap" style="left: 80px; bottom: 12px;">
                                  <div class="swiper-pagination"></div>
                               </div>
                            </div>
-                        </div>
-               
-               <!-- 슬라이더 END -->
+                      </div>
 	    	  	</div>
-	    	  	<!-- category START -->
-	    	 	<div class="a-2" >
-	    	 		<div class="row board-detail">
-	    	 			<div class="col-md-12">
-							<h3>자유게시판</h3>
-						</div>
-	    	 		</div>
-	    	 	</div> 
-	    	 	<!-- category END -->
+	    	  	<!-- 슬라이더 END -->
+	    	  	
+	    	  	<!-- category TITLE START -->
+	    	 	<div class="a-2a">
+                 <div class="row">
+                  <div class="col-md-8">
+                     <h5 class="hn">자유게시판 작성페이지</h3>
+                  </div>
+                 <div class="col-md-2 box-inline" style="margin-top: 0px;">
+					<span class="icon icon-md icon-primary mdi mdi-account"></span>sample
+				 </div>
+				 <div class="col-md-2 box-inline" style="margin-top: 0px;">
+					<span class="icon icon-md icon-primary mdi mdi-calendar-clock" ></span>2018-01-22
+				 </div>
+               </div>
+           	  </div> 
+	    	 	<!-- category TITLE END -->
 	    	 	
 	    	 	<!-- title START -->
 	    	 	
-	    	 	<div class="a-3">
+	    	 	<div class="community-textTitle">
 	    	 		<div class="row">
 	    	 			<div class="tit col-md-12 txt">
-	    	 				<select class="selectpicker" data-style="btn-primary" multiple
+	    	 				<select class="selectpicker title-category" data-style="btn-primary" multiple
 										data-max-options="1" data-title="카테고리">
 										<option>사랑/이별</option>
 										<option>자존감</option>
@@ -162,76 +139,37 @@
 	    	 	
 	    	 	<!-- title END -->
 	    	 	
-	    	 	<!-- 닉네임 조회수 등록일 START -->
-	    	 	
-	    	 	<div class="a-4">
-	    	 		<div class="row">
-	    	 			<div class="col-md-12">
-							<div class="row info"> 
-								<div class="col-md-7">
-									<span class="glyphicon glyphicon-user">kjs1</span>
-								</div>
-								
-							</div>
-						</div>
-	    	 		</div>
-	    	 	</div>
-	    	 	
-	    	 	<!-- 닉네임 조회수 등록일 END -->
-	    	 	
-	    	 	<!-- content START -->
-	    	 	
-	    	 	<div class="a-5">
-	    	 		<div class="row">
-								<div class="col-md-12 txt">
-								
-								
-								
-								
-									<label>내용</label>
-<!-- 									<div class="edit"> -->
-<!-- 										<div id='edit' class="content" style="background-color: #ffffff"> -->
-										
-<!-- 										</div> -->
-										
-										
-										
-										
-										
-										
-										
-<!-- 									</div> -->
+	    	    <!-- content START -->
+		    	<div class="community-textArea">
+		    	 	
+					<div id="summernote"></div>		    	 	
 
 
-									<div id="summernote"></div>
-<%-- 									<jsp:include page="/view/community/notice/editor.jsp"/> --%>
-									
-
-
-
-
-								</div>
-							</div>
-	    	 	</div>
-	    	 	
+		    	</div>
 	    	 	<!-- content END -->
 	    	 	
 	    	 	<!-- button START -->
 	    	 	
-	    	 	<div class="a-6">
+	    	 	<div class="community-bottom-buttons">
 	    	 		<div class="row">
 
-						<div class="col-sm-5 col-md-4"></div>
+						<div class="col-md-4" style="margin-right: 19px;"></div>
 					
                          <!-- 임시저장 버튼 -->
-						<div class="col-sm-4 col-md-5"style="padding-left: 0px;">
+						<div class="col-md-1">
 						 <input class="btn btn-primary" type="button" id="write"
                               value="등록" />
+                        </div>
+                        <div class="col-md-1">      
 						  <input class="btn btn-primary" type="button" id="write"
                               value="취소" />
+                        </div>      
+                        <div class="col-md-4">
                            <input class="btn btn-primary" type="button" id="write"
                               value="임시저장" />
 						</div>
+						
+						<div class="col-md-2"></div>
                        
                         
                  </div>
