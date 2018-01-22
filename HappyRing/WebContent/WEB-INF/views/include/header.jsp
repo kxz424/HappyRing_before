@@ -190,6 +190,8 @@ display: none;
                  
 <!--                  <li ><a href="index.html">편지함</a></li> -->
                  
+                 
+                 
                  <li ><a href="index.html">매일 100자 </a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
@@ -201,15 +203,18 @@ display: none;
                     </ul>  
                  </li>
                   
+                  
+                  
+                  
+                  
                   <li class="active"><a href="main.jsp">심리이론</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-megamenu">
-                     <li>
+                     	<li>
                           <ul class="rd-megamenu-list">
-		                      </li>
-		                      <li><a href="landing-auction.html">심리학 가이드</a>
-		                      </li>
-                          </ul>
+		                <li><a href="landing-auction.html">심리학 가이드</a>
+		                </li>
+                  </ul>
                         </li>
                         <li>
                           <ul class="rd-megamenu-list">
@@ -247,8 +252,10 @@ display: none;
                         </li>  
                         
                      </ul>   
+                   </li>     
                         
-                        
+                    
+                    
                     
                  
                   <li><a href="#">도전그룹방</a>
@@ -264,18 +271,108 @@ display: none;
                       </li>
                     </ul>
                   </li>
-<!--                   <li><a href="#">비포&애프터</a> -->
-<!--                     RD Navbar Dropdown -->
-<!--                     <ul class="rd-navbar-dropdown"> -->
-<!--                       <li><a href="landing-default.html">전체</a> -->
-<!--                       </li> -->
-<!--                       <li><a href="landing-auction.html">이달의 best</a> -->
-<!--                       </li> -->
-<!--                       <li><a href="landing-environmental.html">명예의 전당</a> -->
-<!--                       </li> -->
-<!--                     </ul> -->
-<!--                   </li> -->
-                  <li><a href="view/community/freeBoard/freeBoardList.jsp">커뮤니티</a>
+                  
+                  
+                  
+                  <!-- 대인관계 -->
+                  <li><a href="view/community/freeBoard/freeBoardList.jsp">대인관계</a>
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="landing-default.html">전체</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민 게시판</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">응원 게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">비포& 애프터</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁 & 노하우</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  
+                  <!-- 사랑/이별 -->
+                  <li><a href="view/community/freeBoard/freeBoardList.jsp">사랑/이별</a>
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="landing-default.html">전체</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민 게시판</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">응원 게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">비포& 애프터</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁 & 노하우</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <!-- 가정문제 -->
+                  <li><a href="view/community/freeBoard/freeBoardList.jsp">가정문제</a>
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="landing-default.html">전체</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민 게시판</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">응원 게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">비포& 애프터</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁 & 노하우</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <!-- 학업/진로 -->
+                  <li><a href="view/community/freeBoard/freeBoardList.jsp">학옵/진로</a>
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="landing-default.html">전체</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민 게시판</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">응원 게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">비포& 애프터</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁 & 노하우</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <!-- 트라우마/정신병리 -->
+                  <li><a href="view/community/freeBoard/freeBoardList.jsp">트라우마/정신병리 </a>
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="landing-default.html">전체</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민 게시판</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">응원 게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">비포& 애프터</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁 & 노하우</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <!-- 나만의고민 -->
+                  <li><a href="view/community/freeBoard/freeBoardList.jsp">나만의고민 </a>
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="landing-default.html">전체</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민 게시판</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">응원 게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">비포& 애프터</a>
+                      </li>
+                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁 & 노하우</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  
+	              <li><a href="view/community/freeBoard/freeBoardList.jsp">커뮤니티</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
@@ -295,11 +392,12 @@ display: none;
                       </li>
                       <li><a href="/HappyRing/view/community/notice/noticeBoardList.jsp">공지사항</a>
                       </li>
-                      
-                      
-                      
                     </ul>
                   </li>
+                  
+                  
+                  
+                  
                   <li><a href="/HappyRing/view/column/doctorColumn/doctorColumnList.jsp">해피링칼럼</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="/HappyRing/view/column/doctorColumn/doctorColumnList.jsp">Dr.Happy</a>
@@ -308,6 +406,9 @@ display: none;
                       </li>
                     </ul>
                   </li>
+                  
+                  
+                  
                   <li><a href="/HappyRing/view/book/recommendBook/recommendBookList.jsp">도서</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
@@ -318,6 +419,10 @@ display: none;
                       </li>
                     </ul>
                   </li>
+                  
+                  
+                  
+                  
                   <li><a href="/HappyRing/view/video/videoList.jsp">영상</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
@@ -326,7 +431,22 @@ display: none;
                       </li>
                     </ul>
                    </li>
-                    <li ><a href="/HappyRing/view/info/infoList.jsp">정보방</a></li>
+                   
+                   
+                   
+                   
+                   <li ><a href="/HappyRing/view/info/infoList.jsp">정보방</a>
+                     <ul class="rd-navbar-dropdown">
+                      <li><a href="landing-default.html">self 상담소 홍보방</a>
+                      </li>
+                      <li><a href="landing-auction.html">상담후기 공유</a>
+                      </li>
+                    </ul>	
+                   </li>
+                   
+                   
+                   
+                   
                 </ul>
               </div>
             </div>
