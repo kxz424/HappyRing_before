@@ -22,7 +22,7 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	
-	
+ <link rel="stylesheet" href="/HappyRing/css/community/commonBoard.css">	
 	
 	
 	
@@ -135,7 +135,7 @@
 	    	 	<div class="community-textTitle">
 	    	 		<div class="row">
 	    	 			<div class="tit col-md-12 txt">
-	    	 				<select class="selectpicker" data-style="btn-primary" multiple
+	    	 				<select class="selectpicker title-category" data-style="btn-primary" multiple
 										data-max-options="1" data-title="카테고리">
 										<option>사랑/이별</option>
 										<option>자존감</option>

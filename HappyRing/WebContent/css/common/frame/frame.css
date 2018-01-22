@@ -167,36 +167,7 @@
 }
 
 
-.community-textTitle{
-	height: auto;
-	padding-top: 25px; 
-/* 	border: solid;  */
-/* 	border-color: skyblue; */
-	padding-left: 15px;
-    padding-right: 15px;
-    background-color: white;
-    margin-top: 15px;
-	
-}
 
-.community-textArea{
-	height: auto;
-	padding-top: 25px; 
-/* 	border: solid;  */
-/* 	border-color: skyblue; */
-	padding-left: 15px;
-    padding-right: 15px;
-    background-color: white;
-    margin-top: 15px;
-}
-
-.community-bottom-buttons{
-	height: auto;
-    margin-top: 12px;
-    padding-top: 13px;
-    padding-bottom: 7px;
-    background-color: white;
-}
 
 
 /* frmae A 끝 */
