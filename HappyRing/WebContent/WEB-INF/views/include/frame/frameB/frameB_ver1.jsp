@@ -11,7 +11,7 @@
 	<!-- ### 영역 B_Frame_Div START-->
 	<div class="col-md-2 divB">
 		<div class="bFrameDiv">
-	
+
 
 
 			<!-- ### B 세부영역 div -->
@@ -84,11 +84,37 @@
 			<!-- 세부영역 B-3 : 공지사항 END-->
 
  			<!--  qna List에서 추가한 부분 : 상담랭킹 START -->  
- 				
+<!--  				<div class="b-3"> -->
+<!-- 		          	<div class="b-comment"  -->
+<!-- 		          	style="padding-left: 10px; padding-bottom: 0.3px; padding-top: 16px; padding-right: 10px;"> -->
+<!-- 		          		<p class="hn" style="padding-bottom: 9px;">댓글</p> -->
+<!-- 				         <table class="table table-hover"> -->
+<!-- 							<tr> -->
+<!-- 								<td>너무 뻔한글 같아요 ㅠㅠ</td> -->
+<!-- 							</tr> -->
+<!-- 							<tr> -->
+<!-- 								<td>오늘도 즐거운 하루되세요!!!</td> -->
+<!-- 							</tr> -->
+<!-- 							<tr> -->
+<!-- 								<td>잘보고갑니다^^</td> -->
+<!-- 							</tr> -->
+<!-- 							<tr> -->
+<!-- 								<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td> -->
+<!-- 							</tr> -->
+<!-- 							<tr> -->
+<!-- 								<td>반갑습니다</td> -->
+<!-- 							</tr> -->
+	
+<!-- 						</table>     -->
+<!-- 		          	</div>   -->
+<!-- 		         </div>    	    -->
 		          <!--  qua List에서 추가한 부분 : 상담랭킹 END -->      
 
 			<!-- B-5 : 광고 Tab START -->
-		
+			<div class="b-carouselBottom">
+				<!-- 상담 광고 tab START -->
+				<jsp:include page="/ad_tab.jsp" />
+			</div>
 			<!-- B-5 : 광고 Tab END -->
 			
 		</div>
