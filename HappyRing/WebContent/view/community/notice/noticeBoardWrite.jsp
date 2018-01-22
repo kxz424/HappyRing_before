@@ -275,20 +275,20 @@
 <!-- 에디터 -->
 
 <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>  -->
-<!-- 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js"></script>
 <!-- 	<script src="/HappyRing/js/community/summernote.js"></script> -->
-<!-- 	include summernote-ko-KR  -->
-<!-- 	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script> -->
+	<!-- include summernote-ko-KR --> 
+	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
 	<script>
 		$(document).ready(function() {
-// 			$('#summernote').summernote({
-// 				lang: 'ko-KR'
+			$('#summernote').summernote({
+				lang: 'ko-KR'
 			
-// 				fontNames: ['Nanum Pen Script', 'Jeju Gothic', '', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
-// 					'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
-// 			  	fontNamesIgnoreCheck: ['Nanum Pen Script']
-// 		    });
+				fontNames: ['Nanum Pen Script', 'Jeju Gothic', '', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
+					'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
+			  	fontNamesIgnoreCheck: ['Nanum Pen Script']
+		    });
 
 // 			$('#summernote').summernote({
 // 			    options: {disableDragAndDrop: false},
