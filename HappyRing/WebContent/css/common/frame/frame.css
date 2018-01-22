@@ -117,11 +117,25 @@
 
 
 .a-3{
-	height: auto;padding-top: 25px; border: solid; border-color: purple;
+	height: auto;
+	padding-top: 25px; 
+/* 	border: solid;  */
+/* 	border-color: skyblue; */
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 15px;
 }
 
 .a-4{
-	height: auto;padding-top: 25px; border: solid; border-color: pink;
+	height: auto;
+	padding-top: 25px; 
+/* 	border: solid;  */
+/* 	border-color: skyblue; */
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 15px;
 }
 
 .a-5{
@@ -129,7 +143,11 @@
 }
 
 .a-6{
-	height: auto;padding-top: 25px; border: solid; border-color: grey;
+	height: auto;
+    margin-top: 12px;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    background-color: white;
 }
 
 .a-7{
@@ -147,6 +165,10 @@
 .a-10{
 	height: auto;padding-top: 25px; border: solid; border-color: skyblue;
 }
+
+
+
+
 
 /* frmae A 끝 */
 

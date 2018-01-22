@@ -1,0 +1,61 @@
+.divFreeTitle{
+	
+	border: solid;
+	border-color: red;
+}
+
+
+.divFreeList{
+	border: solid;
+	border-color: purple;
+}
+
+.divFreePaging{
+	border: solid;
+	border-color: green;
+}
+
+.community-textTitle{
+	height: auto;
+	padding-top: 25px; 
+	padding-bottom: 25px; 
+/* 	border: solid;  */
+/* 	border-color: skyblue; */
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 15px;
+	
+}
+
+.title-category {
+   width: 135px !important;
+}
+
+.title-title{
+/*     padding-left: 7% !important; */
+/*     border-top: solid rgb(87, 203, 204); */
+/*     border-bottom: solid rgb(87, 203, 204); */
+/*     height: 34.8px; */
+/*     width: 13% !important;     */
+/*     padding-top: 5.2px; */
+    
+}
+
+.community-textArea{
+	height: auto;
+	padding-top: 25px; 
+	padding-bottom: 25px;
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.community-bottom-buttons{
+	height: auto;
+    margin-top: 12px;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    background-color: white;
+}
