@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>bootstrap4</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js"></script>
-  </head>
-  <body>
-    <div id="summernote"></div>
-    <script>
-      $('#summernote').summernote({
-        placeholder: 'Hello bootstrap 4',
-        tabsize: 2,
-        height: 100
-      });
-    </script>
-  </body>
-</html>
+
+ <script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
+
+  <div id="summernote"><p>Hello Summernote</p></div>
+  <script>
+    $(document).ready(function() {
+        $('#summernote').summernote({
+			    options: {disableDragAndDrop: false},
+			    lang: 'ko-KR',
+			    height: 500,
+			    fontNames: ['Nanum Pen Script', 'Jeju Gothic', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
+					'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
+			  	fontNamesIgnoreCheck: ['Nanum Pen Script']
+        	
+        });
+    });
+  </script>

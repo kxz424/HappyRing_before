@@ -9,13 +9,13 @@
 
 
 
-	
-	
-	
-	
+
 	
 	
 <!-- 에디터 -->
+
+
+<!-- <link href="/HappyRing/css/community/summernote.css" rel="stylesheet"> -->
 
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.css" rel="stylesheet">
@@ -185,7 +185,8 @@
 <!-- 									</div> -->
 
 
-									<div id="summernote"></div>
+<!-- 									<div id="summernote"></div> -->
+									<jsp:include page="/view/community/notice/editor.jsp"/>
 									
 
 
@@ -273,22 +274,42 @@
      
 <!-- 에디터 -->
 
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>  -->
+<!-- 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js"></script>
-	<!-- include summernote-ko-KR --> 
-	<script src="lang/summernote-ko-KR.js"></script>
+<!-- 	<script src="/HappyRing/js/community/summernote.js"></script> -->
+<!-- 	include summernote-ko-KR  -->
+<!-- 	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script> -->
 	<script>
 		$(document).ready(function() {
-			$('#summernote').summernote({
-		        placeholder: '글을 입력하세요',
-		        tabsize: 2,
-		        height: 100,
-		        lang: 'ko-KR',
-		        fontNames: ['Hanna',  'Jeju Gothic', 'Jeju Hallasan', 'Jeju Myeongjo', 'Kopub Batang', 
-		        	'Nanum Brush Script', 'Nanum Gothic', 'Nanum Gothic Coding', 'Nanum Myeongjo', 'Nanum Pen Script', 'Noto Sans KR'],
-		        fontNamesIgnoreCheck: ['Hanna']
-		    });
+// 			$('#summernote').summernote({
+// 				lang: 'ko-KR'
+			
+// 				fontNames: ['Nanum Pen Script', 'Jeju Gothic', '', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
+// 					'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
+// 			  	fontNamesIgnoreCheck: ['Nanum Pen Script']
+// 		    });
+
+// 			$('#summernote').summernote({
+// 			    options: {disableDragAndDrop: false},
+// 			    lang: 'ko-KR',
+// 			    height: 500,
+// 			    toolbar: [
+// 			        ['style', ['style']],
+// 			        ['style', ['bold', 'italic', 'underline', 'strikethrough', 'clear']],
+// 			        ['fontface', ['fontname']],
+// 			        ['textsize', ['fontsize']],
+// 			        ['color', ['color']],
+// 			        ['alignment', ['ul', 'ol', 'paragraph', 'lineheight']],
+// 			        ['height', ['height']],
+// 			        ['table', ['table']],
+// 			        ['insert', ['link']]
+// 			    ],
+// 			    fontNames: ['Nanum Pen Script', 'Jeju Gothic', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
+// 					'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
+// 			  	fontNamesIgnoreCheck: ['Nanum Pen Script']
+			 
+// 			});
 		});
 	</script>
 
