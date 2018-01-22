@@ -20,7 +20,8 @@
 
 <!-- 				<button class="btn btn-primary btn-lg hidden-xs" href="#signup" -->
 <!-- 					data-toggle="modal" data-target=".bs-modal-md" -->
-<!-- 					style="border-radius: 4px; width: 100%; padding: 11px 20px;">로그인/회원가입</button> -->
+<!-- 					style="border-radius: 4px; width: 100%; padding: 11px 20px; -->
+<!-- 					    padding-top: 20px; padding-bottom: 20px; ">로그인/회원가입</button> -->
 
 <%-- 				<jsp:include page="/view/member/login.jsp" /> --%>
 <!-- 			</div> -->
@@ -82,37 +83,40 @@
 			</div>
 			<!-- 세부영역 B-3 : 공지사항 END-->
 
+ 			<!--  qna List에서 추가한 부분 : 상담랭킹 START -->  
+ 				<div class="b-3">
+		          	<div class="b-comment" 
+		          	style="padding-left: 10px; padding-bottom: 0.3px; padding-top: 16px; padding-right: 10px;">
+		          		<p class="hn" style="padding-bottom: 9px;">댓글</p>
+				         <table class="table table-hover">
+							<tr>
+								<td>너무 뻔한글 같아요 ㅠㅠ</td>
+							</tr>
+							<tr>
+								<td>오늘도 즐거운 하루되세요!!!</td>
+							</tr>
+							<tr>
+								<td>잘보고갑니다^^</td>
+							</tr>
+							<tr>
+								<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
+							</tr>
+							<tr>
+								<td>반갑습니다</td>
+							</tr>
+	
+						</table>    
+		          	</div>  
+		         </div>    	   
+		          <!--  qua List에서 추가한 부분 : 상담랭킹 END -->      
 
-			<!-- 세부영역 B-4 : 댓글 영역 START-->
-			<div class="b-4"style="padding-left: 10px; padding-bottom: 0.3px; padding-top: 16px; padding-right: 10px; background-color: white;">
-				<p class="hn" style="padding-bottom: 9px;">댓글</p>
-				<table class="table table-hover">
-					<tbody>
-						<tr>
-							<td>안녕하세요</td>
-						</tr>
-						<tr>
-							<td>반갑습니다</td>
-						</tr>
-						<tr>
-							<td>좋은글이네요</td>
-						</tr>
-						<tr>
-							<td>잘보고갑니다^^</td>
-						</tr>
-						<tr>
-							<td>오늘도 즐거운 하루되세요!!!</td>
-						</tr>
-						<tr>
-							<td>너무 뻔한글 같아요 ㅠㅠ</td>
-						</tr>
-						<tr>
-							<td>이 글 최고입니다!!! 꼭 한번 읽어보세요</td>
-						</tr>
-					</tbody>
-				</table>
+			<!-- B-5 : 광고 Tab START -->
+			<div class="b-carouselBottom">
+				<!-- 상담 광고 tab START -->
+				<jsp:include page="/ad_tab.jsp" />
 			</div>
-			<!-- 세부영역 B-4 : 댓글 영역 END-->
+			<!-- B-5 : 광고 Tab END -->
+			
 		</div>
 	</div>
 </body>

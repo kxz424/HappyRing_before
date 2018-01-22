@@ -71,7 +71,7 @@
       <!-- header END -->
       
     <!-- Section 1 START -->      
-    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
+    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 120px;">
        
        
       <!-- ########Section1_CONTENTS_ROW_START --> 
@@ -219,37 +219,7 @@
 	    	 	
 	    	 	<!-- button END -->
 	    	 	
-	    	 	<!-- 관련 list START -->
 	    	 	
-	    	 	<div class="a-7">
-	    	 		
-	    	 	</div>
-	    	 	
-	    	 	<!-- 관련 list END -->
-	    	 	
-	    	 	<!-- 하단 button START -->
-	    	 	
-	    	 	<div class="a-8">
-	    	 		
-	    	 	</div>
-	    	 	
-	    	 	<!-- 하단 button END -->
-	    	 	
-	    	 	<!-- 댓글 등록 START -->
-	    	 	
-	    	 	<div class="a-1">
-	    	 		
-	    	 	</div>
-	    	 	
-	    	 	<!-- 댓글 등록 END -->
-	    	 	
-	    	 	<!-- 댓글 리스트 START -->
-	    	 	
-	    	 	<div class="a-8">
-	    	 		
-	    	 	</div>
-	    	 	
-	    	 	<!-- 댓글 리스트 END -->
 	    	 	
 	    	 	
 	           <!-- A 세부영역 div END -->
@@ -259,10 +229,10 @@
        <!-- 영역 A_Frame_Div END-->     
       
       
-      
-       <!-- ### 영역 B_Frame_Div START-->    
+          <!-- ### 영역 B_Frame_Div START-->    
        <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver1.jsp"></jsp:include>
        <!-- 영역 B_Frame_Div END-->  
+       
        
        
       </div>
@@ -275,13 +245,7 @@
     
     
     
-    <!-- 하단 광고 DIV-->
-        <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
-          <div class="shell">
-            <h2 class="text-light">책광고</h2>
-          </div>
-        </div>
+   
       <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
