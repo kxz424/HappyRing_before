@@ -156,7 +156,7 @@
 						                   	   
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
-							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp" > 
+							                   	     <a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp" > 
 							                   	      <img alt="" src="/HappyRing/img/sample/baby.jpg" style="height:124px !important; width: auto !important; display: block; margin-left: auto; margin-right: auto;">
 							                         </a> 
 							                         
@@ -184,13 +184,13 @@
 						                </div>
 						                
 						                <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
-						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
+						                 <a class="gallery-item" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp" data-lightgallery="group-item">
 						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;background-color: white;">
 						                   	   
 						                   	   
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
-							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
+							                   	     <a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp"> 
 							                   	      <img alt="" src="/HappyRing/img/sample/personality.png" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto; ">
 							                         </a> 
 							                         
@@ -218,13 +218,13 @@
 						                </div>
 						                
 						                <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
-						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
+						                 <a class="gallery-item" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp" data-lightgallery="group-item">
 						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;background-color: white;">
 						                   	   
 						                   	   
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
-							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
+							                   	     <a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp"> 
 							                   	      <img alt="" src="/HappyRing/img/sample/psychology.jpg" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto;">
 							                         </a> 
 							                         
@@ -272,13 +272,13 @@
                       
 						           <% for(int i=0; i<6; i++ ) { %>
 						               <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
-						                 <a class="gallery-item" href="/HappyRing/view/info/infoDetail.jsp" data-lightgallery="group-item">
+						                 <a class="gallery-item" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp" data-lightgallery="group-item">
 						                   <article class="post-blog th_a2_2_list" style="padding: 0px 0px 14px 0px; margin-bottom: 30px;background-color: white;">
 						                   	   
 						                   	   
 						                   	   <div class="th_a2_2_imgTitle">
 							                   	      <!-- 제목 --> 
-							                   	     <a class="post-blog-image" href="/HappyRing/view/info/infoDetail.jsp"> 
+							                   	     <a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp"> 
 							                   	      <img class="img-test" alt="" src="/HappyRing/images/bg-02.jpg" style="height:124px !important; width: auto; display: block; margin-left: auto; margin-right: auto; ">
 							                         </a> 
 							                         

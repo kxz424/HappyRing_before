@@ -389,11 +389,32 @@ padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;
 
 
 
+/* 심리학지식 > detial */
 
+.content-detail {
+	height: auto;
+	padding-top: 25px; 
+	padding-bottom: 25px; 
+/* 	border: solid;  */
+/* 	border-color: skyblue; */
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 15px;
+}
 
-
-
-
+.content-inline-border{
+   padding-top: 60px; 
+   padding-bottom: 85px; 
+   border: solid;
+   
+}
+.content-inline-buttons{
+    border: solid;
+	border-color : #800040;
+	padding-top: 157px;
+	
+}
 
 
 

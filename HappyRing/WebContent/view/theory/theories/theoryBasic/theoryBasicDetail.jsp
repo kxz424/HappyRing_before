@@ -37,7 +37,7 @@
       
       
     <!-- ##########Section 1 START -->      
-    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
+    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 120px;">
        
       <!-- ########Section1_ROW_START --> 
       <div class="row">
@@ -45,41 +45,46 @@
       <div class="col-md-1"></div>
       
        <!-- ### 영역 A_Frame_Div START-->
-      	<div class="col-md-8 th_divA"> 
-          <div class="th_aFrameDiv">
+      	<div class="col-md-8 divA"> 
+          <div class="aFrameDiv">
           		 
 	           <!-- ### A 세부영역 div -->
-	                     영역 A_Frame_Div
 	           <!-- ###세부영역 th_a1 : 슬라이더 광고 -->
-	    	  	<div class="th_a1">
-	    	  		<div class="shell">
+	    	  	<div class="top-slide-add">
+	    	  		<div class="shell" style="padding-left: 0px; padding-right: 0px;">
                            <!-- Swiper-->
                            <div
                               class="swiper-container swiper-slider swiper-slider_height-1"
                               data-loop="true" data-autoplay="false"
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
-                                 <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-1-1920x910.jpg">
+<!--                                  <div class="swiper-slide" -->
+<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     <div class="swiper-slide-caption"> -->
+<!--                                        <div class="section-md"></div> -->
+<!--                                     </div> -->
+<!--                                  </div> -->
+								<div class="swiper-slide"
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                               </div>
                               <!-- Swiper controls-->
-                              <div class="swiper-pagination-wrap">
+                              <div class="swiper-pagination-wrap" style="left: 80px; bottom: 12px;">
                                  <div class="swiper-pagination"></div>
                               </div>
                            </div>
@@ -88,50 +93,50 @@
 	    	  <!-- 세부영역 a-1 끝 -->	
 	    	  	
 	    <!-- ###세부영역 th_a2 시작 : 제목, 게시글 리시트 -->
-	    <div class="th_detail_a2" >
-				<!-- 세부영역 th_a2_1 시작 : 제목 -->
-
-                  
-                <!-- 세부영역 th_a2_1 끝-->  
+	    <div class="content-detail" >
 				
-				
-	    		<!-- 세부영역 th_dtail_a2_1 시작 : 리스트  -->
-	    	    <div class="th_dtail_a2_1" >
-	    	 		<div class="range range-xs-center">
-	    	 		
-			           <div class="th_detail_body> cell-md-12 cell-lg-10 cell-xl-6 sections-collapsable">
+	    	    <div class="content-inline-border"  style="text-align: center;">
+				  <div class="range range-xs-center">
+			           <div class=" cell-md-12 cell-lg-10 cell-xl-6 sections-collapsable">
 			             <div class="row">
-			            
 			              <div class="col-md-12">
+			              
+			              <!-- contents START -->
 			              <article class="post-blog-article">
-			                <p class="post-blog-article-title">대화를 똑똑하게 하는 방법 <br class="veil reveal-md-block">Conversation</p>
-			                
+			              
+							<!-- # 제목 -->	
+			                <p class="post-blog-article-title hn"> 세상 모두가 행복해지기를 바라는 상담소 <br class="veil reveal-md-block">Conversation</p>
+			                <!-- # 작성자, 작성일, 카테고리 div START-->
 			                <div class="row" style="margin-top: 30px;">
+			                	<!-- 작성자 -->
 			                	<div class="col-md-4">
 			                	 	<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-account"></span>by
 				                      <div><a href="#">Ronald Chen</a></div>
 				                    </div>
 			                	</div>
-			                
+			                	<!-- 작성일  -->
 			                	<div class="col-md-3" style="padding-left: 0px;">
 			                		 <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-calendar-clock"></span>
 				                      <time datetime="2017">2018-01-10</time>
 				                    </div>
 			                	</div>
-			                	
+			                	<!-- 카테고리 -->
 			                	<div class="col-md-5" style="padding-left: 0px;">
-			                		<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-tag"></span>
-				                      <time datetime="2017">Feb, 27 2017 at 5:47 pm</time>
+			                		<div class="box-inline">
+			                		<span class="icon icon-md icon-primary mdi mdi-tag"></span>
+				                      	사랑·이별  | 가정문제 | 학업·진로
 				                    </div>
 			                	</div>
 			                </div>
+			                <!-- # 작성자, 작성일, 카테고리 div END-->
 			                
-			                
-			                
-			                <p class="big">Imagine almost any situation where two or more people are gathered—a wedding reception or a job interview. What do these situations have in common? Almost all of them involve people trying to talk with each other. But in these very moments where a conversation would enhance an encounter, we often fall short.</p>
+			                <!-- 글 본문 내용_contents START -->
+ 							<p class="big">Imagine almost any situation where two or more people are gathered—a wedding reception or a job interview. What do these situations have in common? Almost all of them involve people trying to talk with each other. But in these very moments where a conversation would enhance an encounter, we often fall short.</p>
 			                <img src="../../../../images/blog-03-870x580.jpg" alt="" width="870" height="580"/>
 			                <p>When small talk stalls out, it’s often due to a phenomenon we call “mirroring.” In our attempts to be polite, we often answer people’s questions directly, repeat their observations, or just blandly agree with whatever they say. Such an approach can kill your conversation in the beginning. When you “break the mirror”, you give your interlocutor a chance to move forward in your small talk.</p>
 			                <p>People also tend to do a passable job at talking. We stagger through our romantic, professional and social worlds with the goal merely of not crashing, never considering that we might soar. We go home sweaty and puffy without realizing that small talks are keys to opening greater conversations. In this post, we would like to show you how you can change this. For example, you can ask open-ended questions. Aim for questions that invite people to tell stories, rather than give bland, one-word answers.</p>
+			                
+			                <!-- 글 강조부분 START -->
 			                <article class="quote-primary">
 			                  <svg class="quote-primary-mark" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35px" height="25px" viewbox="0 0 35 25">
 			                    <path d="M27.461,10.206h7.5v15h-15v-15L25,0.127h7.5L27.461,10.206z M7.539,10.206h7.5v15h-15v-15L4.961,0.127h7.5 L7.539,10.206z"></path>
@@ -141,20 +146,32 @@
 			                  </div>
 			                  <p class="quote-primary-meta"><span>by</span><span class="cite">Ronald Chen</span></p>
 			                </article>
+			                <!-- 글 강조부분 END -->
 			                <p>An even better way to break the boring conversation mirror is to skip over the expected response and go somewhere next-level. Even if your answer won’t concern the topic of the initial question, it will push the conversation forward. Don’t be afraid to go ahead and be bold. Upend the dinner table conversation! Turn small talk into big ideas at the next summer wedding reception you’re forced to attend! You never know which ideas will be worth spreading next and maybe breaking the ice of a small talk will end in amazing conversation.</p>
-			              </article>
-			
+			              	<!-- 글 내용_contents END -->
 			              
+			              </article>
+			              <!-- contents END -->
 			              </div>
 			              </div>
 			            </div>
 			          </div>
-				</div> 
-				<!-- 세부영역 th_dtail_a2_1  끝   -->
+			          
+			          
+			          
+			          
+			    <!-- 북마크 엔젤링 수정요청 시작 -->
+				<div class="content-inline-buttons">
 				
-				
-				<!-- 북마크 엔젤링 수정요청 시작 -->
-				<div class="th_dtail_a2_buttons">
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
+						
+							<jsp:include page="/view/theory/theories/theoryBasic/btnTEST.jsp"></jsp:include>
+						
+						</div>
+						<div class="col-md-4"></div>
+					</div>
 	    	 		<div class="row">
 	    	 			<div class="col-md-1"></div>
 	    	 			<div class="col-md-10" style="padding-left: 60px;">
@@ -166,6 +183,10 @@
 	    	 		</div>
 	    	 	</div>
 	    	 	<!-- 북마크 엔젤링 수정요청 끝  -->
+				</div> 
+				
+				
+			
 	    	 	
 	    	 	
 	    	 	
@@ -330,13 +351,6 @@
     
     
     
-    <!-- 하단 광고 DIV-->
-        <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
-          <div class="shell">
-            <h2 class="text-light">책광고</h2>
-          </div>
-        </div>
       <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
