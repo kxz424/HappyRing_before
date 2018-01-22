@@ -1,17 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Summernote</title>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+  
+  <script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
+</head>
+<body>
 
- <script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
+  <div id="summernote"></div>
 
-  <div id="summernote"><p>Hello Summernote</p></div>
-  <script>
-    $(document).ready(function() {
-        $('#summernote').summernote({
-			    options: {disableDragAndDrop: false},
-			    lang: 'ko-KR',
-			    height: 500,
-			    fontNames: ['Nanum Pen Script', 'Jeju Gothic', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
-					'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
-			  	fontNamesIgnoreCheck: ['Nanum Pen Script']
-        	
-        });
-    });
-  </script>
+</body>
+</html>
