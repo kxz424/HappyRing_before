@@ -126,7 +126,6 @@
 						                              <iframe src="//www.youtube.com/embed/iYsTvn1bHfU"></iframe>
 						                            </div>
 						                       </div>   
-						                        <!-- 마무망ㄻㅇ -->
 						                       <!-- 아래 hr 태그 :  화면상 동영상/글 구분하기 위해 넣어둠 -->  
 			                     				<hr>
 				                      			<div class="box-minimal-text">
