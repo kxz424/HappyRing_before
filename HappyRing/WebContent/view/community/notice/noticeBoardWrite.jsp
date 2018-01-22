@@ -8,7 +8,8 @@ editor.jsp<%@ page language="java" contentType="text/html; charset=UTF-8"
 <title>Insert title here</title>
 
 
-
+	
+ <link rel="stylesheet" href="/HappyRing/css/community/commonBoard.css">	
 
 	
 	
@@ -68,6 +69,7 @@ editor.jsp<%@ page language="java" contentType="text/html; charset=UTF-8"
        
        
       <!-- ########Section1_CONTENTS_ROW_START --> 
+      
       <div class="row">
       
       <div class="col-md-1"></div>
@@ -185,8 +187,8 @@ editor.jsp<%@ page language="java" contentType="text/html; charset=UTF-8"
 <!-- 									</div> -->
 
 
-<!-- 									<div id="summernote"></div> -->
-									<jsp:include page="/view/community/notice/editor.jsp"/>
+									<div id="summernote"></div>
+<%-- 									<jsp:include page="/view/community/notice/editor.jsp"/> --%>
 									
 
 
@@ -274,12 +276,12 @@ editor.jsp<%@ page language="java" contentType="text/html; charset=UTF-8"
      
 <!-- 에디터 -->
 
-<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>  -->
-<!-- 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js"></script>
 <!-- 	<script src="/HappyRing/js/community/summernote.js"></script> -->
-<!-- 	include summernote-ko-KR  -->
-<!-- 	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script> -->
+	<!-- include summernote-ko-KR --> 
+	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
 	<script>
 		$(document).ready(function() {
 // 			$('#summernote').summernote({
@@ -307,9 +309,23 @@ editor.jsp<%@ page language="java" contentType="text/html; charset=UTF-8"
 // 			    ],
 // 			    fontNames: ['Nanum Pen Script', 'Jeju Gothic', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
 // 					'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
-// 			  	fontNamesIgnoreCheck: ['Nanum Pen Script']
+// 			 
+// fontNamesIgnoreCheck: ['Nanum Pen Script']
 			 
 // 			});
+
+
+
+
+			$('#summernote').summernote({
+			    options: {disableDragAndDrop: false},
+			    lang: 'ko-KR',
+			    height: 500,
+			    fontNames: ['Nanum Pen Script', 'Jeju Gothic', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
+					'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
+			  	fontNamesIgnoreCheck: ['Nanum Pen Script']
+        	
+        	});
 		});
 	</script>
 
