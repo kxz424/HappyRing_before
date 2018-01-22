@@ -394,7 +394,7 @@ display: none;
 <!--                 <a class="rd-navbar-shop-icon mdi mdi-login" href="login-page.html"><span class="veil reveal-lg-inline">Login </span></a> -->
 <!--                 <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;"> -->
                  <a class="rd-navbar-shop-icon mdi mdi-login" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="color: rgb(87, 203, 204);"><span class="veil reveal-lg-inline">로그인/회원가입</span></a>
-                
+                 <jsp:include page="/view/member/login.jsp"/>
                 </div>
               </div>
             </div>

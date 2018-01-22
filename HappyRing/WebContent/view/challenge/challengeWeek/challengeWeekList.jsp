@@ -331,8 +331,8 @@ $(document).ready(function(){
 	         <!-- ### B 세부영역 div -->             
                  <!-- 세부영역 B-1 : 로그인 START-->   
                      <div class="b-1">
-                        <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button>
-                        <jsp:include page="../../member/login.jsp"/>
+<!--                         <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;">로그인/회원가입</button> -->
+<%--                         <jsp:include page="../../member/login.jsp"/> --%>
                      </div>
                  <!-- 세부영역 B-1 : 로그인  END--> 
                
@@ -654,10 +654,11 @@ $(document).ready(function(){
       					<div class="challenge_divC_3" style="border: solid; border-color: green; padding-top: 25px;">
  						<div class="container-fluid" style="padding-top: 26px;">
 <!-- 						         <div class="range range-50 range-xs-center"> -->
-						         <a href="/HappyRing/view/challenge/challengeWeek/challengeWeekDetail.jsp">
+<!-- 						         <a href="/HappyRing/view/challenge/challengeWeek/challengeWeekDetail.jsp"> -->
 						         <div class="row">
 						           <% for(int i=0; i<12; i++ ) { %>
 <!-- 						               <div class="cell-xs-10 cell-sm-6 cell-lg-4"> -->
+									<a href="/HappyRing/view/challenge/challengeWeek/challengeWeekDetail.jsp">
 						               <div class="col-xs-12 col-sm-4 col-md-3">
 						                   <article class="box-minimal box-minimal-border" style="padding: 12px 35px 13px; margin-bottom: 30px;">
 						                   	   
@@ -706,9 +707,10 @@ $(document).ready(function(){
 							                      
 						                    </article>
 						                </div>
+						                </a>
 						            <% }  %>
 						          </div>
-						         </a> 
+<!-- 						         </a>  -->
 						  </div>
 					</div>	 
 					
