@@ -404,7 +404,7 @@ padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;
 }
 
 .content-inline-border{
-   padding-top: 60px; 
+/*    padding-top: 60px;  */
    padding-bottom: 85px; 
    border: solid;
    
