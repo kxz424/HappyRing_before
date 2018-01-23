@@ -7,29 +7,48 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 
+
+   <!-- 자유게시판 CSS link -->
+<!--    <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css"> -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+
+
+
+
+    <link rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<script
+   src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script
+   src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
 	
  <link rel="stylesheet" href="/HappyRing/css/community/commonBoard.css">	
-	
-	
+ 
+
 	
 	
 <!-- 에디터 -->
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
 <link href="/HappyRing/css/community/commonEditor.css" rel="stylesheet">
 
 <!-- 에디터 -->
-	
-	
-	
-	
-	
-	
-	
-	
-	
-<!-- <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css"> -->
 
+
+	
+	
+	
 
 
 <!-- 제목 및 내용 입력 부분 -->
@@ -107,7 +126,7 @@
 	    	 	<div class="a-2a">
                  <div class="row">
                   <div class="col-md-8">
-                     <h5 class="hn">상담후기 게시판 작성페이지</h3>
+                     <h5 class="hn">Before & After 게시판 작성페이지</h3>
                   </div>
                  <div class="col-md-2 box-inline" style="margin-top: 0px;">
 					<span class="icon icon-md icon-primary mdi mdi-account"></span>sample
@@ -142,9 +161,10 @@
 	    	    <!-- content START -->
 		    	<div class="community-textArea">
 		    	 	
-					<div id="summernote"></div>		    	 	
-
-
+		    	 	<!-- 에디터 START -->
+		    	 	<div id="summernote"></div>
+		    	 	<!-- 에디터 END -->
+		    	 	
 		    	</div>
 	    	 	<!-- content END -->
 	    	 	
@@ -153,23 +173,39 @@
 	    	 	<div class="community-bottom-buttons">
 	    	 		<div class="row">
 
-						<div class="col-md-4" style="margin-right: 19px;"></div>
+						<div class="col-xs-1 col-sm-2 col-md-3" style="margin-right: 19px;"></div>
 					
                          <!-- 임시저장 버튼 -->
-						<div class="col-md-1">
-						 <input class="btn btn-primary" type="button" id="write"
-                              value="등록" />
-                        </div>
-                        <div class="col-md-1">      
-						  <input class="btn btn-primary" type="button" id="write"
-                              value="취소" />
-                        </div>      
-                        <div class="col-md-4">
-                           <input class="btn btn-primary" type="button" id="write"
-                              value="임시저장" />
-						</div>
+<!-- 						<div class="col-md-1"> -->
+<!-- 						 <input class="btn btn-primary" type="button" id="write" -->
+<!--                               value="등록" /> -->
+<!--                         </div> -->
+<!--                         <div class="col-md-1">       -->
+<!-- 						  <input class="btn btn-primary" type="button" id="write" -->
+<!--                               value="취소" /> -->
+<!--                         </div>       -->
+<!--                         <div class="col-md-4"> -->
+<!--                            <input class="btn btn-primary" type="button" id="write" -->
+<!--                               value="임시저장" /> -->
+<!-- 						</div> -->
+
+							<div class="col-xs-10 col-sm-7 col-md-6">
+							<div class="row">
+								<div class="col-xs-1 col-sm-3 col-md-2"></div>
+								<div class="col-xs-11 col-sm-9 col-md-10">
+									<input class="btn btn-primary" type="button" id="write"
+		                              value="등록" />
+								  	<input class="btn btn-primary" type="button" id="write"
+		                              value="취소" />
+		                          	<input class="btn btn-primary" type="button" id="write"
+		                              value="임시저장" />
+								</div>
+								
+							</div>
+							   
+							</div>
 						
-						<div class="col-md-2"></div>
+						<div class="col-xs-0 col-sm-0 col-md-2"></div>
                        
                         
                  </div>
@@ -203,54 +239,92 @@
     
     
     
-   
+  
       <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
     </div>
-    <!-- Global Mailform Output-->
+    <!-- Global Mailform Output -->
     <div class="snackbars" id="form-output-global"></div>
-    <!-- 공통 Javascript-->
+    <!-- 공통 Javascript -->
     <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
-    <!-- 메인 Javascript-->
+<!--     <script src="/HappyRing/js/script.js"></script> -->
+    <!-- 메인 Javascript -->
      <script src="/HappyRing/js/main/main.js"></script>
      
-     <!--  freeBoard Javascript -->
+    <!--  freeBoard Javascript -->
     <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
-     
-     
-     
-     
-     
-     
-
-     
-     
-     
-<!-- 에디터 -->
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- 에디터 -->
+<!-- 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
 	<!-- include summernote-ko-KR --> 
 	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
 	<script>
-		$(document).ready(function() {
+	$(function() {
 
-			$('#summernote').summernote({
-			    options: {disableDragAndDrop: false},
+		$('#summernote').summernote({
+// 			    options: {disableDragAndDrop: false},
 			    lang: 'ko-KR',
 			    height: 500,
 			    fontNames: ['Nanum Pen Script', 'Jeju Gothic', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
 					'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
-			  	fontNamesIgnoreCheck: ['Nanum Pen Script']
+			  	fontNamesIgnoreCheck: ['Nanum Pen Script'],
+// 			  	fontSizes: ['8', '9', '10', '11', '12', '14', '18', '24', '36', '48' , '64', '82', '150']
+
+				//에디터 기능 임의로 추가
+				toolbar: [
+				    // [groupName, [list of button]]
+				    ['style', ['style']],
+				    ['style', ['bold', 'italic', 'underline', 'clear']],
+				    ['fontname', ['fontname']],
+				    ['fontsize', ['fontsize']],
+				    ['color', ['color']],
+// 				    ['para', ['ul', 'ol', 'paragraph']],
+					['para', ['paragraph']],
+				    ['height', ['height']],
+				    ['table', ['table']],
+				    ['insert', ['link', 'picture', 'video', 'hr']],
+// 				    ['misc', ['fullscreen', 'codeview', 'undo', 'redo', 'help']]
+				    ['misc', ['fullscreen', 'undo', 'redo']]
+				],
+				dialogsInBody: true
         	
         	});
+		//에디터 폰트 기본 설정
+		$('#summernote').summernote('fontName', 'Nanum Pen Script');
+		
+		//폰트 변경시 글자크기 이전과 동일하게
+		$('.dropdown-fontname a').click(function(){
+			var fontsize = $('.note-current-fontsize').text();
+// 			alert(fontsize);
+			
+			
+			window.getSelection().getRangeAt(0).insertNode('안녕하세요 반갑습니다.');
+
+			
+			var focus = $('#summernote').getSelection();
+			alert(focus);
+
+
+			
+			$('.note-current-fontsize').text(fontsize);
+		});
+
+
 		});
 	</script>
 
 
 <!-- 에디터 -->
+    
      
      
   </body>

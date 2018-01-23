@@ -126,7 +126,7 @@
 	    	 	<div class="a-2a">
                  <div class="row">
                   <div class="col-md-8">
-                     <h5 class="hn">자유게시판 작성페이지</h3>
+                     <h5 class="hn">고민 게시판 작성페이지</h3>
                   </div>
                  <div class="col-md-2 box-inline" style="margin-top: 0px;">
 					<span class="icon icon-md icon-primary mdi mdi-account"></span>sample

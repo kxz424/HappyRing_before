@@ -8,136 +8,50 @@
 <title>Insert title here</title>
 
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+   <!-- 자유게시판 CSS link -->
+<!--    <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css"> -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+
+
+
+
+    <link rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
 <!-- 부가적인 테마 -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<script
+   src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script
+   src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
 	
-	
-	
+ <link rel="stylesheet" href="/HappyRing/css/community/commonBoard.css">	
+ 
+
 	
 	
 <!-- 에디터 -->
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+<link href="/HappyRing/css/community/commonEditor.css" rel="stylesheet">
+
 <!-- 에디터 -->
-	
-	
-	
-	
-	
-	
 
-<!-- <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css"> -->
 
+	
+	
+	
 
 
 <!-- 제목 및 내용 입력 부분 -->
-<style type="text/css">
-.title {
-	width: 100%;
-}
-#edit {
-	height: 400px;
-}
-#edit p {
-	margin-top: 0px;
-}
-</style>
-
-
-
-<!-- 이미지 첨부 부분 -->
-<style type="text/css">
-.image-preview-input {
-    position: relative;
-    overflow: hidden;
-    margin: 0px;    
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;    
-}
-.image-preview-input input[type=file] {
-	position: absolute;
-	top: 0;
-	right: 0;
-	margin: 0;
-	padding: 0;
-	font-size: 20px;
-	cursor: pointer;
-	opacity: 0;
-	filter: alpha(opacity=0);
-}
-.image-preview-input-title {
-    margin-left:2px;
-}
-</style>
-
-
-
-
-<script type="text/javascript">
-$(document).on('click', '#close-preview', function(){ 
-    $('.image-preview').popover('hide');
-    // Hover befor close the preview
-    $('.image-preview').hover(
-        function () {
-           $('.image-preview').popover('show');
-        }, 
-         function () {
-           $('.image-preview').popover('hide');
-        }
-    );    
-});
-
-$(function() {
-    // Create the close button
-    var closebtn = $('<button/>', {
-        type:"button",
-        text: 'x',
-        id: 'close-preview',
-        style: 'font-size: initial;',
-    });
-    closebtn.attr("class","close pull-right");
-    // Set the popover default content
-    $('.image-preview').popover({
-        trigger:'manual',
-        html:true,
-        title: "<strong>Preview</strong>"+$(closebtn)[0].outerHTML,
-        content: "There's no image",
-        placement:'bottom'
-    });
-    // Clear event
-    $('.image-preview-clear').click(function(){
-        $('.image-preview').attr("data-content","").popover('hide');
-        $('.image-preview-filename').val("");
-        $('.image-preview-clear').hide();
-        $('.image-preview-input input:file').val("");
-        $(".image-preview-input-title").text("Browse"); 
-    }); 
-    // Create the preview image
-    $(".image-preview-input input:file").change(function (){     
-        var img = $('<img/>', {
-            id: 'dynamic',
-            width:250,
-            height:200
-        });      
-        var file = this.files[0];
-        var reader = new FileReader();
-        // Set preview image into the popover data-content
-        reader.onload = function (e) {
-            $(".image-preview-input-title").text("Change");
-            $(".image-preview-clear").show();
-            $(".image-preview-filename").val(file.name);            
-            img.attr('src', e.target.result);
-            $(".image-preview").attr("data-content",$(img)[0].outerHTML).popover("show");
-        }        
-        reader.readAsDataURL(file);
-    });  
-});
-</script>
-
 
 
 
@@ -153,7 +67,7 @@ $(function() {
       <!-- header END -->
       
     <!-- Section 1 START -->      
-    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 40px;">
+    <section  class="section section-variant-2 bg-gray-lighter" style="padding-top: 20px; padding-bottom: 120px;">
        
        
       <!-- ########Section1_CONTENTS_ROW_START --> 
@@ -166,97 +80,70 @@ $(function() {
           <div class="aFrameDiv">
           
 	           <!-- ### A 세부영역 div -->
-	    	  	<div class="a-1">
-	    	  		<!-- 슬라이더 START-->
-               <div class="shell">
+	    	  	<div class="top-slide-add">
+	    	  		<div class="shell" style="padding-left: 0px; padding-right: 0px;">
                            <!-- Swiper-->
                            <div
                               class="swiper-container swiper-slider swiper-slider_height-1"
                               data-loop="true" data-autoplay="false"
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
-                                 <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-1-1920x910.jpg">
+<!--                                  <div class="swiper-slide" -->
+<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     <div class="swiper-slide-caption"> -->
+<!--                                        <div class="section-md"></div> -->
+<!--                                     </div> -->
+<!--                                  </div> -->
+								<div class="swiper-slide"
+                                    data-slide-bg="/HappyRing/img/sample/sampleView.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/img/sample/sampleView2.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="../../../../images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="/HappyRing/img/sample/sampleView3.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                               </div>
                               <!-- Swiper controls-->
-                              <div class="swiper-pagination-wrap">
+                              <div class="swiper-pagination-wrap" style="left: 80px; bottom: 12px;">
                                  <div class="swiper-pagination"></div>
                               </div>
                            </div>
-                        </div>
-               
-               <!-- 슬라이더 END -->
+                      </div>
 	    	  	</div>
-	    	  	<!-- category START -->
-	    	 	<div class="a-2" >
-	    	 		<div class="row board-detail">
-	    	 			<div class="col-md-12">
-							<h3>기초심리학</h3>
-						</div>
-	    	 		</div>
-	    	 	</div> 
-	    	 	<!-- category END -->
-	    	 	
-	    	 	<!-- image upload START -->
-	    	 	<div class="a-2" >
-	    	 		<div class="row">
-	    	 			<div class="col-md-2 text-center">
-	    	 				<label>메인이미지</label>
-	    	 			</div>
-	    	 			<div class="col-md-10">
-
-
-									<!-- image-preview-filename input [CUT FROM HERE]-->
-									<div class="input-group image-preview">
-										<input type="text" class="form-control image-preview-filename"
-											disabled="disabled">
-										<!-- don't give a name === doesn't send on POST/GET -->
-										<span class="input-group-btn"> <!-- image-preview-clear button -->
-											<button type="button"
-												class="btn btn-default image-preview-clear"
-												style="display: none;">
-												<span class="glyphicon glyphicon-remove"></span> Clear
-											</button> <!-- image-preview-input -->
-											<div class="btn btn-default image-preview-input">
-												<span class="glyphicon glyphicon-folder-open"></span> <span
-													class="image-preview-input-title">Browse</span> <input
-													type="file" accept="image/png, image/jpeg, image/gif"
-													name="input-file-preview" />
-												<!-- rename it -->
-											</div>
-										</span>
-									</div>
-									<!-- /input-group image-preview [TO HERE]-->
-
-
-
-								</div>
-	    	 		</div>
-	    	 	</div> 
-	    	 	<!-- image upload END -->
+	    	  	<!-- 슬라이더 END -->
+	    	  	
+	    	  	<!-- category TITLE START -->
+	    	 	<div class="a-2a">
+                 <div class="row">
+                  <div class="col-md-8">
+                     <h5 class="hn">기초심리학 게시판 작성페이지</h3>
+                  </div>
+                 <div class="col-md-2 box-inline" style="margin-top: 0px;">
+					<span class="icon icon-md icon-primary mdi mdi-account"></span>sample
+				 </div>
+				 <div class="col-md-2 box-inline" style="margin-top: 0px;">
+					<span class="icon icon-md icon-primary mdi mdi-calendar-clock" ></span>2018-01-22
+				 </div>
+               </div>
+           	  </div> 
+	    	 	<!-- category TITLE END -->
 	    	 	
 	    	 	<!-- title START -->
 	    	 	
-	    	 	<div class="a-3">
+	    	 	<div class="community-textTitle">
 	    	 		<div class="row">
 	    	 			<div class="tit col-md-12 txt">
-	    	 				<select class="selectpicker" data-style="btn-primary" multiple
+	    	 				<select class="selectpicker title-category" data-style="btn-primary" multiple
 										data-max-options="1" data-title="카테고리">
 										<option>사랑/이별</option>
 										<option>자존감</option>
@@ -271,67 +158,54 @@ $(function() {
 	    	 	
 	    	 	<!-- title END -->
 	    	 	
-	    	 	<!-- 닉네임 조회수 등록일 START -->
-	    	 	
-	    	 	<div class="a-4">
-	    	 		<div class="row">
-	    	 			<div class="col-md-12">
-							<div class="row info"> 
-								<div class="col-md-7">
-									<span class="glyphicon glyphicon-user">kjs1</span>
-								</div>
-								
-							</div>
-						</div>
-	    	 		</div>
-	    	 	</div>
-	    	 	
-	    	 	<!-- 닉네임 조회수 등록일 END -->
-	    	 	
-	    	 	<!-- content START -->
-	    	 	
-	    	 	<div class="a-5">
-	    	 		<div class="row">
-								<div class="col-md-12 txt">
-								
-								
-								
-								
-									<label>내용</label>
-									<div class="edit">
-										<div id='edit' class="content" style="background-color: #ffffff">
-										
-										</div>
-										
-										
-										
-										
-										
-										
-										
-									</div>
-								</div>
-							</div>
-	    	 	</div>
-	    	 	
+	    	    <!-- content START -->
+		    	<div class="community-textArea">
+		    	 	
+		    	 	<!-- 에디터 START -->
+		    	 	<div id="summernote"></div>
+		    	 	<!-- 에디터 END -->
+		    	 	
+		    	</div>
 	    	 	<!-- content END -->
 	    	 	
 	    	 	<!-- button START -->
 	    	 	
-	    	 	<div class="a-6">
+	    	 	<div class="community-bottom-buttons">
 	    	 		<div class="row">
 
-						<div class="col-sm-5 col-md-4"></div>
+						<div class="col-xs-1 col-sm-2 col-md-3" style="margin-right: 19px;"></div>
 					
                          <!-- 임시저장 버튼 -->
-						<div class="col-sm-4 col-md-5"style="padding-left: 0px;">
-						 <input class="btn btn-primary" type="button" id="write"
-                              value="등록" />
-						  <input class="btn btn-primary" type="button" id="write"
-                              value="취소" />
-                           <input class="btn btn-primary" type="button" id="write"
-                              value="임시저장" />
-						</div>
+<!-- 						<div class="col-md-1"> -->
+<!-- 						 <input class="btn btn-primary" type="button" id="write" -->
+<!--                               value="등록" /> -->
+<!--                         </div> -->
+<!--                         <div class="col-md-1">       -->
+<!-- 						  <input class="btn btn-primary" type="button" id="write" -->
+<!--                               value="취소" /> -->
+<!--                         </div>       -->
+<!--                         <div class="col-md-4"> -->
+<!--                            <input class="btn btn-primary" type="button" id="write" -->
+<!--                               value="임시저장" /> -->
+<!-- 						</div> -->
+
+							<div class="col-xs-10 col-sm-7 col-md-6">
+							<div class="row">
+								<div class="col-xs-1 col-sm-3 col-md-2"></div>
+								<div class="col-xs-11 col-sm-9 col-md-10">
+									<input class="btn btn-primary" type="button" id="write"
+		                              value="등록" />
+								  	<input class="btn btn-primary" type="button" id="write"
+		                              value="취소" />
+		                          	<input class="btn btn-primary" type="button" id="write"
+		                              value="임시저장" />
+								</div>
+								
+							</div>
+							   
+							</div>
+						
+						<div class="col-xs-0 col-sm-0 col-md-2"></div>
                        
                         
                  </div>
@@ -339,57 +213,7 @@ $(function() {
 	    	 	
 	    	 	<!-- button END -->
 	    	 	
-	    	 	<!-- 관련 list START -->
 	    	 	
-	    	 	<div class="a-7">
-	    	 		
-	    	 	</div>
-	    	 	
-	    	 	<!-- 관련 list END -->
-	    	 	
-	    	 	<!-- 하단 button START -->
-	    	 	
-	    	 	<div class="a-8">
-	    	 		
-	    	 	</div>
-	    	 	
-	    	 	<!-- 하단 button END -->
-	    	 	
-	    	 	<!-- 댓글 등록 START -->
-	    	 	
-	    	 	<div class="a-1">
-	    	 		
-	    	 	</div>
-	    	 	
-	    	 	<!-- 댓글 등록 END -->
-	    	 	
-	    	 	<!-- 댓글 리스트 START -->
-	    	 	
-	    	 	<div class="a-8">
-	    	 		<div class="row">
-										<div class="col-xs-0  col-md-4"></div>
-			<!-- 					                       페이징 -->
-								          <div class="col-xs-12 col-md-5" style=" padding-right: 0px; padding-left: 0px;">
-								                  <ul class="pagination-custom" id="pageNum">
-								                       <li><a href="">◀◀</a></li>
-								                       <li><a href="">◀</a></li>
-								                          <c:forEach var="i" begin="1" end="4">
-								                       <li><a href="">${i}</a></li>
-								                           </c:forEach>
-								                       <li><a href="">▶</a></li>
-								                       <li><a href="">▶▶</a></li>
-								                    </ul>
-								          </div>
-								          <div class="col-xs-7 col-md-1"></div>
-			<!-- 					                        글쓰기 버튼 -->
-								          <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
-<!-- 								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" /> -->
-								          </div>
-								           <div class="col-xs-3 col-md-0"></div>
-								  </div>
-	    	 	</div>
-	    	 	
-	    	 	<!-- 댓글 리스트 END -->
 	    	 	
 	    	 	
 	           <!-- A 세부영역 div END -->
@@ -399,12 +223,12 @@ $(function() {
        <!-- 영역 A_Frame_Div END-->     
       
       
-      
-       <!-- ### 영역 B_Frame_Div START-->    
-       <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver2.jsp"></jsp:include>
-	   <!-- 영역 B_Frame_Div END-->  
-	   
-	   
+          <!-- ### 영역 B_Frame_Div START-->    
+       <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver1.jsp"></jsp:include>
+       <!-- 영역 B_Frame_Div END-->  
+       
+       
+       
       </div>
       <!-- Section1_CONTENTS_ROW_END -->      
     </section>
@@ -415,47 +239,92 @@ $(function() {
     
     
     
-    <!-- 하단 광고 DIV-->
-        <div class="section-lg section-lg-alternative bg-gradient bg-secondary offset-custom-3" 
-        style="padding-top: 45px; padding-bottom: 45px; background-color: linear-gradient(to right, #ff9a9970 0%, #ea0a39b3 100%)">
-          <div class="shell">
-            <h2 class="text-light">책광고</h2>
-          </div>
-        </div>
+  
       <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
     </div>
-    <!-- Global Mailform Output-->
+    <!-- Global Mailform Output -->
     <div class="snackbars" id="form-output-global"></div>
-    <!-- 공통 Javascript-->
+    <!-- 공통 Javascript -->
     <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
-    <!-- 메인 Javascript-->
+<!--     <script src="/HappyRing/js/script.js"></script> -->
+    <!-- 메인 Javascript -->
      <script src="/HappyRing/js/main/main.js"></script>
      
-     <!--  freeBoard Javascript -->
+    <!--  freeBoard Javascript -->
     <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
-     
-     
-     
-     
-     
-     
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- 에디터 -->
+<!-- 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+	<!-- include summernote-ko-KR --> 
+	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
+	<script>
+	$(function() {
 
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-<!-- 에디터 -->
+		$('#summernote').summernote({
+// 			    options: {disableDragAndDrop: false},
+			    lang: 'ko-KR',
+			    height: 500,
+			    fontNames: ['Nanum Pen Script', 'Jeju Gothic', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
+					'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
+			  	fontNamesIgnoreCheck: ['Nanum Pen Script'],
+// 			  	fontSizes: ['8', '9', '10', '11', '12', '14', '18', '24', '36', '48' , '64', '82', '150']
+
+				//에디터 기능 임의로 추가
+				toolbar: [
+				    // [groupName, [list of button]]
+				    ['style', ['style']],
+				    ['style', ['bold', 'italic', 'underline', 'clear']],
+				    ['fontname', ['fontname']],
+				    ['fontsize', ['fontsize']],
+				    ['color', ['color']],
+// 				    ['para', ['ul', 'ol', 'paragraph']],
+					['para', ['paragraph']],
+				    ['height', ['height']],
+				    ['table', ['table']],
+				    ['insert', ['link', 'picture', 'video', 'hr']],
+// 				    ['misc', ['fullscreen', 'codeview', 'undo', 'redo', 'help']]
+				    ['misc', ['fullscreen', 'undo', 'redo']]
+				],
+				dialogsInBody: true
+        	
+        	});
+		//에디터 폰트 기본 설정
+		$('#summernote').summernote('fontName', 'Nanum Pen Script');
+		
+		//폰트 변경시 글자크기 이전과 동일하게
+		$('.dropdown-fontname a').click(function(){
+			var fontsize = $('.note-current-fontsize').text();
+// 			alert(fontsize);
+			
+			
+			window.getSelection().getRangeAt(0).insertNode('안녕하세요 반갑습니다.');
+
+			
+			var focus = $('#summernote').getSelection();
+			alert(focus);
+
+
+			
+			$('.note-current-fontsize').text(fontsize);
+		});
+
+
+		});
+	</script>
+
 
 <!-- 에디터 -->
+    
      
      
   </body>

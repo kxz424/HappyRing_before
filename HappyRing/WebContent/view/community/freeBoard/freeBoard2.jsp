@@ -1,16 +1,24 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>    
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+ 
+
+
+   <!-- 자유게시판 CSS link -->
+<!--    <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css"> -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
 
 
 
 
-<link rel="stylesheet"
+    <link rel="stylesheet"
    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 <!-- 부가적인 테마 -->
@@ -25,9 +33,6 @@
    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 
-
-
-
 	
  <link rel="stylesheet" href="/HappyRing/css/community/commonBoard.css">	
  
@@ -36,39 +41,15 @@
 	
 <!-- 에디터 -->
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
 <link href="/HappyRing/css/community/commonEditor.css" rel="stylesheet">
 
 <!-- 에디터 -->
-	
-	
-	
-	
-	
-	
-	
-	
-	
-<!-- <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css"> -->
 
 
 
-<!-- 제목 및 내용 입력 부분 -->
-<style type="text/css">
-.title {
-	width: 100%;
-}
-#edit {
-	height: 400px;
-}
-#edit p {
-	margin-top: 0px;
-}
-</style>
-
-
-
-
+   
+   
 </head>
   <body>
     
@@ -77,7 +58,7 @@
       
       
       <!-- ### header START -->     
-				<jsp:include page="/WEB-INF/views/include/header3.jsp"/>
+            <jsp:include page="/WEB-INF/views/include/header.jsp"/>
       <!-- header END -->
       
     <!-- Section 1 START -->      
@@ -85,7 +66,6 @@
        
        
       <!-- ########Section1_CONTENTS_ROW_START --> 
-      
       <div class="row">
       
       <div class="col-md-1"></div>
@@ -249,10 +229,10 @@
        <!-- 영역 A_Frame_Div END-->     
       
       
-          <!-- ### 영역 B_Frame_Div START-->    
+      
+       <!-- ### 영역 B_Frame_Div START-->    
        <jsp:include page="/WEB-INF/views/include/frame/frameB/frameB_ver1.jsp"></jsp:include>
        <!-- 영역 B_Frame_Div END-->  
-       
        
        
       </div>
@@ -260,60 +240,101 @@
     </section>
     <!-- Section 1 END -->
     
+      
     
     
     
-    
-    
-   
+  
       <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
     </div>
-    <!-- Global Mailform Output-->
+    <!-- Global Mailform Output -->
     <div class="snackbars" id="form-output-global"></div>
-    <!-- 공통 Javascript-->
+    <!-- 공통 Javascript -->
     <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
-    <!-- 메인 Javascript-->
+<!--     <script src="/HappyRing/js/script.js"></script> -->
+    <!-- 메인 Javascript -->
      <script src="/HappyRing/js/main/main.js"></script>
      
-     <!--  freeBoard Javascript -->
+    <!--  freeBoard Javascript -->
     <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
-     
-     
-     
-     
-     
-     
-
-     
-     
-     
-<!-- 에디터 -->
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- 에디터 -->
+<!-- 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
 	<!-- include summernote-ko-KR --> 
 	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
 	<script>
-		$(document).ready(function() {
+	$(function() {
 
-			$('#summernote').summernote({
-			    options: {disableDragAndDrop: false},
+		$('#summernote').summernote({
+// 			    options: {disableDragAndDrop: false},
 			    lang: 'ko-KR',
 			    height: 500,
 			    fontNames: ['Nanum Pen Script', 'Jeju Gothic', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
 					'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
-			  	fontNamesIgnoreCheck: ['Nanum Pen Script']
+			  	fontNamesIgnoreCheck: ['Nanum Pen Script'],
+// 			  	fontSizes: ['8', '9', '10', '11', '12', '14', '18', '24', '36', '48' , '64', '82', '150']
+
+				//에디터 기능 임의로 추가
+				toolbar: [
+				    // [groupName, [list of button]]
+				    ['style', ['style']],
+				    ['style', ['bold', 'italic', 'underline', 'clear']],
+				    ['fontname', ['fontname']],
+				    ['fontsize', ['fontsize']],
+				    ['color', ['color']],
+				    ['para', ['ul', 'ol', 'paragraph']],
+				    ['height', ['height']],
+				    ['table', ['table']],
+				    ['insert', ['link', 'picture', 'video', 'hr']],
+				    ['misc', ['fullscreen', 'codeview', 'undo', 'redo', 'help']]
+				],
+				dialogsInBody: true
         	
         	});
+		//에디터 폰트 기본 설정
+		$('#summernote').summernote('fontName', 'Nanum Pen Script');
+		
+		//폰트 변경시 글자크기 이전과 동일하게
+		$('.dropdown-fontname a').click(function(){
+			var fontsize = $('.note-current-fontsize').text();
+			alert(fontsize);
+			
+			
+			window.getSelection().getRangeAt(0).insertNode('안녕하세요 반갑습니다.');
+
+			
+			var focus = $('#summernote').getSelection();
+			alert(focus);
+
+
+			
+			$('.note-current-fontsize').text(fontsize);
+		});
+
+
 		});
 	</script>
 
 
 <!-- 에디터 -->
-     
-     
+    
+    
+    
+    
+    
+    
+    
+    
+    
   </body>
 </html>
