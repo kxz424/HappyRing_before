@@ -164,13 +164,35 @@
 				<div class="content-inline-buttons">
 				
 					<div class="row">
-						<div class="col-md-4"></div>
-						<div class="col-md-4">
+						<div class="col-md-12">
 						
-							<jsp:include page="/view/theory/theories/theoryBasic/btnTEST.jsp"></jsp:include>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
 						
 						</div>
-						<div class="col-md-4"></div>
+						
+					
+					
 					</div>
 	    	 		<div class="row">
 	    	 			<div class="col-md-1"></div>
@@ -351,7 +373,7 @@
     
     
     
-      <!-- footer START -->
+      <!-- footer START -->Z
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
     </div>
