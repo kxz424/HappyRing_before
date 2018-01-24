@@ -97,7 +97,7 @@
 
 .outer {
   font-size: 280%;
-  color: #8C8C8C;
+  color: #fff;
 
 }
 
@@ -109,7 +109,7 @@
 .dislike:hover .outer,
 .like:hover .outer {
   font-size: 300%;
-  color: #fff;
+  color: #169AF9;
 }
 
 .active {
@@ -117,7 +117,7 @@
 }
 
 .active .outer {
-  color: #fff;
+  color: #169AF9;
 }
 </style>
 
@@ -287,7 +287,7 @@
 
 												<!-- Like Button -->
 												<div class="like">
-													<span class="icon glyphicon glyphicon-bullhorn content-inline-icon"></span> <i
+													<i class="fa fa-heart"></i> <i
 														class="outer fa fa-circle-thin"></i>
 												</div>
 											</div>
@@ -309,9 +309,10 @@
 					
 					
 					</div>
-	    	 		<div class="row">
-	    	 			<div class="col-md-8"></div>
-	    	 			<div class="col-md-4" style="padding-left: 60px;">
+	    	 		
+					<div class="row">
+	    	 			<div class="col-md-9"></div>
+	    	 			<div class="col-md-3">
 	    	 				<img alt="" src="/HappyRing/img/icon-image/detail/bookmark.png" height="40px;" width="40px;">
 	    	 				<img src="/HappyRing/img/icon-image/detail/comment.png" height="40px;" width="40px;">
 	    	 				<img src="/HappyRing/img/icon-image/detail/edit.png" height="40px;" width="40px;">
@@ -512,16 +513,21 @@
      
      <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 <script type="text/javascript">
-$(function() {
+// $(function() {
 	  $('.like, .dislike').click(function() {
 	    event.preventDefault();
-	    $('.active').removeClass('active');
+	    if($(this).attr('class').indexOf('active') == -1){
+		    $(this).removeClass('no');
+		    $(this).addClass('active');
+	    }else{
+	    	$(this).removeClass('active');
+			$(this).addClass('no');
+	    }
 	    $(this).effect("bounce", {
-	      times: 4
-	    }, 1000);
-	    $(this).addClass('active');
+		      times: 4
+		}, 1000);
 	  });
-	});
+// 	});
 </script>
      
      
