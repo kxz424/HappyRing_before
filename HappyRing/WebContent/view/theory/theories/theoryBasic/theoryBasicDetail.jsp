@@ -281,7 +281,7 @@
 											<div class="center">
 												<!-- Dislike Button -->
 												<div class="dislike">
-													<img alt="" src="/HappyRing/mainImages/logo2.png"><i
+													<i class="fa fa-thumbs-down"></i> <i
 														class="outer fa fa-circle-thin"></i>
 												</div>
 
