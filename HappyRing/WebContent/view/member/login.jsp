@@ -259,6 +259,135 @@ height: 650px;
   box-sizing: border-box;
 }
 </style>
+
+<style type="text/css">
+
+@mixin transition() {
+    transition: all .4s cubic-bezier(.215,.61,.355,1);
+}
+
+.login-btn {
+  a {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin-top: -50px;
+    margin-right: -50px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    opacity: 1;
+    @include transition();
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(247,149,29,0.5);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(247,149,29,0.5);
+    box-shadow: 0px 0px 30px 0px rgba(247,149,29,0.5);
+    
+    & > span {
+      background-color: #f5a700;
+      display: block;
+      height: 12px;
+      border-radius: 6px;
+      position: relative;
+      @include transition();
+      position: absolute;
+      top: 50%;
+      margin-top: -6px;
+      left: 18px;
+      width: 64px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      -moz-justify-content: space-between;
+      -ms-justify-content: space-between;
+
+      span {
+        display: block;
+        background-color: #ed7f00;
+        width: 12px;
+        height: 12px;
+        border-radius: 6px;
+        @include transition();
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      &.left {
+        transform: rotate(45deg);
+        transform-origin: center;
+
+        .circle-left {
+          @include transition();
+          margin-left: 0;
+        }
+
+        .circle-right {
+          @include transition();
+          margin-left: 52px;
+        }
+      }
+
+      &.right {
+        transform: rotate(-45deg);
+        transform-origin: center;
+
+        .circle-left {
+          @include transition();
+          margin-left: 0;
+        }
+
+        .circle-right {
+          @include transition();
+          margin-left: 52px;
+        }
+      }
+    }
+
+    &:hover {
+      & > span {
+        background-color: #2faee0;
+        @include transition();
+
+        span {
+          @include transition();
+          background-color: #008ac9;
+        }
+
+        &.left {
+
+          .circle-left {
+            @include transition();
+            margin-left: 52px;
+          }
+
+          .circle-right {
+            @include transition();
+            margin-left: 0;
+          }
+        }
+
+        &.right {
+
+          .circle-left {
+            @include transition();
+            margin-left: 52px;
+          }
+
+          .circle-right {
+            @include transition();
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+</style>
 </head>
 <body>
  <!-- Button trigger modal -->
@@ -266,17 +395,17 @@ height: 650px;
                             
                             <!-- Modal -->
                             <div class="modal fade bs-modal-md " id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                              <div class="modal-dialog modal-md" style="margin-top: 114px; z-index: 2000; ">
+                              <div class="modal-dialog modal-md" style="margin-top: 75px; z-index: 2000; ">
                                 <div class="modal-content" style=" background-color: #56baed; height: auto;">
-                             	  <div class="modal-header">
-                             	  	<div class="row">
-                             	  	  <div class="col-md-4"></div>	
-	                                  <div class="col-md-4">
-	                                     <img alt="" src="/HappyRing/mainImages/logo2.png" width="140px;">
-	                                  </div>
-	                                  <div class="col-md-4"></div>	
-	                                </div> 
-                                  </div>
+<!--                              	  <div class="modal-header"> -->
+<!--                              	  	<div class="row"> -->
+<!--                              	  	  <div class="col-md-4"></div>	 -->
+<!-- 	                                  <div class="col-md-4"> -->
+<!-- 	                                     <img alt="" src="/HappyRing/mainImages/logo2.png" width="140px;"> -->
+<!-- 	                                  </div> -->
+<!-- 	                                  <div class="col-md-4"></div>	 -->
+<!-- 	                                </div>  -->
+<!--                                   </div> -->
                                     
                                     
                                     
@@ -285,7 +414,26 @@ height: 650px;
                                     
                                     
 <div class="login_wrapper fadeInDown">
+
   <div id="login_formContent">
+  
+ 		 <div class="modal-header">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+         </div>
     <!-- Tabs Titles -->
     <h2 class="login_text active"> 로그인 </h2>
     <h2 class="login_text inactive underlineHover"> 회원가입 </h2>
@@ -325,9 +473,9 @@ height: 650px;
                                     
                                     
                   
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                  </div>
+<!--                                   <div class="modal-footer"> -->
+<!--                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+<!--                                   </div> -->
                                 </div>
                               </div>
                             </div>
