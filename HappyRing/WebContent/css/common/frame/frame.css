@@ -391,6 +391,10 @@ padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;
 
 /* 심리학지식 > detial */
 
+.article-top {
+	margin-top: 95px;
+}
+
 .content-detail {
 	height: auto;
 	padding-top: 25px; 
@@ -405,14 +409,15 @@ padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;
 
 .content-inline-border{
 /*    padding-top: 60px;  */
-   padding-bottom: 85px; 
+   padding-bottom: 8px; 
    border: solid;
+   border-color: #f2f3f9;
    
 }
 .content-inline-buttons{
-    border: solid;
-	border-color : #800040;
-	padding-top: 157px;
+/*     border: solid; */
+/* 	border-color : #800040; */
+	padding-top: 135px;
 	
 }
 
@@ -425,7 +430,13 @@ padding-top: 20px; padding-bottom: 20px; margin-bottom: 100px;
 	width: 40px  !improtant;
 }
 
-
+.commentArea{
+	border: solid; 
+	border-color: pink;
+	padding-top: 25px;
+	background-color: white;
+	
+}
 
 
 
