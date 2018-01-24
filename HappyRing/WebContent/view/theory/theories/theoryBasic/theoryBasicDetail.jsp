@@ -206,31 +206,36 @@
 			              <!-- contents START -->
 			              <article class="post-blog-article">
 			              
-							<!-- # 제목 -->	
-			                <p class="post-blog-article-title hn"> 세상 모두가 행복해지기를 바라는 상담소 <br class="veil reveal-md-block">Conversation</p>
-			                <!-- # 작성자, 작성일, 카테고리 div START-->
-			                <div class="row" style="margin-top: 30px;">
-			                	<!-- 작성자 -->
-			                	<div class="col-md-4">
-			                	 	<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-account"></span>by
-				                      <div><a href="#">Ronald Chen</a></div>
-				                    </div>
-			                	</div>
-			                	<!-- 작성일  -->
-			                	<div class="col-md-3" style="padding-left: 0px;">
-			                		 <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-calendar-clock"></span>
-				                      <time datetime="2017">2018-01-10</time>
-				                    </div>
-			                	</div>
-			                	<!-- 카테고리 -->
-			                	<div class="col-md-5" style="padding-left: 0px;">
-			                		<div class="box-inline">
-			                		<span class="icon icon-md icon-primary mdi mdi-tag"></span>
-				                      	사랑·이별  | 가정문제 | 학업·진로
-				                    </div>
-			                	</div>
-			                </div>
-			                <!-- # 작성자, 작성일, 카테고리 div END-->
+			              	<!-- 제목 작성자 작성 일 및 상단 부분 START -->
+			              	<div class="article-top">
+			              		<!-- # 작성자, 작성일, 카테고리 div START-->
+				                <div class="row" style="margin-top: 50px;">
+				                	<!-- 작성자 -->
+				                	<div class="col-md-4">
+				                	 	<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-account"></span>by
+					                      <div><a href="#">Ronald Chen</a></div>
+					                    </div>
+				                	</div>
+				                	<!-- 작성일  -->
+				                	<div class="col-md-3" style="padding-left: 0px;">
+				                		 <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-calendar-clock"></span>
+					                      <time datetime="2017">2018-01-10</time>
+					                    </div>
+				                	</div>
+				                	<!-- 카테고리 -->
+				                	<div class="col-md-5" style="padding-left: 0px;">
+				                		<div class="box-inline">
+				                		<span class="icon icon-md icon-primary mdi mdi-tag"></span>
+					                      	사랑·이별  | 가정문제 | 학업·진로
+					                    </div>
+				                	</div>
+				                </div>
+				                <!-- # 작성자, 작성일, 카테고리 div END-->
+								<!-- # 제목 -->	
+				                <p class="post-blog-article-title hn" style="margin-top: 50px;"> 세상 모두가 행복해지기를 바라는 상담소 <br class="veil reveal-md-block">Conversation</p>
+			                 </div>
+			                 <!-- 제목 작성자 작성 일 및 상단 부분 END -->
+			                
 			                
 			                <!-- 글 본문 내용_contents START -->
  							<p class="big">Imagine almost any situation where two or more people are gathered—a wedding reception or a job interview. What do these situations have in common? Almost all of them involve people trying to talk with each other. But in these very moments where a conversation would enhance an encounter, we often fall short.</p>
@@ -335,6 +340,42 @@
 	    	 	
 	    	<!-- ##댓글쓰기 + 댓글 리스트 START -->
 	    	<div style="background-color: #e9f5fa ">	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	<!-- ########댓글 여기다 하심됨둥 start-->
+	    	 	
+	    	 	<div class="commentArea">
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	</div>
+
+	    	 	
+	    	 	
+	    	 	<!-- ########댓글 여기다 하심됨둥 END-->	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
+	    	 	
 	    	 	
 				<!-- 세부영역 th_dtail_a2_2 : 댓글쓰기 시작-->
 				<div class="th_dtail_a2_2">
