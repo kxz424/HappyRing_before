@@ -280,13 +280,13 @@
 
 											<div class="center">
 												<!-- Dislike Button -->
-												<div class="dislike no">
+												<div class="dislike">
 													<i class="fa fa-thumbs-down"></i> <i
 														class="outer fa fa-circle-thin"></i>
 												</div>
 
 												<!-- Like Button -->
-												<div class="like no">
+												<div class="like">
 													<i class="fa fa-heart"></i> <i
 														class="outer fa fa-circle-thin"></i>
 												</div>
@@ -512,26 +512,21 @@
      
      <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 <script type="text/javascript">
-$(function() {
-	  $('.like.no, .dislike.no').click(function() {
+// $(function() {
+	  $('.like, .dislike').click(function() {
 	    event.preventDefault();
-	    alert($(this).attr('class'));
-	    $(this).removeClass('no');
+	    if($(this).attr('class').indexOf('active') == -1){
+		    $(this).removeClass('no');
+		    $(this).addClass('active');
+	    }else{
+	    	$(this).removeClass('active');
+			$(this).addClass('no');
+	    }
 	    $(this).effect("bounce", {
-	      times: 4
-	    }, 1000);
-	    $(this).addClass('active');
-	  });
-	  $('.like.active, .dislike.active').click(function() {
-		event.preventDefault();
-		$(this).removeClass('active');
-		alert($(this).attr('class'));
-		$(this).effect("bounce", {
-		  times: 4
+		      times: 4
 		}, 1000);
-		$(this).addClass('no');
 	  });
-	});
+// 	});
 </script>
      
      
