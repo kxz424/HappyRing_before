@@ -76,7 +76,7 @@
   position: relative;
   font-size: 2.5em;
   width: 150px;
-  height: 150px;
+  height: 120px;
   text-align: center;
   float: left;
   cursor: pointer;
@@ -281,15 +281,21 @@
 											<div class="center">
 												<!-- Dislike Button -->
 												<div class="dislike">
-													<i class="fa fa-thumbs-down"></i> <i
+													<i class="fa"><img src="/HappyRing/img/icon-image/detail/knowledge.png" style="width: 61%;"/></i> <i
 														class="outer fa fa-circle-thin"></i>
 												</div>
 
 												<!-- Like Button -->
 												<div class="like">
-													<i class="fa fa-heart"></i> <i
+													<i class="fa"><img src="/HappyRing/img/icon-image/detail/comfort.png" style="width: 61%;"/></i> <i
 														class="outer fa fa-circle-thin"></i>
 												</div>
+											</div>
+											<div class="center">
+												<div class="dislike">
+													<p style="font-size: 12px;">유익해요</p>
+												</div>
+												
 											</div>
 
 
@@ -309,8 +315,7 @@
 					
 					
 					</div>
-	    	 		
-					<div class="row">
+	    	 		<div class="row">
 	    	 			<div class="col-md-9"></div>
 	    	 			<div class="col-md-3">
 	    	 				<img alt="" src="/HappyRing/img/icon-image/detail/bookmark.png" height="40px;" width="40px;">
