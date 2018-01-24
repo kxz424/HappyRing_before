@@ -310,13 +310,13 @@
 					
 					</div>
 	    	 		<div class="row">
-	    	 			<div class="col-md-1"></div>
-	    	 			<div class="col-md-10" style="padding-left: 60px;">
-	    	 			   <a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>북마크</a>
-	    	 			   <a class="button button-twitter" href="#" style="margin-top: 0px;"><span class="icon glyphicon glyphicon-heart-empty"></span>엔젱링</a>
-	    	 			   <a class="button button-twitter" href="#" style="margin-top: 0px;"><span class="icon glyphicon glyphicon-bullhorn"></span>수정요청</a>
+	    	 			<div class="col-md-8"></div>
+	    	 			<div class="col-md-4" style="padding-left: 60px;">
+	    	 				<img alt="" src="/HappyRing/img/icon-image/detail/bookmark.png" height="40px;" width="40px;">
+	    	 				<img src="/HappyRing/img/icon-image/detail/comment.png" height="40px;" width="40px;">
+	    	 				<img src="/HappyRing/img/icon-image/detail/edit.png" height="40px;" width="40px;">
+	    	 				<img src="/HappyRing/img/icon-image/detail/heart.png" height="40px;" width="40px;">
 	    	 			</div>
-						<div class="col-md-1"></div>		
 	    	 		</div>
 	    	 	</div>
 	    	 	<!-- 북마크 엔젤링 수정요청 끝  -->
