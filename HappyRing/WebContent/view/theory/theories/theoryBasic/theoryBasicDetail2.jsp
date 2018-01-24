@@ -76,7 +76,7 @@
   position: relative;
   font-size: 2.5em;
   width: 150px;
-  height: 120px;
+  height: 125px;
   text-align: center;
   float: left;
   cursor: pointer;
@@ -209,25 +209,46 @@
 							<!-- # 제목 -->	
 			                <p class="post-blog-article-title hn"> 세상 모두가 행복해지기를 바라는 상담소 <br class="veil reveal-md-block">Conversation</p>
 			                <!-- # 작성자, 작성일, 카테고리 div START-->
+<!-- 			                <div class="row" style="margin-top: 30px;"> -->
+<!-- 			                	작성자 -->
+<!-- 			                	<div class="col-md-4"> -->
+<!-- 			                	 	<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-account"></span>by -->
+<!-- 				                      <div><a href="#">Ronald Chen</a></div> -->
+<!-- 				                    </div> -->
+<!-- 			                	</div> -->
+<!-- 			                	작성일  -->
+<!-- 			                	<div class="col-md-3" style="padding-left: 0px;"> -->
+<!-- 			                		 <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-calendar-clock"></span> -->
+<!-- 				                      <time datetime="2017">2018-01-10</time> -->
+<!-- 				                    </div> -->
+<!-- 			                	</div> -->
+<!-- 			                	카테고리 -->
+<!-- 			                	<div class="col-md-5" style="padding-left: 0px;"> -->
+<!-- 			                		<div class="box-inline"> -->
+<!-- 			                		<span class="icon icon-md icon-primary mdi mdi-tag"></span> -->
+<!-- 				                      	사랑·이별  | 가정문제 | 학업·진로 -->
+<!-- 				                    </div> -->
+<!-- 			                	</div> -->
+<!-- 			                </div> -->
+
 			                <div class="row" style="margin-top: 30px;">
 			                	<!-- 작성자 -->
 			                	<div class="col-md-4">
-			                	 	<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-account"></span>by
+			                	 	<div class="box-inline"><img src="/HappyRing/img/icon-image/detail/profle.png" width="40px"/>
 				                      <div><a href="#">Ronald Chen</a></div>
 				                    </div>
 			                	</div>
 			                	<!-- 작성일  -->
 			                	<div class="col-md-3" style="padding-left: 0px;">
-			                		 <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-calendar-clock"></span>
+			                		 <div class="box-inline"><img src="/HappyRing/img/icon-image/detail/calendar.png" width="40px"/>
 				                      <time datetime="2017">2018-01-10</time>
 				                    </div>
 			                	</div>
 			                	<!-- 카테고리 -->
 			                	<div class="col-md-5" style="padding-left: 0px;">
 			                		<div class="box-inline">
-			                		<span class="icon icon-md icon-primary mdi mdi-tag"></span>
-				                      	사랑·이별  | 가정문제 | 학업·진로
-				                    </div>
+			                			<img src="/HappyRing/img/icon-image/detail/tag.png" width="40px"/><p>사랑·이별|가정문제|학업·진로</p>
+			                		</div>
 			                	</div>
 			                </div>
 			                <!-- # 작성자, 작성일, 카테고리 div END-->
@@ -294,6 +315,12 @@
 											<div class="center">
 												<div class="dislike">
 													<p style="font-size: 12px;">유익해요</p>
+													<p style="font-size: 19px; font-weight: bold; margin-top: 0;">10</p>
+												</div>
+												
+												<div class="like">
+													<p style="font-size: 12px;">위로가 됬어요</p>
+													<p style="font-size: 19px; font-weight: bold; margin-top: 0;">10</p>
 												</div>
 												
 											</div>
