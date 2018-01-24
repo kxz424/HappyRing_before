@@ -281,13 +281,13 @@
 											<div class="center">
 												<!-- Dislike Button -->
 												<div class="dislike">
-													<i class="fa fa-thumbs-down"></i> <i
+													<img alt="" src="/HappyRing/mainImages/logo2.png"><i
 														class="outer fa fa-circle-thin"></i>
 												</div>
 
 												<!-- Like Button -->
 												<div class="like">
-													<i class="fa fa-heart"></i> <i
+													<span class="icon glyphicon glyphicon-bullhorn content-inline-icon"></span> <i
 														class="outer fa fa-circle-thin"></i>
 												</div>
 											</div>
@@ -314,7 +314,7 @@
 	    	 			<div class="col-md-10" style="padding-left: 60px;">
 	    	 			   <a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>북마크</a>
 	    	 			   <a class="button button-twitter" href="#" style="margin-top: 0px;"><span class="icon glyphicon glyphicon-heart-empty"></span>엔젱링</a>
-	    	 			   <a class="button button-twitter" href="#" style="margin-top: 0px;"><<span class="icon glyphicon glyphicon-bullhorn"></span>수정요청</a>
+	    	 			   <a class="button button-twitter" href="#" style="margin-top: 0px;"><span class="icon glyphicon glyphicon-bullhorn"></span>수정요청</a>
 	    	 			</div>
 						<div class="col-md-1"></div>		
 	    	 		</div>
