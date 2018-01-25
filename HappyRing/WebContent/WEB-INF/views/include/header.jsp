@@ -20,13 +20,13 @@
     
     
     
-
-    
+	<script src="/HappyRing/js/core.min.js"></script>
+    <script src="/HappyRing/js/script.js"></script>
     
     
 	
    <!-- 부트스트랩 사용 css -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
 <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
    
@@ -425,7 +425,7 @@ display: none;
 <!--                 <a class="rd-navbar-shop-icon mdi mdi-login" href="login-page.html"><span class="veil reveal-lg-inline">Login </span></a> -->
 <!--                 <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="border-radius: 4px; width: 100%;"> -->
                  <a class="rd-navbar-shop-icon mdi mdi-login" href="#signup" data-toggle="modal" data-target=".bs-modal-md" style="color: rgb(87, 203, 204);"><span class="veil reveal-lg-inline">로그인/회원가입</span></a>
-                 <jsp:include page="/view/member/login.jsp"/>
+                 
                 </div>
               </div>
             </div>
@@ -483,7 +483,7 @@ display: none;
             
             
             
-            
+            <jsp:include page="/view/member/login.jsp"/>
             
             
             
@@ -496,8 +496,8 @@ display: none;
       <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+<!--     <script src="/HappyRing/js/core.min.js"></script> -->
+<!--     <script src="/HappyRing/js/script.js"></script> -->
     
     
     

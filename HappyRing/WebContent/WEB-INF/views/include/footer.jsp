@@ -11,11 +11,11 @@
     <meta charset="utf-8">
    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
-    <link rel="stylesheet" href="/HappyRing/css/common/bootstrap.css">
-    <link rel="stylesheet" href="/HappyRing/css/common/style.css">
-    <link rel="stylesheet" href="/HappyRing/css/common/mdi.css">
-    <link rel="stylesheet" href="/HappyRing/css/common/fl-bigmug-line.css">
+<!--     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900"> -->
+<!--     <link rel="stylesheet" href="/HappyRing/css/common/bootstrap.css"> -->
+<!--     <link rel="stylesheet" href="/HappyRing/css/common/style.css"> -->
+<!--     <link rel="stylesheet" href="/HappyRing/css/common/mdi.css"> -->
+<!--     <link rel="stylesheet" href="/HappyRing/css/common/fl-bigmug-line.css"> -->
  
 <style type="text/css">
 
@@ -55,8 +55,8 @@ background-color: #29293a;
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+<!--     <script src="/HappyRing/js/core.min.js"></script> -->
+<!--     <script src="/HappyRing/js/script.js"></script> -->
       
 </body>
 </html>

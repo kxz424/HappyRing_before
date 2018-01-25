@@ -18,38 +18,23 @@
    <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
    
    
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+   
+<!-- 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 <!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
 <!--     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 <!-- 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
 
 
 
-    <link rel="stylesheet"
-   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-<!-- 부가적인 테마 -->
-<link rel="stylesheet"
-   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"> -->
 
-<script
-   src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-<script
-   src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-
-
-
-
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800">
-<link rel="stylesheet" href="https://decorator.io/cdn/modulr.min.css">
-<link rel="stylesheet" href="https://decorator.io/cdn/modules/tooltip.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800"> -->
+<!-- <link rel="stylesheet" href="https://decorator.io/cdn/modulr.min.css"> -->
+<!-- <link rel="stylesheet" href="https://decorator.io/cdn/modules/tooltip.min.css"> -->
 
 
 
@@ -211,8 +196,6 @@
 			              <!-- contents START -->
 			              <article class="post-blog-article">
 			              	
-			              	
-			              	
 							<!-- # 제목 -->	
 			                <p class="post-blog-article-title hn"> 세상 모두가 행복해지기를 바라는 상담소 <br class="veil reveal-md-block">Conversation</p>
 			                <!-- # 작성자, 작성일, 카테고리 div START-->
@@ -254,7 +237,7 @@
 			                	<!-- 카테고리 -->
 			                	<div class="col-md-5" style="padding-left: 0px;">
 			                		<div class="box-inline">
-			                			<img src="/HappyRing/img/icon-image/detail/tag.png" width="40px"/><p>사랑·이별|가정문제|학업·진로</p>
+			                			<img src="/HappyRing/img/icon-image/detail/tag.png" width="40px"/><span>사랑·이별|가정문제|학업·진로</span>
 			                		</div>
 			                	</div>
 			                </div>
