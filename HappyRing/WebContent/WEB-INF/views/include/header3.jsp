@@ -17,32 +17,19 @@
     <link rel="stylesheet" href="/HappyRing/css/common/style.css">
     <link rel="stylesheet" href="/HappyRing/css/common/mdi.css">
     <link rel="stylesheet" href="/HappyRing/css/common/fl-bigmug-line.css">
-    
-    
-    
-
-    
-    
-    
 	
    <!-- 부트스트랩 사용 css -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
-   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
-   
-   
-   
    
    <!-- 메인 Frame Css --> 
    <link rel="stylesheet" href="/HappyRing/css/common/frame/frame.css">
    <!-- carousel bottom css --> 
    <link rel="stylesheet" href="/HappyRing/css/common/carousel/carouselBottom.css">
 
-
-<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
 
 
 

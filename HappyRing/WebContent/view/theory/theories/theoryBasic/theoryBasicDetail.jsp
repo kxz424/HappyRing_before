@@ -19,111 +19,9 @@
    
    
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-<!--     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
-<!-- 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
-
-
-
-    <link rel="stylesheet"
-   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-<!-- 부가적인 테마 -->
-<link rel="stylesheet"
-   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
-<script
-   src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-<script
-   src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-
-
-
-
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-
-
-
-<style type="text/css">
-
-
-.cred {
-  font-size: 8pt;
-  color: #666464;;
-  text-decoration: none;
-  border-bottom: 1px solid #272727;
-  padding:10px 0px;
-}
-.cred:hover {
-  color: #169AF9;
-}
-
-
-.center {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  width: 300px;
-  top: 25%;
-}
-
-.like,
-.dislike {
-  position: relative;
-  font-size: 2.5em;
-  width: 150px;
-  height: 120px;
-  text-align: center;
-  float: left;
-  cursor: pointer;
-}
-
-.dislike i,
-.like i {
-  position: absolute;
-  left: 0;
-  right: 0;
-  line-height: 150px;
-  -webkit-transition: all .25s ease-in-out;
-  -moz-transition: all .25s ease-in-out;
-  -o-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
-    -webkit-box-reflect: below -45px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.1)));
-}
-
-.outer {
-  font-size: 280%;
-  color: #fff;
-
-}
-
-.dislike:hover i,
-.like:hover i {
-  color: #169AF9;
-}
-
-.dislike:hover .outer,
-.like:hover .outer {
-  font-size: 300%;
-  color: #169AF9;
-}
-
-.active {
-  color: #169AF9;
-}
-
-.active .outer {
-  color: #169AF9;
-}
-</style>
-
-
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 </head>
 
@@ -206,36 +104,31 @@
 			              <!-- contents START -->
 			              <article class="post-blog-article">
 			              
-			              	<!-- 제목 작성자 작성 일 및 상단 부분 START -->
-			              	<div class="article-top">
-			              		<!-- # 작성자, 작성일, 카테고리 div START-->
-				                <div class="row" style="margin-top: 50px;">
-				                	<!-- 작성자 -->
-				                	<div class="col-md-4">
-				                	 	<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-account"></span>by
-					                      <div><a href="#">Ronald Chen</a></div>
-					                    </div>
-				                	</div>
-				                	<!-- 작성일  -->
-				                	<div class="col-md-3" style="padding-left: 0px;">
-				                		 <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-calendar-clock"></span>
-					                      <time datetime="2017">2018-01-10</time>
-					                    </div>
-				                	</div>
-				                	<!-- 카테고리 -->
-				                	<div class="col-md-5" style="padding-left: 0px;">
-				                		<div class="box-inline">
-				                		<span class="icon icon-md icon-primary mdi mdi-tag"></span>
-					                      	사랑·이별  | 가정문제 | 학업·진로
-					                    </div>
-				                	</div>
-				                </div>
-				                <!-- # 작성자, 작성일, 카테고리 div END-->
-								<!-- # 제목 -->	
-				                <p class="post-blog-article-title hn" style="margin-top: 50px;"> 세상 모두가 행복해지기를 바라는 상담소 <br class="veil reveal-md-block">Conversation</p>
-			                 </div>
-			                 <!-- 제목 작성자 작성 일 및 상단 부분 END -->
-			                
+							<!-- # 제목 -->	
+			                <p class="post-blog-article-title hn"> 세상 모두가 행복해지기를 바라는 상담소 <br class="veil reveal-md-block">Conversation</p>
+			                <!-- # 작성자, 작성일, 카테고리 div START-->
+			                <div class="row" style="margin-top: 30px;">
+			                	<!-- 작성자 -->
+			                	<div class="col-md-4">
+			                	 	<div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-account"></span>by
+				                      <div><a href="#">Ronald Chen</a></div>
+				                    </div>
+			                	</div>
+			                	<!-- 작성일  -->
+			                	<div class="col-md-3" style="padding-left: 0px;">
+			                		 <div class="box-inline"><span class="icon icon-md icon-primary mdi mdi-calendar-clock"></span>
+				                      <time datetime="2017">2018-01-10</time>
+				                    </div>
+			                	</div>
+			                	<!-- 카테고리 -->
+			                	<div class="col-md-5" style="padding-left: 0px;">
+			                		<div class="box-inline">
+			                		<span class="icon icon-md icon-primary mdi mdi-tag"></span>
+				                      	사랑·이별  | 가정문제 | 학업·진로
+				                    </div>
+			                	</div>
+			                </div>
+			                <!-- # 작성자, 작성일, 카테고리 div END-->
 			                
 			                <!-- 글 본문 내용_contents START -->
  							<p class="big">Imagine almost any situation where two or more people are gathered—a wedding reception or a job interview. What do these situations have in common? Almost all of them involve people trying to talk with each other. But in these very moments where a conversation would enhance an encounter, we often fall short.</p>
@@ -271,62 +164,22 @@
 				<div class="content-inline-buttons">
 				
 					<div class="row">
-						<div class="col-md-12">
-
-
-
-
-
-
-
-
-
-
-											<div class="center">
-												<!-- Dislike Button -->
-												<div class="dislike">
-													<i class="fa"><img src="/HappyRing/img/icon-image/detail/knowledge.png" style="width: 61%;"/></i> <i
-														class="outer fa fa-circle-thin"></i>
-												</div>
-
-												<!-- Like Button -->
-												<div class="like">
-													<i class="fa"><img src="/HappyRing/img/icon-image/detail/comfort.png" style="width: 61%;"/></i> <i
-														class="outer fa fa-circle-thin"></i>
-												</div>
-											</div>
-											<div class="center">
-												<div class="dislike">
-													<p style="font-size: 12px;">유익해요</p>
-												</div>
-												
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-										</div>
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
 						
-					
-					
+							<jsp:include page="/view/theory/theories/theoryBasic/btnTEST.jsp"></jsp:include>
+						
+						</div>
+						<div class="col-md-4"></div>
 					</div>
 	    	 		<div class="row">
-	    	 			<div class="col-md-9"></div>
-	    	 			<div class="col-md-3">
-	    	 				<img alt="" src="/HappyRing/img/icon-image/detail/bookmark.png" height="40px;" width="40px;">
-	    	 				<img src="/HappyRing/img/icon-image/detail/comment.png" height="40px;" width="40px;">
-	    	 				<img src="/HappyRing/img/icon-image/detail/edit.png" height="40px;" width="40px;">
-	    	 				<img src="/HappyRing/img/icon-image/detail/heart.png" height="40px;" width="40px;">
+	    	 			<div class="col-md-1"></div>
+	    	 			<div class="col-md-10" style="padding-left: 60px;">
+	    	 			   <a class="button button-twitter" href="#"><span class="icon glyphicon glyphicon-star-empty"></span>북마크</a>
+	    	 			   <a class="button button-twitter" href="#" style="margin-top: 0px;"><span class="icon glyphicon glyphicon-heart-empty"></span>엔젱링</a>
+	    	 			   <a class="button button-twitter" href="#" style="margin-top: 0px;"><<span class="icon glyphicon glyphicon-bullhorn"></span>수정요청</a>
 	    	 			</div>
+						<div class="col-md-1"></div>		
 	    	 		</div>
 	    	 	</div>
 	    	 	<!-- 북마크 엔젤링 수정요청 끝  -->
@@ -339,42 +192,6 @@
 	    	 	
 	    	<!-- ##댓글쓰기 + 댓글 리스트 START -->
 	    	<div style="background-color: #e9f5fa ">	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	<!-- ########댓글 여기다 하심됨둥 start-->
-	    	 	
-	    	 	<div class="commentArea">
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	</div>
-
-	    	 	
-	    	 	
-	    	 	<!-- ########댓글 여기다 하심됨둥 END-->	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
-	    	 	
 	    	 	
 				<!-- 세부영역 th_dtail_a2_2 : 댓글쓰기 시작-->
 				<div class="th_dtail_a2_2">
@@ -534,49 +351,15 @@
     
     
     
-      <!-- footer START -->Z
+      <!-- footer START -->
              <jsp:include page="/WEB-INF/views/include/footer.jsp"/>
       <!-- footer END -->
     </div>
     <!-- 공통 Javascript-->
     <script src="/HappyRing/js/core.min.js"></script>
-<!--     <script src="/HappyRing/js/script.js"></script> -->
+    <script src="/HappyRing/js/script.js"></script>
     <!--  메인 Javascript -->
      <script src="/HappyRing/js/main/main.js"></script>
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<script type="text/javascript">
-// $(function() {
-	  $('.like, .dislike').click(function() {
-	    event.preventDefault();
-	    if($(this).attr('class').indexOf('active') == -1){
-		    $(this).removeClass('no');
-		    $(this).addClass('active');
-	    }else{
-	    	$(this).removeClass('active');
-			$(this).addClass('no');
-	    }
-	    $(this).effect("bounce", {
-		      times: 4
-		}, 1000);
-	  });
-// 	});
-</script>
-     
-     
-     
      
   </body>
 </html>
