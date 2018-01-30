@@ -9,7 +9,7 @@
 
 
    <!-- 자유게시판 CSS link -->
-<!--    <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css"> -->
+<!--    <link rel="stylesheet" href="/HappyRing_before/css/community/commonFree.css"> -->
 
 
 <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
@@ -33,7 +33,7 @@
 
 
 	
- <link rel="stylesheet" href="/HappyRing/css/community/commonBoard.css">	
+ <link rel="stylesheet" href="/HappyRing_before/css/community/commonBoard.css">	
  
 
 	
@@ -41,7 +41,7 @@
 <!-- 에디터 -->
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
-<link href="/HappyRing/css/community/commonEditor.css" rel="stylesheet">
+<link href="/HappyRing_before/css/community/commonEditor.css" rel="stylesheet">
 
 <!-- 에디터 -->
 
@@ -89,19 +89,19 @@
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
 <!--                                  <div class="swiper-slide" -->
-<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     style="background-image: url(/HappyRing_before/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
 <!--                                     <div class="swiper-slide-caption"> -->
 <!--                                        <div class="section-md"></div> -->
 <!--                                     </div> -->
 <!--                                  </div> -->
 								<div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/img/sample/sampleView.jpg">
+                                    data-slide-bg="/HappyRing_before/img/sample/sampleView.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/img/sample/sampleView2.jpg">
+                                    data-slide-bg="/HappyRing_before/img/sample/sampleView2.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
@@ -247,13 +247,13 @@
     <!-- Global Mailform Output -->
     <div class="snackbars" id="form-output-global"></div>
     <!-- 공통 Javascript -->
-    <script src="/HappyRing/js/core.min.js"></script>
-<!--     <script src="/HappyRing/js/script.js"></script> -->
+    <script src="/HappyRing_before/js/core.min.js"></script>
+<!--     <script src="/HappyRing_before/js/script.js"></script> -->
     <!-- 메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
     <!--  freeBoard Javascript -->
-    <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
+    <script src="/HappyRing_before/js/freeBoard/freeList.js"></script> 
     
     
     
@@ -266,7 +266,7 @@
 <!-- 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
 	<!-- include summernote-ko-KR --> 
-	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
+	<script src="/HappyRing_before/js/community/summernote-ko-KR.js"></script>
 	<script>
 	$(function() {
 

@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
-  	<link rel="stylesheet" href="/HappyRing/css/main/main.css">
+  	<link rel="stylesheet" href="/HappyRing_before/css/main/main.css">
 </head>
 <body>
 
@@ -104,7 +104,7 @@
                    <!-- 상담광고 tab 끝 -->     
                    
                    
-   <script src="/HappyRing/js/main/main.js"></script>
+   <script src="/HappyRing_before/js/main/main.js"></script>
 
 </body>
 </html>

@@ -4,24 +4,24 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>HappyRingTest</title>
+<title>HappyRing_beforeTest</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-   <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
+   <link rel="icon" href="/HappyRing_before/images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
     <link href="http://fonts.googleapis.com/earlyaccess/hanna.css" rel="stylesheet">
-    <link rel="stylesheet" href="/HappyRing/css/common/bootstrap.css">
-    <link rel="stylesheet" href="/HappyRing/css/common/style.css">
-    <link rel="stylesheet" href="/HappyRing/css/common/mdi.css">
-    <link rel="stylesheet" href="/HappyRing/css/common/fl-bigmug-line.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/common/bootstrap.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/common/style.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/common/mdi.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/common/fl-bigmug-line.css">
     
     
     
-	<script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+	<script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     
     
 	
@@ -37,9 +37,9 @@
    
    
    <!-- 메인 Frame Css --> 
-   <link rel="stylesheet" href="/HappyRing/css/common/frame/frame.css">
+   <link rel="stylesheet" href="/HappyRing_before/css/common/frame/frame.css">
    <!-- carousel bottom css --> 
-   <link rel="stylesheet" href="/HappyRing/css/common/carousel/carouselBottom.css">
+   <link rel="stylesheet" href="/HappyRing_before/css/common/carousel/carouselBottom.css">
 
 
 <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
@@ -229,7 +229,7 @@ display: none;
                            	      <li>
 			                      <a href="freeBoardList.jsp">--주요심리학♥--</a>
 			                      </li>
-			                      <li><a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicList.jsp">기초 심리학</a>
+			                      <li><a href="/HappyRing_before/view/theory/theories/theoryBasic/theoryBasicList.jsp">기초 심리학</a>
 			                      </li>
 			                      <li><a href="freeBoardList.jsp">3대 심리학</a>
 			                      </li>
@@ -252,9 +252,9 @@ display: none;
                           		<li>
 			                    <a href="#">--지식나눔방♥--</a>
 			                    </li>
-			                    <li><a href="/HappyRing/view/theory/theoryShare/theoryShareList.jsp">심리학 지식</a>
+			                    <li><a href="/HappyRing_before/view/theory/theoryShare/theoryShareList.jsp">심리학 지식</a>
 			                    </li>
-			                    <li><a href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNAList.jsp">묻고 답하기</a>
+			                    <li><a href="/HappyRing_before/view/theory/theoryShare/theoryShareQNA/shareQNAList.jsp">묻고 답하기</a>
 			                    </li>
                           </ul>
                         </li>  
@@ -267,9 +267,9 @@ display: none;
                   <li><a href="#">도전그룹방</a>
                     <!-- RD Navbar Megamenu-->
                       <ul class="rd-navbar-dropdown">
-                      <li><a href="/HappyRing/view/challenge/challengeMain/challengeMainList.jsp">전체</a>
+                      <li><a href="/HappyRing_before/view/challenge/challengeMain/challengeMainList.jsp">전체</a>
                       </li>
-                      <li><a href="/HappyRing/view/challenge/challengeWeek/challengeWeekList.jsp">일주일 도전</a>
+                      <li><a href="/HappyRing_before/view/challenge/challengeWeek/challengeWeekList.jsp">일주일 도전</a>
                       </li>
                       <li><a href="landing-environmental.html">30일 도전</a>
                       </li>
@@ -292,46 +292,46 @@ display: none;
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
-                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
+                      <li><a href="/HappyRing_before/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
                       </li>
-                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민 게시판</a>
+                      <li><a href="/HappyRing_before/view/community/worryBoard/worryBoardList.jsp">고민 게시판</a>
                       </li>
-                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">응원 게시판</a>
+                       <li><a href="/HappyRing_before/view/community/supportBoard/supportBoardList.jsp">응원 게시판</a>
                       </li>
-                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">비포& 애프터</a>
+                      <li><a href="/HappyRing_before/view/community/tipsBoard/tipsBoardList.jsp">비포& 애프터</a>
                       </li>
-                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁 & 노하우</a>
+                       <li><a href="/HappyRing_before/view/community/tipsBoard/tipsBoardList.jsp">팁 & 노하우</a>
                       </li>
-                      <li><a href="/HappyRing/view/community/consultReview/consultReBoardList.jsp">상담 후기</a>
+                      <li><a href="/HappyRing_before/view/community/consultReview/consultReBoardList.jsp">상담 후기</a>
                       </li>
-                      <li><a href="/HappyRing/view/community/toAdminBoard/toAdminBoardList.jsp">관리자에게</a>
+                      <li><a href="/HappyRing_before/view/community/toAdminBoard/toAdminBoardList.jsp">관리자에게</a>
                       </li>
-                      <li><a href="/HappyRing/view/community/notice/noticeBoardList.jsp">공지사항</a>
+                      <li><a href="/HappyRing_before/view/community/notice/noticeBoardList.jsp">공지사항</a>
                       </li>
                       
                       
                       
                     </ul>
                   </li>
-                  <li><a href="/HappyRing/view/column/doctorColumn/doctorColumnList.jsp">해피링칼럼</a>
+                  <li><a href="/HappyRing_before/view/column/doctorColumn/doctorColumnList.jsp">해피링칼럼</a>
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="/HappyRing/view/column/doctorColumn/doctorColumnList.jsp">Dr.Happy</a>
+                      <li><a href="/HappyRing_before/view/column/doctorColumn/doctorColumnList.jsp">Dr.Happy</a>
                       </li>
-                      <li><a href="/HappyRing/view/column/shareColumn/shareColumnList.jsp">퍼온 글</a>
+                      <li><a href="/HappyRing_before/view/column/shareColumn/shareColumnList.jsp">퍼온 글</a>
                       </li>
                     </ul>
                   </li>
-                  <li><a href="/HappyRing/view/book/recommendBook/recommendBookList.jsp">도서</a>
+                  <li><a href="/HappyRing_before/view/book/recommendBook/recommendBookList.jsp">도서</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
-                      <li><a href="/HappyRing/view/book/recommendBook/recommendBookList.jsp">이달의 추천</a>
+                      <li><a href="/HappyRing_before/view/book/recommendBook/recommendBookList.jsp">이달의 추천</a>
                       </li>
-                      <li><a href="/HappyRing/view/book/groupBook/groupBookList.jsp">독서그룹</a>
+                      <li><a href="/HappyRing_before/view/book/groupBook/groupBookList.jsp">독서그룹</a>
                       </li>
                     </ul>
                   </li>
-                  <li><a href="/HappyRing/view/video/videoList.jsp">영상</a>
+                  <li><a href="/HappyRing_before/view/video/videoList.jsp">영상</a>
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">전체</a>
                       </li>
@@ -339,7 +339,7 @@ display: none;
                       </li>
                     </ul>
                    </li>
-                    <li ><a href="/HappyRing/view/info/infoList.jsp">정보방</a></li>
+                    <li ><a href="/HappyRing_before/view/info/infoList.jsp">정보방</a></li>
                 </ul>
               </div>
             </div>
@@ -367,7 +367,7 @@ display: none;
                 <!-- RD Navbar Brand-->
                 <div class="rd-navbar-brand" style="padding-right: 26%;">
                 <a class="brand-name" href="index.html">
-                <img class="logo-default" src="/HappyRing/mainImages/logo2.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
+                <img class="logo-default" src="/HappyRing_before/mainImages/logo2.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing_before.png" alt="" width="128" height="52"/></a></div>
               </div>
               <div class="rd-navbar-aside-center aside-center">
                 <!-- RD Navbar Search-->
@@ -445,7 +445,7 @@ display: none;
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="#"><img class="logo-default" src="mainImages/logo2.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing.png" alt="" width="128" height="52"/></a></div>
+                <div class="rd-navbar-brand"><a class="brand-name" href="#"><img class="logo-default" src="mainImages/logo2.png" alt="" width="200" height="52"/><img class="logo-inverse" src="mainImages/logoHappyRing_before.png" alt="" width="128" height="52"/></a></div>
               </div>
               <div class="rd-navbar-aside-center">
                 <!-- RD Navbar Search-->
@@ -496,8 +496,8 @@ display: none;
       <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
-<!--     <script src="/HappyRing/js/core.min.js"></script> -->
-<!--     <script src="/HappyRing/js/script.js"></script> -->
+<!--     <script src="/HappyRing_before/js/core.min.js"></script> -->
+<!--     <script src="/HappyRing_before/js/script.js"></script> -->
     
     
     

@@ -22,11 +22,11 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 <!-- 자유게시판 CSS link -->
-<link rel="stylesheet" href="/HappyRing/css/community/commonFree.css">
-<link rel="stylesheet" href="/HappyRing/css/challenge/challengeMainFrame.css">
+<link rel="stylesheet" href="/HappyRing_before/css/community/commonFree.css">
+<link rel="stylesheet" href="/HappyRing_before/css/challenge/challengeMainFrame.css">
 
 <!-- 그룹List CSS link -->
-<link rel="stylesheet" href="/HappyRing/css/challenge/challengeList.css">
+<link rel="stylesheet" href="/HappyRing_before/css/challenge/challengeList.css">
 	
 <!-- 카테고리 분류 아코디언 CSS link -->
 <script src="//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js"></script>	
@@ -219,7 +219,7 @@ padding-bottom: 10%;
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
 <!-- challenge Jabvascript -->
-    <script src="/HappyRing/js/challenge/challengeList.js"></script> 
+    <script src="/HappyRing_before/js/challenge/challengeList.js"></script> 
 <!-- 카테고리분류 아코디언창 js -->
 	
 <script type="text/javascript">
@@ -654,11 +654,11 @@ $(document).ready(function(){
       					<div class="challenge_divC_3" style="border: solid; border-color: green; padding-top: 25px;">
  						<div class="container-fluid" style="padding-top: 26px;">
 <!-- 						         <div class="range range-50 range-xs-center"> -->
-<!-- 						         <a href="/HappyRing/view/challenge/challengeWeek/challengeWeekDetail.jsp"> -->
+<!-- 						         <a href="/HappyRing_before/view/challenge/challengeWeek/challengeWeekDetail.jsp"> -->
 						         <div class="row">
 						           <% for(int i=0; i<12; i++ ) { %>
 <!-- 						               <div class="cell-xs-10 cell-sm-6 cell-lg-4"> -->
-									<a href="/HappyRing/view/challenge/challengeWeek/challengeWeekDetail.jsp">
+									<a href="/HappyRing_before/view/challenge/challengeWeek/challengeWeekDetail.jsp">
 						               <div class="col-xs-12 col-sm-4 col-md-3">
 						                   <article class="box-minimal box-minimal-border" style="padding: 12px 35px 13px; margin-bottom: 30px;">
 						                   	   
@@ -734,7 +734,7 @@ $(document).ready(function(){
                         
                         <div class="col-md-3"></div>
                         <!-- 글쓰기 버튼 -->
-                        <a href="/HappyRing/view/challenge/challengeWeek/challengeWeekBoard.jsp">
+                        <a href="/HappyRing_before/view/challenge/challengeWeek/challengeWeekBoard.jsp">
                          <div class="col-md-1" style="padding-left: 0px;">
                            <input class="btn btn-primary" type="button" id="write"
                               value="글쓰기" />
@@ -774,13 +774,13 @@ $(document).ready(function(){
     <!-- Global Mailform Output -->
     <div class="snackbars" id="form-output-global"></div>
     <!-- 공통 Javascript -->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+    <script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     <!-- 메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
     <!--  freeBoard Javascript -->
-    <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
+    <script src="/HappyRing_before/js/freeBoard/freeList.js"></script> 
     
     
     

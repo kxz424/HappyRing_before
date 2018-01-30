@@ -21,17 +21,17 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 <!-- 자유게시판 CSS link -->
-<link rel="stylesheet" href="/HappyRing/css/community/commonFree.css">
+<link rel="stylesheet" href="/HappyRing_before/css/community/commonFree.css">
 
 <!-- 자유게시판 CSS : 댓글창 -->
-<link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
+<link rel="stylesheet" href="/HappyRing_before/css/community/freeBoardDetail.css">
 
 <!-- 그룹Detail CSS link -->
-<link rel="stylesheet" href="/HappyRing/css/challenge/challengeDetail.css">
+<link rel="stylesheet" href="/HappyRing_before/css/challenge/challengeDetail.css">
  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>	
 
-<link rel="stylesheet" href="/HappyRing/css/diary/diaryDetail.css">
+<link rel="stylesheet" href="/HappyRing_before/css/diary/diaryDetail.css">
 
 
 
@@ -221,7 +221,7 @@
 						       	      			
 						       	      			<div class="icon-like">
 						       	      				<label>나의 기분</label>
-						       	      				<img src="/HappyRing/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
+						       	      				<img src="/HappyRing_before/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
 						       	      				
 						       	      				
 						       	      				
@@ -601,7 +601,7 @@
     </div>
 
     <!-- 메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
 
 

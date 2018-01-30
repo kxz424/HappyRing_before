@@ -22,10 +22,10 @@
    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
    <!-- 자유게시판 CSS link -->
-<!--    <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css"> -->
-   <link rel="stylesheet" href="/HappyRing/css/community/freeList.css">
-   <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-   <link rel="stylesheet" href="/HappyRing/css/video/videoList.css">
+<!--    <link rel="stylesheet" href="/HappyRing_before/css/community/commonFree.css"> -->
+   <link rel="stylesheet" href="/HappyRing_before/css/community/freeList.css">
+   <link rel="stylesheet" href="/HappyRing_before/css/theory/theoryFrame.css">
+   <link rel="stylesheet" href="/HappyRing_before/css/video/videoList.css">
    
    
 </head>
@@ -62,25 +62,25 @@
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
 <!--                                  <div class="swiper-slide" -->
-<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     style="background-image: url(/HappyRing_before/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
 <!--                                     <div class="swiper-slide-caption"> -->
 <!--                                        <div class="section-md"></div> -->
 <!--                                     </div> -->
 <!--                                  </div> -->
 								<div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/images/slider-1-slide-1-1920x910.jpg">
+                                    data-slide-bg="/HappyRing_before/images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="/HappyRing_before/images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="/HappyRing_before/images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
@@ -170,7 +170,7 @@
 			<!-- 					                        글쓰기 버튼 -->
 								          <div class="col-xs-2 col-md-2" style="padding-left: 50px;">
 								          
-								          <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
+								          <a href="/HappyRing_before/view/community/freeBoard/freeBoardWrite.jsp">
 								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
 								          </a>     
 								          </div>
@@ -253,12 +253,12 @@
     <!-- Global Mailform Output -->
     <div class="snackbars" id="form-output-global"></div>
     <!-- 공통 Javascript -->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+    <script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     <!-- 메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
     <!--  freeBoard Javascript -->
-    <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
+    <script src="/HappyRing_before/js/freeBoard/freeList.js"></script> 
   </body>
 </html>

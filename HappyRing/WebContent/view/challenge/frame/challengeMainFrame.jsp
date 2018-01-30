@@ -22,8 +22,8 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 <!-- 자유게시판 CSS link -->
-<link rel="stylesheet" href="/HappyRing/css/community/commonFree.css">
-<link rel="stylesheet" href="/HappyRing/css/challenge/challengeMainFrame.css">
+<link rel="stylesheet" href="/HappyRing_before/css/community/commonFree.css">
+<link rel="stylesheet" href="/HappyRing_before/css/challenge/challengeMainFrame.css">
 
 
 </head>
@@ -259,7 +259,7 @@
 									매일 목표 <br> 처방받기
 								</button>
 								<button type="button" class="btn btn-warning col-xs-3 col-sm-6 col-md-6">
-									happyRing<br>APP
+									HappyRing_before<br>APP
 								</button>
 								<button type="button" class="btn btn-danger col-xs-3 col-sm-6 col-md-6">
 									근처<br>상담소<br>찾기
@@ -348,12 +348,12 @@
 	<!-- Global Mailform Output -->
 	<div class="snackbars" id="form-output-global"></div>
 	<!-- 공통 Javascript -->
-	<script src="/HappyRing/js/core.min.js"></script>
-	<script src="/HappyRing/js/script.js"></script>
+	<script src="/HappyRing_before/js/core.min.js"></script>
+	<script src="/HappyRing_before/js/script.js"></script>
 	<!-- 메인 Javascript -->
-	<script src="/HappyRing/js/main/main.js"></script>
+	<script src="/HappyRing_before/js/main/main.js"></script>
 
 	<!--  freeBoard Javascript -->
-	<script src="/HappyRing/js/freeBoard/freeList.js"></script>
+	<script src="/HappyRing_before/js/freeBoard/freeList.js"></script>
 </body>
 </html>

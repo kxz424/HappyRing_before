@@ -16,11 +16,11 @@
 
 
 <!-- 심리이론 Frame Stylesheets -->
-    <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-    <link rel="stylesheet" href="/HappyRing/css/info/info.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/theory/theoryFrame.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/info/info.css">
 
 <!-- 달력 -->
-    <link rel="stylesheet" href="/HappyRing/css/diary/diaryList.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/diary/diaryList.css">
 
 
 
@@ -262,7 +262,7 @@ $(function(){
 						       	      		<div class=" dailyEmotion">
 						       	      			<div class="icon-like" style="margin-bottom: 0px;border: solid;">
 						       	      				<label>나의 기분</label>
-						       	      				<img src="/HappyRing/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
+						       	      				<img src="/HappyRing_before/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
 						       	      			</div>
 											</div>
 						       	  	  <!-- 4-1 : 달력 넣는 곳 END -->

@@ -463,7 +463,7 @@ th, td {
 
 								<button type="button" class="btn btn-warning col-md-6"
 									style="border-radius: 00px 0px 0px 15px; height: 120px;">
-									happyRing<br>APP
+									HappyRing_before<br>APP
 								</button>
 
 								<button type="button" class="btn btn-danger col-md-6"

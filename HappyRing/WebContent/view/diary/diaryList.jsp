@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/HappyRing_before/images/favicon.ico" type="image/x-icon">
  	
  	
    
@@ -22,11 +22,11 @@
 
 
 <!-- 심리이론 Frame Stylesheets -->
-    <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-    <link rel="stylesheet" href="/HappyRing/css/info/info.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/theory/theoryFrame.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/info/info.css">
 
 <!-- 달력 -->
-    <link rel="stylesheet" href="/HappyRing/css/diary/diaryList.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/diary/diaryList.css">
 
 
 
@@ -73,25 +73,25 @@
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
 <!--                                  <div class="swiper-slide" -->
-<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     style="background-image: url(/HappyRing_before/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
 <!--                                     <div class="swiper-slide-caption"> -->
 <!--                                        <div class="section-md"></div> -->
 <!--                                     </div> -->
 <!--                                  </div> -->
 								<div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/img/sample/sampleView.jpg">
+                                    data-slide-bg="/HappyRing_before/img/sample/sampleView.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/img/sample/sampleView2.jpg">
+                                    data-slide-bg="/HappyRing_before/img/sample/sampleView2.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/img/sample/sampleView3.jpg">
+                                    data-slide-bg="/HappyRing_before/img/sample/sampleView3.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
@@ -261,7 +261,7 @@
 						       	      		<div class=" dailyEmotion">
 						       	      			<div class="icon-like" style="margin-bottom: 0px;border: solid;">
 						       	      				<label>나의 기분</label>
-						       	      				<img src="/HappyRing/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
+						       	      				<img src="/HappyRing_before/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
 						       	      			</div>
 											</div>
 						       	  	  <!-- 4-1 : 달력 넣는 곳 END -->
@@ -420,7 +420,7 @@
 			<!-- 					                        글쓰기 버튼 -->
 								          <div class="col-xs-2 col-md-2" style="padding-left: 50px;">
 								          
-								          <a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
+								          <a href="/HappyRing_before/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
 								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
 								          </a>     
 								          </div>
@@ -456,10 +456,10 @@
       <!-- footer END -->
     </div>
     <!-- 공통 Javascript-->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+    <script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     <!--  메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
-     <script src="/HappyRing/js/diary/diaryList.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/diary/diaryList.js"></script>
   </body>
 </html>

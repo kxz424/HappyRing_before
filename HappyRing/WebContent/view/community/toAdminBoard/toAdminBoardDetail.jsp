@@ -22,7 +22,7 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
+<link rel="stylesheet" href="/HappyRing_before/css/community/freeBoardDetail.css">
 
 
 
@@ -334,9 +334,9 @@
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- 공통 Javascript-->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+    <script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     <!-- 메인 Javascript-->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
   </body>
 </html>

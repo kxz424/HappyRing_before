@@ -13,7 +13,7 @@
 <!-- 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
 
     <!-- 메인 list CSS -->
-    <link rel="stylesheet" href="/HappyRing/css/main/mainList.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/main/mainList.css">
     
 </head>
 
@@ -387,9 +387,9 @@
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- 공통 Javascript-->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+    <script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     <!— 메인 Javascript—>
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
   </body>
 </html>

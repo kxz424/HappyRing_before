@@ -26,7 +26,7 @@
 	
 	
 <!-- #### videoBoard CSS -->	
-<link rel="stylesheet" href="/HappyRing/css/video/videoBoard.css">
+<link rel="stylesheet" href="/HappyRing_before/css/video/videoBoard.css">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
 	
 <!-- 텍스트 에디터 CSS -->	
@@ -303,7 +303,7 @@
  	              <!-- 세부영역 B-4 : 날짜 영역 START-->   
 		               <div class="b-4">
 				               <br>오늘의 날씨는 ~~~~~ 우울함이 높아질 수 있는 날씨입니다
-				               <img alt="" src="/HappyRing/mainImages/날씨와기분.png" >               
+				               <img alt="" src="/HappyRing_before/mainImages/날씨와기분.png" >               
 		               </div>
 	              <!-- 세부영역 B-4 : 날씨 영역 END-->   
                   
@@ -334,13 +334,13 @@
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- 공통 Javascript-->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+    <script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     <!-- 메인 Javascript-->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
 	<!-- 유튜브 링크 삽입 js -->     
-	<script src="/HappyRing/js/video/videoBoard.js"></script>     
+	<script src="/HappyRing_before/js/video/videoBoard.js"></script>     
      
      
      

@@ -10,12 +10,12 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/HappyRing_before/images/favicon.ico" type="image/x-icon">
  	
  	<!-- 심리이론 Frame Stylesheets -->
-    <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-        <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
-   <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/theory/theoryFrame.css">
+        <link rel="stylesheet" href="/HappyRing_before/css/theory/theoryDetail.css">
+   <link rel="stylesheet" href="/HappyRing_before/css/community/freeBoardDetail.css">
    
    
 </head>
@@ -54,25 +54,25 @@
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
 <!--                                  <div class="swiper-slide" -->
-<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     style="background-image: url(/HappyRing_before/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
 <!--                                     <div class="swiper-slide-caption"> -->
 <!--                                        <div class="section-md"></div> -->
 <!--                                     </div> -->
 <!--                                  </div> -->
 								<div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/images/slider-1-slide-1-1920x910.jpg">
+                                    data-slide-bg="/HappyRing_before/images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="/HappyRing_before/images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="/HappyRing_before/images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
@@ -351,10 +351,10 @@
       <!-- footer END -->
     </div>
     <!-- 공통 Javascript-->
-<!--     <script src="/HappyRing/js/core.min.js"></script> -->
-<!--     <script src="/HappyRing/js/script.js"></script> -->
+<!--     <script src="/HappyRing_before/js/core.min.js"></script> -->
+<!--     <script src="/HappyRing_before/js/script.js"></script> -->
     <!--  메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
   </body>
 </html>

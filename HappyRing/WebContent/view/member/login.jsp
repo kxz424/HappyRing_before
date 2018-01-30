@@ -16,7 +16,7 @@
                                 <div class="modal-content">
                                     <br>
                                     <div class="bs-example bs-example-tabs">
-                                    <p class="big">happyRing 로그인 창</p>
+                                    <p class="big">HappyRing_before 로그인 창</p>
                                     
                                     
                                         <ul id="myTab" class="nav nav-tabs">

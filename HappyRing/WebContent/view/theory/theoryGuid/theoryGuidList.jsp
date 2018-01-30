@@ -10,13 +10,13 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/HappyRing_before/images/favicon.ico" type="image/x-icon">
  	
  	<!-- 심리이론 Frame Stylesheets -->
-    <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-<!--    <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css"> -->
-   <link rel="stylesheet" href="/HappyRing/css/theory/theoryGuidList.css"> 
-<!--    <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css"> -->
+    <link rel="stylesheet" href="/HappyRing_before/css/theory/theoryFrame.css">
+<!--    <link rel="stylesheet" href="/HappyRing_before/css/theory/theoryDetail.css"> -->
+   <link rel="stylesheet" href="/HappyRing_before/css/theory/theoryGuidList.css"> 
+<!--    <link rel="stylesheet" href="/HappyRing_before/css/community/freeBoardDetail.css"> -->
    
    
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -195,10 +195,10 @@
       <!-- footer END -->
     </div>
     <!-- 공통 Javascript-->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+    <script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     <!--  메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
   </body>
 </html>

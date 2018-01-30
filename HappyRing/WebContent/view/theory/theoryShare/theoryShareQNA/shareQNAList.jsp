@@ -10,11 +10,11 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/HappyRing_before/images/favicon.ico" type="image/x-icon">
  	
  	<!-- 심리이론 Frame Stylesheets -->
-    <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-    <link rel="stylesheet" href="/HappyRing/css/theory/theoryQNAList.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/theory/theoryFrame.css">
+    <link rel="stylesheet" href="/HappyRing_before/css/theory/theoryQNAList.css">
    
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -57,25 +57,25 @@
                               data-simulate-touch="false">
                               <div class="swiper-wrapper">
 <!--                                  <div class="swiper-slide" -->
-<!--                                     style="background-image: url(/HappyRing/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
+<!--                                     style="background-image: url(/HappyRing_before/img/sample/bright.png); background-repeat: no-repeat; background-size: contain; background-color: white;"> -->
 <!--                                     <div class="swiper-slide-caption"> -->
 <!--                                        <div class="section-md"></div> -->
 <!--                                     </div> -->
 <!--                                  </div> -->
 								<div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/images/slider-1-slide-1-1920x910.jpg">
+                                    data-slide-bg="/HappyRing_before/images/slider-1-slide-1-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/images/slider-1-slide-2-1920x910.jpg">
+                                    data-slide-bg="/HappyRing_before/images/slider-1-slide-2-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
                                  </div>
                                  <div class="swiper-slide"
-                                    data-slide-bg="/HappyRing/images/slider-1-slide-3-1920x910.jpg">
+                                    data-slide-bg="/HappyRing_before/images/slider-1-slide-3-1920x910.jpg">
                                     <div class="swiper-slide-caption">
                                        <div class="section-md"></div>
                                     </div>
@@ -126,7 +126,7 @@
                       
                       		<!-- SAMPLE TEST용. 나중에 삭제하기 START -->
                       				<div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
-						                 <a class="gallery-item" href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
+						                 <a class="gallery-item" href="/HappyRing_before/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
 						                   <article class="post-blog th_qna_list1" style="padding: 0px 0px 14px 0px; margin-bottom: 30px; background-color: snow;">
 						                   	   
 						                   	   
@@ -137,7 +137,7 @@
 							                         </div>
 							                          <!-- 내용 -->
 								                      <div class="th_qna_text box-minimal-text" style="margin-top: 10px;">
-								                      	<a href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp"> 전학온 친구랑 친해지고 싶어요  <br> 
+								                      	<a href="/HappyRing_before/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp"> 전학온 친구랑 친해지고 싶어요  <br> 
 																친구 빨리 사귀기 같은 좋은 방법 조언해주세요
 								                      	</a>
 								                      </div>
@@ -156,7 +156,7 @@
 						                   </a> 
 						                </div>
 						                <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
-						                 <a class="gallery-item" href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
+						                 <a class="gallery-item" href="/HappyRing_before/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
 						                   <article class="post-blog th_qna_list1" style="padding: 0px 0px 14px 0px; margin-bottom: 30px; background-color: snow;">
 						                   	   
 						                   	   
@@ -167,7 +167,7 @@
 							                         </div>
 							                          <!-- 내용 -->
 								                      <div class="th_qna_text box-minimal-text" style="margin-top: 10px;">
-								                      	<a href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp"> 공황장애에 걸린 것 같습니다  <br>
+								                      	<a href="/HappyRing_before/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp"> 공황장애에 걸린 것 같습니다  <br>
 								                      	약을 처방받아야 할까요. 공황장애 겸험있으신 분 있나요 
 								                      	</a>
 								                      </div>
@@ -186,7 +186,7 @@
 						                   </a> 
 						                </div>
 						                <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
-						                 <a class="gallery-item" href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
+						                 <a class="gallery-item" href="/HappyRing_before/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
 						                   <article class="post-blog th_qna_list1" style="padding: 0px 0px 14px 0px; margin-bottom: 30px; background-color: snow;">
 						                   	   
 						                   	   
@@ -197,7 +197,7 @@
 							                         </div>
 							                          <!-- 내용 -->
 								                      <div class="th_qna_text box-minimal-text" style="margin-top: 10px;">
-								                      	<a href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp"> 아빠가 맨날 야근해요 <br>
+								                      	<a href="/HappyRing_before/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp"> 아빠가 맨날 야근해요 <br>
 								                      	회사 사장님한테 화가나는데 어쩌면 좋을까요 
 								                      	</a>
 								                      </div>
@@ -221,7 +221,7 @@
                       
 						           <% for(int i=0; i<9; i++ ) { %>
 						               <div class="col-xs-12 col-sm-4 col-md-4 isotope-item" data-filter="type 1">
-						                 <a class="gallery-item" href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
+						                 <a class="gallery-item" href="/HappyRing_before/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp" data-lightgallery="group-item">
 						                   <article class="post-blog th_qna_list1" style="padding: 0px 0px 14px 0px; margin-bottom: 30px; background-color: snow;">
 						                   	   
 						                   	   
@@ -232,7 +232,7 @@
 							                         </div>
 							                          <!-- 내용 -->
 								                      <div class="th_qna_text box-minimal-text" style="margin-top: 10px;">
-								                      	<a href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp"> 방 소개 들어가는 부분22 <br> client and we never offer you a set of 
+								                      	<a href="/HappyRing_before/view/theory/theoryShare/theoryShareQNA/shareQNADetail.jsp"> 방 소개 들어가는 부분22 <br> client and we never offer you a set of 
 								                      	standard
 								                      	</a>
 								                      </div>
@@ -314,7 +314,7 @@
 			<!-- 					                        글쓰기 버튼 -->
 								          <div class="col-xs-2 col-md-2" style="padding-left: 50px;">
 								          
-								          <a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
+								          <a href="/HappyRing_before/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
 								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
 								          </a>     
 								          </div>
@@ -347,10 +347,10 @@
       <!-- footer END -->
     </div>
     <!-- 공통 Javascript-->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+    <script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     <!--  메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
   </body>
 </html>

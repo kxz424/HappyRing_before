@@ -9,7 +9,7 @@
   <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
   
-  <script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
+  <script src="/HappyRing_before/js/community/summernote-ko-KR.js"></script>
 </head>
 <body>
 

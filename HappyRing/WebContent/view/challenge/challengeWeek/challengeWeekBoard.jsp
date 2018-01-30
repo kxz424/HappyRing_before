@@ -21,13 +21,13 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 <!-- 자유게시판 CSS link -->
-<link rel="stylesheet" href="/HappyRing/css/community/commonFree.css">
+<link rel="stylesheet" href="/HappyRing_before/css/community/commonFree.css">
 
 <!-- 그룹List CSS link -->
-<link rel="stylesheet" href="/HappyRing/css/challenge/challengeList.css">
+<link rel="stylesheet" href="/HappyRing_before/css/challenge/challengeList.css">
 
 <!-- 그룹Detail CSS link -->
-<link rel="stylesheet" href="/HappyRing/css/challenge/challengeDetail.css">
+<link rel="stylesheet" href="/HappyRing_before/css/challenge/challengeDetail.css">
 	
 	
 	
@@ -286,7 +286,7 @@ padding-bottom: 10%;
 
     
 <!-- challenge Jabvascript -->
-    <script src="/HappyRing/js/challenge/challengeList.js"></script> 
+    <script src="/HappyRing_before/js/challenge/challengeList.js"></script> 
 
 
 
@@ -1493,7 +1493,7 @@ $(function() {
     </div>
 
     <!-- 메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
      
      

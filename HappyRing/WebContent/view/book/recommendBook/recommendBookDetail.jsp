@@ -16,11 +16,11 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
    <!-- 자유게시판 CSS link -->
-      <link rel="stylesheet" href="/HappyRing/css/main/mainFrame.css">
-   <link rel="stylesheet" href="/HappyRing/css/book/recommendBookDetail.css">
-   <link rel="stylesheet" href="/HappyRing/css/common/paging.css">
-   <link rel="stylesheet" href="/HappyRing/css/theory/theoryFrame.css">
-   <link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
+      <link rel="stylesheet" href="/HappyRing_before/css/main/mainFrame.css">
+   <link rel="stylesheet" href="/HappyRing_before/css/book/recommendBookDetail.css">
+   <link rel="stylesheet" href="/HappyRing_before/css/common/paging.css">
+   <link rel="stylesheet" href="/HappyRing_before/css/theory/theoryFrame.css">
+   <link rel="stylesheet" href="/HappyRing_before/css/community/freeBoardDetail.css">
    
    
    
@@ -366,7 +366,7 @@
 								          <div class="col-xs-7 col-md-1"></div>
 			<!-- 					                        ㄹ 버튼 -->
 								          <div class="col-xs-2 col-md-2" style="padding-left: 66px;">
-								              <a href="/HappyRing/view/theory/theoryShare/theoryShareBoard.jsp"> 
+								              <a href="/HappyRing_before/view/theory/theoryShare/theoryShareBoard.jsp"> 
 								              <input class="btn btn-primary" type="button" id="write"value="목록" />
 								              </a>
 								          </div>
@@ -419,12 +419,12 @@
     <!-- Global Mailform Output -->
     <div class="snackbars" id="form-output-global"></div>
     <!-- 공통 Javascript -->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+    <script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     <!-- 메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
     <!--  freeBoard Javascript -->
-    <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
+    <script src="/HappyRing_before/js/freeBoard/freeList.js"></script> 
   </body>
 </html>

@@ -9,7 +9,7 @@
 
 
    <!-- 자유게시판 CSS link -->
-<!--    <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css"> -->
+<!--    <link rel="stylesheet" href="/HappyRing_before/css/community/commonFree.css"> -->
 
 
 <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->

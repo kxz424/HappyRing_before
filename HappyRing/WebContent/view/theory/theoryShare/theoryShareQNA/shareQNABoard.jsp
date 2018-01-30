@@ -34,21 +34,21 @@
 	
 <!-- 에디터 -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/froala_editor.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/froala_style.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/code_view.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/colors.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/emoticons.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/image_manager.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/image.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/line_breaker.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/quick_insert.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/table.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/file.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/char_counter.css">
-<!--   <link rel="stylesheet" href="/HappyRing/editcss/plugins/video.css"> -->
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/emoticons.css">
-  <link rel="stylesheet" href="/HappyRing/editcss/plugins/fullscreen.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/froala_editor.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/froala_style.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/code_view.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/colors.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/emoticons.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/image_manager.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/image.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/line_breaker.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/quick_insert.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/table.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/file.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/char_counter.css">
+<!--   <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/video.css"> -->
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/emoticons.css">
+  <link rel="stylesheet" href="/HappyRing_before/editcss/plugins/fullscreen.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.css">
 <!-- 에디터 -->
 	
@@ -60,7 +60,7 @@
 	
 	
 	
-<link rel="stylesheet" href="/HappyRing/css/community/freeBoardDetail.css">
+<link rel="stylesheet" href="/HappyRing_before/css/community/freeBoardDetail.css">
 
 
 
@@ -307,13 +307,13 @@
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- 공통 Javascript-->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+    <script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     <!-- 메인 Javascript-->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
      <!--  freeBoard Javascript -->
-    <script src="/HappyRing/js/freeBoard/freeList.js"></script> 
+    <script src="/HappyRing_before/js/freeBoard/freeList.js"></script> 
      
      
      
@@ -335,34 +335,34 @@
      <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/mode/xml/xml.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/froala_editor.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/align.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/code_beautifier.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/code_view.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/colors.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/emoticons.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/draggable.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/font_size.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/font_family.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/image.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/image_manager.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/line_breaker.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/quick_insert.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/link.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/lists.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/paragraph_format.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/paragraph_style.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/video.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/table.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/url.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/emoticons.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/file.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/entities.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/inline_style.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/save.min.js"></script>
-  <script type="text/javascript" src="/HappyRing/editjs/plugins/fullscreen.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/froala_editor.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/align.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/code_beautifier.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/code_view.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/colors.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/emoticons.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/draggable.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/font_size.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/font_family.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/image.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/image_manager.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/line_breaker.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/quick_insert.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/link.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/lists.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/paragraph_format.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/paragraph_style.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/video.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/table.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/url.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/emoticons.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/file.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/entities.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/inline_style.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/save.min.js"></script>
+  <script type="text/javascript" src="/HappyRing_before/editjs/plugins/fullscreen.min.js"></script>
 
-  <script src="/HappyRing/editjs/edit.js"></script>
+  <script src="/HappyRing_before/editjs/edit.js"></script>
 <!-- 에디터 -->
      
      

@@ -22,14 +22,14 @@
 	
 
 <!-- 자유게시판 CSS link -->
-<!-- <link rel="stylesheet" href="/HappyRing/css/community/commonFree.css"> -->
+<!-- <link rel="stylesheet" href="/HappyRing_before/css/community/commonFree.css"> -->
 
 <!-- 그룹Detail CSS link -->
-<link rel="stylesheet" href="/HappyRing/css/challenge/challengeDetail.css">
+<link rel="stylesheet" href="/HappyRing_before/css/challenge/challengeDetail.css">
 <!--  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> -->
 <!--   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>	 -->
 
-<link rel="stylesheet" href="/HappyRing/css/diary/diaryBoard.css">
+<link rel="stylesheet" href="/HappyRing_before/css/diary/diaryBoard.css">
 
 
 
@@ -173,7 +173,7 @@ $(function() {
         
         
         //슬라이더 이미지 기본이미지로 교체
-        $('.image-1').css("background-image", "url(/HappyRing/images/slider-1-slide-1-1920x910.jpg)");
+        $('.image-1').css("background-image", "url(/HappyRing_before/images/slider-1-slide-1-1920x910.jpg)");
       	//이미지 등록 버튼 숨기기 
         $('.image-btn-1').css("display", "block");
      	//이미지 수정 버튼 보이기
@@ -250,7 +250,7 @@ $(function() {
         
         
         //슬라이더 이미지 기본이미지로 교체
-        $('.image-2').css("background-image", "url(/HappyRing/images/slider-1-slide-2-1920x910.jpg)");
+        $('.image-2').css("background-image", "url(/HappyRing_before/images/slider-1-slide-2-1920x910.jpg)");
         
     }); 
     // Create the preview image
@@ -319,7 +319,7 @@ $(function() {
         
         
         //슬라이더 이미지 기본이미지로 교체
-        $('.image-3').css("background-image", "url(/HappyRing/images/slider-1-slide-3-1920x910.jpg)");
+        $('.image-3').css("background-image", "url(/HappyRing_before/images/slider-1-slide-3-1920x910.jpg)");
         
     }); 
     // Create the preview image
@@ -595,10 +595,10 @@ $(function () {
 						       	      			
 						       	      			
 						       	      			<div class="icon-like">
-						       	      				<img src="/HappyRing/img/icon-image/angryGif.gif" style="width:60px; height: 60px;"/>
-						       	      				<img src="/HappyRing/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
-						       	      				<img src="/HappyRing/img/icon-image/sadGif.gif" style="width:60px; height: 60px;"/>
-						       	      				<img src="/HappyRing/img/icon-image/wowGif.gif" style="width:60px; height: 60px;"/>
+						       	      				<img src="/HappyRing_before/img/icon-image/angryGif.gif" style="width:60px; height: 60px;"/>
+						       	      				<img src="/HappyRing_before/img/icon-image/facebook.gif" style="width:60px; height: 60px;"/>
+						       	      				<img src="/HappyRing_before/img/icon-image/sadGif.gif" style="width:60px; height: 60px;"/>
+						       	      				<img src="/HappyRing_before/img/icon-image/wowGif.gif" style="width:60px; height: 60px;"/>
 						       	      				
 						       	      				
 						       	      				
@@ -628,7 +628,7 @@ $(function () {
 													data-loop="true" data-autoplay="false" data-simulate-touch="false"
 													style="height: 100%;">
 										            <div class="swiper-wrapper" >
-										              <div class="swiper-slide image-1" style="background-image: url(/HappyRing/images/slider-1-slide-1-1920x910.jpg); background-size: contain; background-repeat: no-repeat;">
+										              <div class="swiper-slide image-1" style="background-image: url(/HappyRing_before/images/slider-1-slide-1-1920x910.jpg); background-size: contain; background-repeat: no-repeat;">
 										                
 										                
 										                <div class="swiper-slide-caption">
@@ -689,7 +689,7 @@ $(function () {
 										                
 										                
 										              </div>
-										              <div class="swiper-slide image-2" style="background-image: url(/HappyRing/images/slider-1-slide-2-1920x910.jpg); background-size: contain; background-repeat: no-repeat;">
+										              <div class="swiper-slide image-2" style="background-image: url(/HappyRing_before/images/slider-1-slide-2-1920x910.jpg); background-size: contain; background-repeat: no-repeat;">
 										                <div class="swiper-slide-caption">
 										                  <div class="section-md test-btn">
 <!-- 										                  	<input type="button" class="btn btn-primary" value="이미지 첨부"/> -->
@@ -749,7 +749,7 @@ $(function () {
 										                  </div>
 										                </div>
 										              </div>
-										              <div class="swiper-slide image-3" style="background-image: url(/HappyRing/images/slider-1-slide-3-1920x910.jpg); background-size: contain; background-repeat: no-repeat;" >
+										              <div class="swiper-slide image-3" style="background-image: url(/HappyRing_before/images/slider-1-slide-3-1920x910.jpg); background-size: contain; background-repeat: no-repeat;" >
 										              
 										                <div class="swiper-slide-caption">
 										                  <div class="section-md test-btn">
@@ -994,7 +994,7 @@ $(function () {
     </div>
 
     <!-- 메인 Javascript -->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
      
      
      

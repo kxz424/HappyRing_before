@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="/HappyRing/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/HappyRing_before/images/favicon.ico" type="image/x-icon">
     
     
    
@@ -72,7 +72,7 @@
 									매일 목표 <br> 처방받기
 								</button>
 								<button type="button" class="btn btn-warning col-xs-3 col-sm-6 col-md-6">
-									happyRing<br>APP
+									HappyRing_before<br>APP
 								</button>
 								<button type="button" class="btn btn-danger col-xs-3 col-sm-6 col-md-6">
 									근처<br>상담소<br>찾기
@@ -201,9 +201,9 @@
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- 공통 Javascript-->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
+    <script src="/HappyRing_before/js/core.min.js"></script>
+    <script src="/HappyRing_before/js/script.js"></script>
     <!-- 메인 Javascript-->
-     <script src="/HappyRing/js/main/main.js"></script>
+     <script src="/HappyRing_before/js/main/main.js"></script>
   </body>
 </html>
